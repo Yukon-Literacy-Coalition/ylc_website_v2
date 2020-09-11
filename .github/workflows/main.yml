@@ -61,6 +61,9 @@ jobs:
       - name: check git status
         run: git status
 
+      - name: add all
+        run: git add -A
+
       - name: commit with build message
         run: git commit -m 'github action updating the build'
 
