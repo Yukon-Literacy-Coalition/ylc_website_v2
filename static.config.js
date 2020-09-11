@@ -275,7 +275,15 @@ export default {
       },
     ],
     "react-static-plugin-sitemap",
-    "react-static-plugin-reach-router",
+    // "react-static-plugin-reach-router",
+    [
+      "react-static-plugin-reach-router",
+      {
+        RouterProps: {
+          basepath: githubBasePath,
+        },
+      },
+    ],
     "react-static-plugin-emotion",
     "react-static-plugin-styled-components",
   ],
