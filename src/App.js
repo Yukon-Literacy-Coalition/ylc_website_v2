@@ -14,7 +14,7 @@ import { theme, Global } from "./theme";
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(["/admin"]);
 
-// const githubBasePath = "/ylc_website";
+const githubBasePath = "/ylc_website/_v2";
 
 // STYLED COMPONENTS
 const PageContent = styled.div`
@@ -62,7 +62,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <PageContent className="page-content">
           <React.Suspense fallback={<Loader />}>
-            <Router>
+            <Router basepath={githubBasePath}>
               <ScrollToTop path="/">
                 {CMS && <CMS path={`/admin`} />}
                 <Routes
