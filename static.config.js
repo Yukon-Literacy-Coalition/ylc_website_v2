@@ -3,7 +3,7 @@ import path from "path";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
 
-const githubBasePath = "/ylc_website";
+const githubBasePath = "/ylc_website_v2";
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
