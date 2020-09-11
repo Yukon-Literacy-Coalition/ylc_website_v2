@@ -62,7 +62,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <PageContent className="page-content">
           <React.Suspense fallback={<Loader />}>
-            <Router basepath={githubBasePath}>
+            {/* <Router basepath={githubBasePath}> */}
+            <Router>
               <ScrollToTop path="/">
                 {CMS && <CMS path={`/admin`} />}
                 <Routes

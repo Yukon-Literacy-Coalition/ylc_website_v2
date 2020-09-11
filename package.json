@@ -1,6 +1,6 @@
 {
   "name": "new-ylc-website",
-  "homepage": "https://yukon-literacy-coalition.github.io/ylc_website_v2",
+  "homepage": "http://thelonious.life/",
   "private": true,
   "scripts": {
     "start": "react-static start",
