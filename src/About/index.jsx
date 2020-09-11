@@ -123,7 +123,7 @@ const StatementLink = (props) => {
     <SectionContainer>
       <StatementContainer>
         <StatementsTitle>Annual Statements</StatementsTitle>
-        <Link to={"/about/statements"}>
+        <Link to={"./about/statements"}>
           <LargeButton>Download Here</LargeButton>
         </Link>
       </StatementContainer>

@@ -28,7 +28,7 @@ const Upcoming = ({ events }) => {
       <MarginedContainer>
         <SmallSectionTitle>
           <em>Upcoming Events</em>
-          <Link to={"/events"}>
+          <Link to={"./events"}>
             <InvertedLargeButton>More Events</InvertedLargeButton>
           </Link>
         </SmallSectionTitle>
