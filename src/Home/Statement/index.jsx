@@ -51,7 +51,7 @@ const Statement = (props) => {
             programs at no cost throughout the Yukon.
           </OtherStatement>
           <ButtonContainer>
-            <Link to={"./about"}>
+            <Link to={"/about"}>
               <LargeButton>Learn More</LargeButton>
             </Link>
           </ButtonContainer>

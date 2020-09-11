@@ -79,7 +79,7 @@ const Link = styled(RRLink)`
 export const PostListing = ({ post, className }) => {
   const { date, subTitle, slug, thumbnail, body } = post;
   return (
-    <Link className={className} to={`./news/post/${slug}`}>
+    <Link className={className} to={`/news/post/${slug}`}>
       <Post>
         <div
           css={css`

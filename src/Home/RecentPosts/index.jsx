@@ -35,7 +35,7 @@ const RecentPosts = (props) => {
       <MarginedContainer>
         <SmallSectionTitle>
           <em>News</em>
-          <Link to={"./news"}>
+          <Link to={"/news"}>
             <InvertedLargeButton>More News</InvertedLargeButton>
           </Link>
         </SmallSectionTitle>

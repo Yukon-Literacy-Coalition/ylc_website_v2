@@ -74,7 +74,7 @@ export const SideMenu = ({
       <Menu mode="inline" style={{ height: "100%" }}>
         <Menu.Item style={{ height: 100 }}>
           <LogoContainer>
-            <RRLink onClick={() => setSideMenuVisible(false)} to="./">
+            <RRLink onClick={() => setSideMenuVisible(false)} to="/">
               <Logo src={logo} alt="" />
             </RRLink>
           </LogoContainer>
@@ -121,17 +121,17 @@ export const SideMenu = ({
         </SubMenu>
 
         <Menu.Item>
-          <RRLink onClick={() => setSideMenuVisible(false)} to="./news">
+          <RRLink onClick={() => setSideMenuVisible(false)} to="/news">
             News
           </RRLink>
         </Menu.Item>
         <Menu.Item>
-          <RRLink onClick={() => setSideMenuVisible(false)} to="./events">
+          <RRLink onClick={() => setSideMenuVisible(false)} to="/events">
             Events
           </RRLink>
         </Menu.Item>
         <Menu.Item>
-          <RRLink onClick={() => setSideMenuVisible(false)} to="./contact">
+          <RRLink onClick={() => setSideMenuVisible(false)} to="/contact">
             Contact
           </RRLink>
         </Menu.Item>

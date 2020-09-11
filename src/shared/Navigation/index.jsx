@@ -160,12 +160,12 @@ const TopNavLinks = styled.div`
 export const BasicNav = (props) => {
   return (
     <BasicNavContainer>
-      <DDButton to="./about" text="About" />
-      <DDButton to="./family" text="Family Literacy" />
-      <DDButton to="./community" text="Community Initiatives" />
-      <DDButton to="./news" text="News" />
-      <DDButton to="./events" text="Events" />
-      <DDButton to="./contact" text="Contact" />
+      <DDButton to="/about" text="About" />
+      <DDButton to="/family" text="Family Literacy" />
+      <DDButton to="/community" text="Community Initiatives" />
+      <DDButton to="/news" text="News" />
+      <DDButton to="/events" text="Events" />
+      <DDButton to="/contact" text="Contact" />
     </BasicNavContainer>
   );
 };
@@ -194,11 +194,11 @@ const SubLinkContainer = styled.div`
 `;
 
 const aboutLinksArray = [
-  <RRLink to="./about">What We Do</RRLink>,
-  <RRLink to="./about/approach">Our Approach</RRLink>,
-  <RRLink to="./about/team">Our Team</RRLink>,
-  <RRLink to="./about/supporters">Supporters</RRLink>,
-  <RRLink to="./about/opportunities">Job Opportunities</RRLink>,
+  <RRLink to="/about">What We Do</RRLink>,
+  <RRLink to="/about/approach">Our Approach</RRLink>,
+  <RRLink to="/about/team">Our Team</RRLink>,
+  <RRLink to="/about/supporters">Supporters</RRLink>,
+  <RRLink to="/about/opportunities">Job Opportunities</RRLink>,
 ];
 
 const AboutLinks = () => (
@@ -210,11 +210,11 @@ const AboutLinks = () => (
 );
 
 const familyLinksArray = [
-  <RRLink to="./family">What is Family Literacy?</RRLink>,
-  <RRLink to="./family/flc">Family Literacy Centre</RRLink>,
-  <RRLink to="./family/imagination">Imagination Library</RRLink>,
-  <RRLink to="./family/outreach">Outreach Projects</RRLink>,
-  <RRLink to="./family/resources">Resources</RRLink>,
+  <RRLink to="/family">What is Family Literacy?</RRLink>,
+  <RRLink to="/family/flc">Family Literacy Centre</RRLink>,
+  <RRLink to="/family/imagination">Imagination Library</RRLink>,
+  <RRLink to="/family/outreach">Outreach Projects</RRLink>,
+  <RRLink to="/family/resources">Resources</RRLink>,
 ];
 
 const FamilyLinks = () => (
@@ -232,7 +232,7 @@ const getCommunityLinksArray = ({ communityLinks }) => {
       return (
         <RRLink
           key={init.slug + i}
-          to={`./community/initiative/${init.slug || "NAME/LINK_NEEDED"}`}
+          to={`/community/initiative/${init.slug || "NAME/LINK_NEEDED"}`}
         >
           {init?.title || "Title Needed"}
         </RRLink>
@@ -241,8 +241,8 @@ const getCommunityLinksArray = ({ communityLinks }) => {
 
   const linksArray = generatedLinks || [];
   return [
-    <RRLink to="./community">About Community Initiatives</RRLink>,
-    <RRLink to="./community/financial_literacy">Financial literacy</RRLink>,
+    <RRLink to="/community">About Community Initiatives</RRLink>,
+    <RRLink to="/community/financial_literacy">Financial literacy</RRLink>,
     ...linksArray,
   ];
 };
@@ -381,7 +381,7 @@ const Navigation = (props) => {
           />
         </HamburgerContainer>
         <LogoSection>
-          <RRLink to="./">
+          <RRLink to="/">
             <Logo src={logo} alt="" />
           </RRLink>
         </LogoSection>
@@ -413,9 +413,9 @@ const Navigation = (props) => {
               <CommunityLinks communityLinks={communityLinks} />
             </DropDownContent>
           </DropDownContainer>
-          <DDButton to="./news" text="News" />
-          <DDButton to="./events" text="Events" />
-          <DDButton to="./contact" text="Contact" />
+          <DDButton to="/news" text="News" />
+          <DDButton to="/events" text="Events" />
+          <DDButton to="/contact" text="Contact" />
         </TopNavLinks>
         <SocialsMainNav>
           <SocialLinks />

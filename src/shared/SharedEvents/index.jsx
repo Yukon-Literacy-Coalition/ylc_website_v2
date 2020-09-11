@@ -43,7 +43,7 @@ export const EventListing = ({ event, className, border }) => {
   const { date, subTitle, slug } = event;
   return (
     <EventItem
-      to={`./events/event/${slug}`}
+      to={`/events/event/${slug}`}
       className={className}
       border={border ? "true" : undefined}
     >
