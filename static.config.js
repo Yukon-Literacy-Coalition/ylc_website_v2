@@ -275,7 +275,6 @@ export default {
       },
     ],
     "react-static-plugin-sitemap",
-    // "react-static-plugin-reach-router",
     [
       "react-static-plugin-reach-router",
       {
@@ -289,6 +288,7 @@ export default {
   ],
 };
 
+// "react-static-plugin-reach-router",
 // [
 //   "react-static-plugin-reach-router",
 //   {
