@@ -124,18 +124,6 @@ export default {
     return [
       // HOME SECTION
       {
-        path: githubBasePath + "/",
-        template: "src/Home",
-        getData: async () => ({
-          words,
-          posts,
-          events,
-          announcements,
-          highlightedProjects,
-        }),
-      },
-      // HOME SECTION for base index
-      {
         path: "/",
         template: "src/Home",
         getData: async () => ({
@@ -148,20 +136,20 @@ export default {
       },
       // CONTACT SECTION
       {
-        path: githubBasePath + "/contact",
+        path: "/contact",
         template: "src/Contact",
       },
       // ABOUT SECTIONS
       {
-        path: githubBasePath + "/about",
+        path: "/about",
         template: "src/About",
       },
       {
-        path: githubBasePath + "/about/approach",
+        path: "/about/approach",
         template: "src/About/Approach",
       },
       {
-        path: githubBasePath + "/about/team",
+        path: "/about/team",
         template: "src/About/Team",
         getData: async () => ({
           staff,
@@ -169,21 +157,21 @@ export default {
         }),
       },
       {
-        path: githubBasePath + "/about/supporters",
+        path: "/about/supporters",
         template: "src/About/Supporters",
         getData: async () => ({
           supporters,
         }),
       },
       {
-        path: githubBasePath + "/about/opportunities",
+        path: "/about/opportunities",
         template: "src/About/Opportunities",
         getData: async () => ({
           jobOpportunities,
         }),
       },
       {
-        path: githubBasePath + "/about/statements",
+        path: "/about/statements",
         template: "src/About/Statements",
         getData: async () => ({
           statements,
@@ -191,32 +179,32 @@ export default {
       },
       // FAMILY SECTIONS
       {
-        path: githubBasePath + "/family",
+        path: "/family",
         template: "src/Family",
       },
       {
-        path: githubBasePath + "/family/outreach",
+        path: "/family/outreach",
         template: "src/Family/Outreach",
         getData: async () => ({
           outreachProjects,
         }),
       },
       {
-        path: githubBasePath + "/family/flc",
+        path: "/family/flc",
         template: "src/Family/FLC",
         getData: async () => ({
           flc,
         }),
       },
       {
-        path: githubBasePath + "/family/resources",
+        path: "/family/resources",
         template: "src/Family/Resources",
         getData: async () => ({
           familyResources,
         }),
       },
       {
-        path: githubBasePath + "/family/imagination",
+        path: "/family/imagination",
         template: "src/Family/Imagine",
         getData: async () => ({
           imaginationLibrary,
@@ -224,7 +212,7 @@ export default {
       },
       // COMMUNITY SECTIONS
       {
-        path: githubBasePath + "/community",
+        path: "/community",
         template: "src/Community",
         getData: async () => ({
           initiatives,
@@ -239,7 +227,7 @@ export default {
         }),
       },
       {
-        path: githubBasePath + "/community/financial_literacy",
+        path: "/community/financial_literacy",
         template: "src/Community/FinLit",
         getData: async () => ({
           onlineTools,
@@ -248,7 +236,7 @@ export default {
       },
       // NEWS SECTIONS
       {
-        path: githubBasePath + "/news",
+        path: "/news",
         template: "src/Blog",
         getData: async () => ({
           posts,
@@ -261,7 +249,7 @@ export default {
       },
       // EVENT SECTIONS
       {
-        path: githubBasePath + "/events",
+        path: "/events",
         template: "src/Events",
         getData: async () => ({
           events,
@@ -274,7 +262,7 @@ export default {
       },
       // OTHER SECTIONS
       {
-        path: githubBasePath + "/annual_statements",
+        path: "/annual_statements",
         template: "src/About/Statements",
       },
     ];
