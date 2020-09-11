@@ -1,6 +1,6 @@
 {
-  "name": "react-static-example-blank",
-  "homepage": "https://yukon-literacy-coalition.github.io/ylc_website",
+  "name": "new-ylc-website",
+  "homepage": "https://yukon-literacy-coalition.github.io/ylc_website_v2",
   "private": true,
   "scripts": {
     "start": "react-static start",
