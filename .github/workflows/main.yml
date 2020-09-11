@@ -6,7 +6,8 @@ name: Build project and push to gh-pages
 # events but only for the master branch
 on:
   push:
-    branches: [master]
+    branches: [Not-a-branch]
+    # branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,14 +30,17 @@ jobs:
       - name: build the distribution and put it into a docs folder
         run: yarn gh-pages-build
 
+      # NOT USED
       # For building: stash everything if there are things remaining to be stashed
       # - name: stash everything else
       #   run: git stash
 
+      # NOT USED
       # For testing: add an artifacts folder with a file
       # - name: adding test artifacts folder with file
       #   run: yarn gh-pages-test-build-2
 
+      # NOT USED
       # For testing: add a docs folder with a file
       # - name: build the project and put it into a docs folder
       #   run: yarn gh-pages-test-build
@@ -44,10 +48,12 @@ jobs:
       - name: checkout gh-pages
         run: git checkout gh-pages
 
+      # NOT USED
       # For testing: add all changes has to go here for testing.
       # - name: add all changes from the build
       #   run: git add -A
 
+      # NOT USED
       # For the build, but should be removed for testing (since artifacts will not exist)
       # - name: remove the artifacts
       #   run: git reset -- artifacts
@@ -62,7 +68,7 @@ jobs:
         run: git status
 
       - name: add all
-        run: git add -A
+        run: git add docs
 
       - name: commit with build message
         run: git commit -m 'github action updating the build'
