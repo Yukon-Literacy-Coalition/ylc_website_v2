@@ -22,6 +22,10 @@ const getCommunityLinks = async () => {
 export default {
   siteRoot: "https://yukon-literacy-coalition.github.io",
   basePath: githubBasePath,
+  devBasePath: githubBasePath,
+  paths: {
+    dist: "dist/" + githubBasePath,
+  },
   getSiteData: async () => ({
     communityLinks: await getCommunityLinks(),
   }),
