@@ -407,7 +407,7 @@ const Navigation = (props) => {
           </DropDownContainer>
           <DDButton to="/news" text="News" />
           <DDButton to="/events" text="Events" />
-          <DDButton to="/contact" text="Contact" />
+          <DDButton to="./contact" text="Contact" />
         </TopNavLinks>
         <SocialsMainNav>
           <SocialLinks />
