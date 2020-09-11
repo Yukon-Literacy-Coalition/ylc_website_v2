@@ -1,5 +1,0 @@
----
-title: Dän Dákeyi Uyenjì
-subTitle: That Person Knows Our Country
----
-The Dän Dákeyi Uyenjì (That person knows our country) program is a 21-week skill development course to train CAFN citizens in interpretive guiding on traditional CAFN territory. The course, designed by Yukon University in consultation with leading experts in the commercial guiding field, provides wellness, non-formal learning (soft skills) and formal learning (hard skills) and seeks to bring in traditional knowledge and skills together with current best practices of the guiding industry. Trainees in Whitehorse during the winter of 2019 learned new skills and honed existing skills such as group management, interpretive guiding, avalanche safety, traditional tool making, cross country skiing, fat biking, ice-climbing, wilderness first aid, back-country safety, helicopter awareness and camp cooking.
