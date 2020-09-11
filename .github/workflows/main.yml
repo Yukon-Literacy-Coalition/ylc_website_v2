@@ -1,14 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build project and push to gh-pages
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,12 +20,49 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: fetch branches
+        run: git fetch
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: build all the dependencies
+        run: yarn
+
+      - name: build the distribution and put it into a docs folder
+        run: yarn gh-pages-build
+
+      # For building: stash everything if there are things remaining to be stashed
+      # - name: stash everything else
+      #   run: git stash
+
+      # For testing: add an artifacts folder with a file
+      # - name: adding test artifacts folder with file
+      #   run: yarn gh-pages-test-build-2
+
+      # For testing: add a docs folder with a file
+      # - name: build the project and put it into a docs folder
+      #   run: yarn gh-pages-test-build
+
+      - name: checkout gh-pages
+        run: git checkout gh-pages
+
+      # For testing: add all changes has to go here for testing.
+      # - name: add all changes from the build
+      #   run: git add -A
+
+      # For the build, but should be removed for testing (since artifacts will not exist)
+      # - name: remove the artifacts
+      #   run: git reset -- artifacts
+
+      - name: run ident email
+        run: git config --global user.email "janke.aaron@gmail.com"
+
+      - name: run ident name
+        run: git config --global user.name "Aaron Janke"
+
+      - name: check git status
+        run: git status
+
+      - name: commit with build message
+        run: git commit -m 'github action updating the build'
+
+      - name: push the changes to gh-pages
+        run: git push

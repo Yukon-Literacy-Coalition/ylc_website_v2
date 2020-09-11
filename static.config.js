@@ -3,7 +3,7 @@ import path from "path";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
 
-// const githubBasePath = "/ylc_website";
+const githubBasePath = "/ylc_website";
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
@@ -20,8 +20,8 @@ const getCommunityLinks = async () => {
 };
 
 export default {
-  // siteRoot: "https://yukon-literacy-coalition.github.io",
-  // basePath: githubBasePath,
+  siteRoot: "https://yukon-literacy-coalition.github.io",
+  basePath: githubBasePath,
   getSiteData: async () => ({
     communityLinks: await getCommunityLinks(),
   }),
