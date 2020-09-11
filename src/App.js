@@ -14,7 +14,7 @@ import { theme, Global } from "./theme";
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(["/admin"]);
 
-const githubBasePath = "/ylc_website/_v2";
+const githubBasePath = "/ylc_website_v2";
 
 // STYLED COMPONENTS
 const PageContent = styled.div`
