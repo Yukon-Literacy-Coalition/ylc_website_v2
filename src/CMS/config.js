@@ -37,7 +37,7 @@ const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
 
 module.exports = {
   backend: {
-    name: "github",
+    name: "git-gateway",
     repo: "Yukon-Literacy-Coalition/ylc_website_v2",
     // branch: "master" /* optional, defaults to master */,
     // site_domain: currentURL,
