@@ -33,20 +33,20 @@ const subTitle = (text) => ({
 // };
 
 module.exports = {
-  // BACKEND for development
   backend: {
-    name: "proxy",
-    proxy_url: "http://localhost:8081/api/v1",
+    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
     branch: "master" /* optional, defaults to master */,
-    site_url: "http://thelonious.life/",
-    logo_url: "http://thelonious.life/static/dark_flake.5fd7ece1.png",
+    site_domain: "http://thelonious.life/",
+    name: "proxy",
   },
-  // BACKEND for production
+  // BACKEND for development
   // backend: {
   //   name: "proxy",
   //   proxy_url: "http://localhost:8081/api/v1",
   //   branch: "master" /* optional, defaults to master */,
   // },
+  logo_url: "http://thelonious.life/static/dark_flake.5fd7ece1.png",
+  site_url: "http://thelonious.life/",
   media_folder: "public/uploads",
   public_folder: "/uploads",
   collections: [
