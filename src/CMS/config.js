@@ -36,8 +36,8 @@ module.exports = {
   backend: {
     name: "github",
     repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-    branch: "master" /* optional, defaults to master */,
-    site_domain: "http://thelonious.life/",
+    // branch: "master" /* optional, defaults to master */,
+    // site_domain: "http://thelonious.life/",
   },
   // BACKEND for development
   // backend: {
