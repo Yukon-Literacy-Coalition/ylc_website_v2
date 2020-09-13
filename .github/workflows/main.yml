@@ -1,77 +1,101 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Build project and push to gh-pages
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: [Not-a-branch]
-    # branches: [master]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: Build and Deploy
+on: [push]
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
 
-      - name: fetch branches
-        run: git fetch
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          yarn
+          yarn build
 
-      - name: build all the dependencies
-        run: yarn
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.6.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: dist # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
 
-      - name: build the distribution and put it into a docs folder
-        run: yarn gh-pages-build
+# # This is a basic workflow to help you get started with Actions
 
-      # NOT USED
-      # For building: stash everything if there are things remaining to be stashed
-      # - name: stash everything else
-      #   run: git stash
+# name: Build project and push to gh-pages
 
-      # NOT USED
-      # For testing: add an artifacts folder with a file
-      # - name: adding test artifacts folder with file
-      #   run: yarn gh-pages-test-build-2
+# # Controls when the action will run. Triggers the workflow on push or pull request
+# # events but only for the master branch
+# on:
+#   push:
+#     branches: [Not-a-branch]
+#     # branches: [master]
 
-      # NOT USED
-      # For testing: add a docs folder with a file
-      # - name: build the project and put it into a docs folder
-      #   run: yarn gh-pages-test-build
+# # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# jobs:
+#   # This workflow contains a single job called "build"
+#   build:
+#     # The type of runner that the job will run on
+#     runs-on: ubuntu-latest
 
-      - name: checkout gh-pages
-        run: git checkout gh-pages
+#     # Steps represent a sequence of tasks that will be executed as part of the job
+#     steps:
+#       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#       - uses: actions/checkout@v2
 
-      # NOT USED
-      # For testing: add all changes has to go here for testing.
-      # - name: add all changes from the build
-      #   run: git add -A
+#       - name: fetch branches
+#         run: git fetch
 
-      # NOT USED
-      # For the build, but should be removed for testing (since artifacts will not exist)
-      # - name: remove the artifacts
-      #   run: git reset -- artifacts
+#       - name: build all the dependencies
+#         run: yarn
 
-      - name: run ident email
-        run: git config --global user.email "janke.aaron@gmail.com"
+#       - name: build the distribution and put it into a docs folder
+#         run: yarn gh-pages-build
 
-      - name: run ident name
-        run: git config --global user.name "Aaron Janke"
+#       # NOT USED
+#       # For building: stash everything if there are things remaining to be stashed
+#       # - name: stash everything else
+#       #   run: git stash
 
-      - name: check git status
-        run: git status
+#       # NOT USED
+#       # For testing: add an artifacts folder with a file
+#       # - name: adding test artifacts folder with file
+#       #   run: yarn gh-pages-test-build-2
 
-      - name: add all
-        run: git add docs
+#       # NOT USED
+#       # For testing: add a docs folder with a file
+#       # - name: build the project and put it into a docs folder
+#       #   run: yarn gh-pages-test-build
 
-      - name: commit with build message
-        run: git commit -m 'github action updating the build'
+#       - name: checkout gh-pages
+#         run: git checkout gh-pages
 
-      - name: push the changes to gh-pages
-        run: git push
+#       # NOT USED
+#       # For testing: add all changes has to go here for testing.
+#       # - name: add all changes from the build
+#       #   run: git add -A
+
+#       # NOT USED
+#       # For the build, but should be removed for testing (since artifacts will not exist)
+#       # - name: remove the artifacts
+#       #   run: git reset -- artifacts
+
+#       - name: run ident email
+#         run: git config --global user.email "janke.aaron@gmail.com"
+
+#       - name: run ident name
+#         run: git config --global user.name "Aaron Janke"
+
+#       - name: check git status
+#         run: git status
+
+#       - name: add all
+#         run: git add docs
+
+#       - name: commit with build message
+#         run: git commit -m 'github action updating the build'
+
+#       - name: push the changes to gh-pages
+#         run: git push

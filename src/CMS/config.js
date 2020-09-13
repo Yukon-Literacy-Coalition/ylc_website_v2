@@ -38,6 +38,8 @@ module.exports = {
     name: "proxy",
     proxy_url: "http://localhost:8081/api/v1",
     branch: "master" /* optional, defaults to master */,
+    site_url: "http://thelonious.life/",
+    logo_url: "http://thelonious.life/dark_flake.png",
   },
   // BACKEND for production
   // backend: {
