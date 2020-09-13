@@ -37,7 +37,6 @@ module.exports = {
     repo: "Yukon-Literacy-Coalition/ylc_website_v2",
     branch: "master" /* optional, defaults to master */,
     site_domain: "http://thelonious.life/",
-    name: "proxy",
   },
   // BACKEND for development
   // backend: {
