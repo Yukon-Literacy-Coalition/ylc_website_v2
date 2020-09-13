@@ -50,13 +50,20 @@ export default {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         ></link>
+        <script
+          type="text/javascript"
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        ></script>
       </Head>
       <link
         rel="icon"
         type="image/png"
         href="./src/assets/dark_flake.png"
       ></link>
-      <Body>{children}</Body>
+      <Body>
+        {children}
+        <div data-netlify-identity-button>Login with Netlify Identity</div>
+      </Body>
     </Html>
   ),
   getRoutes: async () => {

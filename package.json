@@ -27,6 +27,7 @@
     "klaw": "^3.0.0",
     "moment": "^2.27.0",
     "netlify-cms-app": "^2.12.20",
+    "netlify-identity-widget": "^1.9.1",
     "polished": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
