@@ -1,6 +1,6 @@
 {
   "name": "new-ylc-website",
-  "homepage": "http://thelonious.life/",
+  "homepage": "https://amazing-almeida-cc9291.netlify.app/",
   "private": true,
   "scripts": {
     "start": "react-static start",

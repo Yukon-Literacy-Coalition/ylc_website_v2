@@ -3,7 +3,9 @@ import path from "path";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
 
-const githubBasePath = "ylc_website_v2";
+// const githubBasePath = "ylc_website_v2";
+const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
+// currentURL: "http://thelonious.life/",
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
@@ -20,7 +22,7 @@ const getCommunityLinks = async () => {
 };
 
 export default {
-  siteRoot: "http://thelonious.life/",
+  siteRoot: currentURL,
   // basePath: githubBasePath,
   // devBasePath: githubBasePath,
   paths: {

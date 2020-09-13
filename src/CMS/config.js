@@ -32,12 +32,15 @@ const subTitle = (text) => ({
 //     "It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
 // };
 
+const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
+// const currentURL = "http://thelonious.life/"
+
 module.exports = {
   backend: {
     name: "github",
     repo: "Yukon-Literacy-Coalition/ylc_website_v2",
     // branch: "master" /* optional, defaults to master */,
-    // site_domain: "http://thelonious.life/",
+    // site_domain: currentURL,
   },
   // BACKEND for development
   // backend: {
@@ -45,8 +48,8 @@ module.exports = {
   //   proxy_url: "http://localhost:8081/api/v1",
   //   branch: "master" /* optional, defaults to master */,
   // },
-  logo_url: "http://thelonious.life/static/dark_flake.5fd7ece1.png",
-  site_url: "http://thelonious.life/",
+  logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
+  site_url: currentURL,
   media_folder: "public/uploads",
   public_folder: "/uploads",
   collections: [
