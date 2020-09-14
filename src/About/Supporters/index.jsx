@@ -27,8 +27,6 @@ const Logo = styled.div`
   })}
 `;
 
-// test
-
 const Logos = ({ images = [] }) => {
   return images.map((image, i) => (
     <Logo key={image + i} image={image?.image} />
