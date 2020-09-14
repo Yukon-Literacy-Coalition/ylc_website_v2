@@ -35,6 +35,7 @@ const SideMenuStyled = styled.div`
   height: 100%;
   padding-left: 10px;
   grid-column: span 2;
+  left: 0;
 
   border-radius: 0 3px 3px 0;
   z-index: ${(p) => p.theme.zIndex.third};

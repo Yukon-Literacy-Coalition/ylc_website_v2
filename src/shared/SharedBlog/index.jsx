@@ -13,9 +13,10 @@ const ImgContainer = styled.div`
   width: 100%;
   height: 170px;
   background-image: url(${(p) => p.thumbnail});
-  background-color: ${(p) => p.theme.colors.faded_text};
-  background-size: cover;
-  background-position: bottom;
+  /* background-color: ${(p) => p.theme.colors.faded_text}; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 2px 2px 0 0;
 `;
 

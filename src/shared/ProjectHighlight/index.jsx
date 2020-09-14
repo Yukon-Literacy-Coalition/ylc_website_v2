@@ -40,7 +40,7 @@ const ProjImg = styled.img`
   min-width: auto;
   min-height: 100%;
   max-height: 100%;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px;
 `;
 
 const BodyContainer = styled.div`
