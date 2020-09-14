@@ -60,10 +60,7 @@ export default {
         type="image/png"
         href="./src/assets/dark_flake.png"
       ></link>
-      <Body>
-        {children}
-        <div data-netlify-identity-button>Login with Netlify Identity</div>
-      </Body>
+      <Body>{children}</Body>
     </Html>
   ),
   getRoutes: async () => {
