@@ -13,7 +13,6 @@ import { PageHeader, LargeButton } from "../../shared/Features";
 import Carousel from "../../shared/Carousel";
 import {
   SectionHeader as SectionHeaderImport,
-  HeaderText,
   HeaderTitle,
   DarkAndLightText,
 } from "../../shared/Type";
@@ -51,20 +50,21 @@ const Author = styled.div`
   padding-top: 5px;
 `;
 
-const Project = ({
-  date,
-  title,
-  subTitle,
-  body,
-  images,
-  children,
-  link,
-  linkText,
-  author,
-}) => {
+const Project = (props) => {
+  const {
+    date,
+    title,
+    subTitle,
+    body,
+    images,
+    children,
+    link,
+    linkText,
+    author,
+  } = props;
   return (
     <>
-      <PageHeader text={title || "Title Needed"} />
+      <PageHeader {...props} text={title || "Title Needed"} />
       {subTitle && (
         <SectionHeader>
           <HeaderTitle>
@@ -94,11 +94,3 @@ const Project = ({
 };
 
 export default withRouteData(Project);
-
-// const EventTitle = styled.div`
-//   grid-column: span 12;
-//   ${(p) => p.theme.fonts.medium_header}
-//   text-align: center;
-// `;
-
-// <Moment format="MMMM Do, YYYY">{date}</Moment>

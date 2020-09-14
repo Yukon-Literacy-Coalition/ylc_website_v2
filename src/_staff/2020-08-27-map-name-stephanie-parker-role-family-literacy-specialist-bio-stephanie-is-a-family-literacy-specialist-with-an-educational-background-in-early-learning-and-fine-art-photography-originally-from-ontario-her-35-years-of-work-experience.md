@@ -1,5 +1,6 @@
 ---
 name: Stephanie Parker
+image: /uploads/steph_square.jpg
 role: Family Literacy Specialist
 bio: Stephanie is a Family Literacy Specialist with an educational background in
   Early Learning, and Fine Art/Photography. Originally from Ontario, her 35

@@ -40,7 +40,8 @@ const Statement = ({ statement }) => (
   </StatementContainer>
 );
 
-const Statements = ({ statements }) => {
+const Statements = (props) => {
+  const statements = props?.statements;
   const sortArray = (a, b) => {
     const first = moment(a.statementYear).format("YYYY");
     const second = moment(b.statementYear).format("YYYY");
@@ -51,7 +52,7 @@ const Statements = ({ statements }) => {
 
   return (
     <>
-      <PageHeader text={"Annual Statements"} />
+      <PageHeader {...props} text={"Annual Statements"} />
       <SectionContainer>
         <MarginedContainer>
           {!!sortedArray.length ? (

@@ -45,7 +45,7 @@ const ButtonContainer = styled.span`
 const Approach = (props) => {
   return (
     <div>
-      <PageHeader text={"Our Approach"} />
+      <PageHeader {...props} text={"Our Approach"} />
       <SectionContainer>
         <MarginedContainer>
           <MedHeaderCentered>

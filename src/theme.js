@@ -2,6 +2,7 @@ import React from "react";
 import { Global as EmoGlobal, css } from "@emotion/core";
 import facepaint from "facepaint";
 
+// NOTES
 /**
  * middle width: 1060
  * nav height: 64px
@@ -9,6 +10,7 @@ import facepaint from "facepaint";
 
 const bps = ["400", "600", "800", "1060"];
 
+// MQ EXAMPLES
 // ${mq[1]} {
 //   display: none;
 // }

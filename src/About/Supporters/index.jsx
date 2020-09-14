@@ -56,10 +56,11 @@ export const SupportersLogos = ({ supObj }) => (
   </>
 );
 
-const Supporters = ({ supporters }) => {
+const Supporters = (props) => {
+  const supporters = props?.supporters;
   return (
     <>
-      <PageHeader text={"Our Supporters"} />
+      <PageHeader {...props} text={"Our Supporters"} />
       <SectionContainer css={SectionStyles}>
         {!!supporters?.length &&
           supporters.map((supObj, i) => {

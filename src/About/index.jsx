@@ -140,9 +140,9 @@ const MissionText =
 const AllianceText =
   "YLC has a long-standing formal collaboration with Ilitaqsiniq Nunavut Literacy Council and NWT Literacy Council working together for the same purpose, the same people, using the same approach. Together, we maximize our collective knowledge, skills and experiences to have a greater impact on people of the North";
 
-const WhatWeDo = () => (
+const WhatWeDo = (props) => (
   <div>
-    <PageHeader text={"What We Do"} />
+    <PageHeader {...props} text={"What We Do"} />
     <AboutUs text={AboutText} />
     <SideSection
       text={MissionText}

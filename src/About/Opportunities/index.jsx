@@ -26,12 +26,13 @@ const OppText = styled.div`
   ${(p) => p.theme.fonts.body_text_bold}
 `;
 
-const Opportunities = ({ jobOpportunities }) => {
+const Opportunities = (props) => {
+  const jobOpportunities = props?.jobOpportunities;
   const opportunitiesArray =
     (!!jobOpportunities?.length && jobOpportunities) || [];
   return (
     <div>
-      <PageHeader text={"Job Opportunities"} />
+      <PageHeader {...props} text={"Job Opportunities"} />
       <SectionContainer css={sectionStyles}>
         <MarginedContainer>
           {!!opportunitiesArray.length ? (

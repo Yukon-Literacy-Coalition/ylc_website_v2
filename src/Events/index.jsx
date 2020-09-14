@@ -5,7 +5,8 @@ import { PageHeader } from "../shared/Features";
 import { EventListing } from "../shared/SharedEvents";
 import { usePosts, Pagination } from "../shared/Pagination";
 
-const EventsOverview = ({ events: allItems }) => {
+const EventsOverview = (props) => {
+  const allItems = props?.events;
   const [
     getDeeperItems,
     getShallowerItems,
@@ -16,7 +17,7 @@ const EventsOverview = ({ events: allItems }) => {
 
   return (
     <>
-      <PageHeader text={"Upcoming Events"} />
+      <PageHeader {...props} text={"Upcoming Events"} />
       <SectionContainer>
         <MarginedContainer>
           {currentItems.map((event, i) => {

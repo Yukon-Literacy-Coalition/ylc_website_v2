@@ -46,6 +46,7 @@ if (typeof document !== "undefined" && typeof window !== "undefined") {
   CMS = require("./CMS").default;
 }
 
+//Scroll to top function
 const ScrollToTop = ({ children, location }) => {
   useEffect(() => {
     if (typeof document !== "undefined" && typeof window !== "undefined") {
@@ -62,7 +63,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <PageContent className="page-content">
           <React.Suspense fallback={<Loader />}>
-            {/* <Router basepath={githubBasePath}> */}
             <Router>
               <ScrollToTop path="/">
                 {CMS && <CMS path={`/admin`} />}
@@ -73,10 +73,7 @@ function App() {
                     return (
                       <FullPage routePath={routePath}>
                         <div css={appBodyStyles}>
-                          <Navigation
-                            // isHome={routePath === githubBasePath + "/"}
-                            isHome={routePath === "/"}
-                          />
+                          <Navigation isHome={routePath === "/"} />
                           <ComponentContent routePath={routePath}>
                             {el}
                           </ComponentContent>

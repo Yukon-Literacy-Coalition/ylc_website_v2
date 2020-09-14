@@ -1,5 +1,6 @@
 ---
 name: "Carrie-Anne McPhee "
+image: /uploads/carrie-anne.jpg
 role: Family Literacy Center Manager
 bio: Carrie-Anne holds a Bachelor of Education and an Associate of Arts Degree
   in General Arts. Her work with children and families spans the continent and

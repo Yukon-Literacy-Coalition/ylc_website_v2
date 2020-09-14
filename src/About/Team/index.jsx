@@ -21,6 +21,8 @@ const StaffContainer = styled.div`
   background: ${(p) => (p.odd ? p.theme.colors.light_accent : "white")};
   min-height: 350px;
   padding: 20px 0;
+  display: flex;
+  align-items: center;
 `;
 
 const StaffMarginedContainer = styled(MarginedContainer)`
@@ -51,16 +53,9 @@ const ImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
   background: lightgrey;
-  /* ${mq[2]} {
-    height: 175px;
-    width: 175px;
-  } */
+  background-image: url(${(p) => p?.image});
+  background-size: cover;
 `;
 
 const TextContent = styled.div`
@@ -125,9 +120,7 @@ export const StaffMember = ({ staff, i = 1 }) => (
   <StaffContainer odd={i % 2 === 0}>
     <StaffMarginedContainer>
       <ImgSection image={staff.image}>
-        <ImgContainer>
-          <img src={staff.image} alt="" />
-        </ImgContainer>
+        <ImgContainer image={staff.image} />
       </ImgSection>
       <TextContent>
         <NameAndRole>
@@ -142,10 +135,11 @@ export const StaffMember = ({ staff, i = 1 }) => (
   </StaffContainer>
 );
 
-const Team = ({ staff, board }) => {
+const Team = (props) => {
+  const { staff, board } = props;
   return (
     <>
-      <PageHeader text={"Our Team"} />
+      <PageHeader {...props} text={"Our Team"} />
       <SectionHeader>
         <HeaderTitle>
           <DarkAndLightText text={"Our Staff"} />

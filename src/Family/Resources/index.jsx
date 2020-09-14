@@ -4,10 +4,11 @@ import { withRouteData } from "react-static";
 import { MarginedContainer, SectionContainer } from "../../shared/Layout";
 import ProjectHighlight from "../../shared/ProjectHighlight";
 
-const Resources = ({ familyResources }) => {
+const Resources = (props) => {
+  const familyResources = props?.familyResources;
   return (
     <>
-      <PageHeader text="Family Literacy Resources" />
+      <PageHeader {...props} text="Family Literacy Resources" />
       <SectionContainer>
         <MarginedContainer>
           {!!familyResources?.length &&

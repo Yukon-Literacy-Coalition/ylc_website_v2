@@ -1,6 +1,6 @@
 ---
 name: Erin McArthur
-image: ""
+image: /uploads/erin-2.jpg
 role: Summer Student
 bio: Erin was born and raised in Whitehorse Yukon, where she developed her love
   for the outdoors – hiking, skiing, running, and mountain biking. She moved to

@@ -5,7 +5,8 @@ import { PostListing } from "../shared/SharedBlog";
 import { MarginedContainer, SectionContainer } from "../shared/Layout";
 import { usePosts, Pagination } from "../shared/Pagination";
 
-const Blog = ({ posts: allItems }) => {
+const Blog = (props) => {
+  const allItems = props?.posts;
   const [
     getDeeperItems,
     getShallowerItems,
@@ -16,7 +17,7 @@ const Blog = ({ posts: allItems }) => {
 
   return (
     <div>
-      <PageHeader text={"The News"} />
+      <PageHeader {...props} text={"The News"} />
       <SectionContainer>
         <MarginedContainer>
           {currentItems?.map((post, i) => (

@@ -1,6 +1,6 @@
 ---
 name: Victoria Menchinton
-image: ""
+image: /uploads/vic_square.jpg
 role: Office & Program Manager
 bio: Vic has lived from one side of the country to the other – she grew up in
   St. John's, Newfoundland and has been in the Yukon since the summer of 2018.

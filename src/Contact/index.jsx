@@ -58,7 +58,7 @@ const InfoText = styled.span`
 const Contact = (props) => {
   return (
     <>
-      <PageHeader text={"Contact Us"} />
+      <PageHeader {...props} text={"Contact Us"} />
       <SectionContainer>
         <MarginedContainer>
           <ContactLocationContainer>

@@ -42,19 +42,19 @@ const DataAndStyleInjection = (
   useEffect(() => {
     if (typeof document !== "undefined" && typeof window !== "undefined") {
       const { document } = previewProps;
-      const script = document.createElement("script");
-      script.src = "https://unpkg.com/alpinejs@2.5.0/dist/alpine.js";
-      document.head.appendChild(script);
-      const link1 = document.createElement("link");
-      link1.href =
-        "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap";
-      link1.rel = "stylesheet";
-      document.head.appendChild(link1);
-      const link2 = document.createElement("link");
-      link2.href =
-        "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap";
-      link2.rel = "stylesheet";
-      document.head.appendChild(link2);
+      // const script = document.createElement("script");
+      // script.src = "https://unpkg.com/alpinejs@2.5.0/dist/alpine.js";
+      // document.head.appendChild(script);
+      // const link1 = document.createElement("link");
+      // link1.href =
+      //   "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap";
+      // link1.rel = "stylesheet";
+      // document.head.appendChild(link1);
+      // const link2 = document.createElement("link");
+      // link2.href =
+      //   "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap";
+      // link2.rel = "stylesheet";
+      // document.head.appendChild(link2);
     }
   }, [previewProps]);
 
@@ -73,11 +73,11 @@ const DataAndStyleInjection = (
       if (isContained) {
         return (
           <MarginedContainer>
-            <Component {...data} />
+            <Component {...data} isCMS={true} />
           </MarginedContainer>
         );
       } else {
-        return <Component {...data} />;
+        return <Component {...data} isCMS={true} />;
       }
     };
 
