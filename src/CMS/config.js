@@ -114,6 +114,7 @@ module.exports = {
     {
       name: "rotating-words",
       label: "Rotating Words",
+      create: false,
       folder: "src/_rotating-words",
       fields: [
         {
@@ -264,7 +265,7 @@ module.exports = {
       name: "flc",
       label: "FLC",
       folder: "src/_flc",
-      create: true,
+      create: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -284,7 +285,7 @@ module.exports = {
       name: "imaginationLibrary",
       label: "Imagination Library",
       folder: "src/_imagination-library",
-      create: true,
+      create: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -344,7 +345,7 @@ module.exports = {
       name: "supporters",
       label: "Supporters",
       folder: "src/_supporters",
-      create: true,
+      create: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [{ label: "Title", name: "title", widget: "string" }, imagesList],
     },

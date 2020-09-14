@@ -1,10 +1,9 @@
 import React from "react";
 import { withRouteData } from "react-static";
-import styled from "@emotion/styled";
-import { css } from "@emotion/core";
 import Project from "../../shared/Project";
 
-export const FLC = ({ flc }) => {
+export const FLC = (props) => {
+  const { flc } = props;
   return (
     <Project
       body={flc?.body}
@@ -13,6 +12,7 @@ export const FLC = ({ flc }) => {
       link={flc?.link}
       linkText={flc?.linkText}
       images={flc?.images}
+      {...props}
     />
   );
 };

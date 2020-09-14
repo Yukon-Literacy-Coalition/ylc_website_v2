@@ -4,7 +4,8 @@ import { withRouteData } from "react-static";
 // import { css } from "@emotion/core";
 import Project from "../../shared/Project";
 
-export const Imagine = ({ imaginationLibrary }) => {
+export const Imagine = (props) => {
+  const { imaginationLibrary } = props;
   return (
     <Project
       body={imaginationLibrary?.body}
@@ -13,6 +14,7 @@ export const Imagine = ({ imaginationLibrary }) => {
       link={imaginationLibrary?.link}
       linkText={imaginationLibrary?.linkText}
       images={imaginationLibrary?.images}
+      {...props}
     />
   );
 };

@@ -1,6 +1,6 @@
 ---
 title: A picture book
-file: /uploads/night-time-aircraft-operations.pdf
-image: /uploads/6d724445-9fba-4a7e-bd3a-2c1c9f728a61_1_105_c.jpeg
+file: /uploads/yukon-news_orig.png
+image: /uploads/greenhouse_square.jpg
 ---
-Download it here!
+Text about the picture book!

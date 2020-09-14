@@ -9,7 +9,8 @@ import {
 import Project from "../../shared/Project";
 import ProjectHighlight from "../../shared/ProjectHighlight";
 
-export const FinLit = ({ onlineTools, financialLiteracy }) => {
+export const FinLit = (props) => {
+  const { onlineTools, financialLiteracy } = props;
   return (
     <>
       <Project
@@ -19,6 +20,7 @@ export const FinLit = ({ onlineTools, financialLiteracy }) => {
         link={financialLiteracy?.link}
         linkText={financialLiteracy?.linkText}
         images={financialLiteracy?.images}
+        {...props}
       >
         <SectionHeader>
           <HeaderTitle>
