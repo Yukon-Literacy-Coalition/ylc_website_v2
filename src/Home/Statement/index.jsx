@@ -55,6 +55,11 @@ const Statement = (props) => {
               <LargeButton>Learn More</LargeButton>
             </Link>
           </ButtonContainer>
+          <ButtonContainer>
+            <Link to={"/aboutdd"}>
+              <LargeButton>Learn More BRoken</LargeButton>
+            </Link>
+          </ButtonContainer>
         </StatementButton>
       </MarginedContainer>
     </SectionContainer>
