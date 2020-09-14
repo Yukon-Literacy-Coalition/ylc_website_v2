@@ -17,13 +17,11 @@ const Logo = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  img {
-    /* align-self: flex-start; */
-    flex-shrink: 0;
-    max-width: 100%;
-    /* min-height: 100%; */
-    max-height: 100%;
-  }
+  background-image: url(${(p) => p?.image});
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   ${mqO({
     gridColumn: ["span 3", "span 4", null, "span 6", "span 12"],
   })}
@@ -33,9 +31,7 @@ const Logo = styled.div`
 
 const Logos = ({ images = [] }) => {
   return images.map((image, i) => (
-    <Logo key={image + i}>
-      <img src={image.image} alt="" />
-    </Logo>
+    <Logo key={image + i} image={image?.image} />
   ));
 };
 
