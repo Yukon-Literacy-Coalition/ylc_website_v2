@@ -12,7 +12,36 @@ const FullPage = styled.div`
 `;
 
 const FourOhFour = () => {
-  return <FullPage>Error 404: Page not found!</FullPage>;
+  return (
+    <FullPage>
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found! Error 404:
+      Page not found! Error 404: Page not found! Error 404: Page not found!
+      Error 404: Page not found! Error 404: Page not found! Error 404: Page not
+      found! Error 404: Page not found! Error 404: Page not found!
+    </FullPage>
+  );
 };
 
 export default FourOhFour;

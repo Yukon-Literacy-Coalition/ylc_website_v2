@@ -270,40 +270,28 @@ export default {
           getData: async () => ({ event }),
         })),
       },
-      // OTHER SECTIONS
+      // STATEMENTS
       {
         path: "/annual_statements",
         template: "src/About/Statements",
       },
+      // 404
+      {
+        path: "404",
+        template: "src/pages/404",
+      },
     ];
   },
   plugins: [
-    [
-      require.resolve("react-static-plugin-source-filesystem"),
-      {
-        location: path.resolve("./src/pages"),
-      },
-    ],
-    "react-static-plugin-sitemap",
-    "react-static-plugin-reach-router",
     // [
-    //   "react-static-plugin-reach-router",
+    //   require.resolve("react-static-plugin-source-filesystem"),
     //   {
-    //     RouterProps: {
-    //       basepath: githubBasePath,
-    //     },
+    //     location: path.resolve("./src/pages"),
     //   },
     // ],
+    "react-static-plugin-sitemap",
+    "react-static-plugin-reach-router",
     "react-static-plugin-emotion",
     "react-static-plugin-styled-components",
   ],
 };
-
-// [
-//   "react-static-plugin-reach-router",
-//   {
-//     RouterProps: {
-//       basepath: githubBasePath,
-//     },
-//   },
-// ],
