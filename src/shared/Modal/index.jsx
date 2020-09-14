@@ -8,7 +8,7 @@ const ModalLayerContainer = styled.div`
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 100;
+  z-index: ${(p) => p.theme.zIndex.top};
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ const ModalOverlay = styled.div`
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
   width: 100vw;
-  z-index: -1;
+  z-index: ${(p) => p.theme.zIndex.top - 1};
 `;
 
 export const ModalLayer = ({ children, modalVisible, setModalVisible }) => {
@@ -37,6 +37,7 @@ const ContentContainer = styled.div`
   max-height: calc(100% - 100px);
   background: white;
   padding: 20px;
+  z-index: ${(p) => p.theme.zIndex.top};
   img {
     max-width: 100%;
     width: auto;

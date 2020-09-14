@@ -53,6 +53,13 @@ export const theme = {
     medium_grey: "#EFEFEF",
     faded_text: "#B3B7BA",
   },
+  zIndex: {
+    first: 10,
+    second: 20,
+    third: 30,
+    fourth: 40,
+    top: 50,
+  },
   fonts: {
     big_header: css`
       font-family: Poppins;

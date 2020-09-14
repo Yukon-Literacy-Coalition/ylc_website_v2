@@ -120,7 +120,7 @@ const NavContainer = styled.div`
   height: 64px;
   background-color: ${({ scrollPosition, isHome }) =>
     isHome && scrollPosition < 100 ? "rgba(255,255,255,0.4)" : "white"};
-  z-index: 1000;
+  z-index: ${(p) => p.theme.zIndex.fourth};
   transition: all 0.2s;
   color: ${({ scrollPosition, theme }) =>
     scrollPosition > 100 ? theme.colors.ylc_blue : theme.colors.text};

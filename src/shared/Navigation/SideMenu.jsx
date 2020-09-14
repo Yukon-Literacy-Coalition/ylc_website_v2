@@ -71,14 +71,15 @@ export const SideMenu = ({
         alt="close side menu"
         onClick={() => setSideMenuVisible(false)}
       />
+      <LogoContainer>
+        <RRLink onClick={() => setSideMenuVisible(false)} to="/">
+          <Logo src={logo} alt="" />
+        </RRLink>
+      </LogoContainer>
       <Menu mode="inline" style={{ height: "100%" }}>
-        <Menu.Item style={{ height: 100 }}>
-          <LogoContainer>
-            <RRLink onClick={() => setSideMenuVisible(false)} to="/">
-              <Logo src={logo} alt="" />
-            </RRLink>
-          </LogoContainer>
-        </Menu.Item>
+        {/* <Menu.Item style={{ height: 100 }}>
+          
+        </Menu.Item> */}
 
         <SubMenu title={<span>About</span>} style={{ width: 256 }}>
           {aboutLinksArray.map((lnk, i) => {

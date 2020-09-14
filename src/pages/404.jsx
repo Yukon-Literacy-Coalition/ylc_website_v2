@@ -5,7 +5,7 @@ const FullPage = styled.div`
   position: fixed;
   height: 100vh;
   width: 100vw;
-  z-index: 100000000;
+  z-index: ${(p) => p.theme.zIndex.top};
   display:flex;
   justify-content: center:
   align-items: center;
