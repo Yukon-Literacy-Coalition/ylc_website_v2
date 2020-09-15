@@ -35,11 +35,11 @@ const SideMenuStyled = styled.div`
   height: 100%;
   padding-left: 10px;
   grid-column: span 2;
-  left: 0;
 
   border-radius: 0 3px 3px 0;
-  z-index: ${(p) => p.theme.zIndex.third};
+  z-index: ${(p) => p.theme.zIndex.first};
   ${mq[2]} {
+    z-index: ${(p) => p.theme.zIndex.third};
     left: ${(p) => (p.sideMenuOpen ? 0 : "-150px")};
     border-right: ${(p) => p.theme.colors.ylc_blue} 1px solid;
     border-top: ${(p) => p.theme.colors.ylc_blue} 1px solid;

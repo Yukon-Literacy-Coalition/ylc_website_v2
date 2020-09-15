@@ -19,7 +19,7 @@ const FooterContainer = styled.div`
   ${mq[1]} {
     height: 180px;
   }
-  z-index: ${(p) => p.theme.zIndex.first};
+  z-index: ${(p) => p.theme.zIndex.second};
 `;
 
 const FooterLogo = styled.img`
