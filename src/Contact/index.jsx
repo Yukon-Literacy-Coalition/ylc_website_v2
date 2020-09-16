@@ -11,7 +11,7 @@ import {
 import { mqNew } from "../theme";
 
 import teamImage from "../assets/pop_band.jpg";
-import flake from "../assets/dark_flake.png";
+import berries from "../assets/berries.jpg";
 
 const SectionHeader = styled(SectionHeaderImport)`
   padding: 20px 10px;
@@ -27,7 +27,8 @@ const ImageContainer = styled.div`
   grid-column: span 12;
   background-image: url(${(p) => p.bgImage});
   background-size: cover;
-  min-height: 200px;
+  background-position: center;
+  min-height: 250px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -37,7 +38,7 @@ const ImageContainer = styled.div`
 const ContactLocationContainer = styled.div`
   grid-column: span 6;
   padding: 20px 20px 20px 20px;
-  min-height: 200px;
+  min-height: 250px;
 
   ${mqNew(900)} {
     grid-column: span 12;
@@ -95,9 +96,7 @@ const Contact = (props) => {
             </InfoLine>
           </ContactLocationContainer>
           <ContactLocationContainer>
-            <ImageContainer bgImage={teamImage}>
-              {/* <img src={teamImage} alt="" /> */}
-            </ImageContainer>
+            <ImageContainer bgImage={teamImage} />
           </ContactLocationContainer>
           <ContactLocationContainer>
             <MedHeader>
@@ -110,7 +109,9 @@ const Contact = (props) => {
             <InfoLine>
               <InfoHeader>Address:</InfoHeader>{" "}
               <InfoText>
-                Suite 207-100 Main Street Whitehorse, YT Y1A 2A8
+                <div>Suite 207-100, Main Street</div>
+                <div>Whitehorse, YT</div>
+                <div>Y1A 2A8</div>
               </InfoText>
             </InfoLine>
           </ContactLocationContainer>
@@ -119,14 +120,16 @@ const Contact = (props) => {
               <DarkAndLightText text={"Family Literacy Centre"} />
             </MedHeader>
             <InfoLine>
-              <InfoHeader>Address:</InfoHeader>{" "}
-              <InfoText>
-                Suite 207-100 Main Street Whitehorse, YT Y1A 2A8
-              </InfoText>
-            </InfoLine>
-            <InfoLine>
               <InfoHeader>Phone:</InfoHeader>
               <InfoText>(867) 668-8698</InfoText>
+            </InfoLine>
+            <InfoLine>
+              <InfoHeader>Address:</InfoHeader>{" "}
+              <InfoText>
+                <div>Suite 207-100, Main Street</div>
+                <div>Whitehorse, YT</div>
+                <div> Y1A 2A8</div>
+              </InfoText>
             </InfoLine>
           </ContactLocationContainer>
           {/* <ContactLocationContainer>
@@ -140,8 +143,16 @@ const Contact = (props) => {
             />
           </ContactLocationContainer> */}
           <ContactLocationContainer>
+            <ImageContainer bgImage={berries} />
+          </ContactLocationContainer>
+          <ContactLocationContainer>
             <MedHeader>
-              <DarkAndLightText text={"Pioneer Hotel"} />
+              <DarkAndLightText
+                // css={css`
+                //   grid-column: span 12;
+                // `}
+                text={"Pioneer Hotel"}
+              />
             </MedHeader>
             <InfoLine>
               <InfoHeader>Location:</InfoHeader>{" "}

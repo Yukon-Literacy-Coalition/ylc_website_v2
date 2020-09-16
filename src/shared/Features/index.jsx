@@ -115,7 +115,6 @@ const getRndInteger = (min, max) => {
 
 export const PageHeader = (props) => {
   const { text = "Title Needed", className, bgImage, isCMS } = props;
-  console.log({ isCMS });
   const imageArray = [img1, img2, img3, img4, img5];
   const randomBgImage = imageArray[getRndInteger(1, imageArray.length + 1) - 1];
   return (

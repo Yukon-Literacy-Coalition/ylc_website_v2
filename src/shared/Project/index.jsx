@@ -95,7 +95,6 @@ const ContentSection = ({
 };
 
 const Project = (props) => {
-  console.log({ projProps: props });
   const {
     date,
     title,
@@ -129,7 +128,6 @@ const Project = (props) => {
         )}
         {!!contentBlocks?.length &&
           contentBlocks.map((block, i) => {
-            console.log({ block });
             return <ContentSection {...block?.contentBlock} />;
           })}
       </ProjectPageContainer>
