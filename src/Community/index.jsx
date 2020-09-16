@@ -5,17 +5,7 @@ import Project from "../shared/Project";
 
 export const AboutCommunity = (props) => {
   const { aboutCommunity } = props;
-  return (
-    <Project
-      body={aboutCommunity?.body}
-      title={aboutCommunity?.title}
-      subTitle={aboutCommunity?.subTitle}
-      link={aboutCommunity?.link}
-      linkText={aboutCommunity?.linkText}
-      images={aboutCommunity?.images}
-      {...props}
-    />
-  );
+  return <Project {...aboutCommunity} {...props} />;
 };
 
 export default withRouteData(AboutCommunity);

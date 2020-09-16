@@ -65,7 +65,11 @@ const Approach = (props) => {
           <CenteredCopy>
             {litSkillsCopy2}{" "}
             <ButtonContainer>
-              <a href="http://www.canada.ca/en/employment-social-development/programs/essential-skills/definitions.html">
+              <a
+                href="http://www.canada.ca/en/employment-social-development/programs/essential-skills/definitions.html"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <LargeButton>Click Here</LargeButton>
               </a>
             </ButtonContainer>

@@ -9,7 +9,7 @@ const imagesList = {
 };
 
 const linkObject = {
-  label: "Link",
+  label: "Link URL",
   name: "link",
   widget: "string",
   required: false,
@@ -24,29 +24,46 @@ const subTitle = (text) => ({
   required: false,
 });
 
-// const requiredLinkObject = {
-//   label: "Link",
-//   name: "link",
-//   widget: "string",
-//   hint:
-//     "It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
-// };
+const contentsBlock = {
+  label: "Content Blocks",
+  name: "contentBlocks",
+  widget: "list",
+  summary: `{{commit_date}}`,
+  field: {
+    label: "Content Block",
+    name: "contentBlock",
+    widget: "object",
+    fields: [
+      subTitle(),
+      linkObject,
+      {
+        label: "Link Text",
+        name: "linkText",
+        widget: "string",
+        required: false,
+      },
+      { label: "Body", name: "body", widget: "markdown" },
+      imagesList,
+    ],
+  },
+  hint: "hint text here",
+};
 
 const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
 // const currentURL = "http://thelonious.life/"
 
 module.exports = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
-  // BACKEND for DEV
   // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   // },
+  // BACKEND for DEV
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
@@ -193,16 +210,7 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        subTitle(),
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
-        { label: "Body", name: "body", widget: "markdown" },
-        imagesList,
+        contentsBlock,
       ],
     },
     {

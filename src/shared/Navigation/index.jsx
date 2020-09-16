@@ -14,7 +14,7 @@ import youtubeIcon from "../../assets/yt.svg";
 
 import { SideMenu } from "./SideMenu";
 
-import aboutMenuImage from "../../assets/book_bike.jpg";
+import aboutMenuImage from "../../assets/bookBike.jpg";
 import familyMenuImage from "../../assets/wallTent.jpg";
 import communityMenuImage from "../../assets/whitehorse.jpg";
 // import Loader from "../Loader";

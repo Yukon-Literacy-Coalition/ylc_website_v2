@@ -13,15 +13,7 @@ export const FinLit = (props) => {
   const { onlineTools, financialLiteracy } = props;
   return (
     <>
-      <Project
-        body={financialLiteracy?.body}
-        title={financialLiteracy?.title}
-        subTitle={financialLiteracy?.subTitle}
-        link={financialLiteracy?.link}
-        linkText={financialLiteracy?.linkText}
-        images={financialLiteracy?.images}
-        {...props}
-      >
+      <Project {...financialLiteracy} {...props}>
         <SectionHeader>
           <HeaderTitle>
             <DarkAndLightText text={"Online Tools"} />

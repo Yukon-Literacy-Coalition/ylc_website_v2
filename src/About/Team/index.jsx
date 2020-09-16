@@ -90,13 +90,17 @@ const MemberContainer = styled.div``;
 
 const MemberText = styled.div`
   padding: 20px 0;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 12;
   display: flex;
   span {
-    width: 33%;
+    padding-right: 20px;
+    font-weight: normal;
   }
   ${(p) => p.theme.fonts.extra_small_header}
+  span:first-child {
+    font-weight: bold;
+  }
   ${mq[2]} {
     grid-column-start: 1;
     grid-column-end: 13;

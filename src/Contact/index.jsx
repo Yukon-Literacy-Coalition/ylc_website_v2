@@ -3,13 +3,23 @@ import { PageHeader } from "../shared/Features";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import { MarginedContainer, SectionContainer } from "../shared/Layout";
-import { DarkAndLightText } from "../shared/Type";
+import {
+  DarkAndLightText,
+  SectionHeader as SectionHeaderImport,
+  HeaderTitle,
+} from "../shared/Type";
 import { mqNew } from "../theme";
 
 import teamImage from "../assets/pop_band.jpg";
+import flake from "../assets/dark_flake.png";
+
+const SectionHeader = styled(SectionHeaderImport)`
+  padding: 20px 10px;
+  padding-bottom: 0;
+`;
 
 const MedHeader = styled.div`
-  ${(p) => p.theme.fonts.medium_header};
+  ${(p) => p.theme.fonts.small_header};
   padding-bottom: 20px;
 `;
 
@@ -17,7 +27,7 @@ const ImageContainer = styled.div`
   grid-column: span 12;
   background-image: url(${(p) => p.bgImage});
   background-size: cover;
-  width: 100%;
+  min-height: 200px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -26,7 +36,8 @@ const ImageContainer = styled.div`
 
 const ContactLocationContainer = styled.div`
   grid-column: span 6;
-  padding: 20px 20px 20px 0;
+  padding: 20px 20px 20px 20px;
+  min-height: 200px;
 
   ${mqNew(900)} {
     grid-column: span 12;
@@ -59,11 +70,16 @@ const Contact = (props) => {
   return (
     <>
       <PageHeader {...props} text={"Contact Us"} />
+      <SectionHeader>
+        <HeaderTitle>
+          <DarkAndLightText text={"Contact Info"} />
+        </HeaderTitle>
+      </SectionHeader>
       <SectionContainer>
         <MarginedContainer>
           <ContactLocationContainer>
             <MedHeader>
-              <DarkAndLightText text={"Contact Info"} />
+              <DarkAndLightText text={"Our Main Office"} />
             </MedHeader>
             <InfoLine>
               <InfoHeader>Email:</InfoHeader>
@@ -78,12 +94,14 @@ const Contact = (props) => {
               <InfoText>(867) 668-6518</InfoText>
             </InfoLine>
           </ContactLocationContainer>
-          {/* <ContactLocationContainer>
-            <ImageContainer bgImage={teamImage}>hello</ImageContainer>
-          </ContactLocationContainer> */}
+          <ContactLocationContainer>
+            <ImageContainer bgImage={teamImage}>
+              {/* <img src={teamImage} alt="" /> */}
+            </ImageContainer>
+          </ContactLocationContainer>
           <ContactLocationContainer>
             <MedHeader>
-              <DarkAndLightText text={"Hours And Location"} />
+              <DarkAndLightText text={"Office Hours And Location"} />
             </MedHeader>
             <InfoLine>
               <InfoHeader>Hours:</InfoHeader>{" "}
@@ -111,6 +129,16 @@ const Contact = (props) => {
               <InfoText>(867) 668-8698</InfoText>
             </InfoLine>
           </ContactLocationContainer>
+          {/* <ContactLocationContainer>
+            <ImageContainer
+              css={css`
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+              `}
+              bgImage={flake}
+            />
+          </ContactLocationContainer> */}
           <ContactLocationContainer>
             <MedHeader>
               <DarkAndLightText text={"Pioneer Hotel"} />
@@ -128,9 +156,6 @@ const Contact = (props) => {
               <InfoText>(867) 336-8577</InfoText>
             </InfoLine>
           </ContactLocationContainer>
-          <ImageContainer>
-            <img src={teamImage} alt="" />
-          </ImageContainer>
         </MarginedContainer>
       </SectionContainer>
     </>

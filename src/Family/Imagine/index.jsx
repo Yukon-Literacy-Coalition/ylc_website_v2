@@ -6,17 +6,7 @@ import Project from "../../shared/Project";
 
 export const Imagine = (props) => {
   const { imaginationLibrary } = props;
-  return (
-    <Project
-      body={imaginationLibrary?.body}
-      title={imaginationLibrary?.title}
-      subTitle={imaginationLibrary?.subTitle}
-      link={imaginationLibrary?.link}
-      linkText={imaginationLibrary?.linkText}
-      images={imaginationLibrary?.images}
-      {...props}
-    />
-  );
+  return <Project {...imaginationLibrary} {...props} />;
 };
 
 export default withRouteData(Imagine);

@@ -19,7 +19,7 @@ import {
 import { mq } from "../../theme";
 
 const SectionHeader = styled(SectionHeaderImport)`
-  padding: 20px 10px;
+  padding: 0px 10px;
   padding-bottom: 0;
   ${mq[1]} {
     padding-top: 0;
@@ -31,7 +31,7 @@ const BodyText = styled(BodyTextImport)`
   /* margin-top: 20px; */
 `;
 
-const ButtonWrapper = styled.a`
+const StyledLink = styled.a`
   grid-column: span 12;
   text-align: center;
 `;
@@ -42,6 +42,7 @@ const buttonMarginedStyles = css`
 
 const SectionContainer = styled(SectionContainerImport)`
   padding-top: ${(p) => (p?.subTitle ? "0px" : "auto")};
+  padding-bottom: 0;
 `;
 
 const Author = styled.div`
@@ -50,21 +51,21 @@ const Author = styled.div`
   padding-top: 5px;
 `;
 
-const Project = (props) => {
-  const {
-    date,
-    title,
-    subTitle,
-    body,
-    images,
-    children,
-    link,
-    linkText,
-    author,
-  } = props;
+const ProjectPageContainer = styled.div`
+  padding: 20px 0 50px;
+`;
+
+const ContentSection = ({
+  subTitle,
+  author,
+  body,
+  link,
+  linkText,
+  children,
+  images,
+}) => {
   return (
     <>
-      <PageHeader {...props} text={title || "Title Needed"} />
       {subTitle && (
         <SectionHeader>
           <HeaderTitle>
@@ -79,16 +80,59 @@ const Project = (props) => {
             <Markdown source={body || "Body text needed"} escapeHtml={false} />
           </BodyText>
         </MarginedContainer>
-        <MarginedContainer css={buttonMarginedStyles}>
-          {link && (
-            <ButtonWrapper href={`${link}`}>
+        {link && (
+          <MarginedContainer css={buttonMarginedStyles}>
+            <StyledLink href={`${link}`} target="_blank" rel="noreferrer">
               <LargeButton>{linkText || "See More"}</LargeButton>
-            </ButtonWrapper>
-          )}
-        </MarginedContainer>
+            </StyledLink>
+          </MarginedContainer>
+        )}
         {children}
         {!!images?.length && <Carousel images={images} />}
-      </SectionContainer>
+      </SectionContainer>{" "}
+    </>
+  );
+};
+
+const Project = (props) => {
+  console.log({ projProps: props });
+  const {
+    date,
+    title,
+    subTitle,
+    body,
+    images,
+    children,
+    link,
+    linkText,
+    author,
+    contentBlocks,
+  } = props;
+  return (
+    <>
+      <PageHeader {...props} text={title || "Title Needed"} />
+      <ProjectPageContainer>
+        {!contentBlocks?.length && (
+          <ContentSection
+            {...{
+              date,
+              title,
+              subTitle,
+              body,
+              images,
+              children,
+              link,
+              linkText,
+              author,
+            }}
+          />
+        )}
+        {!!contentBlocks?.length &&
+          contentBlocks.map((block, i) => {
+            console.log({ block });
+            return <ContentSection {...block?.contentBlock} />;
+          })}
+      </ProjectPageContainer>
     </>
   );
 };
