@@ -11,6 +11,8 @@ const ProjectContainer = styled.div`
   background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
   border-radius: 3px;
   box-shadow: 0px 2px 2px lightgray;
+  display: flex;
+  flex-direction: column;
   &:hover {
     ${(p) => p.theme.hover.box};
   }
@@ -44,7 +46,8 @@ const ProjImg = styled.img`
 `;
 
 const BodyContainer = styled.div`
-  min-height: 250px;
+  /* min-height: 250px; */
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
