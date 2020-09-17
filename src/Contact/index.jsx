@@ -12,6 +12,7 @@ import { mqNew } from "../theme";
 
 import teamImage from "../assets/pop_band.jpg";
 import berries from "../assets/berries.jpg";
+import mountains from "../assets/whatWeDoA.jpg";
 
 const SectionHeader = styled(SectionHeaderImport)`
   padding: 20px 10px;
@@ -94,11 +95,23 @@ const Contact = (props) => {
               <InfoHeader>Fax:</InfoHeader>
               <InfoText>(867) 668-6518</InfoText>
             </InfoLine>
+            <InfoLine>
+              <InfoHeader>Hours:</InfoHeader>{" "}
+              <InfoText>from 9-5, Monday to Friday</InfoText>
+            </InfoLine>
+            <InfoLine>
+              <InfoHeader>Address:</InfoHeader>{" "}
+              <InfoText>
+                <div>Suite 207-100, Main Street</div>
+                <div>Whitehorse, YT</div>
+                <div>Y1A 2A8</div>
+              </InfoText>
+            </InfoLine>
           </ContactLocationContainer>
           <ContactLocationContainer>
             <ImageContainer bgImage={teamImage} />
           </ContactLocationContainer>
-          <ContactLocationContainer>
+          {/* <ContactLocationContainer>
             <MedHeader>
               <DarkAndLightText text={"Office Hours And Location"} />
             </MedHeader>
@@ -114,6 +127,9 @@ const Contact = (props) => {
                 <div>Y1A 2A8</div>
               </InfoText>
             </InfoLine>
+          </ContactLocationContainer> */}
+          <ContactLocationContainer>
+            <ImageContainer bgImage={berries} />
           </ContactLocationContainer>
           <ContactLocationContainer>
             <MedHeader>
@@ -142,9 +158,7 @@ const Contact = (props) => {
               bgImage={flake}
             />
           </ContactLocationContainer> */}
-          <ContactLocationContainer>
-            <ImageContainer bgImage={berries} />
-          </ContactLocationContainer>
+
           <ContactLocationContainer>
             <MedHeader>
               <DarkAndLightText
@@ -166,6 +180,9 @@ const Contact = (props) => {
               <InfoHeader>Phone:</InfoHeader>{" "}
               <InfoText>(867) 336-8577</InfoText>
             </InfoLine>
+          </ContactLocationContainer>
+          <ContactLocationContainer>
+            <ImageContainer bgImage={mountains} />
           </ContactLocationContainer>
         </MarginedContainer>
       </SectionContainer>
