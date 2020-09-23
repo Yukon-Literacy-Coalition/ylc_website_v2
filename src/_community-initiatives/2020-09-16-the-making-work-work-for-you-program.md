@@ -1,5 +1,5 @@
 ---
-title: The Making Work, Work for You program
+title: Making Work, Work for You
 subTitle: ""
 contentBlocks:
   - contentBlock:
