@@ -6,6 +6,7 @@ import Carousel from "../../shared/Carousel";
 import { MarginedContainer } from "../../shared/Layout";
 import { DarkAndLightText } from "../../shared/Type";
 import { mq } from "../../theme";
+import Markdown from "react-markdown";
 
 // LARGE STYLES
 
@@ -148,7 +149,12 @@ export const OutreachProject = ({ project, index = 1 }) => {
         <ProjectTitle>
           <DarkAndLightText text={project?.title} />
         </ProjectTitle>
-        <ProjectBody>{project?.body}</ProjectBody>
+        <ProjectBody>
+          <Markdown
+            source={project?.body || "Body text needed"}
+            escapeHtml={false}
+          />
+        </ProjectBody>
         {!!project?.images?.length && <Carousel images={project?.images} />}
       </ProjectContainer>
     </div>

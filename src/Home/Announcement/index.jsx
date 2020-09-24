@@ -1,4 +1,5 @@
 import React from "react";
+import Markdown from "react-markdown";
 import { LargeButton } from "../../shared/Features";
 import { MarginedContainer, SectionContainer } from "../../shared/Layout";
 import { css } from "@emotion/core";
@@ -30,7 +31,13 @@ const Announcement = ({ announcement }) => {
     <SectionContainer css={sectionStyles}>
       <MarginedContainer>
         <Title>{announcement?.title}</Title>
-        <Body>{announcement?.body}</Body>
+        {/* <Body>{announcement?.body}</Body> */}
+        <Body>
+          <Markdown
+            source={announcement?.body || "Body text needed"}
+            escapeHtml={false}
+          />
+        </Body>
         {announcement?.link && (
           <ButtonContainer>
             <a href={announcement.link} target="_blank" rel="noreferrer">

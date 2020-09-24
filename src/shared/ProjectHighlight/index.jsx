@@ -1,4 +1,5 @@
 import React from "react";
+import Markdown from "react-markdown";
 import { LargeButton } from "../../shared/Features";
 import styled from "@emotion/styled";
 import { lighten } from "polished";
@@ -82,11 +83,17 @@ const ProjectHighlight = ({ project }) => {
           <ProjTitle>
             <DarkAndLightText text={project?.title || "Project Title"} />
           </ProjTitle>
-          <ProjBody>{project?.body || "Body text"}</ProjBody>
+          {/* <ProjBody>{project?.body || "Body text"}</ProjBody> */}
+          <ProjBody>
+            <Markdown
+              source={project?.body || "Body text needed"}
+              escapeHtml={false}
+            />
+          </ProjBody>
         </div>
         {project?.link ? (
           <ButtonContainer>
-            <a href={project?.link} target="_blank" rel="noreferrer">
+            <a href={project.link} target="_blank" rel="noreferrer">
               <LargeButton>
                 {project?.btnText || project?.linkText || "Learn More"}
               </LargeButton>
@@ -94,7 +101,7 @@ const ProjectHighlight = ({ project }) => {
           </ButtonContainer>
         ) : project?.file ? (
           <ButtonContainer>
-            <a href={project?.file} download>
+            <a href={project.file} download>
               <LargeButton>
                 {project?.btnText || project?.linkText || "Download Here"}
               </LargeButton>

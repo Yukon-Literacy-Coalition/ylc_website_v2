@@ -1,4 +1,5 @@
 import React from "react";
+import Markdown from "react-markdown";
 import { withRouteData } from "react-static";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
@@ -133,7 +134,10 @@ export const StaffMember = ({ staff, i = 1 }) => (
           </span>
           <span>{staff?.role}</span>
         </NameAndRole>
-        <Bio>{staff.bio}</Bio>
+        <Bio>
+          <Markdown source={staff.bio || "Bio Needed"} escapeHtml={false} />
+        </Bio>
+        {/* <Bio>{staff.bio}</Bio> */}
       </TextContent>
     </StaffMarginedContainer>
   </StaffContainer>
