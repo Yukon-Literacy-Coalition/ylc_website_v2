@@ -133,6 +133,7 @@ module.exports = {
       name: "rotating-words",
       label: "Rotating Words",
       create: false,
+      delete: false,
       folder: "src/_rotating-words",
       fields: [
         {
@@ -275,6 +276,7 @@ module.exports = {
       label: "FLC",
       folder: "src/_flc",
       create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -295,6 +297,7 @@ module.exports = {
       label: "Imagination Library",
       folder: "src/_imagination-library",
       create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -315,6 +318,7 @@ module.exports = {
       label: "About Community Initiatives",
       folder: "src/_about-community",
       create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -335,6 +339,7 @@ module.exports = {
       label: "Financial Literacy",
       folder: "src/_financial-literacy",
       create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -355,6 +360,7 @@ module.exports = {
       label: "Supporters",
       folder: "src/_supporters",
       create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [{ label: "Title", name: "title", widget: "string" }, imagesList],
     },

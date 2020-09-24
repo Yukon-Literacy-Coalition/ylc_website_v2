@@ -31,7 +31,8 @@ const Title = styled.div`
   ${(p) => p.theme.fonts.body_text_bold};
   position: relative;
   color: ${(p) => p.theme.colors.text};
-  padding: 20px 0;
+  padding: 20px 10px;
+  height: 75px;
 `;
 
 const PostBodyContainer = styled.div`
@@ -91,7 +92,7 @@ export const PostListing = ({ post, className }) => {
           <ImgContainer thumbnail={thumbnail} />
           <PostBodyContainer>
             <Title>{subTitle}</Title>
-            <PostBody>{truncate(removeMd(body), 22)}...</PostBody>
+            <PostBody>{truncate(removeMd(body), 13)}...</PostBody>
           </PostBodyContainer>
         </div>
         <SmallButContainer>
