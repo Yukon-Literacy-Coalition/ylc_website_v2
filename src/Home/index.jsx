@@ -17,7 +17,7 @@ const Home = ({ words, events, posts, announcements, highlightedProjects }) => {
       <Hero words={wordsArr} />
       <Statement />
       {displayAnnc && <Announcement announcement={currentAnnc} />}
-      <Upcoming events={events} />
+      {!!events?.length && <Upcoming events={events} />}
       <RecentPosts posts={posts} />
       <Projects projects={highlightedProjects} />
     </div>
