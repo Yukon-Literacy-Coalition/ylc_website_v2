@@ -3,7 +3,7 @@ testButton: asfdsf
 layout: blog
 date: 2020-08-27T22:03:54.827Z
 subTitle: Website Launch
-author: Lisa Young
+author: ""
 link: ""
 linkText: ""
 thumbnail: /uploads/dark_flake.png
