@@ -291,7 +291,7 @@ export default {
     // ],
     [
       "react-static-plugin-favicons",
-      { inputFile: path.resolve(__dirname, "flake_favicon.svg") },
+      { inputFile: path.resolve(__dirname, "flake_favicon.png") },
     ],
     "react-static-plugin-sitemap",
     "react-static-plugin-reach-router",
