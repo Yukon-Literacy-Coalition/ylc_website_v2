@@ -289,10 +289,10 @@ export default {
     //     location: path.resolve("./src/pages"),
     //   },
     // ],
-    [
-      "react-static-plugin-favicons",
-      { inputFile: path.resolve(__dirname, "flake_favicon.png") },
-    ],
+    // [
+    //   "react-static-plugin-favicons",
+    //   { inputFile: path.resolve(__dirname, "flake_favicon.png") },
+    // ],
     "react-static-plugin-sitemap",
     "react-static-plugin-reach-router",
     "react-static-plugin-emotion",
