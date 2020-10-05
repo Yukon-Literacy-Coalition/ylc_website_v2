@@ -3,7 +3,9 @@ layout: blog
 date: 2020-09-23T18:50:39.713Z
 subTitle: The Family Literacy Centre is back!
 author: ""
-thumbnail: /uploads/flcdoorsign-copy.jpg
+link: https://amazing-almeida-cc9291.netlify.app/family/flc/#/
+linkText: Learn more
+thumbnail: /uploads/mask.png
 ---
 We are excited to announce that the Family Literacy Centre (FLC) re-opens Tuesday, October 13th at 10:00 a.m. Located upstairs at the Canada Games Centre in Whitehorse, the FLC offers free, drop-in programs for children and families to learn and play together. Join us for crafts, singing, activities, story time, sensory play and more! No registration or wristbands required.
 
