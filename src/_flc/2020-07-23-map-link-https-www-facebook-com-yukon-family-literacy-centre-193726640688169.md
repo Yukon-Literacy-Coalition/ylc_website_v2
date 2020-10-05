@@ -3,7 +3,11 @@ title: The Family Literacy Center
 subTitle: Why visit the Family Literacy Centre
 link: https://www.facebook.com/Yukon-Family-Literacy-Centre-193726640688169/
 linkText: Facebook Page
-images: []
+images:
+  - image: /uploads/flc-covid.jpg
+  - image: /uploads/crafts-2.jpg
+  - image: /uploads/crafts.jpg
+  - image: /uploads/slime.jpg
 ---
 The Family Literacy Centre is a large family-friendly room filled with books, crafts, puppets, toys, puzzles, chalkboard, music, dress-up and more. We offer mini programs most mornings and drop-in play time during the afternoon. The FLC offers free, daily, drop-in programs that help parents build both their parenting and life skills, while providing young children with early childhood education opportunities. Our qualified staff specialize in early childhood education and promote early learning and literacy skills. We help connect families to the community resources they need and support families to become lifelong learners. 
 
