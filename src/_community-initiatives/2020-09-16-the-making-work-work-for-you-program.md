@@ -18,5 +18,8 @@ contentBlocks:
         - image: /uploads/ylc_carcross-poster-.jpg
         - image: /uploads/sign.jpg
         - image: /uploads/fireweed-market-copy.jpg
+        - image: /uploads/bannock.jpg
+        - image: /uploads/labelling.jpg
+        - image: /uploads/picking-fireweed.jpg
 ---
 This is the "regular" body
