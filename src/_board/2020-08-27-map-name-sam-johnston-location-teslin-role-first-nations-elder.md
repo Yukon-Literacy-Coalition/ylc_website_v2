@@ -1,5 +1,5 @@
 ---
 name: Sam Johnston
-location: Teslin
+location: Yukon
 role: First Nations Elder
 ---
