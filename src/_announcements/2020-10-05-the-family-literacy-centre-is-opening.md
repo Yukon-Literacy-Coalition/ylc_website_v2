@@ -1,7 +1,7 @@
 ---
 title: The Family Literacy Centre is opening!
 link: https://amazing-almeida-cc9291.netlify.app/family/flc
-displayAnnouncement: true
+displayAnnouncement: false
 ---
 We’re excited to announce that the Family Literacy Centre re-opens Tuesday, October 13th at 9:30 a.m. Located upstairs at the Canada Games Centre in Whitehorse, the FLC offers, free, drop-in programs for children and families to learn and play together. Join us for crafts, singing, activities, story time, sensory play and more! No registration or wristbands required.
 
