@@ -46,7 +46,7 @@ const Img = styled.div`
 
 const SectionContainer = styled(ImportedSectionContainer)`
   /* background-color: ${(p) => p.theme.colors.light_accent}; */
-  padding: 25px 0;
+  padding: 0;
   margin: 25px 0;
 `;
 

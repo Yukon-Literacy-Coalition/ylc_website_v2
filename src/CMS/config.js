@@ -58,7 +58,6 @@ const contentsBlock = {
       imagesList,
     ],
   },
-  hint: "hint text here",
 };
 
 const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
@@ -292,16 +291,6 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Sub Title", name: "subTitle", widget: "string" },
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
         contentsBlock,
       ],
     },

@@ -28,13 +28,17 @@ const ProjectContainer = styled.div`
 // IMAGE
 
 const ImgContainer = styled.div`
-  background: ${(p) => (p.isImage ? "transparent" : "grey")};
+  background-color: ${(p) => (p.isImage ? "transparent" : "grey")};
   height: 286px;
   border-radius: 3px 3px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-image: url(${(p) => p?.image});
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
 
 const ProjImg = styled.img`
@@ -81,9 +85,9 @@ const StyledMarkdown = styled(Markdown)`
 const ProjectHighlight = ({ project }) => {
   return (
     <ProjectContainer>
-      <ImgContainer isImage={project?.image}>
-        {project?.image && <ProjImg src={project?.image} />}
-      </ImgContainer>
+      <ImgContainer isImage={project?.image} image={project?.image} />
+      {/* {project?.image && <ProjImg src={project?.image} />} */}
+      {/* </ImgContainer> */}
       <BodyContainer>
         <div>
           <ProjTitle>
