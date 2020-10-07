@@ -1,6 +1,6 @@
 ---
 name: Lisa Young
-image: /uploads/lisa_square.jpg
+image: /uploads/lisa-2.jpg
 role: Director of Operations
 bio: Our Director of Operations Lisa Young has worked in education for 14 years.
   She holds an education degree from Memorial University and was raised in
