@@ -1,6 +1,6 @@
 ---
-title: A picture book
-file: /uploads/yukon-news_orig.png
+title: The Family Fun Book
+file: /uploads/family_fun_book.pdf
 image: /uploads/greenhouse_square.jpg
 ---
-Text about the picture book!
+A children's activity book for road trips!
