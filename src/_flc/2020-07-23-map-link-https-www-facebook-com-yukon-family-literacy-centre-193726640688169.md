@@ -19,7 +19,7 @@ contentBlocks:
         The FLC is located on the second floor of the Canada Games Centre and is open from September through May. Come visit us to sing, play, do crafts, enjoy both structured and unstructured programs and have fun! All programs are free, drop-in and everyone is welcome. To participate in our programs, you do not have to pay the Canada Games Center fee. Just walk up the stairs to the FLC and join us! 
 
 
-        During summer months, you can visit us at **The Pioneer Hotel** for some of your favourite Family Literacy Centre programs! We're located across from the gazebo in Shipyards Park.
+        During summer months, you can visit us at the **Pioneer Hotel** for some of your favourite Family Literacy Centre programs! We're located across from the gazebo in Shipyards Park. Check out this video about the Pioneer Hotel by MCY youth- <https://www.youtube.com/watch?v=8qg68c5roKQ&ab_channel=MCYYouth>
 
 
         For regular updates on our free programming, please check out our Facebook page.
