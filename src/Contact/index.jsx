@@ -97,7 +97,7 @@ const Contact = (props) => {
             </InfoLine>
             <InfoLine>
               <InfoHeader>Hours:</InfoHeader>{" "}
-              <InfoText>from 9-5, Monday to Friday</InfoText>
+              <InfoText>9-5, Monday to Friday</InfoText>
             </InfoLine>
             <InfoLine>
               <InfoHeader>Address:</InfoHeader>{" "}
@@ -142,9 +142,9 @@ const Contact = (props) => {
             <InfoLine>
               <InfoHeader>Address:</InfoHeader>{" "}
               <InfoText>
-                <div>Suite 207-100, Main Street</div>
+                <div>200 Hamilton Blvd</div>
                 <div>Whitehorse, YT</div>
-                <div> Y1A 2A8</div>
+                <div> Y1A 0A6</div>
               </InfoText>
             </InfoLine>
           </ContactLocationContainer>

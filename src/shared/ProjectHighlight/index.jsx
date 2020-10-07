@@ -72,6 +72,12 @@ const ButtonContainer = styled.div`
   padding: 10px 10px 20px;
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  img {
+    width: 100%;
+  }
+`;
+
 const ProjectHighlight = ({ project }) => {
   return (
     <ProjectContainer>
@@ -85,7 +91,7 @@ const ProjectHighlight = ({ project }) => {
           </ProjTitle>
           {/* <ProjBody>{project?.body || "Body text"}</ProjBody> */}
           <ProjBody>
-            <Markdown
+            <StyledMarkdown
               source={project?.body || "Body text needed"}
               escapeHtml={false}
             />

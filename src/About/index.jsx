@@ -51,6 +51,9 @@ const ImageSection = styled(MarginedContainer)`
     direction: ltr;
     min-height: auto;
   }
+  > * {
+    direction: ltr;
+  }
 `;
 
 const HeaderAndBody = styled.div`
@@ -132,13 +135,13 @@ const StatementLink = (props) => {
 };
 
 const AboutText =
-  "Founded in 2004, the Yukon Literacy Coalition is a registered non-profit organization dedicated to improving the lives of the people of the north by providing accessible and culturally appropriate learning opportunities. We serve the territory in many ways including: Literacy and Essential Skills (LES) embedded workshops and programs Conducting and participating in regional and national community-based research projects Operating the Family Literacy Centre (FLC) at the Canada Games Centre in Whitehorse and running a vibrant Yukon-wide outreach program Working in partnership with First Nation governments, Yukon government, municipalities and other non-profit organizations";
+  "Founded in 2004, the Yukon Literacy Coalition is a registered non-profit organization dedicated to improving the lives of the people of the north by providing accessible and culturally appropriate learning opportunities. We serve the territory in many ways including: Literacy and Essential Skills (LES) embedded workshops and programs Conducting and participating in regional and national community-based research projects Operating the Family Literacy Centre (FLC) at the Canada Games Centre in Whitehorse and running a vibrant Yukon-wide outreach program Working in partnership with First Nation governments, Yukon government, municipalities and other non-profit organizations.";
 
 const MissionText =
-  "We are a society of people dedicated to improving the quality of life of all Yukoners. We do this by building the foundational skills required for lifelong learning; acknowledging we are all adapting to an ever-changing world";
+  "We are a society of people dedicated to improving the quality of life of all Yukoners. We do this by building the foundational skills required for lifelong learning; acknowledging we are all adapting to an ever-changing world.";
 
 const AllianceText =
-  "YLC has a long-standing formal collaboration with Ilitaqsiniq Nunavut Literacy Council and NWT Literacy Council working together for the same purpose, the same people, using the same approach. Together, we maximize our collective knowledge, skills and experiences to have a greater impact on people of the North";
+  "YLC has a long-standing formal collaboration with Ilitaqsiniq Nunavut Literacy Council and NWT Literacy Council working together for the same purpose, the same people, using the same approach. Together, we maximize our collective knowledge, skills and experiences to have a greater impact on people of the North.";
 
 const WhatWeDo = (props) => (
   <div>

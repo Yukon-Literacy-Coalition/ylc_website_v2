@@ -141,6 +141,12 @@ const ProjectContentWrapper = styled.div`
   grid-column: span 12;
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  img {
+    width: 100%;
+  }
+`;
+
 export const OutreachProject = ({ project, index = 1 }) => {
   return (
     <div>
@@ -150,7 +156,7 @@ export const OutreachProject = ({ project, index = 1 }) => {
           <DarkAndLightText text={project?.title} />
         </ProjectTitle>
         <ProjectBody>
-          <Markdown
+          <StyledMarkdown
             source={project?.body || "Body text needed"}
             escapeHtml={false}
           />

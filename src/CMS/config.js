@@ -42,6 +42,18 @@ const contentsBlock = {
         widget: "string",
         required: false,
       },
+      {
+        label: "Downloadable File",
+        name: "download",
+        widget: "file",
+        required: false,
+      },
+      {
+        label: "Download Text",
+        name: "downloadText",
+        widget: "string",
+        required: false,
+      },
       { label: "Body", name: "body", widget: "markdown" },
       imagesList,
     ],
@@ -290,6 +302,7 @@ module.exports = {
         },
         imagesList,
         { label: "Body", name: "body", widget: "markdown" },
+        contentsBlock,
       ],
     },
     {

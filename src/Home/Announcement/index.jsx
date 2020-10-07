@@ -26,6 +26,12 @@ const sectionStyles = (theme) => css`
   background: ${theme.colors.medium_grey};
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  img {
+    width: 100%;
+  }
+`;
+
 const Announcement = ({ announcement }) => {
   return (
     <SectionContainer css={sectionStyles}>
@@ -33,7 +39,7 @@ const Announcement = ({ announcement }) => {
         <Title>{announcement?.title}</Title>
         {/* <Body>{announcement?.body}</Body> */}
         <Body>
-          <Markdown
+          <StyledMarkdown
             source={announcement?.body || "Body text needed"}
             escapeHtml={false}
           />

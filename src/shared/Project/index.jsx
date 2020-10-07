@@ -31,9 +31,15 @@ const BodyText = styled(BodyTextImport)`
   /* margin-top: 20px; */
 `;
 
-const StyledLink = styled.a`
+const LinksContainer = styled.div`
   grid-column: span 12;
+  display: flex;
+  justify-content: center;
+`;
+
+const StyledLink = styled.a`
   text-align: center;
+  padding: 0 5px;
 `;
 
 const buttonMarginedStyles = css`
@@ -55,6 +61,12 @@ const ProjectPageContainer = styled.div`
   padding: 20px 0 50px;
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  img {
+    width: 100%;
+  }
+`;
+
 const ContentSection = ({
   subTitle,
   author,
@@ -63,6 +75,8 @@ const ContentSection = ({
   linkText,
   children,
   images,
+  download,
+  downloadText,
 }) => {
   return (
     <>
@@ -77,14 +91,30 @@ const ContentSection = ({
       <SectionContainer subTitle={subTitle}>
         <MarginedContainer>
           <BodyText>
-            <Markdown source={body || "Body text needed"} escapeHtml={false} />
+            <StyledMarkdown
+              source={body || "Body text needed"}
+              escapeHtml={false}
+            />
           </BodyText>
         </MarginedContainer>
-        {link && (
+        {(link || download) && (
           <MarginedContainer css={buttonMarginedStyles}>
-            <StyledLink href={`${link}`} target="_blank" rel="noreferrer">
-              <LargeButton>{linkText || "See More"}</LargeButton>
-            </StyledLink>
+            <LinksContainer>
+              {link && (
+                <StyledLink href={`${link}`} target="_blank" rel="noreferrer">
+                  <LargeButton>{linkText || "See More"}</LargeButton>
+                </StyledLink>
+              )}
+              {download && (
+                <StyledLink
+                  href={`${download}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LargeButton>{downloadText || "Download Here"}</LargeButton>
+                </StyledLink>
+              )}
+            </LinksContainer>
           </MarginedContainer>
         )}
         {children}
