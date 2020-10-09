@@ -1,6 +1,5 @@
 import React from "react";
-import Markdown from "react-markdown";
-import { LargeButton } from "../../shared/Features";
+import { LargeButton, StyledMarkdown } from "../../shared/Features";
 import styled from "@emotion/styled";
 import { lighten } from "polished";
 import { DarkAndLightText } from "../Type";
@@ -76,13 +75,16 @@ const ButtonContainer = styled.div`
   padding: 10px 10px 20px;
 `;
 
-const StyledMarkdown = styled(Markdown)`
-  img {
-    width: 100%;
-  }
+const ButtonsWrapper = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
 const ProjectHighlight = ({ project }) => {
+  console.log({
+    linkthing: project?.downloadObject?.downloadLink?.length,
+    name: project?.downloadObject?.downloadLink,
+  });
   return (
     <ProjectContainer>
       <ImgContainer isImage={project?.image} image={project?.image} />
@@ -101,25 +103,56 @@ const ProjectHighlight = ({ project }) => {
             />
           </ProjBody>
         </div>
-        {project?.link ? (
-          <ButtonContainer>
-            <a href={project.link} target="_blank" rel="noreferrer">
-              <LargeButton>
-                {project?.btnText || project?.linkText || "Learn More"}
-              </LargeButton>
-            </a>
-          </ButtonContainer>
-        ) : project?.file ? (
-          <ButtonContainer>
-            <a href={project.file} download>
-              <LargeButton>
-                {project?.btnText || project?.linkText || "Download Here"}
-              </LargeButton>
-            </a>
-          </ButtonContainer>
-        ) : (
-          <div />
-        )}
+        <>
+          {project?.link ? (
+            <ButtonContainer>
+              <a href={project.link} target="_blank" rel="noreferrer">
+                <LargeButton>
+                  {project?.btnText || project?.linkText || "Learn More"}
+                </LargeButton>
+              </a>
+            </ButtonContainer>
+          ) : (
+            project?.file && (
+              <ButtonContainer>
+                <a href={project.file} download>
+                  <LargeButton>
+                    {project?.btnText || project?.linkText || "Download Here"}
+                  </LargeButton>
+                </a>
+              </ButtonContainer>
+            )
+          )}
+        </>
+        <>
+          {(!!project?.linkObject?.linkLocation?.length ||
+            !!project?.downloadObject?.downloadLink?.length) && (
+            <ButtonsWrapper>
+              {project?.linkObject?.linkLocation && (
+                <ButtonContainer>
+                  <a
+                    href={project?.linkObject?.linkLocation}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <LargeButton>
+                      {project?.linkObject?.linkText || "Learn More"}
+                    </LargeButton>
+                  </a>
+                </ButtonContainer>
+              )}
+              {project?.downloadObject?.downloadLink && (
+                <ButtonContainer>
+                  <a href={project?.downloadObject?.downloadLink} download>
+                    <LargeButton>
+                      {project?.downloadObject?.downloadText || "Download Here"}
+                    </LargeButton>
+                  </a>
+                </ButtonContainer>
+              )}
+            </ButtonsWrapper>
+          )}
+        </>
       </BodyContainer>
     </ProjectContainer>
   );

@@ -109,7 +109,7 @@ export default {
     const board = await getPosts("./src/_board");
 
     // online tools
-    const onlineTools = await getPosts("./src/_online-tools");
+    // const onlineTools = await getPosts("./src/_online-tools");
 
     // family literacy center
     const flcArray = await getPosts("./src/_flc");
@@ -240,7 +240,6 @@ export default {
         path: "/community/financial_literacy",
         template: "src/Community/FinLit",
         getData: async () => ({
-          onlineTools,
           financialLiteracy,
         }),
       },

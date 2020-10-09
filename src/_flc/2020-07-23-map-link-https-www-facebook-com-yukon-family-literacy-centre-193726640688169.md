@@ -33,7 +33,8 @@ contentBlocks:
         - image: /uploads/painting-2.jpg
         - image: /uploads/painting-with-feet.jpg
         - image: /uploads/flc-space.jpg
-      download: /uploads/flc-covid.jpg
-      downloadText: FLC Schedule
+      downloads:
+        - downloadObject:
+            downloadLink: /uploads/flc-covid.jpg
+            downloadText: Download Schedule
 ---
-Body

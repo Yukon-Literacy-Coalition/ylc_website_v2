@@ -1,5 +1,4 @@
 import React from "react";
-import Markdown from "react-markdown";
 import { withRouteData } from "react-static";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
@@ -7,7 +6,7 @@ import {
   MarginedContainer,
   SectionContainer as SectionContainerImport,
 } from "../../shared/Layout";
-import { LargeButton, PageHeader } from "../../shared/Features";
+import { PageHeader, StyledMarkdown } from "../../shared/Features";
 import {
   SectionHeader,
   HeaderText,
@@ -135,7 +134,10 @@ export const StaffMember = ({ staff, i = 1 }) => (
           <span>{staff?.role}</span>
         </NameAndRole>
         <Bio>
-          <Markdown source={staff.bio || "Bio Needed"} escapeHtml={false} />
+          <StyledMarkdown
+            source={staff.bio || "Bio Needed"}
+            escapeHtml={false}
+          />
         </Bio>
         {/* <Bio>{staff.bio}</Bio> */}
       </TextContent>

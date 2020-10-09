@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import { MarginedContainer } from "../Layout";
 import { DarkAndLightText } from "../Type";
+import Markdown from "react-markdown";
 
 import img1 from "../../assets/tombstones_banner.jpg";
 import img2 from "../../assets/yukon_river_banner.jpg";
@@ -137,3 +138,13 @@ export const PageHeader = (props) => {
     </PageHeaderContainer>
   );
 };
+
+export const StyledMarkdown = styled(Markdown)`
+  img {
+    width: 100%;
+  }
+  a {
+    font-weight: bold;
+    color: ${(p) => p.theme.colors.ylc_blue};
+  }
+`;

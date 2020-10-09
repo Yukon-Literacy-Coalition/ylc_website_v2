@@ -1,6 +1,5 @@
 import React from "react";
-import Markdown from "react-markdown";
-import { LargeButton } from "../../shared/Features";
+import { StyledMarkdown, LargeButton } from "../../shared/Features";
 import { MarginedContainer, SectionContainer } from "../../shared/Layout";
 import { css } from "@emotion/core";
 import styled from "@emotion/styled";
@@ -24,12 +23,6 @@ const ButtonContainer = styled.div`
 
 const sectionStyles = (theme) => css`
   background: ${theme.colors.medium_grey};
-`;
-
-const StyledMarkdown = styled(Markdown)`
-  img {
-    width: 100%;
-  }
 `;
 
 const Announcement = ({ announcement }) => {

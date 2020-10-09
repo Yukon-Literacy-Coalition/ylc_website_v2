@@ -5,16 +5,102 @@ const imagesList = {
   summary: `{{fields.image}}`,
   fields: [{ label: "Image", name: "image", widget: "image" }],
   hint:
-    "To avoid slowing the website, please only upload images of less than 500kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares.",
+    "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares.",
 };
 
-const linkObject = {
+const linkUrlString = {
   label: "Link URL",
   name: "link",
   widget: "string",
   required: false,
   hint:
     "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
+};
+
+const linkTextString = {
+  label: "Link Text",
+  name: "linkText",
+  widget: "string",
+  required: false,
+};
+
+const linkObject = {
+  label: "Link Button",
+  name: "linkObject",
+  widget: "object",
+  fields: [
+    {
+      label: "Link URL",
+      name: "linkLocation",
+      widget: "string",
+      required: false,
+      hint:
+        "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
+    },
+    {
+      label: "Link Text",
+      name: "linkText",
+      widget: "string",
+      required: false,
+    },
+  ],
+};
+
+const linksList = {
+  label: "Link Buttons",
+  name: "links",
+  summary: `{{commit_date}}`,
+  widget: "list",
+  field: linkObject,
+};
+
+const downloadObject = {
+  label: "Download Button",
+  name: "downloadObject",
+  widget: "object",
+  fields: [
+    {
+      label: "Downloadable File",
+      name: "downloadLink",
+      widget: "file",
+      required: false,
+    },
+    {
+      label: "Download Text",
+      name: "downloadText",
+      widget: "string",
+      required: false,
+    },
+  ],
+};
+
+const downloadsList = {
+  label: "Download Buttons",
+  name: "downloads",
+  summary: `{{commit_date}}`,
+  widget: "list",
+  field: downloadObject,
+};
+
+const resourceObject = {
+  label: "Resource",
+  name: "resourceObject",
+  widget: "object",
+  fields: [
+    { label: "Title", name: "title", widget: "string" },
+    linkObject,
+    downloadObject,
+    { label: "Body", name: "body", widget: "markdown" },
+    { label: "Image", name: "image", widget: "image" },
+  ],
+};
+
+const resourceList = {
+  label: "Resources",
+  name: "resources",
+  widget: "list",
+  summary: `{{commit_date}}`,
+  field: resourceObject,
 };
 
 const subTitle = (text) => ({
@@ -35,27 +121,11 @@ const contentsBlock = {
     widget: "object",
     fields: [
       subTitle(),
-      linkObject,
-      {
-        label: "Link Text",
-        name: "linkText",
-        widget: "string",
-        required: false,
-      },
-      {
-        label: "Downloadable File",
-        name: "download",
-        widget: "file",
-        required: false,
-      },
-      {
-        label: "Download Text",
-        name: "downloadText",
-        widget: "string",
-        required: false,
-      },
-      { label: "Body", name: "body", widget: "markdown" },
+      { label: "Body", name: "body", widget: "markdown", required: false },
+      linksList,
+      downloadsList,
       imagesList,
+      resourceList,
     ],
   },
 };
@@ -65,16 +135,16 @@ const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
 
 module.exports = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
-  // BACKEND for DEV
   // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   // },
+  // BACKEND for DEV
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
@@ -82,6 +152,7 @@ module.exports = {
   collections: [
     {
       name: "blog",
+      identifier_field: "articleTitle",
       label: "Blog Post",
       folder: "src/_blog-posts",
       create: true,
@@ -89,27 +160,26 @@ module.exports = {
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "blog" },
         { label: "Publish Date And Title", name: "date", widget: "datetime" },
-        { label: "Article Name", name: "subTitle", widget: "string" },
-        { label: "Author", name: "author", widget: "string", required: false },
-        linkObject,
         {
-          label: "Link Text",
-          name: "linkText",
+          label: "Article Name",
+          name: "articleTitle",
           widget: "string",
-          required: false,
+          hint:
+            "this is required in order to title the blog post in the list of blog posts",
         },
+        { label: "Author", name: "author", widget: "string", required: false },
         {
           label: "Featured Image",
           name: "thumbnail",
           widget: "image",
           hint: "This is for the thumbnail",
         },
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
+        contentsBlock,
       ],
     },
     {
       name: "events",
+      identifier_field: "eventTitle",
       label: "Events",
       folder: "src/_events",
       create: true,
@@ -123,9 +193,14 @@ module.exports = {
           dateFormat: "DD MMMM YYYY",
           timeFormat: "h:mm a",
         },
-        { label: "Event Name", name: "subTitle", widget: "string" },
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
+        {
+          label: "Event Name",
+          name: "eventTitle",
+          widget: "string",
+          hint:
+            "this is required in order to title the event in the list of events",
+        },
+        contentsBlock,
       ],
     },
     {
@@ -204,7 +279,7 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        linkObject,
+        linkUrlString,
         { label: "Body", name: "body", widget: "markdown" },
         {
           label: "Display Announcement",
@@ -258,26 +333,8 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
-        { label: "Body", name: "body", widget: "markdown" },
-        { label: "Image", name: "image", widget: "image" },
-      ],
-    },
-    {
-      name: "onlineTools",
-      label: "Online Tools",
-      folder: "src/_online-tools",
-      create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
-      fields: [
-        { label: "Title", name: "title", widget: "string" },
-        linkObject,
+        linkUrlString,
+        linkTextString,
         { label: "Body", name: "body", widget: "markdown" },
         { label: "Image", name: "image", widget: "image" },
       ],
@@ -303,16 +360,7 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Sub Title", name: "subTitle", widget: "string" },
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
+        contentsBlock,
       ],
     },
     {
@@ -325,13 +373,8 @@ module.exports = {
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Sub Title", name: "subTitle", widget: "string" },
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
+        linkUrlString,
+        linkTextString,
         imagesList,
         { label: "Body", name: "body", widget: "markdown" },
       ],
@@ -345,16 +388,7 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Sub Title", name: "subTitle", widget: "string" },
-        linkObject,
-        {
-          label: "Link Text",
-          name: "linkText",
-          widget: "string",
-          required: false,
-        },
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
+        contentsBlock,
       ],
     },
     {

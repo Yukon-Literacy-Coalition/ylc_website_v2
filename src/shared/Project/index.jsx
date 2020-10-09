@@ -1,7 +1,6 @@
 import React from "react";
 import { withRouteData } from "react-static";
 // import Moment from "react-moment";
-import Markdown from "react-markdown";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import {
@@ -9,8 +8,9 @@ import {
   SectionContainer as SectionContainerImport,
   BodyText as BodyTextImport,
 } from "../../shared/Layout";
-import { PageHeader, LargeButton } from "../../shared/Features";
+import { PageHeader, LargeButton, StyledMarkdown } from "../../shared/Features";
 import Carousel from "../../shared/Carousel";
+import ProjectHighlight from "../../shared/ProjectHighlight";
 import {
   SectionHeader as SectionHeaderImport,
   HeaderTitle,
@@ -61,22 +61,18 @@ const ProjectPageContainer = styled.div`
   padding: 20px 0 50px;
 `;
 
-const StyledMarkdown = styled(Markdown)`
-  img {
-    width: 100%;
-  }
-`;
-
 const ContentSection = ({
   subTitle,
   author,
   body,
   link,
   linkText,
+  links,
   children,
   images,
-  download,
+  downloads,
   downloadText,
+  resources,
 }) => {
   return (
     <>
@@ -89,15 +85,17 @@ const ContentSection = ({
         </SectionHeader>
       )}
       <SectionContainer subTitle={subTitle}>
-        <MarginedContainer>
-          <BodyText>
-            <StyledMarkdown
-              source={body || "Body text needed"}
-              escapeHtml={false}
-            />
-          </BodyText>
-        </MarginedContainer>
-        {(link || download) && (
+        {body && (
+          <MarginedContainer>
+            <BodyText>
+              <StyledMarkdown
+                source={body || "Body text needed"}
+                escapeHtml={false}
+              />
+            </BodyText>
+          </MarginedContainer>
+        )}
+        {(link || !!downloads?.length || !!links?.length) && (
           <MarginedContainer css={buttonMarginedStyles}>
             <LinksContainer>
               {link && (
@@ -105,59 +103,73 @@ const ContentSection = ({
                   <LargeButton>{linkText || "See More"}</LargeButton>
                 </StyledLink>
               )}
-              {download && (
-                <StyledLink
-                  href={`${download}`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <LargeButton>{downloadText || "Download Here"}</LargeButton>
-                </StyledLink>
-              )}
+              {!!links?.length &&
+                links.map((currentLink, i) => {
+                  return (
+                    <>
+                      {currentLink?.linkObject?.linkLocation && (
+                        <StyledLink
+                          href={`${currentLink?.linkObject?.linkLocation}`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <LargeButton>
+                            {currentLink?.linkObject?.linkText || "Visit Here"}
+                          </LargeButton>
+                        </StyledLink>
+                      )}
+                    </>
+                  );
+                })}
+              {!!downloads?.length &&
+                downloads.map((dl, i) => {
+                  return (
+                    <>
+                      {dl?.downloadObject?.downloadLink && (
+                        <StyledLink
+                          href={`${dl?.downloadObject?.downloadLink}`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <LargeButton>
+                            {dl?.downloadObject?.downloadText ||
+                              "Download Here"}
+                          </LargeButton>
+                        </StyledLink>
+                      )}
+                    </>
+                  );
+                })}
             </LinksContainer>
           </MarginedContainer>
         )}
         {children}
         {!!images?.length && <Carousel images={images} />}
-      </SectionContainer>{" "}
+        {!!resources?.length && (
+          <MarginedContainer>
+            {resources.map((project, i) => {
+              return (
+                <ProjectHighlight
+                  project={project?.resourceObject}
+                  key={"proj" + i}
+                />
+              );
+            })}
+          </MarginedContainer>
+        )}
+      </SectionContainer>
     </>
   );
 };
 
 const Project = (props) => {
-  const {
-    date,
-    title,
-    subTitle,
-    body,
-    images,
-    children,
-    link,
-    linkText,
-    author,
-    contentBlocks,
-  } = props;
   return (
     <>
-      <PageHeader {...props} text={title || "Title Needed"} />
+      <PageHeader {...props} text={props?.title || "Title Needed"} />
       <ProjectPageContainer>
-        {!contentBlocks?.length && (
-          <ContentSection
-            {...{
-              date,
-              title,
-              subTitle,
-              body,
-              images,
-              children,
-              link,
-              linkText,
-              author,
-            }}
-          />
-        )}
-        {!!contentBlocks?.length &&
-          contentBlocks.map((block, i) => {
+        {!props?.contentBlocks?.length && <ContentSection {...props} />}
+        {!!props?.contentBlocks?.length &&
+          props?.contentBlocks.map((block, i) => {
             return <ContentSection {...block?.contentBlock} />;
           })}
       </ProjectPageContainer>

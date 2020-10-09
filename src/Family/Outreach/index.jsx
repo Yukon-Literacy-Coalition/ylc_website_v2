@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { withRouteData } from "react-static";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
+import { mq } from "../../theme";
+//shared
 import Carousel from "../../shared/Carousel";
 import { MarginedContainer } from "../../shared/Layout";
 import { DarkAndLightText } from "../../shared/Type";
-import { mq } from "../../theme";
-import Markdown from "react-markdown";
+import { StyledMarkdown } from "../../shared/Features";
 
 // LARGE STYLES
 
@@ -139,12 +140,6 @@ const ProjectBody = styled.div`
 
 const ProjectContentWrapper = styled.div`
   grid-column: span 12;
-`;
-
-const StyledMarkdown = styled(Markdown)`
-  img {
-    width: 100%;
-  }
 `;
 
 export const OutreachProject = ({ project, index = 1 }) => {
