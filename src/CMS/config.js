@@ -159,7 +159,13 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "blog" },
-        { label: "Publish Date And Title", name: "date", widget: "datetime" },
+        {
+          label: "Publish Date And Title",
+          name: "date",
+          widget: "datetime",
+          hint:
+            "If this is a new article remember to press NOW to ensure that you are using today's date!",
+        },
         {
           label: "Article Name",
           name: "articleTitle",
@@ -192,6 +198,8 @@ module.exports = {
           widget: "datetime",
           dateFormat: "DD MMMM YYYY",
           timeFormat: "h:mm a",
+          hint:
+            "If this is a new event remember to press NOW to ensure that you are using today's date!",
         },
         {
           label: "Event Name",
