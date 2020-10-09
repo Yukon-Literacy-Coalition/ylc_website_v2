@@ -48,5 +48,14 @@ contentBlocks:
             image: /uploads/screen-shot-2020-10-09-at-8.40.45-am.png
             body: Prosper Canada develop and promote programs and resources that help
               Canadians to prosper.
+        - resourceObject:
+            linkObject:
+              linkLocation: https://www.canada.ca/en/financial-consumer-agency.html
+              linkText: Learn More
+            title: Financial Consumer Agency of Canada
+            image: /uploads/screen-shot-2020-10-09-at-8.47.21-am.png
+            body: The Financial Consumer Agency of Canada (FCAC) promotes financial
+              education and raises consumers’ awareness of their rights and
+              responsibilities.
 ---
 Unnecessary Body
