@@ -20,7 +20,7 @@ contentBlocks:
             linkText: Book Workshop
             linkLocation: https://amazing-almeida-cc9291.netlify.app/contact
   - contentBlock:
-      subTitle: Online Tools
+      subTitle: Financial Literacy Resources
       resources:
         - resourceObject:
             title: YLC Budgeting Tool
@@ -40,5 +40,13 @@ contentBlocks:
             body: Use our quiz to either help you make a decision about a purchase or to
               help you think about your consumer habits.
             image: /uploads/wise_shopper_quiz.png
+        - resourceObject:
+            title: Prosper Canada
+            linkObject:
+              linkLocation: https://learninghub.prospercanada.org/
+              linkText: Learn More
+            image: /uploads/screen-shot-2020-10-09-at-8.40.45-am.png
+            body: Prosper Canada develop and promote programs and resources that help
+              Canadians to prosper.
 ---
 Unnecessary Body
