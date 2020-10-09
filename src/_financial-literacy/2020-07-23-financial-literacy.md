@@ -66,5 +66,17 @@ contentBlocks:
             body: Practical Money Skills is a free financial literacy program that offers
               money management resources including calculators, games, and
               lesson plans tailored for use by Canadian families and educators.
+        - resourceObject:
+            image: /uploads/screen-shot-2020-10-09-at-8.59.09-am.png
+            body: >-
+              ABC Life Literacy offers a free introductory financial literacy
+              program for adult learners- Money Matters.
+
+
+              [](https://abclifeliteracy.ca/all-programs/money-matters/)
+            linkObject:
+              linkLocation: https://abclifeliteracy.ca/financial-literacy/#
+              linkText: Learn More
+            title: ABC Life Literacy Canada
 ---
 Unnecessary Body
