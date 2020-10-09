@@ -1,5 +1,6 @@
 ---
 title: Past Projects
 contentBlocks:
-  - null
+  - contentBlock:
+      subTitle: ""
 ---
