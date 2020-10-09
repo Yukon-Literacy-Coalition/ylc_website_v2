@@ -2,7 +2,7 @@
 title: Past Projects
 contentBlocks:
   - contentBlock:
-      subTitle: Men's Northern Research Project
+      subTitle: Northern Men's Research Project
       body: >-
         This community-based research project was a collaboration between the
         literacy councils of NWT, Nunavut, Labrador and Yukon.
