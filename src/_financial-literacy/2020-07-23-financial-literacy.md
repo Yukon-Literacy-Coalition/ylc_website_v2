@@ -11,7 +11,14 @@ contentBlocks:
         looking for support with: budgeting strategies, basic banking, managing
         multiple accounts, developing long-term financial goals."
       resources: []
-      downloads: []
+      downloads:
+        - downloadObject:
+            downloadLink: /uploads/financial-literacy-agenda.pdf
+            downloadText: Sample Workshop Agenda
+      links:
+        - linkObject:
+            linkText: Book Workshop
+            linkLocation: https://amazing-almeida-cc9291.netlify.app/contact
   - contentBlock:
       subTitle: Online Tools
       resources:
