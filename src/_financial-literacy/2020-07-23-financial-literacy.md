@@ -33,7 +33,7 @@ contentBlocks:
               downloadLink: ""
               downloadText: ""
         - resourceObject:
-            title: Wise Shopper Quiz
+            title: YLC Wise Shopper Quiz
             linkObject:
               linkLocation: http://ylcconsumersurvey.ca/
               linkText: Learn More
