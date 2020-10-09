@@ -57,5 +57,14 @@ contentBlocks:
             body: The Financial Consumer Agency of Canada (FCAC) promotes financial
               education and raises consumers’ awareness of their rights and
               responsibilities.
+        - resourceObject:
+            linkObject:
+              linkLocation: https://www.practicalmoneyskills.ca/
+              linkText: Learn More
+            title: Practical Money Skills
+            image: /uploads/screen-shot-2020-10-09-at-8.56.49-am.png
+            body: Practical Money Skills is a free financial literacy program that offers
+              money management resources including calculators, games, and
+              lesson plans tailored for use by Canadian families and educators.
 ---
 Unnecessary Body
