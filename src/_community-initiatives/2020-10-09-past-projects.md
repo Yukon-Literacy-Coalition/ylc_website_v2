@@ -21,4 +21,17 @@ contentBlocks:
               recommendations for more effective support of Northern Indigenous
               men in work and school.
             image: /uploads/screen-shot-2020-10-09-at-2.12.03-pm.png
+  - contentBlock:
+      subTitle: NALES - Northern Alliance for Literacy and Essential Skills
+      body: >-
+        The Yukon Literacy Coalition partnered with the NWT Literacy Council and
+        Ilitaqsiniq - the Nunavut Literacy Council on a collaborative agreement
+        with the Northern Alliance on Literacy & Essential Skills (NALES) to
+        complete a three-year project called “Strengthening Literacy and
+        Essential Skills Development and Labour Market Outcomes across Northern
+        Canada for Adults with Low Skills Levels."\
+
+        \
+
+        The goal of this project was to strengthen literacy and essential skills development and to improve market outcomes across the north. The team reached out to Aboriginal youth and adults, both men and women, who were out-of-school or unemployed with low levels of literacy and essential skills in the remote north. Throughout this project, Aboriginal youth and adults had the opportunity to develop more transferable skills, become more employable, increase their access to the labour market, and experience more success within the northern economy.
 ---
