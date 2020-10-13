@@ -5,7 +5,7 @@ import { LargeButton, PageHeader } from "../../shared/Features";
 import { DarkAndLightText } from "../../shared/Type";
 
 const approachCopy =
-  "We use a non-formal strength-based approach to meet the needs of learners. We believe in the importance of tapping into and building on the natural talents of participants by providing structured learning in a flexible way. We deliberately embed Literacy and Essential Skills (LES) into non-formal learning or training. Content, culture and LES are three strands braided seamlessly together to make a successful program.";
+  "We use a non-formal, strength-based approach to meet the needs of learners. We believe in the importance of tapping into and building on the natural talents of participants by providing structured learning in a flexible way. We deliberately embed Literacy and Essential Skills (LES) into non-formal learning or training. Content, culture and LES are three strands braided seamlessly together to make a successful program.";
 
 const approachCopy2 =
   "We deliver embedded LES programs, using non- formal learning which is structured learning planned in a flexible way. Our non- formal learning includes using a strength- based approach, making our programs learner centred, using clear language, offering a safe and respectful environment, making the programs accessible, and inclusion of healing and wellness.";

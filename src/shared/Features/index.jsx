@@ -100,13 +100,13 @@ const PageHeaderContainer = styled.div`
 
 const PageHeaderBackground = styled.div`
   height: 100%;
-  /* background: red; */
+  background: ${p => p.theme.colors.light_accent};
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.2)
     ),
-    url(${(p) => p.bgImage});
+    url(${(p) => p?.bgImage});
   background-size: cover;
 `;
 
@@ -121,7 +121,7 @@ export const PageHeader = (props) => {
   return (
     <PageHeaderContainer>
       <PageHeaderBackground
-        bgImage={bgImage || isCMS ? imageArray[0] : randomBgImage}
+        bgImage={bgImage || isCMS ? undefined : randomBgImage}
       >
         <MarginedContainer
           css={css`

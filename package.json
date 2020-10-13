@@ -1,6 +1,6 @@
 {
   "name": "new-ylc-website",
-  "homepage": "https://amazing-almeida-cc9291.netlify.app/",
+  "homepage": "http://www.yukonliteracy.com/",
   "private": true,
   "scripts": {
     "start": "react-static start",

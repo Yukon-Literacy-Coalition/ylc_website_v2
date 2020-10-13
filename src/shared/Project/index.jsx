@@ -111,6 +111,7 @@ const ContentSection = ({
                         <StyledLink
                           href={`${currentLink?.linkObject?.linkLocation}`}
                           target="_blank"
+                          key={"linkLocation" + i}
                           rel="noreferrer"
                         >
                           <LargeButton>
@@ -130,6 +131,7 @@ const ContentSection = ({
                           href={`${dl?.downloadObject?.downloadLink}`}
                           target="_blank"
                           rel="noreferrer"
+                          key={dl.downloadObject.downloadLink + i}
                         >
                           <LargeButton>
                             {dl?.downloadObject?.downloadText ||
@@ -170,7 +172,7 @@ const Project = (props) => {
         {!props?.contentBlocks?.length && <ContentSection {...props} />}
         {!!props?.contentBlocks?.length &&
           props?.contentBlocks.map((block, i) => {
-            return <ContentSection {...block?.contentBlock} />;
+            return <ContentSection key={"block" + i} {...block?.contentBlock} />;
           })}
       </ProjectPageContainer>
     </>
