@@ -17,7 +17,7 @@ contentBlocks:
       links:
         - linkObject:
             linkText: Book Workshop
-            linkLocation: https://amazing-almeida-cc9291.netlify.app/contact
+            linkLocation: https://yukonliteracy.com/contact
   - contentBlock:
       subTitle: Financial Literacy Resources
       resources:

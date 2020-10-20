@@ -1,7 +1,7 @@
 ---
 name: This is a highlighted Project
 title: Youth Financial Literacy
-link: https://amazing-almeida-cc9291.netlify.app/community/initiative/youth-financial-literacy
+link: https://yukonliteracy.com/community/initiative/youth-financial-literacy
 linkText: Learn More
 image: /uploads/youth-poster.jpg
 ---

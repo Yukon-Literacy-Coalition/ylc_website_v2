@@ -131,7 +131,7 @@ const contentsBlock = {
 };
 
 // const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
-const currentURL="http://www.yukonliteracy.com/"
+const currentURL="https://www.yukonliteracy.com/"
 // const currentURL = "http://thelonious.life/"
 
 module.exports = {

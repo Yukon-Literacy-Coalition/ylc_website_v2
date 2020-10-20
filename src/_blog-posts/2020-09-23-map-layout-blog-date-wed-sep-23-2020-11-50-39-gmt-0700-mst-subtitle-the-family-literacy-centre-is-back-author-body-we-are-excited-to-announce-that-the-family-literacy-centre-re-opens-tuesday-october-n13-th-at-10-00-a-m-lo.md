@@ -6,7 +6,7 @@ date: 2020-10-07T03:55:11.562Z
 author: ""
 thumbnail: /uploads/mask.png
 subTitle: The Family Literacy Centre is back!
-link: https://amazing-almeida-cc9291.netlify.app/family/flc/#/
+link: https://yukonliteracy.com/family/flc/#/
 contentBlocks:
   - contentBlock:
       subTitle: The Family Literacy Centre is back!
@@ -14,7 +14,7 @@ contentBlocks:
       linkText: ""
       links:
         - linkObject:
-            linkLocation: https://amazing-almeida-cc9291.netlify.app/family/flc/#/
+            linkLocation: https://yukonliteracy.com/family/flc/#/
             linkText: Learn more
       body: >-
         We are excited to announce that the Family Literacy Centre (FLC)

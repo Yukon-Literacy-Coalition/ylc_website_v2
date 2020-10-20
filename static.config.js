@@ -4,8 +4,8 @@ import { getPosts, addSlug } from "./utils";
 import moment from "moment";
 
 // const githubBasePath = "ylc_website_v2";
-// const currentURL = "http://www.yukonliteracy.com/"
-const currentURL = "https://amazing-almeida-cc9291.netlify.app/"
+const currentURL = "https://www.yukonliteracy.com/"
+// const currentURL = "https://amazing-almeida-cc9291.netlify.app/"
 // currentURL: "http://thelonious.life/",
 
 const filterUpcoming = ({ events }) =>
