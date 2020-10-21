@@ -1,6 +1,6 @@
 {
   "name": "new-ylc-website",
-  "homepage": "https://www.yukonliteracy.com/",
+  "homepage": "https://yukonliteracy.com/",
   "private": true,
   "scripts": {
     "start": "react-static start",
