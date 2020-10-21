@@ -17,7 +17,7 @@ contentBlocks:
       links:
         - linkObject:
             linkText: Book Workshop
-            linkLocation: https://yukonliteracy.com/contact
+            linkLocation: http://yukonliteracy.com/contact
   - contentBlock:
       subTitle: Financial Literacy Resources
       resources:

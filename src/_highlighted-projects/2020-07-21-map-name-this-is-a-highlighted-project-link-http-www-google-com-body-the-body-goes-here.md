@@ -1,7 +1,7 @@
 ---
 name: This is a highlighted Project
 title: Youth Financial Literacy
-link: https://yukonliteracy.com/community/initiative/youth-financial-literacy
+link: http://yukonliteracy.com/community/initiative/youth-financial-literacy
 linkText: Learn More
 image: /uploads/youth-poster.jpg
 ---
