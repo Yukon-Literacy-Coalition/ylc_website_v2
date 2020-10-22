@@ -1,12 +1,26 @@
 import React from "react";
 import { LargeButton, StyledMarkdown } from "../../shared/Features";
 import styled from "@emotion/styled";
+import {css} from "@emotion/core";
 import { lighten } from "polished";
 import { DarkAndLightText } from "../Type";
 import { mq } from "../../theme";
 
+const SingleProject = css`
+  grid-column-start: 4;
+  grid-column-end: 10;
+  ${mq[3]} {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+  ${mq[2]} {
+    grid-column: span 12;
+  }
+`
+
 const ProjectContainer = styled.div`
   transition: all 0.2s;
+  padding: 10px 0;
   grid-column: span 4;
   background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
   border-radius: 3px;
@@ -22,6 +36,7 @@ const ProjectContainer = styled.div`
   ${mq[2]} {
     grid-column: span 12;
   }
+  ${p => p.projectsLength === 1 && SingleProject }
 `;
 
 // IMAGE
@@ -80,22 +95,21 @@ const ButtonsWrapper = styled.div`
   justify-content: center;
 `;
 
-const ProjectHighlight = ({ project }) => {
+const ProjectHighlight = (props) => {
+  const project = props?.project;
+  const projectsLength = props?.projectsLength;
   console.log({
     linkthing: project?.downloadObject?.downloadLink?.length,
     name: project?.downloadObject?.downloadLink,
   });
   return (
-    <ProjectContainer>
+    <ProjectContainer projectsLength={projectsLength}>
       <ImgContainer isImage={project?.image} image={project?.image} />
-      {/* {project?.image && <ProjImg src={project?.image} />} */}
-      {/* </ImgContainer> */}
       <BodyContainer>
         <div>
           <ProjTitle>
             <DarkAndLightText text={project?.title || "Project Title"} />
           </ProjTitle>
-          {/* <ProjBody>{project?.body || "Body text"}</ProjBody> */}
           <ProjBody>
             <StyledMarkdown
               source={project?.body || "Body text needed"}

@@ -49,6 +49,7 @@ const buttonMarginedStyles = css`
 const SectionContainer = styled(SectionContainerImport)`
   padding-top: ${(p) => (p?.subTitle ? "0px" : "auto")};
   padding-bottom: 0;
+  padding: 15px 0 15px 0;
 `;
 
 const Author = styled.div`
@@ -153,6 +154,7 @@ const ContentSection = ({
               return (
                 <ProjectHighlight
                   project={project?.resourceObject}
+                  projectsLength={resources.length}
                   key={"proj" + i}
                 />
               );
