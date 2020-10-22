@@ -13,9 +13,6 @@ contentBlocks:
 
 
         With a high concentration on hands-on learning, the participants of the program have already experienced running multiple pop-up businesses at the Whitehorse Outdoor Fireweed Community Market in Shipyards Park. This has been a great opportunity to practice the skills needed to run a small business from start to finish. The participants have experimented with a traditional bannock recipe and created new flavours weekly to sell at the market. They sell the fresh bannock with hand-picked fireweed flower jelly, and sweetened earl grey tea with fireweed simple syrup.
-
-
-        ![](/uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg)
       subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
       images:
         - image: /uploads/ylc_carcross-poster-.jpg
