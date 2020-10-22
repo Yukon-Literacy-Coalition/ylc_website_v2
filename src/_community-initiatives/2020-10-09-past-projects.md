@@ -39,4 +39,8 @@ contentBlocks:
             body: This resource guide to embedded literacy and essential skills was
               developed as part of the NALES project.
             image: /uploads/northern-approach-image.jpg
+            linkObject:
+              linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
+                h%20Guide%20%20copy.pdf?dl=0  "
+              linkText: Download Here
 ---
