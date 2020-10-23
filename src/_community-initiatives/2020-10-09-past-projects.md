@@ -63,5 +63,8 @@ contentBlocks:
             downloadObject:
               downloadLink: /uploads/mitn-finalreport.pdf
             image: /uploads/screen-shot-2020-10-23-at-10.04.11-am.png
-            body: A final report on what we learned together.
+            body: The forum offered keynote presentations by leading thinkers and dynamic
+              workshops on current policies, practices, and innovations in
+              literacy, adult learning, and essential skills development in
+              northern Canada.
 ---
