@@ -98,10 +98,6 @@ const ButtonsWrapper = styled.div`
 const ProjectHighlight = (props) => {
   const project = props?.project;
   const projectsLength = props?.projectsLength;
-  console.log({
-    linkthing: project?.downloadObject?.downloadLink?.length,
-    name: project?.downloadObject?.downloadLink,
-  });
   return (
     <ProjectContainer projectsLength={projectsLength}>
       <ImgContainer isImage={project?.image} image={project?.image} />

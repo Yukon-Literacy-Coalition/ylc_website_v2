@@ -10,7 +10,7 @@ const currentURL = "http://yukonliteracy.com/";
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
-    return moment(event.date).isAfter(moment());
+    return moment(event.date).isAfter(moment().subtract(24, "hours"));
   });
 
 const getCommunityLinks = async () => {

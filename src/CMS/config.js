@@ -200,7 +200,7 @@ module.exports = {
           dateFormat: "DD MMMM YYYY",
           timeFormat: "h:mm a",
           hint:
-            "If this is a new event remember to press NOW to ensure that you are using today's date!",
+            "NOTE: Events will disappear from the website once 24 hours have passed from their start date/time. They will still exist here in the backend and can be made visible again by making their start date/time somewhere in the future.",
         },
         {
           label: "Event Name",
