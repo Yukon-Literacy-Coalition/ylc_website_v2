@@ -43,4 +43,25 @@ contentBlocks:
               linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
                 h%20Guide%20%20copy.pdf?dl=0  "
               linkText: Download Here
+  - contentBlock:
+      subTitle: Pan Northern Gathering
+      body: >-
+        The Yukon Literacy Coalition, NWT Literacy Council, and Ilitaqsiniq-the
+        Nunavut Literacy Council jointly organized the *Made in the North:
+        Policy & Practices Exchange on Skills Development* forum, which was held
+        in Yellowknife, NWT, from October 23 to 25, 2012. Adult educators,
+        employers, policy makers, language experts, literacy practitioners,
+        aboriginal and community leaders, and others working in the area of
+        literacy and essential skills development in the three territories and
+        Labrador attended the forum.
+
+
+        The purpose of the gathering was to support made-in-the-north approaches to adult learning, including literacy and essential skills; the sharing of ideas and resources; and the creation of a northern action network. The event was funded by the Government of Canada’s Office of Literacy and Essential Skills; Government of the Northwest Territories’ Department of Education, Culture and Employment; Government of Nunavut’s Department of Education; and Yukon Territorial Government’s Labour Market Programs and Services, Advanced Education.
+      resources:
+        - resourceObject:
+            title: "Made in the North "
+            downloadObject:
+              downloadLink: /uploads/mitn-finalreport.pdf
+            image: /uploads/screen-shot-2020-10-23-at-10.04.11-am.png
+            body: A final report on what we learned together.
 ---
