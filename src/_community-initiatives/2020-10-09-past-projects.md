@@ -67,4 +67,24 @@ contentBlocks:
               workshops on current policies, practices, and innovations in
               literacy, adult learning, and essential skills development in
               northern Canada.
+  - contentBlock:
+      subTitle: Workforce and Workplace Literacy and Essential Skills
+      body: With the support of the Office of Literacy and Essential Skills (OLES),
+        the Yukon Literacy Coalition (YLC) undertook a project that would assess
+        Yukon community stakeholder interests related to workplace and workforce
+        literacy and essential skills (LES). Through consultations, the YLC
+        heard about models and principles that could move the expanding field of
+        workforce and workplace (LES) forward in the territory. A literature
+        review was also carried out, as well as a scan of past and present
+        workforce and workplace LES initiatives in Yukon.
+      resources:
+        - resourceObject:
+            body: This report presents a snapshot of Yukon community interests, and
+              contributes to the knowledge of adult basic education delivery
+              groups and agencies that support LES. The findings of this report
+              round out a North of 60 workplace and workforce LES discussion,
+              following similar reports from Northwest Territories and Nunavut
+              Literacy Councils.
+            image: /uploads/screen-shot-2020-10-09-at-3.57.27-pm.png
+            title: Interests and Prospects in Yukon
 ---
