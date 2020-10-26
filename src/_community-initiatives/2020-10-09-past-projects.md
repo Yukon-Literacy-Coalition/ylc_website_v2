@@ -88,5 +88,5 @@ contentBlocks:
             image: /uploads/screen-shot-2020-10-09-at-3.57.27-pm.png
             title: Interests and Prospects in Yukon
             downloadObject:
-              downloadLink: ""
+              downloadLink: /uploads/wwlesreport2013.pdf
 ---
