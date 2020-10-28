@@ -97,7 +97,7 @@ const Contact = (props) => {
             </InfoLine>
             <InfoLine>
               <InfoHeader>Hours:</InfoHeader>{" "}
-              <InfoText>9-5, Monday to Friday</InfoText>
+              <InfoText>8-4, Monday to Friday</InfoText>
             </InfoLine>
             <InfoLine>
               <InfoHeader>Address:</InfoHeader>{" "}
