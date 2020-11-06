@@ -1,6 +1,6 @@
 ---
 layout: event
-date: 2020-11-06T17:17:27.540Z
+date: 2020-12-11T18:00:27.540Z
 eventTitle: Annual Family Christmas Tea
 contentBlocks:
   - contentBlock:
