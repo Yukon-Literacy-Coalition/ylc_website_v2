@@ -14,7 +14,7 @@ const CarouselContainer = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-  background-color: ${(p) => p.theme.colors.light_accent};
+  background-color: ${(p) => p.imagesLength > 1 && p.theme.colors.light_accent};
   width: 100%;
   padding: 2px;
   margin: 5px;
@@ -56,7 +56,16 @@ const CarouselComponent = (props) => {
   const [currentImage, setCurrentImage] = useState(false);
   const { images } = props;
 
-  const imagesToShow = width > 800 ? 3 : width > 500 ? 2 : 1;
+  const imagesToShow =
+    images?.length === 1
+      ? 1
+      : width > 800 && images?.length > 2
+      ? 3
+      : width > 800 && images?.length === 2
+      ? 2
+      : width > 500
+      ? 2
+      : 1;
 
   return (
     <>
@@ -72,6 +81,7 @@ const CarouselComponent = (props) => {
               {!!images.length &&
                 images.map(({ image }, i) => (
                   <ImageWrapper
+                    imagesLength={images?.length}
                     onClick={() => {
                       setModalVisible(true);
                       setCurrentImage(image);
