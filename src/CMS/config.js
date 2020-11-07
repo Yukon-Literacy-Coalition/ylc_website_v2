@@ -108,6 +108,7 @@ const subTitle = (text) => ({
   name: "subTitle",
   widget: "string",
   required: false,
+  hint: "PLEASE use Sub Titles, they make the page look much nicer. :)"
 });
 
 const contentsBlock = {
