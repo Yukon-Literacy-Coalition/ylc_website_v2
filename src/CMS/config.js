@@ -5,7 +5,7 @@ const imagesList = {
   summary: `{{fields.image}}`,
   fields: [{ label: "Image", name: "image", widget: "image" }],
   hint:
-    "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares.",
+    "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares. If you are only adding one image, then consider adding it to the body area.",
 };
 
 const linkUrlString = {
