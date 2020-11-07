@@ -40,7 +40,7 @@ const EventText = styled(DateText)`
 `;
 
 export const EventListing = ({ event, className, border }) => {
-  const { date, subTitle, slug } = event;
+  const { date, eventTitle, slug } = event;
   return (
     <EventItem
       to={`/events/event/${slug}`}
@@ -52,7 +52,7 @@ export const EventListing = ({ event, className, border }) => {
           <div>{moment(date).format("DD MMMM YYYY")}</div>
           <div>{moment(date).format("h:MM a")}</div>
         </DateText>
-        <EventText>{subTitle}</EventText>
+        <EventText>{eventTitle}</EventText>
       </div>
     </EventItem>
   );
