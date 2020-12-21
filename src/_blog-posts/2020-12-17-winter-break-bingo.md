@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: 2020-12-17T17:29:26.251Z
+date: 2020-12-21T17:29:26.251Z
 articleTitle: Winter Break BINGO!
 thumbnail: /uploads/screen-shot-2020-12-17-at-10.32.11-am.png
 contentBlocks:
