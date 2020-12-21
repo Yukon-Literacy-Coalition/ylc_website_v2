@@ -7,7 +7,7 @@ contentBlocks:
   - contentBlock:
       body: >-
         Completing our Winter Break Bingo - get the whole family involved! Enter
-        to win for fun prizes!
+        to win for fun prizes!!
 
 
         How to win!
