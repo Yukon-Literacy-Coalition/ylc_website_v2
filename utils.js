@@ -58,6 +58,6 @@ export const createSlug = (string) => {
 };
 
 export const addSlug = (x) => {
-  x.slug = createSlug(x.title || x.subTitle || x.eventTitle);
+  x.slug = createSlug(x.title || x.subTitle || x.eventTitle || x.articleTitle);
   return x;
 };
