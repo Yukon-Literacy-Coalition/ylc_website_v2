@@ -98,7 +98,8 @@ export const PostListing = ({ post, className }) => {
           <PostBodyContainer>
             <Title>{blockWithSubTitle?.contentBlock?.subTitle}</Title>
             <PostBody>
-              {truncate(blockWithBody?.contentBlock?.body || "", 13)}...
+              {truncate(removeMd(blockWithBody?.contentBlock?.body) || "", 13)}
+              ...
             </PostBody>
           </PostBodyContainer>
         </div>
