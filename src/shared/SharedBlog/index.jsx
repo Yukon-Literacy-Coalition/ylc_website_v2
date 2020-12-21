@@ -10,14 +10,15 @@ import { truncate } from "../../utilsJSX";
 import { mq } from "../../theme";
 
 const ImgContainer = styled.div`
-  width: 100%;
-  height: 170px;
+  width: calc(100% - 10px);
+  height: calc(170px - 10px);
   background-image: url(${(p) => p.thumbnail});
   /* background-color: ${(p) => p.theme.colors.faded_text}; */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 2px 2px 0 0;
+  margin: 5px;
 `;
 
 const PostText = styled.div`
