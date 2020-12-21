@@ -79,7 +79,11 @@ const Link = styled(RRLink)`
 `;
 
 export const PostListing = ({ post, className }) => {
-  const { date, subTitle, slug, thumbnail, body } = post;
+  const { date, slug, thumbnail, contentBlocks } = post;
+  const blockWithBody = contentBlocks.find((c) => c.contentBlock?.body?.length);
+  const blockWithSubTitle = contentBlocks.find(
+    (c) => c.contentBlock?.subTitle?.length
+  );
   return (
     <Link className={className} to={`/news/post/${slug}`}>
       <Post>
@@ -91,8 +95,10 @@ export const PostListing = ({ post, className }) => {
           <PostText>{moment(date).format("DD MMMM YYYY")}</PostText>
           <ImgContainer thumbnail={thumbnail} />
           <PostBodyContainer>
-            <Title>{subTitle}</Title>
-            <PostBody>{truncate(removeMd(body), 13)}...</PostBody>
+            <Title>{blockWithSubTitle?.contentBlock?.subTitle}</Title>
+            <PostBody>
+              {truncate(blockWithBody?.contentBlock?.body || "", 13)}...
+            </PostBody>
           </PostBodyContainer>
         </div>
         <SmallButContainer>
