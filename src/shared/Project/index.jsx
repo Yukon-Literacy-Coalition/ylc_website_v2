@@ -13,7 +13,7 @@ import Carousel from "../../shared/Carousel";
 import ProjectHighlight from "../../shared/ProjectHighlight";
 import {
   SectionHeader as SectionHeaderImport,
-  HeaderTitle,
+  HeaderTitle as HeaderTitleImport,
   DarkAndLightText,
 } from "../../shared/Type";
 import { mq } from "../../theme";
@@ -29,6 +29,10 @@ const SectionHeader = styled(SectionHeaderImport)`
 
 const BodyText = styled(BodyTextImport)`
   /* margin-top: 20px; */
+`;
+
+const HeaderTitle = styled(HeaderTitleImport)`
+  /* padding-bottom: 0; */
 `;
 
 const LinksContainer = styled.div`
@@ -50,6 +54,7 @@ const SectionContainer = styled(SectionContainerImport)`
   padding-top: ${(p) => (p?.subTitle ? "0px" : "auto")};
   padding-bottom: 0;
   padding: 15px 0 15px 0;
+  padding-bottom: 50px;
 `;
 
 const Author = styled.div`
@@ -174,7 +179,9 @@ const Project = (props) => {
         {!props?.contentBlocks?.length && <ContentSection {...props} />}
         {!!props?.contentBlocks?.length &&
           props?.contentBlocks.map((block, i) => {
-            return <ContentSection key={"block" + i} {...block?.contentBlock} />;
+            return (
+              <ContentSection key={"block" + i} {...block?.contentBlock} />
+            );
           })}
       </ProjectPageContainer>
     </>

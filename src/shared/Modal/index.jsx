@@ -23,11 +23,21 @@ const ModalOverlay = styled.div`
   z-index: ${(p) => p.theme.zIndex.top - 1};
 `;
 
-export const ModalLayer = ({ children, modalVisible, setModalVisible }) => {
+export const ModalLayer = ({
+  children,
+  modalVisible,
+  setModalVisible,
+  onOverlayClick = () => {},
+}) => {
   return (
     <ModalLayerContainer modalVisible={!!modalVisible}>
       {children}
-      <ModalOverlay onClick={() => setModalVisible(!modalVisible)} />
+      <ModalOverlay
+        onClick={() => {
+          setModalVisible(!modalVisible);
+          onOverlayClick();
+        }}
+      />
     </ModalLayerContainer>
   );
 };

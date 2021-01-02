@@ -121,14 +121,20 @@ const StatementsTitle = styled.span`
   padding: 0 20px;
 `;
 
+const StatementsButton = styled.div`
+  padding: 0 10px;
+`;
+
 const StatementLink = (props) => {
   return (
     <SectionContainer>
       <StatementContainer>
         <StatementsTitle>Annual Statements</StatementsTitle>
-        <Link to={"/about/statements"}>
-          <LargeButton>Download Here</LargeButton>
-        </Link>
+        <StatementsButton>
+          <Link to={"/about/statements"}>
+            <LargeButton>Download</LargeButton>
+          </Link>
+        </StatementsButton>
       </StatementContainer>
     </SectionContainer>
   );

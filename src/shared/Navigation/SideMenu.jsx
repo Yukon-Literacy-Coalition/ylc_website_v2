@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link as RRLink } from "@reach/router";
 import styled from "@emotion/styled";
 
@@ -9,6 +9,7 @@ import "./corrections.css";
 
 import logo from "../../assets/dark_flake.png";
 import closeIcon from "../../assets/close.png";
+
 const { SubMenu } = Menu;
 
 const SideMenuContainer = styled.div`
@@ -64,6 +65,23 @@ export const SideMenu = ({
   familyLinksArray,
 }) => {
   const communityLinksArray = getCommunityLinksArray({ communityLinks });
+
+  // submenu keys of first level
+  const rootSubmenuKeys = ["about", "famlit", "community"];
+
+  const [openKeys, setOpenKeys] = useState(["about"]);
+
+  const onOpenChange = (keys) => {
+    console.log({ keys });
+    const latestOpenKey = keys.find((key) => openKeys.indexOf(key) === -1);
+    console.log({ latestOpenKey });
+    if (rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
+      setOpenKeys(keys);
+    } else {
+      setOpenKeys(latestOpenKey ? [latestOpenKey] : []);
+    }
+  };
+
   return (
     <SideMenuContainer sideMenuVisible={sideMenuVisible}>
       <CloseImg
@@ -76,12 +94,17 @@ export const SideMenu = ({
           <Logo src={logo} alt="" />
         </RRLink>
       </LogoContainer>
-      <Menu mode="inline" style={{ height: "100%" }}>
+      <Menu
+        mode="inline"
+        onOpenChange={onOpenChange}
+        openKeys={openKeys}
+        style={{ height: "100%" }}
+      >
         {/* <Menu.Item style={{ height: 100 }}>
           
         </Menu.Item> */}
 
-        <SubMenu title={<span>About</span>} style={{ width: 256 }}>
+        <SubMenu key="about" title={<span>About</span>} style={{ width: 256 }}>
           {aboutLinksArray.map((lnk, i) => {
             return (
               <Menu.Item
@@ -93,7 +116,11 @@ export const SideMenu = ({
             );
           })}
         </SubMenu>
-        <SubMenu title={<span>Family Literacy</span>} style={{ width: 256 }}>
+        <SubMenu
+          key="famlit"
+          title={<span>Family Literacy</span>}
+          style={{ width: 256 }}
+        >
           {familyLinksArray.map((lnk, i) => {
             return (
               <Menu.Item
@@ -106,6 +133,7 @@ export const SideMenu = ({
           })}
         </SubMenu>
         <SubMenu
+          key="community"
           title={<span>Community Initiatives</span>}
           style={{ width: 256 }}
         >

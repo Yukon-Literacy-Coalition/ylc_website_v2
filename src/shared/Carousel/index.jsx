@@ -8,9 +8,16 @@ import {
 } from "../Layout";
 import { ModalLayer, ModalContent } from "../Modal";
 import { useWindowDimensions } from "../../utilsJSX";
+import { mq, mqO } from "../../theme";
 
 const CarouselContainer = styled.div`
   grid-column: span 12;
+  ${mq[2]} {
+    .rec-arrow {
+      box-shadow: none;
+      background: none;
+    }
+  }
 `;
 
 const ImageWrapper = styled.div`
@@ -67,6 +74,8 @@ const CarouselComponent = (props) => {
       ? 2
       : 1;
 
+  const onOverlayClick = () => setCurrentImage(false);
+
   return (
     <>
       <SectionContainer>
@@ -95,7 +104,7 @@ const CarouselComponent = (props) => {
           </CarouselContainer>
         </MarginedContainer>
       </SectionContainer>
-      <ModalLayer {...{ modalVisible, setModalVisible }}>
+      <ModalLayer {...{ modalVisible, setModalVisible, onOverlayClick }}>
         <ModalContent>
           <img src={currentImage ? currentImage : undefined} alt="" />
         </ModalContent>

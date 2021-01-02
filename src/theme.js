@@ -122,7 +122,9 @@ export const theme = {
   },
   hover: {
     box: css`
-      box-shadow: 0px 4px 4px lightgray;
+      /* box-shadow: 0px 4px 4px lightgray; */
+      /* box-shadow: 1px 0px 4px 1px lightgray; */
+      box-shadow: 1px 0px 6px 4px lightgray;
     `,
   },
 };

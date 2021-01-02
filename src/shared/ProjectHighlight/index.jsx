@@ -1,7 +1,7 @@
 import React from "react";
 import { LargeButton, StyledMarkdown } from "../../shared/Features";
 import styled from "@emotion/styled";
-import {css} from "@emotion/core";
+import { css } from "@emotion/core";
 import { lighten } from "polished";
 import { DarkAndLightText } from "../Type";
 import { mq } from "../../theme";
@@ -16,7 +16,7 @@ const SingleProject = css`
   ${mq[2]} {
     grid-column: span 12;
   }
-`
+`;
 
 const ProjectContainer = styled.div`
   transition: all 0.2s;
@@ -24,7 +24,7 @@ const ProjectContainer = styled.div`
   grid-column: span 4;
   background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
   border-radius: 3px;
-  box-shadow: 0px 2px 2px lightgray;
+  box-shadow: 1px 0px 4px 1px lightgray;
   display: flex;
   flex-direction: column;
   &:hover {
@@ -36,7 +36,7 @@ const ProjectContainer = styled.div`
   ${mq[2]} {
     grid-column: span 12;
   }
-  ${p => p.projectsLength === 1 && SingleProject }
+  ${(p) => p.projectsLength === 1 && SingleProject}
 `;
 
 // IMAGE
