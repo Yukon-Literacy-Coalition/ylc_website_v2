@@ -23,7 +23,7 @@ contentBlocks:
 
 
         Participants who complete all of the activities on the Winter Break Bingo card will be entered into a holiday draw! We will be picking two lucky winners on **January 8th, 2021**. Have fun!
-      subTitle: Pack in some extra fun over the winter holidays!
+      subTitle: Winter Break Bingo - get the whole family involved!
       images:
-        - image: /uploads/screen-shot-2020-12-17-at-10.32.11-am.png
+        - image: /uploads/xmasbingo.png
 ---
