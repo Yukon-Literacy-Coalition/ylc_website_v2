@@ -11,4 +11,6 @@ contentBlocks:
         workshops take place Saturday afternoons at Yukon College in Watson
         Lake. Your instructor is Leatha Anderson. Contact her for more
         information!
+      images:
+        - image: /uploads/yukon-literacy-coalition.docx-82-.jpg
 ---
