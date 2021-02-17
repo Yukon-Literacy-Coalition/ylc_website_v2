@@ -4,8 +4,12 @@ subTitle: Unnecessary Subtitle
 contentBlocks:
   - contentBlock:
       subTitle: What is Financial Literacy?
-      body: >-
-        Financial Literacy is having the knowledge, skills, and confidence to make responsible financial decisions. The YLC offers workshops aimed to empower Yukoners to better manage their money. We do on-site training for organizations, businesses, classes or community groups who are looking for support with: budgeting strategies, basic banking, managing multiple accounts, developing long-term financial goals.
+      body: "Financial Literacy is having the knowledge, skills, and confidence to
+        make responsible financial decisions. The YLC offers workshops aimed to
+        empower Yukoners to better manage their money. We do on-site training
+        for organizations, businesses, classes or community groups who are
+        looking for support with: budgeting strategies, basic banking, managing
+        multiple accounts, developing long-term financial goals."
       resources: []
       downloads:
         - downloadObject:
@@ -36,6 +40,16 @@ contentBlocks:
             body: Use our quiz to either help you make a decision about a purchase or to
               help you think about your consumer habits.
             image: /uploads/wise_shopper_quiz.png
+        - resourceObject:
+            title: YLC Online Banking Simulator
+            linkObject:
+              linkLocation: https://ajtj.github.io/bank_project/
+              linkText: Try It
+            body: The online banking simulator gives people everywhere needed to gain the
+              confidence to start banking online. The activities guide users
+              through the step-by-step process to help them build familiarity
+              with online banking features.
+            image: /uploads/ylc_banking_simulator.png
         - resourceObject:
             title: Prosper Canada
             linkObject:
