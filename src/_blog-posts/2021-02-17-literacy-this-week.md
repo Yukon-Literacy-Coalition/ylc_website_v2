@@ -6,7 +6,8 @@ thumbnail: /uploads/feb17.jpg
 contentBlocks:
   - contentBlock:
       subTitle: Literacy this week
-      body: Below is our weekly column in the Yukon News
+      body: Below is our weekly column in the Yukon News. Click to enlarge and zoom
+        in!
       resources: []
       images:
         - image: /uploads/feb17.jpg
