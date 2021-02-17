@@ -129,7 +129,7 @@ const StatementLink = (props) => {
   return (
     <SectionContainer>
       <StatementContainer>
-        <StatementsTitle>Annual Statements</StatementsTitle>
+        <StatementsTitle>Annual Reports</StatementsTitle>
         <StatementsButton>
           <Link to={"/about/statements"}>
             <LargeButton>Download</LargeButton>
