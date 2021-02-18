@@ -11,4 +11,8 @@ contentBlocks:
       resources: []
       images:
         - image: /uploads/feb17.jpg
+      downloads:
+        - downloadObject:
+            downloadLink: /uploads/feb17.jpg
+            downloadText: Literacy this week - Feb 17, 2021
 ---
