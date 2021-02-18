@@ -13,4 +13,6 @@ contentBlocks:
         information!
       images:
         - image: /uploads/yukon-literacy-coalition.docx-82-.jpg
+        - image: /uploads/img_6727.jpg
+        - image: /uploads/img_6728.jpg
 ---
