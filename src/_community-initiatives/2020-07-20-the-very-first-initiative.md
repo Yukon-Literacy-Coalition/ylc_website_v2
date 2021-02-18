@@ -22,5 +22,8 @@ contentBlocks:
         - image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
         - image: /uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg
         - image: /uploads/photostudio_1581981687569.jpg
+        - image: /uploads/img_6727.jpg
+        - image: /uploads/img_6728.jpg
+        - image: /uploads/img_6729.jpg
 ---
 main body
