@@ -45,10 +45,10 @@ contentBlocks:
             linkObject:
               linkLocation: https://ajtj.github.io/bank_project/
               linkText: Try It
-            body: The online banking simulator gives people everywhere needed to gain the
-              confidence to start banking online. The activities guide users
-              through the step-by-step process to help them build familiarity
-              with online banking features.
+            body: The online banking simulator gives people everywhere the opportunity to
+              gain the confidence needed to start banking online. The activities
+              guide users through the step-by-step process to help them build
+              familiarity with online banking features.
             image: /uploads/ylc_banking_simulator.png
         - resourceObject:
             title: Prosper Canada
