@@ -1,7 +1,7 @@
 ---
 title: Winter Fun at the Family Literacy Centre
-link: ""
-linkText: ""
+link: http://yukonliteracy.com/family/flc
+linkText: Learn More
 image: /uploads/img_20210210_115316_241.jpg
 ---
 Have you checked-out our single-use crafts and activities?                       
