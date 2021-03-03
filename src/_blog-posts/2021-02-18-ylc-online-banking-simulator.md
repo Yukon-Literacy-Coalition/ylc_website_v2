@@ -17,4 +17,5 @@ contentBlocks:
             linkLocation: www.ylcbankingsimulator.com
       images:
         - image: /uploads/screen-shot-2021-02-18-at-11.36.33-am.png
+      subTitle: YLC Online Banking Simulator
 ---
