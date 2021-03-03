@@ -6,15 +6,13 @@ thumbnail: /uploads/feb17.jpg
 contentBlocks:
   - contentBlock:
       subTitle: Literacy this week
-      body: |-
-        Below is our weekly column in the Yukon News
-
-        Click the button to open it up and review
+      body: Look for our weekly column "LIteracy this week" in the Yukon News. This
+        week is about Random Acts of Kindness Day!
       resources: []
       images:
-        - image: /uploads/feb17.jpg
+        - image: /uploads/screen-shot-2021-03-03-at-3.05.35-pm.png
       downloads:
         - downloadObject:
             downloadLink: /uploads/feb17.jpg
-            downloadText: Click here
+            downloadText: Read the column here
 ---
