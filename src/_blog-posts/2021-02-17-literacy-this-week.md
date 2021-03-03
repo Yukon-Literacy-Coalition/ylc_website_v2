@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-02-17T21:02:07.981Z
 articleTitle: Literacy this week
-thumbnail: /uploads/feb17.jpg
+thumbnail: /uploads/screen-shot-2021-03-03-at-3.05.35-pm.png
 contentBlocks:
   - contentBlock:
       subTitle: Literacy this week
