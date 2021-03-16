@@ -15,4 +15,5 @@ contentBlocks:
         All activities will be free, fun, and COVID safe!
       images:
         - image: /uploads/unknown.png
+      subTitle: Youth Financial Literacy Teen Drop-In Night
 ---
