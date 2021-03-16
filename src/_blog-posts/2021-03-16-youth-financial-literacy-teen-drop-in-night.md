@@ -13,4 +13,6 @@ contentBlocks:
 
 
         All activities will be free, fun, and COVID safe!
+      images:
+        - image: /uploads/unknown.png
 ---
