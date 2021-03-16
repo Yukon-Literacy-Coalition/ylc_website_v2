@@ -27,4 +27,5 @@ contentBlocks:
             linkText: Donate Now
       images:
         - image: /uploads/bus-cartoon.tiff
+      subTitle: Family Literacy Centre on Wheels
 ---
