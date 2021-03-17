@@ -21,11 +21,7 @@ contentBlocks:
         The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donations. Every dollar helps us get closer to our goal! If you'd like to donate to the Family Literacy Centre on Wheels, please click the 'Donate Now' button. Thank you!
       links:
         - linkObject:
-            linkLocation: <script id="ch_cdn_embed" type='text/javascript'
-              src="https://www.canadahelps.org/secure/js/cdf_embed.js"
-              charset='utf-8' data-language="en" data-page-id="60323"
-              data-root-url="https://www.canadahelps.org" data-formtype="0"
-              data-cfasync="false"></script>
+            linkLocation: https://www.canadahelps.org/en/dn/60323
             linkText: Donate Now
       images:
         - image: /uploads/bus-cartoon.tiff
