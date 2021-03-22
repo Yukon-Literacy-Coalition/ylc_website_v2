@@ -14,7 +14,7 @@ contentBlocks:
       links:
         - linkObject:
             linkText: "Try it here! "
-            linkLocation: www.ylcbankingsimulator.com
+            linkLocation: https://ajtj.github.io/bank_project/
       images:
         - image: /uploads/screen-shot-2021-02-18-at-11.36.33-am.png
       subTitle: YLC Online Banking Simulator
