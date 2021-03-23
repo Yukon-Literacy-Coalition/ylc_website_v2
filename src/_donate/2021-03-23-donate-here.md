@@ -1,8 +1,8 @@
 ---
-title: Family Literacy Centre on Wheels
+title: Fundraising Initiative
 contentBlocks:
   - contentBlock:
-      subTitle: Help us reach our goal!
+      subTitle: Family Literacy Centre on Wheels
       body: >-
         We operate a successful and flourishing Family Literacy Centre in the
         Canada Games Centre and Shipyards Park in Whitehorse. We offer free
