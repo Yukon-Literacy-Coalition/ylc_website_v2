@@ -28,7 +28,7 @@ contentBlocks:
       links:
         - linkObject:
             linkText: Donate Here
-            linkLocation: https://www.canadahelps.org/CharityProfilePage.aspx?CharityID=d98831
+            linkLocation: https://www.canadahelps.org/en/dn/60323
       images:
         - image: /uploads/bus-cartoon.tiff
 ---
