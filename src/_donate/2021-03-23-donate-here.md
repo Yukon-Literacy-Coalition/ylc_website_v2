@@ -18,7 +18,7 @@ contentBlocks:
         The Family Literacy Centre on Wheels will allow us to visit and deliver programs in rural communities and gatherings including festivals, fish camps, culture camps, general assemblies and kids summer camps.
 
 
-        We are asking for your support. We are hoping to raise $60,000 to purchase, retrofit, furnish and insure our new Family Literacy Centre on Wheels. We are looking to our fellow community members to help us fulfill this goal. It is our hope that you and/or your organization will sponsor our new initiative. 
+        We are asking for your support. We are hoping to raise $60,000 to purchase, retrofit, furnish and insure our new Family Literacy Centre on Wheels. We are looking to our fellow community members to help us fulfill this goal. 
 
 
         The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donations. As well, we will put your logo on the bus.
