@@ -21,7 +21,7 @@ contentBlocks:
         We are asking for your support. We are hoping to raise $60,000 to purchase, retrofit, furnish and insure our new Family Literacy Centre on Wheels. We are looking to our fellow community members to help us fulfill this goal. 
 
 
-        The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donations. As well, we will put your logo on the bus.
+        The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donations. As well, we will put the logos of sponsoring organizations on our bus. 
 
 
         Please follow the link below to donate, or give us a call for more information at 668-6535. Thank you!
