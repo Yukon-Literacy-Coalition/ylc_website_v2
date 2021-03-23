@@ -108,7 +108,7 @@ const subTitle = (text) => ({
   name: "subTitle",
   widget: "string",
   required: false,
-  hint: "PLEASE use Sub Titles, they make the page look much nicer. :)"
+  hint: "PLEASE use Sub Titles, they make the page look much nicer. :)",
 });
 
 const contentsBlock = {
@@ -137,16 +137,17 @@ const currentURL = "http://yukonliteracy.com/";
 
 module.exports = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
-  // BACKEND for DEV
   // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   // },
+  // BACKEND for DEV
+  // run npx netlify-cms-proxy-server in root dir
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
@@ -223,6 +224,18 @@ module.exports = {
         { label: "Title", name: "title", widget: "string" },
         { label: "Body", name: "body", widget: "markdown" },
         imagesList,
+      ],
+    },
+    {
+      name: "donate",
+      label: "Donate",
+      folder: "src/_donate",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
       ],
     },
     {

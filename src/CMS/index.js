@@ -22,6 +22,7 @@ import ProjectHighlight from "../shared/ProjectHighlight";
 import FLC from "../Family/FLC";
 import { Imagine } from "../Family/Imagine";
 import { AboutCommunity } from "../Community";
+import { Donate } from "../Donate";
 import { FinLit } from "../Community/FinLit";
 import { SupportersLogos } from "../About/Supporters";
 
@@ -131,6 +132,9 @@ const NetlifyCMS = (props) => {
       );
       CMS.registerPreviewTemplate("aboutCommunity", (previewProps) =>
         DataAndStyleInjection(previewProps, AboutCommunity, "aboutCommunity")
+      );
+      CMS.registerPreviewTemplate("donate", (previewProps) =>
+        DataAndStyleInjection(previewProps, Donate, "donate")
       );
       CMS.registerPreviewTemplate("financialLiteracy", (previewProps) =>
         DataAndStyleInjection(previewProps, FinLit, "financialLiteracy")

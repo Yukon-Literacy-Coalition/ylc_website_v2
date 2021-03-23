@@ -150,7 +150,7 @@ const TopNavLinks = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-column-end: 11;
   ${mq[2]} {
     display: none;
@@ -165,6 +165,7 @@ export const BasicNav = (props) => {
       <DDButton to="/community" text="Community Initiatives" />
       <DDButton to="/news" text="News" />
       <DDButton to="/events" text="Events" />
+      <DDButton to="/donate" text="Donate" />
       <DDButton to="/contact" text="Contact" />
     </BasicNavContainer>
   );
@@ -415,6 +416,7 @@ const Navigation = (props) => {
           </DropDownContainer>
           <DDButton to="/news" text="News" />
           <DDButton to="/events" text="Events" />
+          <DDButton to="/donate" text="Donate" />
           <DDButton to="/contact" text="Contact" />
         </TopNavLinks>
         <SocialsMainNav>

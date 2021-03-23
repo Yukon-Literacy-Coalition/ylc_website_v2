@@ -132,6 +132,10 @@ export default {
     // flc resources
     const familyResources = await getPosts("./src/_family-resources");
 
+    // donate
+    const donateArray = await getPosts("./src/_donate");
+    const donate = donateArray?.[0];
+
     return [
       // HOME SECTION
       {
@@ -143,6 +147,14 @@ export default {
           events,
           announcements,
           highlightedProjects,
+        }),
+      },
+      // DONATE SECTION
+      {
+        path: "/donate",
+        template: "src/Donate",
+        getData: async () => ({
+          donate,
         }),
       },
       // CONTACT SECTION
