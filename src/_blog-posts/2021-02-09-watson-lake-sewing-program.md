@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-02-09T17:38:09.115Z
 articleTitle: Watson Lake Sewing Program
-thumbnail: /uploads/yukon-literacy-coalition.docx-82-.jpg
+thumbnail: /uploads/resized_20210325_155225.jpg
 contentBlocks:
   - contentBlock:
       subTitle: Watson Lake Sewing Program
@@ -15,4 +15,5 @@ contentBlocks:
         - image: /uploads/yukon-literacy-coalition.docx-82-.jpg
         - image: /uploads/img_6727.jpg
         - image: /uploads/img_6728.jpg
+        - image: /uploads/resized_20210325_155225.jpg
 ---
