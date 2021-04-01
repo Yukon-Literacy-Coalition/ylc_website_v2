@@ -1,13 +1,13 @@
 ---
 layout: blog
 date: 2021-03-16T15:26:09.867Z
-articleTitle: Family Literacy Centre on Wheels
+articleTitle: Please Donate to the Family Literacy Centre on Wheels
 thumbnail: /uploads/bus-cartoon.tiff
 contentBlocks:
   - contentBlock:
       body: >-
         In response to Covid-19 not allowing us to travel to Yukon communities
-        as much as we typically would, we have decided to create a Family
+        as much as we typically would, we raising $60,000 to have a Family
         Literacy Centre on Wheels: a retrofitted 24 passenger bus in which we
         can provide free family literacy programming, including crafts, games
         and storytelling. The bus will be stocked with a free library and
