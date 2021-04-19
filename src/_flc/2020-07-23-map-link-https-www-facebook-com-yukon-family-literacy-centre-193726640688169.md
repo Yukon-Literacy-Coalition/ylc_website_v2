@@ -35,6 +35,6 @@ contentBlocks:
         - image: /uploads/flc-space.jpg
       downloads:
         - downloadObject:
-            downloadLink: /uploads/flc-covid.jpg
+            downloadLink: /uploads/flc-spring-schedule.jpg
             downloadText: Download Schedule
 ---
