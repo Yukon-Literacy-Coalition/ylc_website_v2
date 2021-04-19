@@ -298,8 +298,8 @@ module.exports = {
       name: "announcements",
       label: "Announcements",
       folder: "src/_announcements",
-      create: false,
-      delete: false,
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -310,6 +310,8 @@ module.exports = {
           name: "displayAnnouncement",
           widget: "boolean",
           default: false,
+          hint:
+            "The homepage will only show the most recently created announcement that has this toggled 'on'. If many announcements have this toggled 'on', then it will only show the announcement that is most recently created (NOT the announcement that was most recently edited).",
         },
       ],
     },
