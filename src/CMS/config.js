@@ -142,7 +142,7 @@ module.exports = {
     repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   },
   // BACKEND for DEV
-  // run npx netlify-cms-proxy-server in root dir
+  // run "npx netlify-cms-proxy-server" in root dir
   // backend: {
   //   name: "proxy",
   //   proxy_url: "http://localhost:8081/api/v1",
@@ -298,7 +298,8 @@ module.exports = {
       name: "announcements",
       label: "Announcements",
       folder: "src/_announcements",
-      create: true,
+      create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },

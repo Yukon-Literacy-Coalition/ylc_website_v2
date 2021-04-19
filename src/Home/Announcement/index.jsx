@@ -13,7 +13,6 @@ const Title = styled.div`
 const Body = styled.div`
   grid-column: span 13;
   ${(p) => p.theme.fonts.body_text}
-  text-align: center;
 `;
 
 const ButtonContainer = styled.div`
