@@ -27,8 +27,11 @@ contentBlocks:
         Please follow the link below to donate, or give us a call for more information at 668-6535.
       links:
         - linkObject:
-            linkText: Donate Here
+            linkText: Donate
             linkLocation: https://www.canadahelps.org/en/dn/60323
+        - linkObject:
+            linkLocation: https://www.canadahelps.org/en/dn/60323
+            linkText: Donner
       images:
         - image: /uploads/bus-cartoon.tiff
 ---
