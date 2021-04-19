@@ -29,9 +29,35 @@ contentBlocks:
         - linkObject:
             linkText: Donate
             linkLocation: https://www.canadahelps.org/en/dn/60323
-        - linkObject:
-            linkLocation: https://www.canadahelps.org/en/dn/60323
-            linkText: Donner
       images:
         - image: /uploads/bus-cartoon.tiff
+  - contentBlock:
+      subTitle: Le Centre d’alphabétisation familiale sur roues
+      body: >-
+        Nous opérons un Centre d’alphabétisation familiale très actif au Centre
+        des jeux du Canada et au parc Shipyards à Whitehorse. Nous offrons de la
+        programmation quotidienne qui permet aux familles de se rassembler pour
+        apprendre par le jeu.
+
+
+        Nous offrons également une programmation sur place dans les communautés éloignées lorsque les conditions le permettent.
+
+
+        Malheureusement, l’année qui vient de passer n’a pas été des meilleures. La COVID-19 a imposé des restrictions qui ont énormément affecté nos vies et nos habitudes. Pour la Yukon Literacy Coalition, en particulier, nous n’avons pas pu nous rendre dans les communautés pour nos activités sur place. En revanche, nous avons pris la décision d’étendre les services du Centre d’alphabétisation familiale en aménageant une wagonnette 24-passagers en centre d’activités mobile à partir de laquelle nous pourrons offrir des activités de toutes sortes, et inclure une bibliothèque de livres à donner et des ressources pour aider les parents à soutenir le développement langagier de leur enfant.
+
+
+        Le Centre d’alphabétisation familiale sur roues nous permettra de rendre visite et d’offrir notre programmation dans les communautés éloignées et les rassemblements publics, comme les festivals, les camps de pêche, les camps culturels, les rassemblements généraux et les camps d’été.
+
+
+        Nous sollicitons votre appui afin de générer 60 000 $ de fonds pour l’achat, la transformation, l’équipement et l’entretien de notre nouveau centre mobile.
+
+
+        La Yukon Literacy Coalition est un organisme de bienfaisance enregistré et peut offrir des reçus pour votre don.
+
+
+        Pour faire un don, suivez le lien plus bas ou appelez-nous pour de plus amples détails au 867 668-6535.
+      links:
+        - linkObject:
+            linkText: Donner
+            linkLocation: https://www.canadahelps.org/en/dn/60323
 ---
