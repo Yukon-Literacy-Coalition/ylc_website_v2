@@ -62,4 +62,20 @@ contentBlocks:
             linkLocation: https://www.canadahelps.org/en/dn/60323
       images:
         - image: /uploads/bus-cartoon.tiff
+  - contentBlock:
+      subTitle: Fundraiser with Epicure
+      links:
+        - linkObject:
+            linkLocation: https://www.facebook.com/groups/yukonliteracyfundraiser
+      images:
+        - image: /uploads/screen-shot-2021-04-20-at-11.05.11-am.png
+        - image: /uploads/screen-shot-2021-04-20-at-11.05.18-am.png
+      body: >-
+        Are you looking for some quick and delicious meal ideas for dinner? We
+        are fundraising for our Family Literacy Centre on wheels with Epicure!
+        For only $25 you get 5 meal packs and one chocolate pudding pack. If you
+        have any questions - contact Share Magill at 867-333-9405. 
+
+
+        Thank you for supporting the Yukon Literacy Coalition!
 ---
