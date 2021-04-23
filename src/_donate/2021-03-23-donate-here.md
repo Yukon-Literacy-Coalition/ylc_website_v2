@@ -68,8 +68,9 @@ contentBlocks:
         - linkObject:
             linkLocation: https://docs.google.com/forms/d/e/1FAIpQLSd0HeF01vGp3qrGI7UTQ9DSyzUurPhCOxCPKLdinQwqbOY9Nw/viewform
       images:
-        - image: /uploads/screen-shot-2021-04-20-at-11.05.11-am.png
+        - image: /uploads/fundraisers_social_may2020_en.jpg
         - image: /uploads/screen-shot-2021-04-20-at-11.05.18-am.png
+        - image: /uploads/screen-shot-2021-04-23-at-9.19.46-am.png
       body: >-
         Are you looking for some quick and delicious meal ideas for dinner? We
         are fundraising for our Family Literacy Centre on wheels with Epicure!
