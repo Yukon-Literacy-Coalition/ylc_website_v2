@@ -1,12 +1,10 @@
 ---
-title: We're buying a Family Literacy Centre on Wheels!
+title: Please donate!
 link: http://yukonliteracy.com/donate
 displayAnnouncement: true
 ---
-We operate a successful and flourishing Family Literacy Centre in the Canada Games Centre and Shipyards Park, where we offer free daily programming for families to come and learn together through play.
+![](/uploads/bus-cartoon.tiff)
 
-We also, at the best of times, travel to all Yukon communities with our outreach program.
-
-In response to Covid-19 not allowing us to travel to Yukon communities as much as we typically would, we are raising $60,000 to have a Family Literacy Centre on Wheels: a retrofitted 24 passenger bus in which we can provide free family literacy programming, including crafts, games and storytelling. The bus will be stocked with a free library and resources that will help parents support their children’s language and literacy development.
+We are raising $60,000 for a Family Literacy Centre on Wheels to provide free family literacy programming, including crafts, games and storytelling in rural Yukon communities. 
 
 Click the link below for more information on the bus and how to donate!
