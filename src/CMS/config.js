@@ -4,8 +4,7 @@ const imagesList = {
   widget: "list",
   summary: `{{fields.image}}`,
   fields: [{ label: "Image", name: "image", widget: "image" }],
-  hint:
-    "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares. If you are only adding one image, then consider adding it to the body area.",
+  hint: "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares. If you are only adding one image, then consider adding it to the body area.",
 };
 
 const linkUrlString = {
@@ -13,8 +12,7 @@ const linkUrlString = {
   name: "link",
   widget: "string",
   required: false,
-  hint:
-    "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
+  hint: "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
 };
 
 const linkTextString = {
@@ -34,8 +32,7 @@ const linkObject = {
       name: "linkLocation",
       widget: "string",
       required: false,
-      hint:
-        "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
+      hint: "This is optional. It must be a FULL link with the http signature such as 'http://www.google.com' (easiest just to copy it from the browser)",
     },
     {
       label: "Link Text",
@@ -166,15 +163,13 @@ module.exports = {
           label: "Publish Date And Title",
           name: "date",
           widget: "datetime",
-          hint:
-            "If this is a new article remember to press NOW to ensure that you are using today's date!",
+          hint: "If this is a new article remember to press NOW to ensure that you are using today's date!",
         },
         {
           label: "Article Name",
           name: "articleTitle",
           widget: "string",
-          hint:
-            "this is required in order to title the blog post in the list of blog posts",
+          hint: "this is required in order to title the blog post in the list of blog posts",
         },
         { label: "Author", name: "author", widget: "string", required: false },
         {
@@ -201,15 +196,13 @@ module.exports = {
           widget: "datetime",
           dateFormat: "DD MMMM YYYY",
           timeFormat: "h:mm a",
-          hint:
-            "NOTE: Events will disappear from the website once 24 hours have passed from their start date/time. They will still exist here in the backend and can be made visible again by making their start date/time somewhere in the future.",
+          hint: "NOTE: Events will disappear from the website once 24 hours have passed from their start date/time. They will still exist here in the backend and can be made visible again by making their start date/time somewhere in the future.",
         },
         {
           label: "Event Name",
           name: "eventTitle",
           widget: "string",
-          hint:
-            "this is required in order to title the event in the list of events",
+          hint: "this is required in order to title the event in the list of events",
         },
         contentsBlock,
       ],
@@ -310,8 +303,7 @@ module.exports = {
           name: "displayAnnouncement",
           widget: "boolean",
           default: false,
-          hint:
-            "The homepage will only show the most recently created announcement that has this toggled 'on'. If many announcements have this toggled 'on', then it will only show the announcement that is most recently created (NOT the announcement that was most recently edited).",
+          hint: "The homepage will only show the most recently created announcement that has this toggled 'on'. If many announcements have this toggled 'on', then it will only show the announcement that is most recently created (NOT the announcement that was most recently edited).",
         },
       ],
     },
@@ -441,6 +433,66 @@ module.exports = {
         },
         { label: "Body", name: "body", widget: "markdown" },
         { label: "Image", name: "image", widget: "image" },
+      ],
+    },
+    {
+      name: "aboutFood",
+      label: "About Food Security",
+      folder: "src/_about-food",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "foodPrograms",
+      label: "Food Security Programs",
+      folder: "src/_food-programs",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "foodGarden",
+      label: "Community Garden",
+      folder: "src/_food-garden",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "foodResourceAbout",
+      label: "Food Resources - About",
+      folder: "src/_food-resources-about",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "foodResourcePlanting",
+      label: "Food Resources - Planting",
+      folder: "src/_food-resources-planting",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
       ],
     },
   ],

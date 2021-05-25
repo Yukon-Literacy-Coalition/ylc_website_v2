@@ -65,6 +65,7 @@ export default {
     </Html>
   ),
   getRoutes: async () => {
+    //NEWS
     //posts
     const _posts = await getPosts("./src/_blog-posts");
     const sortedPosts = _posts.sort((a, b) => b.date - a.date);
@@ -76,6 +77,7 @@ export default {
     const sortedEvents = filteredEvents.sort((a, b) => a.date - b.date);
     const events = sortedEvents.map(addSlug);
 
+    // HOMEPAGE
     //words
     const words = await getPosts("./src/_rotating-words");
 
@@ -85,6 +87,7 @@ export default {
     //highlighted projects
     const highlightedProjects = await getPosts("./src/_highlighted-projects");
 
+    // COMMUNITY
     //outreach
     const _outreachProjects = await getPosts("./src/_outreach-projects");
     const outreachProjects = _outreachProjects.map(addSlug);
@@ -97,12 +100,15 @@ export default {
     const aboutCommunityArray = await getPosts("./src/_about-community");
     const aboutCommunity = aboutCommunityArray?.[0];
 
+    // OPPORTUNITIES
     //job opportunities
     const jobOpportunities = await getPosts("./src/_job-opportunities");
 
+    // FINANCIAL
     // finacial statements
     const statements = await getPosts("./src/_statements");
 
+    // ABOUT
     // staff
     const staff = await getPosts("./src/_staff");
 
@@ -112,6 +118,7 @@ export default {
     // online tools
     // const onlineTools = await getPosts("./src/_online-tools");
 
+    // FLC
     // family literacy center
     const flcArray = await getPosts("./src/_flc");
     const flc = flcArray?.[0];
@@ -135,6 +142,23 @@ export default {
     // donate
     const donateArray = await getPosts("./src/_donate");
     const donate = donateArray?.[0];
+
+    // FOOD
+    const _aboutFoodArray = await getPosts("./src/_about-food");
+    const aboutFood = _aboutFoodArray?.[0];
+
+    const _foodProgramsArray = await getPosts("./src/_food-programs");
+    const foodPrograms = _foodProgramsArray?.[0];
+
+    const _foodGardenArray = await getPosts("./src/_food-garden");
+    const foodGarden = _foodGardenArray?.[0];
+
+    const _aboutFoodResourcesArray = await getPosts(
+      "./src/_food-resources-about"
+    );
+    const aboutFoodResources = _aboutFoodResourcesArray?.[0];
+
+    // FOOD RESOURCES
 
     return [
       // HOME SECTION
@@ -254,6 +278,35 @@ export default {
         template: "src/Community/FinLit",
         getData: async () => ({
           financialLiteracy,
+        }),
+      },
+      // FOOD SECTIONS
+      {
+        path: "/food",
+        template: "src/Food",
+        getData: async () => ({
+          aboutFood,
+        }),
+      },
+      {
+        path: "/food/programs",
+        template: "src/Food/Programs",
+        getData: async () => ({
+          foodPrograms,
+        }),
+      },
+      {
+        path: "/food/programs",
+        template: "src/Food/Garden",
+        getData: async () => ({
+          foodGarden,
+        }),
+      },
+      {
+        path: "/food/programs",
+        template: "src/Food/Resources",
+        getData: async () => ({
+          aboutFoodResources,
         }),
       },
       // NEWS SECTIONS

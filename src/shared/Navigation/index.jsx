@@ -226,6 +226,21 @@ const FamilyLinks = () => (
   </LinksContainer>
 );
 
+const foodLiteracyLinks = [
+  <RRLink to="/food">What is Food literacy?</RRLink>,
+  <RRLink to="/food/programs">Programs</RRLink>,
+  <RRLink to="/food/garden">Community Garden</RRLink>,
+  <RRLink to="/food/resources">Resources</RRLink>,
+];
+
+const FoodLiteracyLinks = () => (
+  <LinksContainer>
+    {foodLiteracyLinks.map((lnk, i) => (
+      <SubLinkContainer key={"famLink" + i}>{lnk}</SubLinkContainer>
+    ))}
+  </LinksContainer>
+);
+
 const getCommunityLinksArray = ({ communityLinks }) => {
   const generatedLinks =
     !!communityLinks?.length &&
@@ -412,6 +427,15 @@ const Navigation = (props) => {
                 <div />
               </DDImgContainer>
               <CommunityLinks communityLinks={communityLinks} />
+            </DropDownContent>
+          </DropDownContainer>
+          <DropDownContainer>
+            <DDButton text="Food Literacy" />
+            <DropDownContent>
+              <DDImgContainer image={communityMenuImage}>
+                <div />
+              </DDImgContainer>
+              <FoodLiteracyLinks />
             </DropDownContent>
           </DropDownContainer>
           <DDButton to="/news" text="News" />
