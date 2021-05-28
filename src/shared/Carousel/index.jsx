@@ -9,6 +9,7 @@ import {
 import { ModalLayer, ModalContent } from "../Modal";
 import { useWindowDimensions } from "../../utilsJSX";
 import { mq, mqO } from "../../theme";
+import ReactPlayer from "react-player";
 
 const CarouselContainer = styled.div`
   grid-column: span 12;
@@ -20,8 +21,8 @@ const CarouselContainer = styled.div`
   }
 `;
 
-const ImageWrapper = styled.div`
-  background-color: ${(p) => p.imagesLength > 1 && p.theme.colors.light_accent};
+const MediaWrapper = styled.div`
+  background-color: ${(p) => p.mediaLength > 1 && p.theme.colors.light_accent};
   width: 100%;
   padding: 2px;
   margin: 5px;
@@ -51,6 +52,11 @@ const Img = styled.div`
 //   max-height: 120%;
 // `;
 
+const VideoContainer = styled.div`
+  height: 200px;
+  margin: 5px;
+`;
+
 const SectionContainer = styled(ImportedSectionContainer)`
   /* background-color: ${(p) => p.theme.colors.light_accent}; */
   padding: 0;
@@ -61,10 +67,10 @@ const CarouselComponent = (props) => {
   const { width } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState(false);
-  const { images } = props;
+  const { images, media } = props;
 
-  const imagesToShow =
-    images?.length === 1
+  const mediaToShow =
+    (images?.length || media?.length) === 1
       ? 1
       : width > 800 && images?.length > 2
       ? 3
@@ -74,6 +80,8 @@ const CarouselComponent = (props) => {
       ? 2
       : 1;
 
+  console.log({ media, mediaToShow });
+
   const onOverlayClick = () => setCurrentImage(false);
 
   return (
@@ -82,15 +90,15 @@ const CarouselComponent = (props) => {
         <MarginedContainer>
           <CarouselContainer>
             <Carousel
-              itemsToShow={imagesToShow}
+              itemsToShow={mediaToShow}
               {...props}
               pagination={false}
-              showArrows={images?.length > 2}
+              showArrows={images?.length > 2 || media?.length > 2}
             >
-              {!!images.length &&
-                images.map(({ image }, i) => (
-                  <ImageWrapper
-                    imagesLength={images?.length}
+              {!!images?.length &&
+                images?.map(({ image }, i) => (
+                  <MediaWrapper
+                    mediaLength={images?.length}
                     onClick={() => {
                       setModalVisible(true);
                       setCurrentImage(image);
@@ -98,8 +106,42 @@ const CarouselComponent = (props) => {
                     key={image + i}
                   >
                     <Img image={image} />
-                  </ImageWrapper>
+                  </MediaWrapper>
                 ))}
+              {!!media?.length &&
+                media?.map((element, i) => {
+                  const isImg = !!element?.imagesVideos?.image?.length;
+                  console.log({ element });
+                  console.log(element?.imagesVideos?.image);
+                  console.log(isImg);
+                  return (
+                    <MediaWrapper
+                      mediaLength={media?.length}
+                      onClick={() => {
+                        if (isImg) {
+                          setModalVisible(true);
+                          setCurrentImage(element?.imagesVideos?.image);
+                        }
+                      }}
+                      key={
+                        (element?.imagesVideos?.image ||
+                          element?.imagesVideos?.videoLink) + i
+                      }
+                    >
+                      <>
+                        {isImg ? (
+                          <Img image={element?.imagesVideos?.image} />
+                        ) : (
+                          <VideoContainer>
+                            <ReactPlayer
+                              url={element?.imagesVideos?.videoLink}
+                            />
+                          </VideoContainer>
+                        )}
+                      </>
+                    </MediaWrapper>
+                  );
+                })}
             </Carousel>
           </CarouselContainer>
         </MarginedContainer>

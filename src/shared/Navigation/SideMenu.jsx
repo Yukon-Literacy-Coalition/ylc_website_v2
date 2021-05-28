@@ -63,6 +63,7 @@ export const SideMenu = ({
   getCommunityLinksArray,
   aboutLinksArray,
   familyLinksArray,
+  foodLiteracyLinksArray,
 }) => {
   const communityLinksArray = getCommunityLinksArray({ communityLinks });
 
@@ -125,7 +126,7 @@ export const SideMenu = ({
             return (
               <Menu.Item
                 onClick={() => setSideMenuVisible(false)}
-                key={"about" + i}
+                key={"famlit" + i}
               >
                 {lnk}
               </Menu.Item>
@@ -141,7 +142,23 @@ export const SideMenu = ({
             return (
               <Menu.Item
                 onClick={() => setSideMenuVisible(false)}
-                key={"about" + i}
+                key={"com" + i}
+              >
+                {lnk}
+              </Menu.Item>
+            );
+          })}
+        </SubMenu>
+        <SubMenu
+          key="food"
+          title={<span>Food Security</span>}
+          style={{ width: 256 }}
+        >
+          {foodLiteracyLinksArray.map((lnk, i) => {
+            return (
+              <Menu.Item
+                onClick={() => setSideMenuVisible(false)}
+                key={"food" + i}
               >
                 {lnk}
               </Menu.Item>

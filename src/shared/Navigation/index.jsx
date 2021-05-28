@@ -5,7 +5,7 @@ import { useSiteData } from "react-static";
 import styled from "@emotion/styled";
 import logo from "../../assets/dark_flake.png";
 import ham from "../../assets/ham.svg";
-import { mq } from "../../theme";
+import { mq, mqNew } from "../../theme";
 
 import { MarginedContainer } from "../Layout";
 import facebookIcon from "../../assets/fb.svg";
@@ -18,6 +18,10 @@ import aboutMenuImage from "../../assets/bookBike.jpg";
 import familyMenuImage from "../../assets/wallTent.jpg";
 import communityMenuImage from "../../assets/whitehorse.jpg";
 // import Loader from "../Loader";
+
+//MQ for switching menu
+
+const menuSwitch = mqNew(975);
 
 //
 // DROP DOWN
@@ -152,7 +156,7 @@ const TopNavLinks = styled.div`
   height: 100%;
   grid-column-start: 2;
   grid-column-end: 11;
-  ${mq[2]} {
+  ${menuSwitch} {
     display: none;
   }
 `;
@@ -163,6 +167,7 @@ export const BasicNav = (props) => {
       <DDButton to="/about" text="About" />
       <DDButton to="/family" text="Family Literacy" />
       <DDButton to="/community" text="Community Initiatives" />
+      <DDButton to="/food" text="Food Security" />
       <DDButton to="/news" text="News" />
       <DDButton to="/events" text="Events" />
       <DDButton to="/donate" text="Donate" />
@@ -226,8 +231,8 @@ const FamilyLinks = () => (
   </LinksContainer>
 );
 
-const foodLiteracyLinks = [
-  <RRLink to="/food">What is Food literacy?</RRLink>,
+const foodLiteracyLinksArray = [
+  <RRLink to="/food">What is Food Security?</RRLink>,
   <RRLink to="/food/programs">Programs</RRLink>,
   <RRLink to="/food/garden">Community Garden</RRLink>,
   <RRLink to="/food/resources">Resources</RRLink>,
@@ -235,7 +240,7 @@ const foodLiteracyLinks = [
 
 const FoodLiteracyLinks = () => (
   <LinksContainer>
-    {foodLiteracyLinks.map((lnk, i) => (
+    {foodLiteracyLinksArray.map((lnk, i) => (
       <SubLinkContainer key={"famLink" + i}>{lnk}</SubLinkContainer>
     ))}
   </LinksContainer>
@@ -291,7 +296,7 @@ const SocialsMainNav = styled.span`
   align-items: center;
   padding-top: 2px;
   padding-left: 20px;
-  ${mq[2]} {
+  ${menuSwitch} {
     display: none;
   }
 `;
@@ -299,7 +304,7 @@ const SocialsMainNav = styled.span`
 const LogoSection = styled.div`
   display: flex;
   justify-content: center;
-  ${mq[2]} {
+  ${menuSwitch} {
     grid-column-start: 6;
     grid-column-end: 8;
   }
@@ -344,7 +349,7 @@ const HamburgerContainer = styled.div`
   grid-column: span 2;
   display: none;
   cursor: pointer;
-  ${mq[2]} {
+  ${menuSwitch} {
     display: block;
   }
 `;
@@ -387,6 +392,7 @@ const Navigation = (props) => {
             getCommunityLinksArray,
             aboutLinksArray,
             familyLinksArray,
+            foodLiteracyLinksArray,
           }}
         />
         <HamburgerContainer>
@@ -430,7 +436,7 @@ const Navigation = (props) => {
             </DropDownContent>
           </DropDownContainer>
           <DropDownContainer>
-            <DDButton text="Food Literacy" />
+            <DDButton text="Food Security" />
             <DropDownContent>
               <DDImgContainer image={communityMenuImage}>
                 <div />

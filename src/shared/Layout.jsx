@@ -20,3 +20,7 @@ export const BodyText = styled.div`
   grid-column-end: 12;
   ${(p) => p.theme.fonts.body_text}
 `;
+export const BodyTextSideBySide = styled.div`
+  grid-column: span 6;
+  ${(p) => p.theme.fonts.body_text}
+`;

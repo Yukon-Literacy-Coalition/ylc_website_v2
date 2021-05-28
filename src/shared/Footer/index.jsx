@@ -37,7 +37,7 @@ const MarginedFooter = styled(MarginedContainer)`
 const BasicNavContainer = styled.div`
   grid-column-start: 1;
   grid-column-end: 13;
-  ${mq[1]} {
+  ${mq[2]} {
     display: none;
   }
 `;

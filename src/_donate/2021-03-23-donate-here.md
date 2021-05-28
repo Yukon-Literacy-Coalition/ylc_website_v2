@@ -2,6 +2,53 @@
 title: Fundraising Initiative
 contentBlocks:
   - contentBlock:
+      subTitle: Test Block
+      imagesVideosList:
+        - imagesVideos:
+            image: ""
+            videoLink: https://www.youtube.com/watch?v=SydJNGx_L6I
+        - imagesVideos:
+            videoLink: https://www.youtube.com/watch?v=SydJNGx_L6I
+        - imagesVideos:
+            image: /uploads/1.jpg
+            videoLink: https://www.youtube.com/watch?v=SydJNGx_L6I
+        - imagesVideos:
+            videoLink: https://www.youtube.com/watch?v=vXHDvKSNvbU
+      sideBySideBody:
+        imagesVideos:
+          image: /uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg
+        body: >-
+          The Family Literacy Centre on Wheels will allow us to visit and
+          deliver programs in rural communities and gatherings including
+          festivals, fish camps, culture camps, general assemblies and kids
+          summer camps.
+
+
+          We are asking for your support. We are hoping to raise $60,000 to purchase, retrofit, furnish and insure our new Family Literacy Centre on Wheels. We are looking to our fellow community members to help us fulfill this goal.
+
+
+          The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donati
+      images:
+        - image: /uploads/35792952_1828090690585081_2243635003546140672_o.jpg
+        - image: /uploads/8aec62eb-29a3-4c11-b264-a2695cf4c080_1_105_c.jpeg
+        - image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
+  - contentBlock:
+      sideBySideBody:
+        body: >-
+          The Family Literacy Centre on Wheels will allow us to visit and
+          deliver programs in rural communities and gatherings including
+          festivals, fish camps, culture camps, general assemblies and kids
+          summer camps.
+
+
+          We are asking for your support. We are hoping to raise $60,000 to purchase, retrofit, furnish and insure our new Family Literacy Centre on Wheels. We are looking to our fellow community members to help us fulfill this goal.
+
+
+          The Yukon Literacy Coalition is a registered charity and can offer tax receipts for donati
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=SydJNGx_L6I
+      subTitle: Another Test
+  - contentBlock:
       subTitle: Family Literacy Centre on Wheels
       body: >-
         We operate a successful and flourishing Family Literacy Centre in the
@@ -30,7 +77,7 @@ contentBlocks:
             linkText: Donate
             linkLocation: https://www.canadahelps.org/en/dn/60323
       images:
-        - image: /uploads/bus-cartoon.tiff
+        - image: /uploads/bus-top2.jpg
   - contentBlock:
       subTitle: Le Centre d’alphabétisation familiale sur roues
       body: >-
@@ -61,7 +108,7 @@ contentBlocks:
             linkText: Donner
             linkLocation: https://www.canadahelps.org/en/dn/60323
       images:
-        - image: /uploads/bus-cartoon.tiff
+        - image: /uploads/bus-top2.jpg
   - contentBlock:
       subTitle: Fundraiser with Epicure
       links:

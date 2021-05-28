@@ -25,6 +25,14 @@ import { AboutCommunity } from "../Community";
 import { Donate } from "../Donate";
 import { FinLit } from "../Community/FinLit";
 import { SupportersLogos } from "../About/Supporters";
+import { AboutFoodSecurity } from "../Food";
+import { CommunityGarden } from "../Food/Garden";
+import { FoodSecurityPrograms } from "../Food/Programs";
+import { AboutFoodResources } from "../Food/Resources";
+import { Planting } from "../Food/Planting";
+import { Maintaining } from "../Food/Maintaining";
+import { Troubleshooting } from "../Food/Troubleshooting";
+import { Harvesting } from "../Food/Harvesting";
 
 const ComponentContainer = styled.div`
   padding-top: 20px;
@@ -144,6 +152,43 @@ const NetlifyCMS = (props) => {
       );
       CMS.registerPreviewTemplate("familyResources", (previewProps) =>
         DataAndStyleInjection(previewProps, ProjectHighlight, "project", true)
+      );
+      // NEW
+      CMS.registerPreviewTemplate("aboutFoodSecurity", (previewProps) =>
+        DataAndStyleInjection(
+          previewProps,
+          AboutFoodSecurity,
+          "aboutFoodSecurity"
+        )
+      );
+      CMS.registerPreviewTemplate("communityGarden", (previewProps) =>
+        DataAndStyleInjection(previewProps, CommunityGarden, "communityGarden")
+      );
+      CMS.registerPreviewTemplate("foodSecurityPrograms", (previewProps) =>
+        DataAndStyleInjection(
+          previewProps,
+          FoodSecurityPrograms,
+          "foodSecurityPrograms"
+        )
+      );
+      CMS.registerPreviewTemplate("aboutFoodResources", (previewProps) =>
+        DataAndStyleInjection(
+          previewProps,
+          AboutFoodResources,
+          "aboutFoodResources"
+        )
+      );
+      CMS.registerPreviewTemplate("planting", (previewProps) =>
+        DataAndStyleInjection(previewProps, Planting, "planting")
+      );
+      CMS.registerPreviewTemplate("maintaining", (previewProps) =>
+        DataAndStyleInjection(previewProps, Maintaining, "maintaining")
+      );
+      CMS.registerPreviewTemplate("troubleshooting", (previewProps) =>
+        DataAndStyleInjection(previewProps, Troubleshooting, "troubleshooting")
+      );
+      CMS.registerPreviewTemplate("harvesting", (previewProps) =>
+        DataAndStyleInjection(previewProps, Harvesting, "harvesting")
       );
       CMS.init({ config });
     }

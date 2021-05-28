@@ -105,8 +105,42 @@ const subTitle = (text) => ({
   name: "subTitle",
   widget: "string",
   required: false,
-  hint: "PLEASE use Sub Titles, they make the page look much nicer. :)",
+  hint: "PLEASE use Sub Titles, they create spacing between content blocks and make the page look much nicer. :)",
 });
+
+const imagesVideosObject = {
+  label: "Images And Videos",
+  name: "imagesVideos",
+  widget: "object",
+  hint: "If there is an image, the video will NOT be displayed",
+  fields: [
+    { label: "Image", name: "image", widget: "image", required: false },
+    {
+      label: "Video Link",
+      name: "videoLink",
+      widget: "string",
+      required: false,
+      hint: "Make sure to copy and paste the full URL.",
+    },
+  ],
+};
+
+const imagesVideos = {
+  label: "Images and Videos List",
+  name: "imagesVideosList",
+  widget: "list",
+  fields: [imagesVideosObject],
+};
+
+const sideBySideBody = {
+  label: "Side By Side Body",
+  name: "sideBySideBody",
+  widget: "object",
+  fields: [
+    { label: "Body", name: "body", widget: "markdown", required: false },
+    imagesVideosObject,
+  ],
+};
 
 const contentsBlock = {
   label: "Content Blocks",
@@ -120,9 +154,11 @@ const contentsBlock = {
     fields: [
       subTitle(),
       { label: "Body", name: "body", widget: "markdown", required: false },
+      sideBySideBody,
       linksList,
       downloadsList,
       imagesList,
+      imagesVideos,
       resourceList,
     ],
   },
@@ -134,17 +170,17 @@ const currentURL = "http://yukonliteracy.com/";
 
 module.exports = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
+  // backend: {
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
+  // },
   // BACKEND for DEV
   // run "npx netlify-cms-proxy-server" in root dir
-  // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
-  // },
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
@@ -436,11 +472,11 @@ module.exports = {
       ],
     },
     {
-      name: "aboutFood",
+      name: "aboutFoodSecurity",
       label: "About Food Security",
-      folder: "src/_about-food",
-      create: false,
-      delete: false,
+      folder: "src/_about-food-security",
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -448,11 +484,11 @@ module.exports = {
       ],
     },
     {
-      name: "foodPrograms",
+      name: "foodSecurityPrograms",
       label: "Food Security Programs",
-      folder: "src/_food-programs",
-      create: false,
-      delete: false,
+      folder: "src/_food-security-programs",
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -460,11 +496,11 @@ module.exports = {
       ],
     },
     {
-      name: "foodGarden",
+      name: "communityGarden",
       label: "Community Garden",
-      folder: "src/_food-garden",
-      create: false,
-      delete: false,
+      folder: "src/_community-garden",
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -472,11 +508,11 @@ module.exports = {
       ],
     },
     {
-      name: "foodResourceAbout",
+      name: "aboutFoodResources",
       label: "Food Resources - About",
       folder: "src/_food-resources-about",
-      create: false,
-      delete: false,
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
@@ -484,11 +520,47 @@ module.exports = {
       ],
     },
     {
-      name: "foodResourcePlanting",
+      name: "planting",
       label: "Food Resources - Planting",
-      folder: "src/_food-resources-planting",
-      create: false,
-      delete: false,
+      folder: "src/_planting",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "maintaining",
+      label: "Food Resources - Maintaining",
+      folder: "src/_maintaining",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "troubleshooting",
+      label: "Food Resources - Troubleshooting",
+      folder: "src/_troubleshooting",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "harvesting",
+      label: "Food Resources - Harvesting",
+      folder: "src/_harvesting",
+      create: true,
+      delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },

@@ -7,6 +7,7 @@ import {
   MarginedContainer,
   SectionContainer as SectionContainerImport,
   BodyText as BodyTextImport,
+  BodyTextSideBySide,
 } from "../../shared/Layout";
 import { PageHeader, LargeButton, StyledMarkdown } from "../../shared/Features";
 import Carousel from "../../shared/Carousel";
@@ -17,9 +18,10 @@ import {
   DarkAndLightText,
 } from "../../shared/Type";
 import { mq } from "../../theme";
+import ReactPlayer from "react-player";
 
 const SectionHeader = styled(SectionHeaderImport)`
-  padding: 0px 10px;
+  padding: 15px 10px;
   padding-bottom: 0;
   ${mq[1]} {
     padding-top: 0;
@@ -53,8 +55,8 @@ const buttonMarginedStyles = css`
 const SectionContainer = styled(SectionContainerImport)`
   padding-top: ${(p) => (p?.subTitle ? "0px" : "auto")};
   padding-bottom: 0;
-  padding: 15px 0 15px 0;
-  padding-bottom: 50px;
+  /* padding: 15px 0 15px 0; */
+  /* padding-bottom: 50px; */
 `;
 
 const Author = styled.div`
@@ -79,6 +81,8 @@ const ContentSection = ({
   downloads,
   downloadText,
   resources,
+  sideBySideBody,
+  imagesVideosList,
 }) => {
   return (
     <>
@@ -99,6 +103,29 @@ const ContentSection = ({
                 escapeHtml={false}
               />
             </BodyText>
+          </MarginedContainer>
+        )}
+        {sideBySideBody && (
+          <MarginedContainer>
+            {sideBySideBody?.body && (
+              <BodyTextSideBySide>
+                <StyledMarkdown
+                  source={sideBySideBody?.body || "Body text needed"}
+                  escapeHtml={false}
+                />
+              </BodyTextSideBySide>
+            )}
+            {sideBySideBody?.imagesVideos && (
+              <BodyTextSideBySide>
+                {sideBySideBody?.imagesVideos?.image ? (
+                  <img src={sideBySideBody?.imagesVideos?.image} alt="" />
+                ) : sideBySideBody?.imagesVideos?.videoLink ? (
+                  <ReactPlayer url={sideBySideBody?.imagesVideos?.videoLink} />
+                ) : (
+                  <span />
+                )}
+              </BodyTextSideBySide>
+            )}
           </MarginedContainer>
         )}
         {(link || !!downloads?.length || !!links?.length) && (
@@ -153,6 +180,7 @@ const ContentSection = ({
         )}
         {children}
         {!!images?.length && <Carousel images={images} />}
+        {!!imagesVideosList?.length && <Carousel media={imagesVideosList} />}
         {!!resources?.length && (
           <MarginedContainer>
             {resources.map((project, i) => {
@@ -178,11 +206,9 @@ const Project = (props) => {
       <ProjectPageContainer>
         {!props?.contentBlocks?.length && <ContentSection {...props} />}
         {!!props?.contentBlocks?.length &&
-          props?.contentBlocks.map((block, i) => {
-            return (
-              <ContentSection key={"block" + i} {...block?.contentBlock} />
-            );
-          })}
+          props?.contentBlocks.map((block, i) => (
+            <ContentSection key={"block" + i} {...block?.contentBlock} />
+          ))}
       </ProjectPageContainer>
     </>
   );

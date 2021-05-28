@@ -143,20 +143,41 @@ export default {
     const donateArray = await getPosts("./src/_donate");
     const donate = donateArray?.[0];
 
+    // AboutFoodSecurity
+    // CommunityGarden
+    // FoodSecurityPrograms
+    // AboutFoodResources
+    // Planting
+    // Maintaining
+    // Troubleshooting
+    // Harvesting
+
     // FOOD
-    const _aboutFoodArray = await getPosts("./src/_about-food");
-    const aboutFood = _aboutFoodArray?.[0];
+    const _aboutFoodArray = await getPosts("./src/_about-food-security");
+    const aboutFoodSecurity = _aboutFoodArray?.[0];
 
-    const _foodProgramsArray = await getPosts("./src/_food-programs");
-    const foodPrograms = _foodProgramsArray?.[0];
+    const _foodProgramsArray = await getPosts("./src/_food-security-programs");
+    const foodSecurityPrograms = _foodProgramsArray?.[0];
 
-    const _foodGardenArray = await getPosts("./src/_food-garden");
-    const foodGarden = _foodGardenArray?.[0];
+    const _foodGardenArray = await getPosts("./src/_community-garden");
+    const communityGarden = _foodGardenArray?.[0];
 
     const _aboutFoodResourcesArray = await getPosts(
       "./src/_food-resources-about"
     );
     const aboutFoodResources = _aboutFoodResourcesArray?.[0];
+
+    const _planting = await getPosts("./src/_planting");
+    const planting = _planting?.[0];
+
+    const _maintaining = await getPosts("./src/_maintaining");
+    const maintaining = _maintaining?.[0];
+
+    const _troubleshooting = await getPosts("./src/_troubleshooting");
+    const troubleshooting = _troubleshooting?.[0];
+
+    const _harvesting = await getPosts("./src/_harvesting");
+    const harvesting = _harvesting?.[0];
 
     // FOOD RESOURCES
 
@@ -285,28 +306,57 @@ export default {
         path: "/food",
         template: "src/Food",
         getData: async () => ({
-          aboutFood,
+          aboutFoodSecurity,
         }),
       },
       {
         path: "/food/programs",
         template: "src/Food/Programs",
         getData: async () => ({
-          foodPrograms,
+          foodSecurityPrograms,
         }),
       },
       {
-        path: "/food/programs",
+        path: "/food/garden",
         template: "src/Food/Garden",
         getData: async () => ({
-          foodGarden,
+          communityGarden,
         }),
       },
       {
-        path: "/food/programs",
+        path: "/food/resources",
         template: "src/Food/Resources",
         getData: async () => ({
           aboutFoodResources,
+        }),
+      },
+      // resources
+      {
+        path: "/food/resources/planting",
+        template: "src/Food/Planting",
+        getData: async () => ({
+          planting,
+        }),
+      },
+      {
+        path: "/food/resources/maintaining",
+        template: "src/Food/Maintaining",
+        getData: async () => ({
+          maintaining,
+        }),
+      },
+      {
+        path: "/food/resources/harvesting",
+        template: "src/Food/Harvesting",
+        getData: async () => ({
+          harvesting,
+        }),
+      },
+      {
+        path: "/food/resources/troubleshooting",
+        template: "src/Food/Troubleshooting",
+        getData: async () => ({
+          troubleshooting,
         }),
       },
       // NEWS SECTIONS

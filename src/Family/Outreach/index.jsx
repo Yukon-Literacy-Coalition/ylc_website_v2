@@ -118,12 +118,11 @@ const SideMenu = ({ projects, sideMenuOpen, setSideMenuOpen }) => (
 const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px 0;
+  padding: 20px 0;
   background: ${(p) => (p.isBlue ? p.theme.colors.light_accent : "white")};
 `;
 
 const AboutProjectContainer = styled(ProjectContainer)`
-  padding-top: 0;
   background: ${(p) => p.theme.colors.light_accent};
 `;
 
