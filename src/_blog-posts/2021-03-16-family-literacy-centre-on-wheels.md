@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-03-16T15:26:09.867Z
 articleTitle: Please Donate to the Family Literacy Centre on Wheels
-thumbnail: /uploads/bus-cartoon.tiff
+thumbnail: /uploads/bus-top2.jpg
 contentBlocks:
   - contentBlock:
       body: >-
