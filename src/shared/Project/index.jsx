@@ -134,7 +134,6 @@ const ContentSection = ({
   imagesVideosList,
   isCMS,
 }) => {
-  console.log({ sideBySideBody });
   return (
     <>
       {subTitle && (
@@ -290,7 +289,6 @@ const ContentSection = ({
 };
 
 const Project = (props) => {
-  console.log("proj props", { props });
   return (
     <>
       <PageHeader {...props} text={props?.title || "Title Needed"} />

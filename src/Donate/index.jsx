@@ -5,7 +5,6 @@ import Project from "../shared/Project";
 
 export const Donate = (props) => {
   const { donate } = props;
-  console.log({ donate });
   return <Project {...donate} {...props} />;
 };
 

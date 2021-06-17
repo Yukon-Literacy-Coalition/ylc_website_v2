@@ -69,8 +69,6 @@ const CarouselComponent = (props) => {
       ? 2
       : 1;
 
-  console.log({ media, mediaToShow });
-
   const onOverlayClick = () => setCurrentImage(false);
 
   return (
@@ -100,7 +98,6 @@ const CarouselComponent = (props) => {
                 : !!media?.length &&
                   media?.map((element, i) => {
                     const isImg = !!element?.imagesVideos?.image;
-                    console.log("link", element?.imagesVideos?.videoLink);
 
                     return (
                       <MediaWrapper

@@ -73,9 +73,7 @@ export const SideMenu = ({
   const [openKeys, setOpenKeys] = useState(["about"]);
 
   const onOpenChange = (keys) => {
-    console.log({ keys });
     const latestOpenKey = keys.find((key) => openKeys.indexOf(key) === -1);
-    console.log({ latestOpenKey });
     if (rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
       setOpenKeys(keys);
     } else {
