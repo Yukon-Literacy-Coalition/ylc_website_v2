@@ -5,11 +5,17 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import {
   MarginedContainer,
+  InnerMarginedContainer,
   SectionContainer as SectionContainerImport,
   BodyText as BodyTextImport,
   BodyTextSideBySide,
 } from "../../shared/Layout";
-import { PageHeader, LargeButton, StyledMarkdown } from "../../shared/Features";
+import {
+  PageHeader,
+  LargeButton,
+  StyledMarkdown,
+  VideoPlayer,
+} from "../../shared/Features";
 import Carousel from "../../shared/Carousel";
 import ProjectHighlight from "../../shared/ProjectHighlight";
 import {
@@ -18,7 +24,6 @@ import {
   DarkAndLightText,
 } from "../../shared/Type";
 import { mq } from "../../theme";
-import ReactPlayer from "react-player";
 
 const SectionHeader = styled(SectionHeaderImport)`
   padding: 15px 10px;
@@ -69,6 +74,50 @@ const ProjectPageContainer = styled.div`
   padding: 20px 0 50px;
 `;
 
+const MainBodyTextSideBySide = styled(BodyTextSideBySide)`
+  padding: 10px 20px;
+  font-size: 18px;
+`;
+
+const SideBySideHalf = styled.div`
+  grid-column: span 6;
+  background: ${(p) => p.theme.colors.light_accent};
+  padding-top: 10px;
+  ${mq[2]} {
+    grid-column: span 12;
+    background-color: unset;
+  }
+`;
+
+const UncoloredSideBySideHalf = styled(SideBySideHalf)`
+  background: unset;
+`;
+
+const MediaContainer = styled.div`
+  grid-column: span 12;
+  padding: 5px;
+  img {
+    width: 100%;
+  }
+`;
+
+const MediaTextContainer = styled(BodyTextSideBySide)`
+  ${mq[2]} {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+`;
+
+const BelowMediaContainer = styled(MediaTextContainer)`
+  margin-top: 20px;
+`;
+
+const SideBySideSubtitle = styled(HeaderTitleImport)`
+  ${(p) => p.theme.fonts.medium_header};
+  font-size: 25px;
+  text-align: center;
+`;
+
 const ContentSection = ({
   subTitle,
   author,
@@ -83,7 +132,9 @@ const ContentSection = ({
   resources,
   sideBySideBody,
   imagesVideosList,
+  isCMS,
 }) => {
+  console.log({ sideBySideBody });
   return (
     <>
       {subTitle && (
@@ -107,25 +158,62 @@ const ContentSection = ({
         )}
         {sideBySideBody && (
           <MarginedContainer>
-            {sideBySideBody?.body && (
-              <BodyTextSideBySide>
-                <StyledMarkdown
-                  source={sideBySideBody?.body || "Body text needed"}
-                  escapeHtml={false}
-                />
-              </BodyTextSideBySide>
-            )}
-            {sideBySideBody?.imagesVideos && (
-              <BodyTextSideBySide>
-                {sideBySideBody?.imagesVideos?.image ? (
-                  <img src={sideBySideBody?.imagesVideos?.image} alt="" />
-                ) : sideBySideBody?.imagesVideos?.videoLink ? (
-                  <ReactPlayer url={sideBySideBody?.imagesVideos?.videoLink} />
-                ) : (
-                  <span />
-                )}
-              </BodyTextSideBySide>
-            )}
+            <SideBySideHalf>
+              {sideBySideBody?.mainBody && (
+                <InnerMarginedContainer>
+                  <MainBodyTextSideBySide>
+                    <StyledMarkdown
+                      source={sideBySideBody?.mainBody || "Body text needed"}
+                      escapeHtml={false}
+                    />
+                  </MainBodyTextSideBySide>
+                </InnerMarginedContainer>
+              )}
+            </SideBySideHalf>
+            <UncoloredSideBySideHalf>
+              {sideBySideBody?.aboveMedia && (
+                <InnerMarginedContainer>
+                  <MediaTextContainer>
+                    <SideBySideSubtitle>
+                      <DarkAndLightText
+                        text={sideBySideBody?.aboveMedia || "Subtitle needed"}
+                      />
+                    </SideBySideSubtitle>
+                  </MediaTextContainer>
+                </InnerMarginedContainer>
+              )}
+              {sideBySideBody?.imagesVideos && (
+                <InnerMarginedContainer>
+                  <BodyTextSideBySide>
+                    {sideBySideBody?.imagesVideos?.image ? (
+                      <MediaContainer>
+                        <img src={sideBySideBody?.imagesVideos?.image} alt="" />
+                      </MediaContainer>
+                    ) : sideBySideBody?.imagesVideos?.videoLink ? (
+                      <MediaContainer>
+                        <VideoPlayer
+                          url={sideBySideBody?.imagesVideos?.videoLink}
+                          isCMS={isCMS}
+                        />
+                      </MediaContainer>
+                    ) : (
+                      <span />
+                    )}
+                  </BodyTextSideBySide>
+                </InnerMarginedContainer>
+              )}
+
+              {sideBySideBody?.belowMedia && (
+                <InnerMarginedContainer>
+                  <BelowMediaContainer>
+                    <StyledMarkdown
+                      source={sideBySideBody?.belowMedia || "Body text needed"}
+                      escapeHtml={false}
+                    />
+                  </BelowMediaContainer>
+                </InnerMarginedContainer>
+              )}
+            </UncoloredSideBySideHalf>
           </MarginedContainer>
         )}
         {(link || !!downloads?.length || !!links?.length) && (
@@ -179,8 +267,10 @@ const ContentSection = ({
           </MarginedContainer>
         )}
         {children}
-        {!!images?.length && <Carousel images={images} />}
-        {!!imagesVideosList?.length && <Carousel media={imagesVideosList} />}
+        {!!images?.length && <Carousel images={images} isCMS={isCMS} />}
+        {!!imagesVideosList?.length && (
+          <Carousel media={imagesVideosList} isCMS={isCMS} />
+        )}
         {!!resources?.length && (
           <MarginedContainer>
             {resources.map((project, i) => {
@@ -200,6 +290,7 @@ const ContentSection = ({
 };
 
 const Project = (props) => {
+  console.log("proj props", { props });
   return (
     <>
       <PageHeader {...props} text={props?.title || "Title Needed"} />
@@ -207,7 +298,11 @@ const Project = (props) => {
         {!props?.contentBlocks?.length && <ContentSection {...props} />}
         {!!props?.contentBlocks?.length &&
           props?.contentBlocks.map((block, i) => (
-            <ContentSection key={"block" + i} {...block?.contentBlock} />
+            <ContentSection
+              key={"block" + i}
+              {...block?.contentBlock}
+              {...props}
+            />
           ))}
       </ProjectPageContainer>
     </>

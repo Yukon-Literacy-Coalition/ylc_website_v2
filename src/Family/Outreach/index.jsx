@@ -141,7 +141,7 @@ const ProjectContentWrapper = styled.div`
   grid-column: span 12;
 `;
 
-export const OutreachProject = ({ project, index = 1 }) => {
+export const OutreachProject = ({ project, index = 1, isCMS }) => {
   return (
     <div>
       <div id={project?.title} />
@@ -155,7 +155,9 @@ export const OutreachProject = ({ project, index = 1 }) => {
             escapeHtml={false}
           />
         </ProjectBody>
-        {!!project?.images?.length && <Carousel images={project?.images} />}
+        {!!project?.images?.length && (
+          <Carousel images={project?.images} isCMS={isCMS} />
+        )}
       </ProjectContainer>
     </div>
   );

@@ -151,7 +151,7 @@ export const SideMenu = ({
         </SubMenu>
         <SubMenu
           key="food"
-          title={<span>Food Security</span>}
+          title={<span>All About Food</span>}
           style={{ width: 256 }}
         >
           {foodLiteracyLinksArray.map((lnk, i) => {

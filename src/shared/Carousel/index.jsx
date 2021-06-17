@@ -9,7 +9,7 @@ import {
 import { ModalLayer, ModalContent } from "../Modal";
 import { useWindowDimensions } from "../../utilsJSX";
 import { mq, mqO } from "../../theme";
-import ReactPlayer from "react-player";
+import { VideoPlayer } from "../Features";
 
 const CarouselContainer = styled.div`
   grid-column: span 12;
@@ -26,35 +26,24 @@ const MediaWrapper = styled.div`
   width: 100%;
   padding: 2px;
   margin: 5px;
+  height: ${(p) => (p.mediaLength === 1 ? "300px" : "240px")};
 `;
 
 const Img = styled.div`
-  height: 200px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; */
+  height: 100%;
   margin: 5px;
-  /* background-color: ${(p) => p.theme.colors.light_accent}; */
 
   background-image: url(${(p) => p?.image});
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* width: 100%; */
 `;
 
-// const Image = styled.img`
-//   align-self: flex-start;
-//   flex-shrink: 0;
-//   min-width: 100%;
-//   min-height: 100%;
-//   max-height: 120%;
-// `;
-
 const VideoContainer = styled.div`
-  height: 200px;
+  height: 100%;
   margin: 5px;
+  display: flex;
+  justify-content: center;
 `;
 
 const SectionContainer = styled(ImportedSectionContainer)`
@@ -67,7 +56,7 @@ const CarouselComponent = (props) => {
   const { width } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState(false);
-  const { images, media } = props;
+  const { images, media, isCMS } = props;
 
   const mediaToShow =
     (images?.length || media?.length) === 1
@@ -76,7 +65,7 @@ const CarouselComponent = (props) => {
       ? 3
       : width > 800 && images?.length === 2
       ? 2
-      : width > 500
+      : width > 700
       ? 2
       : 1;
 
@@ -95,53 +84,52 @@ const CarouselComponent = (props) => {
               pagination={false}
               showArrows={images?.length > 2 || media?.length > 2}
             >
-              {!!images?.length &&
-                images?.map(({ image }, i) => (
-                  <MediaWrapper
-                    mediaLength={images?.length}
-                    onClick={() => {
-                      setModalVisible(true);
-                      setCurrentImage(image);
-                    }}
-                    key={image + i}
-                  >
-                    <Img image={image} />
-                  </MediaWrapper>
-                ))}
-              {!!media?.length &&
-                media?.map((element, i) => {
-                  const isImg = !!element?.imagesVideos?.image?.length;
-                  console.log({ element });
-                  console.log(element?.imagesVideos?.image);
-                  console.log(isImg);
-                  return (
+              {!!images?.length
+                ? images?.map(({ image }, i) => (
                     <MediaWrapper
-                      mediaLength={media?.length}
+                      mediaLength={images?.length}
                       onClick={() => {
-                        if (isImg) {
-                          setModalVisible(true);
-                          setCurrentImage(element?.imagesVideos?.image);
-                        }
+                        setModalVisible(true);
+                        setCurrentImage(image);
                       }}
-                      key={
-                        (element?.imagesVideos?.image ||
-                          element?.imagesVideos?.videoLink) + i
-                      }
+                      key={image + i}
                     >
-                      <>
+                      <Img image={image} />
+                    </MediaWrapper>
+                  ))
+                : !!media?.length &&
+                  media?.map((element, i) => {
+                    const isImg = !!element?.imagesVideos?.image;
+                    console.log("link", element?.imagesVideos?.videoLink);
+
+                    return (
+                      <MediaWrapper
+                        mediaLength={media?.length}
+                        onClick={() => {
+                          if (isImg) {
+                            setModalVisible(true);
+                            setCurrentImage(element?.imagesVideos?.image);
+                          }
+                        }}
+                        key={
+                          (element?.imagesVideos?.image ||
+                            element?.imagesVideos?.videoLink) + i
+                        }
+                      >
                         {isImg ? (
                           <Img image={element?.imagesVideos?.image} />
                         ) : (
                           <VideoContainer>
-                            <ReactPlayer
+                            <VideoPlayer
+                              width={media?.length === 1 && "400px"}
                               url={element?.imagesVideos?.videoLink}
+                              isCMS={isCMS}
                             />
                           </VideoContainer>
                         )}
-                      </>
-                    </MediaWrapper>
-                  );
-                })}
+                      </MediaWrapper>
+                    );
+                  })}
             </Carousel>
           </CarouselContainer>
         </MarginedContainer>

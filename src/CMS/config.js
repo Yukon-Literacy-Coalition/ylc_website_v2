@@ -4,7 +4,7 @@ const imagesList = {
   widget: "list",
   summary: `{{fields.image}}`,
   fields: [{ label: "Image", name: "image", widget: "image" }],
-  hint: "To avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares. If you are only adding one image, then consider adding it to the body area.",
+  hint: "DO NOT USE. PLEASE USE THE 'IMAGES AND VIDEOS' CONTENT BLOCK.",
 };
 
 const linkUrlString = {
@@ -112,15 +112,20 @@ const imagesVideosObject = {
   label: "Images And Videos",
   name: "imagesVideos",
   widget: "object",
-  hint: "If there is an image, the video will NOT be displayed",
   fields: [
-    { label: "Image", name: "image", widget: "image", required: false },
+    {
+      label: "Image",
+      name: "image",
+      widget: "image",
+      required: false,
+      hint: "Do not upload TIFFs, they will not function. ALso, to avoid slowing the website, please only upload images of less than 100kb. Ideally make them as small as possible but still retaining image quality. Also, the website is generally setup to accomodate images with square dimensions, so, when possible, please crop images to be squares. If you are only adding one image, then consider adding it to the body area.",
+    },
     {
       label: "Video Link",
       name: "videoLink",
       widget: "string",
       required: false,
-      hint: "Make sure to copy and paste the full URL.",
+      hint: "Make sure to copy and paste the full URL. If there is an image, the video will NOT be displayed",
     },
   ],
 };
@@ -132,33 +137,87 @@ const imagesVideos = {
   fields: [imagesVideosObject],
 };
 
+const aboveSideBodyMedia = {
+  label: "Subtitle for right-hand side",
+  name: "aboveMedia",
+  widget: "string",
+  required: false,
+  hint: "A subtitle for the righthand side of this block",
+};
+
+const belowSideBodyMedia = {
+  label: "Body Below Media",
+  name: "belowMedia",
+  widget: "markdown",
+  required: false,
+};
+
+const sideContent = [
+  aboveSideBodyMedia,
+  imagesVideosObject,
+  belowSideBodyMedia,
+];
+
 const sideBySideBody = {
   label: "Side By Side Body",
   name: "sideBySideBody",
+  required: false,
   widget: "object",
+  collapsed: true,
   fields: [
-    { label: "Body", name: "body", widget: "markdown", required: false },
-    imagesVideosObject,
+    {
+      label: "Main Body",
+      name: "mainBody",
+      widget: "markdown",
+      required: false,
+    },
+    ...sideContent,
   ],
 };
+
+const singularContentBlock = {
+  label: "Content Block",
+  name: "contentBlock",
+  widget: "object",
+  fields: [
+    subTitle(),
+    { label: "Body", name: "body", widget: "markdown", required: false },
+    sideBySideBody,
+    linksList,
+    downloadsList,
+    imagesList,
+    imagesVideos,
+    resourceList,
+  ],
+};
+
+// const contentsBlock = {
+//   label: "Content Blocks",
+//   name: "contentBlocks",
+//   widget: "list",
+//   summary: `{{commit_date}}`,
+//   fields: [singularContentBlock],
+// };
 
 const contentsBlock = {
   label: "Content Blocks",
   name: "contentBlocks",
   widget: "list",
   summary: `{{commit_date}}`,
+  collapsed: true,
   field: {
     label: "Content Block",
     name: "contentBlock",
     widget: "object",
+    collapsed: true,
     fields: [
       subTitle(),
       { label: "Body", name: "body", widget: "markdown", required: false },
       sideBySideBody,
       linksList,
       downloadsList,
-      imagesList,
       imagesVideos,
+      imagesList,
       resourceList,
     ],
   },

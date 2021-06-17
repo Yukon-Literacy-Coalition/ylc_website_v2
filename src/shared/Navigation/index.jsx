@@ -436,7 +436,7 @@ const Navigation = (props) => {
             </DropDownContent>
           </DropDownContainer>
           <DropDownContainer>
-            <DDButton text="Food Security" />
+            <DDButton text="All About Food" />
             <DropDownContent>
               <DDImgContainer image={communityMenuImage}>
                 <div />

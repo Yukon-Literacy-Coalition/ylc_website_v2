@@ -2,6 +2,6 @@
 title: Food Security Programs
 contentBlocks:
   - contentBlock:
-      subTitle: More Information Coming Soon
-      body: :)
+      subTitle: Food Security
+      body: Program information coming soon!
 ---

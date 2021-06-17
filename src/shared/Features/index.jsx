@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import { MarginedContainer } from "../Layout";
 import { DarkAndLightText } from "../Type";
 import Markdown from "react-markdown";
+import ReactPlayer from "react-player";
 
 import img1 from "../../assets/tombstones_banner.jpg";
 import img2 from "../../assets/yukon_river_banner.jpg";
@@ -100,7 +101,7 @@ const PageHeaderContainer = styled.div`
 
 const PageHeaderBackground = styled.div`
   height: 100%;
-  background: ${p => p.theme.colors.light_accent};
+  background: ${(p) => p.theme.colors.light_accent};
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3),
@@ -148,3 +149,64 @@ export const StyledMarkdown = styled(Markdown)`
     color: ${(p) => p.theme.colors.ylc_blue};
   }
 `;
+
+const VideoPlaceholder = styled.div`
+  background: ${(p) => p.theme.colors.medium_accent};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 18px;
+  font-weight: bold;
+  color: ${(p) => p.theme.colors.ylc_blue};
+  padding: 30px;
+`;
+
+const VideoContainer = styled.div`
+  position: relative;
+`;
+
+const ShowVideoButton = styled(LargeButtonStyled)`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+`;
+
+export const VideoPlayer = ({ url, isCMS, ...rest }) => {
+  const myUrl = useMemo(() => url, [url]);
+  const [showVideo, setShowVideo] = useState(false);
+  return (
+    <VideoContainer>
+      {isCMS && (
+        <ShowVideoButton onClick={() => setShowVideo(!showVideo)}>
+          {showVideo ? "Hide Video" : "Show Video"}
+        </ShowVideoButton>
+      )}
+      {isCMS && showVideo !== true ? (
+        <VideoPlaceholder
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            height: "360px",
+            width: "640px",
+          }}
+          {...rest}
+        >
+          Video Placeholder to stop flickering of video while editing.
+        </VideoPlaceholder>
+      ) : (
+        <ReactPlayer
+          style={{
+            maxWidth: "100%",
+            maxHeight: "100%",
+            // height: "100%",
+          }}
+          controls={true}
+          fallback={<div>Video Loading</div>}
+          playsinline={true}
+          {...rest}
+          url={myUrl}
+        />
+      )}
+    </VideoContainer>
+  );
+};
