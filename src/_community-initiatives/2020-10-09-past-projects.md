@@ -129,5 +129,5 @@ contentBlocks:
         - image: /uploads/labelling.jpg
         - image: /uploads/picking-fireweed.jpg
         - image: /uploads/sign.jpg
-        - image: /uploads/ylc_carcross-poster-.jpg
+        - image: /uploads/ylc_carcrossposter3.jpg
 ---
