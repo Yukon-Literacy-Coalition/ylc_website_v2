@@ -1,6 +1,6 @@
 ---
 name: "Carrie-Anne McPhee "
-image: /uploads/carrie-anne.jpg
+image: /uploads/ca-bio.jpeg
 role: Program & Community Outreach Coordinator
 bio: Carrie-Anne holds a Bachelor of Education and an Associate of Arts Degree
   in General Arts. Her work with children and families spans the continent and
