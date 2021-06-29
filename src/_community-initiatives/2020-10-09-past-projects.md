@@ -89,4 +89,26 @@ contentBlocks:
             title: Interests and Prospects in Yukon
             downloadObject:
               downloadLink: /uploads/wwlesreport2013.pdf
+  - contentBlock:
+      subTitle: Dän Tsʼänānän
+      body: >-
+        The Yukon Literacy Coalition, Champagne Aishihik First Nations (CAFN),
+        and Yukon College worked together on a 40-month project called Dän
+        Tsʼänānän, which was a federally funded program designed to increase
+        capacities and employment for CAFN citizens. The vision of the program
+        was to deliver innovative and culturally appropriate programming that
+        focused on peoples' strengths and brought about positive change for
+        at-risk citizens. The intention was to increase literacy and employment
+        skills of CAFN youth and adults that were out of school, under-employed,
+        or unemployed.
+
+
+        One of our program initiatives was a Greenhouse Workplace Training program. The 21-week program started in April of 2019 in the Village of Haines Junction, Yukon. It was designed to combine wellness, non-formal learning (soft skills) and formal learning (hard skills), with the operation of two commercial greenhouses.
+      images:
+        - image: /uploads/dsc06297.jpg
+        - image: /uploads/dsc06515.jpg
+        - image: /uploads/greenhouse_square.jpg
+        - image: /uploads/img_4749.jpg
+        - image: /uploads/img_4742.jpg
+        - image: /uploads/img_0971.jpeg
 ---
