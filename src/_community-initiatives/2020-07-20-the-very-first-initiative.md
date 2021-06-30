@@ -30,4 +30,16 @@ contentBlocks:
         imagesVideos:
           image: /uploads/photostudio_1581981687569.jpg
       subTitle: Rooted in Medicine
+  - contentBlock:
+      subTitle: Quilting
+      sideBySideBody:
+        mainBody: Community members in Watson Lake had the opportunity to socialize
+          safely and learn basic straight-line quilting. Each participant had
+          use of their own sewing machine and created their own Jellyroll quilt.
+          To keep the group sizes small, the community held two five-week
+          classes with 8 participants in the first session and 7 in the second.
+          There is interest to continue with the sewing program, with skilled
+          sewers supporting novice sewers in gaining skills.
+        imagesVideos:
+          image: /uploads/resized_20210325_155225.jpg
 ---
