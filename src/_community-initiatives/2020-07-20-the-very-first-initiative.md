@@ -42,4 +42,18 @@ contentBlocks:
           sewers supporting novice sewers in gaining skills.
         imagesVideos:
           image: /uploads/resized_20210325_155225.jpg
+  - contentBlock:
+      sideBySideBody:
+        mainBody: As part of the Food Security program with Yukon College in Mayo, YT
+          program participants actively engaged in learning about gardening and
+          food security. The participants fostered food security in the
+          community by working with the community daycare to provide a garden
+          bed for the children to learn more about where their food comes from
+          and experience food production. The garden bed was designed, built and
+          installed by participants. Vegetables, flowers and strawberries were
+          planted with daycare children. During the summer, a daycare instructor
+          continued to teach the children about gardening.
+        imagesVideos:
+          image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
+      subTitle: Food Security
 ---
