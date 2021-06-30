@@ -1,9 +1,5 @@
 ---
-title: Community Literacy               Program
-subTitle: ""
-link: ""
-linkText: ""
-images: []
+title: Community Literacy Program
 contentBlocks:
   - contentBlock:
       subTitle: ""
@@ -25,5 +21,3 @@ contentBlocks:
         - image: /uploads/img_6727.jpg
         - image: /uploads/img_6728.jpg
         - image: /uploads/img_6729.jpg
----
-main body

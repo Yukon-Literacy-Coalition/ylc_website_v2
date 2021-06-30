@@ -1,6 +1,5 @@
 ---
 title: Culture Camps
-thumbnail: /uploads/6d724445-9fba-4a7e-bd3a-2c1c9f728a61_1_105_c.jpeg
 images:
   - image: /uploads/muskrat-camp-2019-1.jpg
   - image: /uploads/harvest-camp-setup.jpg

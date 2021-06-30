@@ -1,8 +1,8 @@
 ---
 title: Youth Financial Literacy
-subTitle: Relevant Information and Skills
 contentBlocks:
   - contentBlock:
+      subTitle: Relevant Information and Skills
       body: >-
         We identified the need for a Yukon specific, youth-focused financial
         literacy training that met the unique circumstances and needs of our

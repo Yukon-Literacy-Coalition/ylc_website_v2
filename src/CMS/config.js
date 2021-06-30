@@ -131,7 +131,7 @@ const imagesVideosObject = {
 };
 
 const imagesVideos = {
-  label: "Images and Videos List",
+  label: "Images and Videos",
   name: "imagesVideosList",
   widget: "list",
   fields: [imagesVideosObject],
@@ -175,21 +175,21 @@ const sideBySideBody = {
   ],
 };
 
-const singularContentBlock = {
-  label: "Content Block",
-  name: "contentBlock",
-  widget: "object",
-  fields: [
-    subTitle(),
-    { label: "Body", name: "body", widget: "markdown", required: false },
-    sideBySideBody,
-    linksList,
-    downloadsList,
-    imagesList,
-    imagesVideos,
-    resourceList,
-  ],
-};
+// const singularContentBlock = {
+//   label: "Content Block",
+//   name: "contentBlock",
+//   widget: "object",
+//   fields: [
+//     subTitle(),
+//     { label: "Body", name: "body", widget: "markdown", required: false },
+//     sideBySideBody,
+//     linksList,
+//     downloadsList,
+//     imagesList,
+//     imagesVideos,
+//     resourceList,
+//   ],
+// };
 
 // const contentsBlock = {
 //   label: "Content Blocks",
@@ -485,13 +485,10 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Sub Title", name: "subTitle", widget: "string" },
-        linkUrlString,
-        linkTextString,
-        imagesList,
-        { label: "Body", name: "body", widget: "markdown" },
+        contentsBlock,
       ],
     },
+
     {
       name: "financialLiteracy",
       label: "Financial Literacy",
@@ -536,6 +533,18 @@ module.exports = {
       folder: "src/_about-food-security",
       create: true,
       delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutFamily",
+      label: "About Family Literacy",
+      folder: "src/_about-family-literacy",
+      create: false,
+      delete: false,
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },

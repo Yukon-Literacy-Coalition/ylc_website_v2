@@ -118,8 +118,12 @@ export default {
     // online tools
     // const onlineTools = await getPosts("./src/_online-tools");
 
+    // FAMILY
+    // AboutFamily
+    const aboutFamilyArray = await getPosts("./src/_about-family-literacy");
+    const aboutFamily = aboutFamilyArray?.[0];
+
     // FLC
-    // family literacy center
     const flcArray = await getPosts("./src/_flc");
     const flc = flcArray?.[0];
 
@@ -249,6 +253,9 @@ export default {
       {
         path: "/family",
         template: "src/Family",
+        getData: async () => ({
+          aboutFamily,
+        }),
       },
       {
         path: "/family/outreach",

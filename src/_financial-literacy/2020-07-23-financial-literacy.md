@@ -1,6 +1,5 @@
 ---
 title: Financial Literacy
-subTitle: Unnecessary Subtitle
 contentBlocks:
   - contentBlock:
       subTitle: What is Financial Literacy?
@@ -89,4 +88,3 @@ contentBlocks:
               linkText: Learn More
             title: ABC Life Literacy Canada
 ---
-Unnecessary Body

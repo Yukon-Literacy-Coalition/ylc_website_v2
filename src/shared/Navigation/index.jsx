@@ -56,17 +56,20 @@ const DDButtonStyles = styled.span`
     border-bottom: 2px transparent solid;
     cursor: ${(p) => p.to && `pointer`}
     padding: 0;
+    padding: 4px 0;
   }
   &:hover {
     transition: 0.3s cubic-bezier(0.26, 0.84, 0.4, 0.97);
     a,
     span {
       border-bottom: 2px ${(p) => p.theme.colors.ylc_blue} solid;
+      
     }
   }
 `;
 
 const DropDownContainer = styled.div`
+  cursor: pointer;
   &:hover > ${DropDownContentContainer} {
     transition: 0.3s cubic-bezier(0.26, 0.84, 0.4, 0.97);
     visibility: visible;

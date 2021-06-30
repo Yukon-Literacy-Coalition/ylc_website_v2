@@ -20,6 +20,7 @@ import { Initiative } from "../Community/Initiative";
 import { StaffMember } from "../About/Team";
 import ProjectHighlight from "../shared/ProjectHighlight";
 import FLC from "../Family/FLC";
+import { AboutFamily } from "../Family";
 import { Imagine } from "../Family/Imagine";
 import { AboutCommunity } from "../Community";
 import { Donate } from "../Donate";
@@ -189,6 +190,9 @@ const NetlifyCMS = (props) => {
       );
       CMS.registerPreviewTemplate("harvesting", (previewProps) =>
         DataAndStyleInjection(previewProps, Harvesting, "harvesting")
+      );
+      CMS.registerPreviewTemplate("aboutFamily", (previewProps) =>
+        DataAndStyleInjection(previewProps, AboutFamily, "aboutFamily")
       );
       CMS.init({ config });
     }

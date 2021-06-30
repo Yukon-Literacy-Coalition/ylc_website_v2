@@ -293,7 +293,7 @@ const Project = (props) => {
     <>
       <PageHeader {...props} text={props?.title || "Title Needed"} />
       <ProjectPageContainer>
-        {!props?.contentBlocks?.length && <ContentSection {...props} />}
+        {/* {!props?.contentBlocks?.length && <ContentSection {...props} />} */}
         {!!props?.contentBlocks?.length &&
           props?.contentBlocks.map((block, i) => (
             <ContentSection
