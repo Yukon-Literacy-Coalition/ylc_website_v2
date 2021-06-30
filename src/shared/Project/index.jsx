@@ -91,6 +91,7 @@ const SideBySideHalf = styled.div`
 
 const UncoloredSideBySideHalf = styled(SideBySideHalf)`
   background: unset;
+  padding-top: 0;
 `;
 
 const MediaContainer = styled.div`
@@ -311,7 +312,7 @@ const Project = (props) => {
         {/* {!props?.contentBlocks?.length && <ContentSection {...props} />} */}
         {!!props?.contentBlocks?.length &&
           props?.contentBlocks.map((block, i) => {
-            console.log({ block });
+            // console.log({ block });
             return (
               <ContentSection
                 key={"block" + i}
