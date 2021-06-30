@@ -5,9 +5,9 @@ contentBlocks:
       subTitle: ""
       body: >-
         Our Community Literacy program works with community facilitators from
-        Yukon communities to design and run unique literacy programs.
+        Yukon communities to design and deliver unique literacy programs.
         Facilitators are trained how to design and create their specific
-        programs and learn how to embed literacy and essential skills. 
+        programs and learn how to embed literacy and essential skills.
 
          For more information contact Darby at darby.macwilliam@yukonliteracy.com
       images: []
@@ -56,4 +56,15 @@ contentBlocks:
         imagesVideos:
           image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
       subTitle: Food Security
+  - contentBlock:
+      sideBySideBody:
+        mainBody: This program provided much needed weekend programming for the
+          community of Carmacks. An artist from Whitehorse delivered two weekend
+          sessions for youth and adults, one painting cherry blossom trees and
+          birds, and the other painting a birch tree forest. The artist led
+          two-hour workshops, one in the morning for adults, one in the
+          afternoon for youth.
+        imagesVideos:
+          image: /uploads/carmacks-painting.jpg
+      subTitle: Painting
 ---
