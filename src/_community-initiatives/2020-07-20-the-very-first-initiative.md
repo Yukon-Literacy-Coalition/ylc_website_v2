@@ -9,18 +9,8 @@ contentBlocks:
         Facilitators are trained how to design and create their specific
         programs and learn how to embed literacy and essential skills. 
 
-
-        We have supported a facilitator in Carcross to offer a traditional medicine and planting program, a facilitator in Teslin to offer a community carpentry program that made benches for their community, and facilitators from Mayo ran a food security program which provided the local daycare with a garden bed and planting supplies.
-
-
-        We are currently running a quilting/sewing program in Watson Lake, and a painting program in Carmacks for adults and youth. For more information contact Darby at darby.macwilliam@yukonliteracy.com
-      images:
-        - image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
-        - image: /uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg
-        - image: /uploads/photostudio_1581981687569.jpg
-        - image: /uploads/img_6727.jpg
-        - image: /uploads/img_6728.jpg
-        - image: /uploads/img_6729.jpg
+         For more information contact Darby at darby.macwilliam@yukonliteracy.com
+      images: []
       sideBySideBody:
         mainBody: ""
         aboveMedia: ""
@@ -28,4 +18,16 @@ contentBlocks:
           image: ""
           videoLink: ""
         belowMedia: ""
+  - contentBlock:
+      sideBySideBody:
+        mainBody: The Rooted in Medicine program was a youth program delivered in
+          Carcross, YT. It taught youth how to prepare traditional medicines
+          including teas, lozenges, powders, lotion bars, salves, etc. They made
+          medicine bags to store the medicines in. It incorporated food security
+          through growing medicinal plants, herbs and vegetables. Adults,
+          teachers and elders were involved in the program through a train the
+          trainer approach.
+        imagesVideos:
+          image: /uploads/photostudio_1581981687569.jpg
+      subTitle: Rooted in Medicine
 ---
