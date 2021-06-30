@@ -21,4 +21,6 @@ contentBlocks:
         - image: /uploads/img_6727.jpg
         - image: /uploads/img_6728.jpg
         - image: /uploads/img_6729.jpg
+      sideBySideBody:
+        mainBody: Testing Side By Side
 ---
