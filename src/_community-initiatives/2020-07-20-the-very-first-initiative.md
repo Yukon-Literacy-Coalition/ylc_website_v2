@@ -25,6 +25,7 @@ contentBlocks:
         mainBody: Testing Side By Side
         aboveMedia: Subtitle Here
         imagesVideos:
-          image: /uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg
+          image: ""
+          videoLink: https://www.youtube.com/watch?v=5qap5aO4i9A
         belowMedia: Some words
 ---
