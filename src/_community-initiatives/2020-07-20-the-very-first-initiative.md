@@ -23,4 +23,8 @@ contentBlocks:
         - image: /uploads/img_6729.jpg
       sideBySideBody:
         mainBody: Testing Side By Side
+        aboveMedia: Subtitle Here
+        imagesVideos:
+          image: /uploads/07c7f40e-2352-4345-b8d3-d45bb761f144.jpeg
+        belowMedia: Some words
 ---
