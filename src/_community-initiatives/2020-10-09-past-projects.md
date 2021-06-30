@@ -130,4 +130,19 @@ contentBlocks:
         - image: /uploads/picking-fireweed.jpg
         - image: /uploads/sign.jpg
         - image: /uploads/ylc_carcrossposter3.jpg
+  - contentBlock:
+      body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
+        entrepreneurship initiative supporting and offering opportunities and
+        guidance to 22 Yukon youth (12-18 years old) who wanted to work for
+        themselves. The Yukon Literacy Coalition helped with start-up costs,
+        marketing, budgeting, operational plans and provided ongoing support and
+        guidance.
+      subTitle: Youth Entrepreneur Program
+      images:
+        - image: /uploads/grande-naturals.png
+        - image: /uploads/mini-pet-store-logo.jpg
+        - image: /uploads/mini-pets.jpg
+        - image: /uploads/bird-houses.jpg
+        - image: /uploads/whomping-willow-wands.jpg
+        - image: /uploads/youth-poster.jpg
 ---
