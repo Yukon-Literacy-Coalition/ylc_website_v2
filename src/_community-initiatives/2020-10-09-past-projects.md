@@ -151,7 +151,8 @@ contentBlocks:
         trainer approach, it's goal was to teach participants how to navigate
         the internet, learn about scam and fraud prevention, and how to connect
         with friends and family virtually.
-      subTitle: Seniors Making Connections Through Digital Literacy
+      subTitle: Yanwáatx’i digital literacy tóonax woosh jikáade yaa has kanasxát
+        (Seniors Making Connections Through Digital Literacy)
       imagesVideosList:
         - imagesVideos:
             image: /uploads/poster2.jpg
