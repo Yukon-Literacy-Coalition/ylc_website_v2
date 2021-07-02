@@ -112,14 +112,12 @@ contentBlocks:
         - image: /uploads/img_4742.jpg
         - image: /uploads/img_0971.jpeg
   - contentBlock:
-      subTitle: I yéi jinéiyi, i jeyées yéi jinganéi (Making Work, Work for You)
+      subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
       body: >-
-        I yéi jinéiyi, i jeyées yéi jinganéi (The Making Work, Work for You)
-        program was a 12- week hands-on learning program that started in
-        Carcross in July 2020. It was designed to help participants plan,
-        develop and operate a small business. The program was also designed to
-        foster an entrepreneurial spirit and encourage and support personal
-        wellness through physical, mental, spiritual and emotional health.
+        ### Making Work, Work for You
+
+
+        I yéi jinéiyi, i jeyées yéi jinganéi (Making Work, Work for You) program was a 12- week hands-on learning program that started in Carcross in July 2020. It was designed to help participants plan, develop and operate a small business. The program was also designed to foster an entrepreneurial spirit and encourage and support personal wellness through physical, mental, spiritual and emotional health.
 
 
         With a high concentration on hands-on learning, the participants of the program had experienced running multiple pop-up businesses at the Whitehorse Outdoor Fireweed Community Market in Shipyards Park. This was a great opportunity to practice the skills needed to run a small business from start to finish. The participants experimented with a traditional bannock recipe and created new flavours weekly to sell at the market. They sold the fresh bannock with hand-pickedfireweed flower jelly, and sweetened earl grey tea with fireweed simple syrup.
