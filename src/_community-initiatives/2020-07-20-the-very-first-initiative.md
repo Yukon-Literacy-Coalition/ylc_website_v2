@@ -35,7 +35,7 @@ contentBlocks:
       sideBySideBody:
         mainBody: Community members in Watson Lake had the opportunity to socialize
           safely and learn basic straight-line quilting. Each participant had
-          use of their own sewing machine and created their own Jellyroll quilt.
+          use of their own sewing machine and created their own jellyroll quilt.
           To keep the group sizes small, the community held two five-week
           classes with 8 participants in the first session and 7 in the second.
           There is interest to continue with the sewing program, with skilled
