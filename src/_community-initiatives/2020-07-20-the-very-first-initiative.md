@@ -67,4 +67,18 @@ contentBlocks:
         imagesVideos:
           image: /uploads/carmacks-painting.jpg
       subTitle: Painting
+  - contentBlock:
+      subTitle: "Workshop Series: Seed Starting, Building Cold Frames and Small Engine
+        Repair "
+      sideBySideBody:
+        mainBody: Delivered in Haines Junction, this workshop series focused on seed
+          starting, building cold frames and small engine repair. It happened
+          over several weekends and welcomed several community members. Seed
+          starting included tips and tricks about growing in the cold climate,
+          when to plant, what to do throughout the season, and how to harvest.
+          Participants learned some carpentry basics and built cold frames to
+          help keep their plants live a little longer during our short growing
+          season. The most popular workshop was small engine repair. This
+          two-part workshop focused on maintenance of machines, diagnosis of
+          problems and repairing small engines.
 ---
