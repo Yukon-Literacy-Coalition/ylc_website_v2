@@ -92,7 +92,7 @@ contentBlocks:
         office and two outside the Village of Teslin office.
   - contentBlock:
       subTitle: ""
-      body: "####  If you are interested in delivering a Community Literacy program in
-        your community or for more information about the program contact Darby
-        at *darby.macwilliam@yukonliteracy.com.*"
+      body: "#### **If you are interested in delivering a Community Literacy program
+        in your community or for more information about the program contact
+        Darby at *darby.macwilliam@yukonliteracy.com.***"
 ---
