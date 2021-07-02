@@ -52,4 +52,6 @@ contentBlocks:
             image: /uploads/little-chef-9.jpg
         - imagesVideos:
             image: /uploads/little-chef-10.jpg
+        - imagesVideos:
+            image: /uploads/little-chef-6.jpg
 ---
