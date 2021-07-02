@@ -39,4 +39,9 @@ contentBlocks:
         lifelong love of eating well. Plus, when preparing food, we practice a
         range of basic literacy skills like counting, measuring, identifying and
         labelling, effective communication, cooperation, and more!
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/10256287_679972228730272_1786525694698897050_o.jpg
+        - imagesVideos:
+            image: /uploads/little-chef-.jpg
 ---
