@@ -81,4 +81,6 @@ contentBlocks:
           season. The most popular workshop was small engine repair. This
           two-part workshop focused on maintenance of machines, diagnosis of
           problems and repairing small engines.
+        imagesVideos:
+          image: /uploads/hj-cells.jpeg
 ---
