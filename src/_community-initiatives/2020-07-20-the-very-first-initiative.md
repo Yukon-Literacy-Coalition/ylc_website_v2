@@ -83,4 +83,14 @@ contentBlocks:
           problems and repairing small engines.
         imagesVideos:
           image: /uploads/hj-cells.jpeg
+  - contentBlock:
+      subTitle: Benches
+      body: Residents of Teslin built benches with the school kids (ages 5-13) to put
+        around the community.  They built 4 benches in total and they had
+        families dedicate the benches to loved ones. A community dinner and
+        celebration of the program has been put on hold due to Covid-19. When it
+        is safe to do so a celebration dinner will be planned, and the benches
+        will be moved to their permanent locations complete with the dedication
+        plaques. Two benches will be placed outside the Teslin Tlingit Council
+        office and two outside the Village of Teslin office.
 ---
