@@ -146,7 +146,7 @@ contentBlocks:
         - image: /uploads/whomping-willow-wands.jpg
         - image: /uploads/youth-poster.jpg
   - contentBlock:
-      body: This 6 week program was delivered in Carcross, YT to seniors by seniors
+      body: This 8 week program was delivered in Carcross, YT to seniors by seniors
         with a focus on developing digital literacy skills. With a train- the-
         trainer approach, it's goal was to teach participants how to navigate
         the internet, learn about scam and fraud prevention, and how to connect
