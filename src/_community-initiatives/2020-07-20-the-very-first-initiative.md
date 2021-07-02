@@ -44,7 +44,7 @@ contentBlocks:
           image: /uploads/resized_20210325_155225.jpg
   - contentBlock:
       sideBySideBody:
-        mainBody: As part of the Food Security program with Yukon College in Mayo, YT
+        mainBody: As part of the Food Security program with Yukon College in Mayo,
           program participants actively engaged in learning about gardening and
           food security. The participants fostered food security in the
           community by working with the community daycare to provide a garden
