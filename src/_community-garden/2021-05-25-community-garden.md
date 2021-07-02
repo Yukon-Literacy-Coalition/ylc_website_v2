@@ -29,4 +29,6 @@ contentBlocks:
             image: /uploads/garden-6.jpg
         - imagesVideos:
             image: /uploads/garden-7.jpg
+        - imagesVideos:
+            image: /uploads/garden-8.jpg
 ---
