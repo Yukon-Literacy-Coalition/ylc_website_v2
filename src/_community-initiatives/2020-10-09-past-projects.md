@@ -114,7 +114,7 @@ contentBlocks:
   - contentBlock:
       subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
       body: >-
-        ### Making Work, Work for You
+        ### **Making Work, Work for You**
 
 
         I yéi jinéiyi, i jeyées yéi jinganéi (Making Work, Work for You) program was a 12- week hands-on learning program that started in Carcross in July 2020. It was designed to help participants plan, develop and operate a small business. The program was also designed to foster an entrepreneurial spirit and encourage and support personal wellness through physical, mental, spiritual and emotional health.
@@ -145,7 +145,7 @@ contentBlocks:
         - image: /uploads/youth-poster.jpg
   - contentBlock:
       body: >-
-        ### Seniors Making Connections Through Digital Literacy
+        ### **Seniors Making Connections Through Digital Literacy**
 
 
         This 8 week program was delivered in Carcross, YT to seniors by seniors with a focus on developing digital literacy skills. With a train- the- trainer approach, it's goal was to teach participants how to navigate the internet, learn about scam and fraud prevention, and how to connect with friends and family virtually.
