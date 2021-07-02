@@ -3,13 +3,10 @@ title: Community Literacy Program
 contentBlocks:
   - contentBlock:
       subTitle: ""
-      body: >-
-        Our Community Literacy program works with community facilitators from
+      body: Our Community Literacy program works with community facilitators from
         Yukon communities to design and deliver unique literacy programs.
         Facilitators are trained how to design and create their specific
         programs and learn how to embed literacy and essential skills.
-
-         For more information contact Darby at darby.macwilliam@yukonliteracy.com
       images: []
       sideBySideBody:
         mainBody: ""
@@ -93,4 +90,8 @@ contentBlocks:
         will be moved to their permanent locations complete with the dedication
         plaques. Two benches will be placed outside the Teslin Tlingit Council
         office and two outside the Village of Teslin office.
+  - contentBlock:
+      subTitle: ""
+      body: "####  For more information contact Darby at
+        *darby.macwilliam@yukonliteracy.com*"
 ---
