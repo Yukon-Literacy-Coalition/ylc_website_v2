@@ -25,7 +25,7 @@ contentBlocks:
           including teas, lozenges, powders, lotion bars, salves, etc. They made
           medicine bags to store the medicines in. It incorporated food security
           through growing medicinal plants, herbs and vegetables. Adults,
-          teachers and elders were involved in the program through a train the
+          teachers and elders were involved in the program through a train- the-
           trainer approach.
         imagesVideos:
           image: /uploads/photostudio_1581981687569.jpg
