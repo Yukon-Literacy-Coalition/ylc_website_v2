@@ -44,4 +44,8 @@ contentBlocks:
             image: /uploads/10256287_679972228730272_1786525694698897050_o.jpg
         - imagesVideos:
             image: /uploads/little-chef-.jpg
+        - imagesVideos:
+            image: /uploads/little-chef-3.jpg
+        - imagesVideos:
+            image: /uploads/little-chef-7.jpg
 ---
