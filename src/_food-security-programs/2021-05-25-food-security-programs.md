@@ -27,4 +27,16 @@ contentBlocks:
             image: /uploads/garden-5.jpg
         - imagesVideos:
             image: /uploads/garden-6.jpg
+  - contentBlock:
+      subTitle: Little Chefs
+      body: Whether at the Family Literacy Centre, or our summer location the Pioneer
+        Hotel, our Little Chefs program invites children and families to
+        practice basic cooking skills while exploring new foods and simple
+        recipes. Each Little Chefs session begins with a story and focusses on
+        families working together to create tasty meals and snacks that are both
+        nutritious and fun to make. Research shows that when we cook nourishing
+        foods with our children, we model healthy choices that set them up for a
+        lifelong love of eating well. Plus, when preparing food, we practice a
+        range of basic literacy skills like counting, measuring, identifying and
+        labelling, effective communication, cooperation, and more!
 ---
