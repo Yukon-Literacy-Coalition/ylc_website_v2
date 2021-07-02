@@ -16,4 +16,7 @@ contentBlocks:
 
 
         This summer the focus is on building the infrastructure of the garden with a plan to start delivering programming in the garden during the summer of 2022.
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/garden-1-copy-2.png
 ---
