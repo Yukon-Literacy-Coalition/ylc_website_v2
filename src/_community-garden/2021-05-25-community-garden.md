@@ -33,4 +33,6 @@ contentBlocks:
             image: /uploads/garden-8.jpg
         - imagesVideos:
             image: /uploads/garden-9.jpg
+        - imagesVideos:
+            image: /uploads/garden-10.jpeg
 ---
