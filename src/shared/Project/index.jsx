@@ -119,6 +119,10 @@ const SideBySideSubtitle = styled(HeaderTitleImport)`
   text-align: center;
 `;
 
+const BodyMargined = styled(MarginedContainer)`
+  padding: 25px 0 20px;
+`;
+
 const ContentSection = ({
   subTitle,
   author,
@@ -147,17 +151,17 @@ const ContentSection = ({
       )}
       <SectionContainer subTitle={subTitle}>
         {body && (
-          <MarginedContainer>
+          <BodyMargined>
             <BodyText>
               <StyledMarkdown
                 source={body || "Body text needed"}
                 escapeHtml={false}
               />
             </BodyText>
-          </MarginedContainer>
+          </BodyMargined>
         )}
         {sideBySideBody && (
-          <MarginedContainer>
+          <BodyMargined>
             {(!!sideBySideBody?.imagesVideos?.image ||
               sideBySideBody?.imagesVideos?.videoLink ||
               !!sideBySideBody?.aboveMedia ||
@@ -229,7 +233,7 @@ const ContentSection = ({
                 )}
               </UncoloredSideBySideHalf>
             )}
-          </MarginedContainer>
+          </BodyMargined>
         )}
         {(link || !!downloads?.length || !!links?.length) && (
           <MarginedContainer css={buttonMarginedStyles}>
