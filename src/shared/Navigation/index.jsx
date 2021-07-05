@@ -54,7 +54,7 @@ const DDButtonStyles = styled.span`
   span {
     margin: auto;
     border-bottom: 2px transparent solid;
-    cursor: ${(p) => p.to && `pointer`}
+    cursor: ${(p) => p.to && `pointer`};
     padding: 0;
     padding: 4px 0;
   }
@@ -63,7 +63,6 @@ const DDButtonStyles = styled.span`
     a,
     span {
       border-bottom: 2px ${(p) => p.theme.colors.ylc_blue} solid;
-      
     }
   }
 `;
@@ -237,7 +236,7 @@ const FamilyLinks = () => (
 const foodLiteracyLinksArray = [
   <RRLink to="/food">What is Food Security?</RRLink>,
   <RRLink to="/food/programs">Programs</RRLink>,
-  <RRLink to="/food/garden">Community Garden</RRLink>,
+  <RRLink to="/food/garden">Learning Garden</RRLink>,
   <RRLink to="/food/resources">Resources</RRLink>,
 ];
 

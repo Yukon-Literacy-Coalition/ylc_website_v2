@@ -565,7 +565,7 @@ module.exports = {
     },
     {
       name: "communityGarden",
-      label: "Community Garden",
+      label: "Learning Garden",
       folder: "src/_community-garden",
       create: true,
       delete: true,
