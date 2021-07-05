@@ -2,47 +2,92 @@
 title: Past Projects
 contentBlocks:
   - contentBlock:
-      subTitle: Northern Men's Research Project
       body: >-
-        This community-based research project was a collaboration between the
-        literacy councils of NWT, Nunavut, Labrador and Yukon.
+        ### **Seniors Making Connections Through Digital Literacy**
 
 
-        We intended to open dialogue about northern indigenous men’s experiences with learning and work. We wanted to better understand the barriers that northern First Nations, Inuit and Métis men face and, most important, what will help them succeed.
-
-
-        We hope the research will lead to more effective programming and policies to support northern Indigenous men in learning, work and well-being.
-      resources:
-        - resourceObject:
-            downloadObject:
-              downloadLink: /uploads/men-s-northern-research-project.pdf
-            title: What About the Men?
-            body: This document summarizes the research process and results, and makes
-              recommendations for more effective support of Northern Indigenous
-              men in work and school.
-            image: /uploads/screen-shot-2020-10-09-at-2.12.03-pm.png
+        This 8 week program was delivered in Carcross, YT to seniors by seniors with a focus on developing digital literacy skills. With a train- the- trainer approach, it's goal was to teach participants how to navigate the internet, learn about scam and fraud prevention, and how to connect with friends and family virtually.
+      subTitle: "       Yanwáatx’i digital literacy tóonax woosh jikáade yaa has
+        kanasxát "
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/poster2.jpg
   - contentBlock:
-      subTitle: NALES - Northern Alliance for Literacy and Essential Skills
+      body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
+        entrepreneurship initiative supporting and offering opportunities and
+        guidance to 22 Yukon youth (12-18 years old) who wanted to work for
+        themselves. The Yukon Literacy Coalition helped with start-up costs,
+        marketing, budgeting, operational plans and provided ongoing support and
+        guidance.
+      subTitle: Youth Entrepreneur Program
+      images:
+        - image: /uploads/grande-naturals.png
+        - image: /uploads/mini-pet-store-logo.jpg
+        - image: /uploads/mini-pets.jpg
+        - image: /uploads/bird-houses.jpg
+        - image: /uploads/whomping-willow-wands.jpg
+        - image: /uploads/youth-poster.jpg
+  - contentBlock:
+      subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
       body: >-
-        The Yukon Literacy Coalition partnered with the NWT Literacy Council and
-        Ilitaqsiniq - the Nunavut Literacy Council on a collaborative agreement
-        with the Northern Alliance on Literacy & Essential Skills (NALES) to
-        complete a three-year project called “Strengthening Literacy and
-        Essential Skills Development and Labour Market Outcomes across Northern
-        Canada for Adults with Low Skills Levels."
+        ### **Making Work, Work for You**
 
 
-        The goal of this project was to strengthen literacy and essential skills development and to improve market outcomes across the north. The team reached out to Aboriginal youth and adults, both men and women, who were out-of-school or unemployed with low levels of literacy and essential skills in the remote north. Throughout this project, Aboriginal youth and adults had the opportunity to develop more transferable skills, become more employable, increase their access to the labour market, and experience more success within the northern economy.
+        I yéi jinéiyi, i jeyées yéi jinganéi (Making Work, Work for You) program was a 12- week hands-on learning program that started in Carcross in July 2020. It was designed to help participants plan, develop and operate a small business. The program was also designed to foster an entrepreneurial spirit and encourage and support personal wellness through physical, mental, spiritual and emotional health.
+
+
+        With a high concentration on hands-on learning, the participants of the program had experienced running multiple pop-up businesses at the Whitehorse Outdoor Fireweed Community Market in Shipyards Park. This was a great opportunity to practice the skills needed to run a small business from start to finish. The participants experimented with a traditional bannock recipe and created new flavours weekly to sell at the market. They sold the fresh bannock with hand-pickedfireweed flower jelly, and sweetened earl grey tea with fireweed simple syrup.
+      images:
+        - image: /uploads/bannock.jpg
+        - image: /uploads/fireweed-market-copy.jpg
+        - image: /uploads/labelling.jpg
+        - image: /uploads/picking-fireweed.jpg
+        - image: /uploads/sign.jpg
+        - image: /uploads/ylc_carcrossposter3.jpg
+  - contentBlock:
+      subTitle: Dän Tsʼänānän
+      body: >-
+        The Yukon Literacy Coalition, Champagne Aishihik First Nations (CAFN),
+        and Yukon College worked together on a 40-month project called Dän
+        Tsʼänānän, which was a federally funded program designed to increase
+        capacities and employment for CAFN citizens. The vision of the program
+        was to deliver innovative and culturally appropriate programming that
+        focused on peoples' strengths and brought about positive change for
+        at-risk citizens. The intention was to increase literacy and employment
+        skills of CAFN youth and adults that were out of school, under-employed,
+        or unemployed.
+
+
+        One of our program initiatives was a Greenhouse Workplace Training program. The 21-week program started in April of 2019 in the Village of Haines Junction, Yukon. It was designed to combine wellness, non-formal learning (soft skills) and formal learning (hard skills), with the operation of two commercial greenhouses.
+      images:
+        - image: /uploads/dsc06297.jpg
+        - image: /uploads/dsc06515.jpg
+        - image: /uploads/greenhouse_square.jpg
+        - image: /uploads/img_4749.jpg
+        - image: /uploads/img_4742.jpg
+        - image: /uploads/img_0971.jpeg
+  - contentBlock:
+      subTitle: Workforce and Workplace Literacy and Essential Skills
+      body: With the support of the Office of Literacy and Essential Skills (OLES),
+        the Yukon Literacy Coalition (YLC) undertook a project that would assess
+        Yukon community stakeholder interests related to workplace and workforce
+        literacy and essential skills (LES). Through consultations, the YLC
+        heard about models and principles that could move the expanding field of
+        workforce and workplace (LES) forward in the territory. A literature
+        review was also carried out, as well as a scan of past and present
+        workforce and workplace LES initiatives in Yukon.
       resources:
         - resourceObject:
-            title: A Northern Approach
-            body: This resource guide to embedded literacy and essential skills was
-              developed as part of the NALES project.
-            image: /uploads/northern-approach-image.jpg
-            linkObject:
-              linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
-                h%20Guide%20%20copy.pdf?dl=0  "
-              linkText: Download Here
+            body: This report presents a snapshot of Yukon community interests, and
+              contributes to the knowledge of adult basic education delivery
+              groups and agencies that support LES. The findings of this report
+              round out a North of 60 workplace and workforce LES discussion,
+              following similar reports from Northwest Territories and Nunavut
+              Literacy Councils.
+            image: /uploads/screen-shot-2020-10-09-at-3.57.27-pm.png
+            title: Interests and Prospects in Yukon
+            downloadObject:
+              downloadLink: /uploads/wwlesreport2013.pdf
   - contentBlock:
       subTitle: Pan Northern Gathering
       body: >-
@@ -68,90 +113,45 @@ contentBlocks:
               literacy, adult learning, and essential skills development in
               northern Canada.
   - contentBlock:
-      subTitle: Workforce and Workplace Literacy and Essential Skills
-      body: With the support of the Office of Literacy and Essential Skills (OLES),
-        the Yukon Literacy Coalition (YLC) undertook a project that would assess
-        Yukon community stakeholder interests related to workplace and workforce
-        literacy and essential skills (LES). Through consultations, the YLC
-        heard about models and principles that could move the expanding field of
-        workforce and workplace (LES) forward in the territory. A literature
-        review was also carried out, as well as a scan of past and present
-        workforce and workplace LES initiatives in Yukon.
+      subTitle: NALES - Northern Alliance for Literacy and Essential Skills
+      body: >-
+        The Yukon Literacy Coalition partnered with the NWT Literacy Council and
+        Ilitaqsiniq - the Nunavut Literacy Council on a collaborative agreement
+        with the Northern Alliance on Literacy & Essential Skills (NALES) to
+        complete a three-year project called “Strengthening Literacy and
+        Essential Skills Development and Labour Market Outcomes across Northern
+        Canada for Adults with Low Skills Levels."
+
+
+        The goal of this project was to strengthen literacy and essential skills development and to improve market outcomes across the north. The team reached out to Aboriginal youth and adults, both men and women, who were out-of-school or unemployed with low levels of literacy and essential skills in the remote north. Throughout this project, Aboriginal youth and adults had the opportunity to develop more transferable skills, become more employable, increase their access to the labour market, and experience more success within the northern economy.
       resources:
         - resourceObject:
-            body: This report presents a snapshot of Yukon community interests, and
-              contributes to the knowledge of adult basic education delivery
-              groups and agencies that support LES. The findings of this report
-              round out a North of 60 workplace and workforce LES discussion,
-              following similar reports from Northwest Territories and Nunavut
-              Literacy Councils.
-            image: /uploads/screen-shot-2020-10-09-at-3.57.27-pm.png
-            title: Interests and Prospects in Yukon
+            title: A Northern Approach
+            body: This resource guide to embedded literacy and essential skills was
+              developed as part of the NALES project.
+            image: /uploads/northern-approach-image.jpg
+            linkObject:
+              linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
+                h%20Guide%20%20copy.pdf?dl=0  "
+              linkText: Download Here
+  - contentBlock:
+      subTitle: Northern Men's Research Project
+      body: >-
+        This community-based research project was a collaboration between the
+        literacy councils of NWT, Nunavut, Labrador and Yukon.
+
+
+        We intended to open dialogue about northern indigenous men’s experiences with learning and work. We wanted to better understand the barriers that northern First Nations, Inuit and Métis men face and, most important, what will help them succeed.
+
+
+        We hope the research will lead to more effective programming and policies to support northern Indigenous men in learning, work and well-being.
+      resources:
+        - resourceObject:
             downloadObject:
-              downloadLink: /uploads/wwlesreport2013.pdf
-  - contentBlock:
-      subTitle: Dän Tsʼänānän
-      body: >-
-        The Yukon Literacy Coalition, Champagne Aishihik First Nations (CAFN),
-        and Yukon College worked together on a 40-month project called Dän
-        Tsʼänānän, which was a federally funded program designed to increase
-        capacities and employment for CAFN citizens. The vision of the program
-        was to deliver innovative and culturally appropriate programming that
-        focused on peoples' strengths and brought about positive change for
-        at-risk citizens. The intention was to increase literacy and employment
-        skills of CAFN youth and adults that were out of school, under-employed,
-        or unemployed.
-
-
-        One of our program initiatives was a Greenhouse Workplace Training program. The 21-week program started in April of 2019 in the Village of Haines Junction, Yukon. It was designed to combine wellness, non-formal learning (soft skills) and formal learning (hard skills), with the operation of two commercial greenhouses.
-      images:
-        - image: /uploads/dsc06297.jpg
-        - image: /uploads/dsc06515.jpg
-        - image: /uploads/greenhouse_square.jpg
-        - image: /uploads/img_4749.jpg
-        - image: /uploads/img_4742.jpg
-        - image: /uploads/img_0971.jpeg
-  - contentBlock:
-      subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
-      body: >-
-        ### **Making Work, Work for You**
-
-
-        I yéi jinéiyi, i jeyées yéi jinganéi (Making Work, Work for You) program was a 12- week hands-on learning program that started in Carcross in July 2020. It was designed to help participants plan, develop and operate a small business. The program was also designed to foster an entrepreneurial spirit and encourage and support personal wellness through physical, mental, spiritual and emotional health.
-
-
-        With a high concentration on hands-on learning, the participants of the program had experienced running multiple pop-up businesses at the Whitehorse Outdoor Fireweed Community Market in Shipyards Park. This was a great opportunity to practice the skills needed to run a small business from start to finish. The participants experimented with a traditional bannock recipe and created new flavours weekly to sell at the market. They sold the fresh bannock with hand-pickedfireweed flower jelly, and sweetened earl grey tea with fireweed simple syrup.
-      images:
-        - image: /uploads/bannock.jpg
-        - image: /uploads/fireweed-market-copy.jpg
-        - image: /uploads/labelling.jpg
-        - image: /uploads/picking-fireweed.jpg
-        - image: /uploads/sign.jpg
-        - image: /uploads/ylc_carcrossposter3.jpg
-  - contentBlock:
-      body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
-        entrepreneurship initiative supporting and offering opportunities and
-        guidance to 22 Yukon youth (12-18 years old) who wanted to work for
-        themselves. The Yukon Literacy Coalition helped with start-up costs,
-        marketing, budgeting, operational plans and provided ongoing support and
-        guidance.
-      subTitle: Youth Entrepreneur Program
-      images:
-        - image: /uploads/grande-naturals.png
-        - image: /uploads/mini-pet-store-logo.jpg
-        - image: /uploads/mini-pets.jpg
-        - image: /uploads/bird-houses.jpg
-        - image: /uploads/whomping-willow-wands.jpg
-        - image: /uploads/youth-poster.jpg
-  - contentBlock:
-      body: >-
-        ### **Seniors Making Connections Through Digital Literacy**
-
-
-        This 8 week program was delivered in Carcross, YT to seniors by seniors with a focus on developing digital literacy skills. With a train- the- trainer approach, it's goal was to teach participants how to navigate the internet, learn about scam and fraud prevention, and how to connect with friends and family virtually.
-      subTitle: "       Yanwáatx’i digital literacy tóonax woosh jikáade yaa has
-        kanasxát "
-      imagesVideosList:
-        - imagesVideos:
-            image: /uploads/poster2.jpg
+              downloadLink: /uploads/men-s-northern-research-project.pdf
+            title: What About the Men?
+            body: This document summarizes the research process and results, and makes
+              recommendations for more effective support of Northern Indigenous
+              men in work and school.
+            image: /uploads/screen-shot-2020-10-09-at-2.12.03-pm.png
 ---

@@ -30,6 +30,7 @@ const PostText = styled.div`
 
 const Title = styled.div`
   ${(p) => p.theme.fonts.body_text_bold};
+  font-size: 14px;
   position: relative;
   color: ${(p) => p.theme.colors.text};
   padding: 20px 10px;
@@ -80,7 +81,7 @@ const Link = styled(RRLink)`
 `;
 
 export const PostListing = ({ post, className }) => {
-  const { date, slug, thumbnail, contentBlocks } = post;
+  const { date, slug, thumbnail, contentBlocks, articleTitle } = post;
   const blockWithBody = contentBlocks.find((c) => c.contentBlock?.body?.length);
   const blockWithSubTitle = contentBlocks.find(
     (c) => c.contentBlock?.subTitle?.length
@@ -96,7 +97,9 @@ export const PostListing = ({ post, className }) => {
           <PostText>{moment(date).format("DD MMMM YYYY")}</PostText>
           <ImgContainer thumbnail={thumbnail} />
           <PostBodyContainer>
-            <Title>{blockWithSubTitle?.contentBlock?.subTitle}</Title>
+            <Title>
+              {articleTitle || blockWithSubTitle?.contentBlock?.subTitle}
+            </Title>
             <PostBody>
               {truncate(removeMd(blockWithBody?.contentBlock?.body) || "", 13)}
               ...
