@@ -1,5 +1,5 @@
 ---
-title: The Heritage Teaching Garden
+title: The Learning Garden
 contentBlocks:
   - contentBlock:
       subTitle: ""
