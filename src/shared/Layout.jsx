@@ -29,6 +29,7 @@ export const BodyTextSideBySide = styled.div`
   grid-column: span 12;
   ${(p) => p.theme.fonts.body_text}
   padding: 0 10px;
+  max-width: 100%;
   ${mq[2]} {
     padding: 0;
     grid-column-start: 2;

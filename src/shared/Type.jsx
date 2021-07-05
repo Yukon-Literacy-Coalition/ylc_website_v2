@@ -2,6 +2,7 @@ import React from "react";
 import { css } from "@emotion/core";
 import styled from "@emotion/styled";
 import { returnSplitText } from "../utilsJSX";
+import { InnerMarginedContainer } from "./Layout";
 
 export const SmallSectionTitle = styled.span`
   ${(p) => p.theme.fonts.small_header}
@@ -10,7 +11,11 @@ export const SmallSectionTitle = styled.span`
   grid-column: span 13;
 `;
 
-export const SectionHeader = styled.div`
+const SectionHeaderContainer = styled(InnerMarginedContainer)``;
+
+export const SectionHeaderElement = styled.div`
+  grid-column-start: 2;
+  grid-column-end: 12;
   ${(p) => p.theme.fonts.medium_header};
   height: ${(p) => p?.height};
   display: flex;
@@ -20,6 +25,12 @@ export const SectionHeader = styled.div`
   color: ${(p) => p.theme.colors.text};
   padding: 30px 0;
 `;
+
+export const SectionHeader = (props) => (
+  <SectionHeaderContainer>
+    <SectionHeaderElement>{props.children}</SectionHeaderElement>
+  </SectionHeaderContainer>
+);
 
 export const HeaderText = styled.div`
   ${(p) => p.theme.fonts.body_text};
