@@ -37,6 +37,19 @@ contentBlocks:
         imagesVideos:
           videoLink: "https://www.youtube.com/watch?v=nRl4Rc0bB44 "
   - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          Another way to fertilize is the ‘side dressing’ method. This can be
+          done during the season when you notice your plants turning yellow.
+          That is a sign that important nutrients have been leached or washed
+          out of the plant roots. Plants yellowing is a sign that they are
+          missing Nitrogen.
+
+
+          You can side dress your plants with a nitrogen fertilizer alongside the row of growing plants. Just keep in mind that it is possible to apply too much nitrogen, so use sparingly. Don’t put the fertilizer directly on the plant, just to the side of it.
+        imagesVideos:
+          videoLink: "https://www.youtube.com/watch?v=Z8lN_FnK3Lc "
+  - contentBlock:
       subTitle: Caring
       body: More information coming soon!
 ---
