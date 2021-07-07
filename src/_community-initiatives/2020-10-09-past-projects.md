@@ -74,6 +74,28 @@ contentBlocks:
         - image: /uploads/img_4742.jpg
         - image: /uploads/img_0971.jpeg
   - contentBlock:
+      subTitle: NALES - Northern Alliance for Literacy and Essential Skills
+      body: >-
+        The Yukon Literacy Coalition partnered with the NWT Literacy Council and
+        Ilitaqsiniq - the Nunavut Literacy Council on a collaborative agreement
+        with the Northern Alliance on Literacy & Essential Skills (NALES) to
+        complete a three-year project called “Strengthening Literacy and
+        Essential Skills Development and Labour Market Outcomes across Northern
+        Canada for Adults with Low Skills Levels."
+
+
+        The goal of this project was to strengthen literacy and essential skills development and to improve market outcomes across the north. The team reached out to Aboriginal youth and adults, both men and women, who were out-of-school or unemployed with low levels of literacy and essential skills in the remote north. Throughout this project, Aboriginal youth and adults had the opportunity to develop more transferable skills, become more employable, increase their access to the labour market, and experience more success within the northern economy.
+      resources:
+        - resourceObject:
+            title: A Northern Approach
+            body: This resource guide to embedded literacy and essential skills was
+              developed as part of the NALES project.
+            image: /uploads/northern-approach-image.jpg
+            linkObject:
+              linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
+                h%20Guide%20%20copy.pdf?dl=0  "
+              linkText: Download Here
+  - contentBlock:
       subTitle: Workforce and Workplace Literacy and Essential Skills
       body: With the support of the Office of Literacy and Essential Skills (OLES),
         the Yukon Literacy Coalition (YLC) undertook a project that would assess
@@ -119,28 +141,6 @@ contentBlocks:
               workshops on current policies, practices, and innovations in
               literacy, adult learning, and essential skills development in
               northern Canada.
-  - contentBlock:
-      subTitle: NALES - Northern Alliance for Literacy and Essential Skills
-      body: >-
-        The Yukon Literacy Coalition partnered with the NWT Literacy Council and
-        Ilitaqsiniq - the Nunavut Literacy Council on a collaborative agreement
-        with the Northern Alliance on Literacy & Essential Skills (NALES) to
-        complete a three-year project called “Strengthening Literacy and
-        Essential Skills Development and Labour Market Outcomes across Northern
-        Canada for Adults with Low Skills Levels."
-
-
-        The goal of this project was to strengthen literacy and essential skills development and to improve market outcomes across the north. The team reached out to Aboriginal youth and adults, both men and women, who were out-of-school or unemployed with low levels of literacy and essential skills in the remote north. Throughout this project, Aboriginal youth and adults had the opportunity to develop more transferable skills, become more employable, increase their access to the labour market, and experience more success within the northern economy.
-      resources:
-        - resourceObject:
-            title: A Northern Approach
-            body: This resource guide to embedded literacy and essential skills was
-              developed as part of the NALES project.
-            image: /uploads/northern-approach-image.jpg
-            linkObject:
-              linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
-                h%20Guide%20%20copy.pdf?dl=0  "
-              linkText: Download Here
   - contentBlock:
       subTitle: Northern Men's Research Project
       body: >-
