@@ -12,7 +12,16 @@ contentBlocks:
         plants. Plants and gardens need care everyday, 7 days a week.
   - contentBlock:
       subTitle: Watering
-      body: More information coming soon!
+      body: ""
+      sideBySideBody:
+        mainBody: Plants will need to be watered regularly, especially if the
+          envirnoment is dry or it is windy. Gardens dry out quickly in the
+          wind. Deep watering is more effective than just sprinkling the water
+          on the surface. Plant roots need water to grow; Surface watering
+          encourages plant roots to stay on the surface where they may dry out.
+          Hanging baskets may need 2-3 watering’s per day in hot windy weather.
+        imagesVideos:
+          image: /uploads/watering-garden.jpg
   - contentBlock:
       subTitle: "Feeding "
       body: More information coming soon!
