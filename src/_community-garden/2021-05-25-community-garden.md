@@ -5,7 +5,7 @@ contentBlocks:
       subTitle: ""
       body: >-
         In the summer of 2021, the Yukon Literacy Coalition developed and built
-        a Learning garden adjacent to the Pioneer Hotel in Shipyards Park in
+        a Learning Garden adjacent to the Pioneer Hotel in Shipyards Park in
         Whitehorse. The garden will provide an opportunity for people to learn
         about planting, maintaining and harvesting a garden. The vision is to
         have family literacy programming, workshops for adults, and teachings
