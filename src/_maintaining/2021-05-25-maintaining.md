@@ -29,6 +29,13 @@ contentBlocks:
         (P), which encourages root development and potassium (K), which
         encourages flower and fruit development. These are considered the main
         nutrients required to keep plants healthy.
+      sideBySideBody:
+        mainBody: Fertilizing can happen in different ways. One way to fertilize the
+          plants is using a water soluble 20-20-20 fertilizer every 2-3 weeks.
+          The exact directions will be on the bag, but typically use 1-2
+          tablespoons per watering can (7L).
+        imagesVideos:
+          videoLink: "https://www.youtube.com/watch?v=nRl4Rc0bB44 "
   - contentBlock:
       subTitle: Caring
       body: More information coming soon!
