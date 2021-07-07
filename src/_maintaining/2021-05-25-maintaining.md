@@ -24,7 +24,11 @@ contentBlocks:
           image: /uploads/watering-garden.jpg
   - contentBlock:
       subTitle: "Feeding "
-      body: More information coming soon!
+      body: As well as water, plants absorb nutrients and minerals through their
+        roots. These include nitrogen (N), which aids leafy growth, phosphorus
+        (P), which encourages root development and potassium (K), which
+        encourages flower and fruit development. These are considered the main
+        nutrients required to keep plants healthy.
   - contentBlock:
       subTitle: Caring
       body: More information coming soon!
