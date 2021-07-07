@@ -16,6 +16,8 @@ contentBlocks:
             image: /uploads/nhs.jpeg
         - imagesVideos:
             image: /uploads/nhs3.jpeg
+        - imagesVideos:
+            image: /uploads/nhs2.jpeg
       images: []
   - contentBlock:
       body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
