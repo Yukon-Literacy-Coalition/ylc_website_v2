@@ -14,8 +14,9 @@ contentBlocks:
             image: /uploads/poster2.jpg
         - imagesVideos:
             image: /uploads/nhs.jpeg
-      images:
-        - image: /uploads/nhs3.jpeg
+        - imagesVideos:
+            image: /uploads/nhs3.jpeg
+      images: []
   - contentBlock:
       body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
         entrepreneurship initiative supporting and offering opportunities and
