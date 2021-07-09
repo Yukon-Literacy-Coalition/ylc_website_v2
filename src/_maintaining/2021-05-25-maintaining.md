@@ -66,9 +66,18 @@ contentBlocks:
           #### **Pruning**
 
 
-          *Pruning* is simply cutting off parts of a plant to restrict its size, encourage it to grow in a certain shape or develop more fruit, flowers or stems, or to remove dead or diseased material. Simply removing dead, diseased, broken, crossing and crowded branches is often enough for many plants. Tomatoes need to be pruned regularly, to cut off the “**suckers”**growing in the middle of two branches. This will help the plant to focus on producing tomatoes, rather than more branches.
+          Pruning is simply cutting off parts of a plant to restrict its size, encourage it to grow in a certain shape or develop more fruit, flowers or stems, or to remove dead or diseased material. Simply removing dead, diseased, broken, crossing and crowded branches is often enough for many plants. Tomatoes need to be pruned regularly, to cut off the “**suckers”**growing in the middle of two branches. This will help the plant to focus on producing tomatoes, rather than more branches.
         imagesVideos:
           image: /uploads/screen-shot-2021-07-09-at-2.11.13-pm.png
         belowMedia: "*A tomato sucker is a smallish shoot that grows out of the joint
           where a branch on the tomato plant meets the stem.*"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          #### **Deadheading**
+
+
+          Deadheading is the process of removing the dead flower tips from a flower plant. Pansies and marigolds thrive when you cut off the dead flowers. This prevents plants from setting seed and encourages them to produce more flowers. By regularly deadheading you can keep them flowering throughout summer.
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-09-at-2.13.45-pm.png
 ---
