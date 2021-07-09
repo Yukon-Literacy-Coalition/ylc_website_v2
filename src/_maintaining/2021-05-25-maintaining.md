@@ -50,5 +50,15 @@ contentBlocks:
         plant roots. Plants yellowing is a sign that they are missing Nitrogen.
   - contentBlock:
       subTitle: Caring
-      body: More information coming soon!
+      body: >-
+        #### **Weeding**
+
+
+        Weeding is one of those jobs that just needs to be done. Weeds take up space, water and nutrients in the garden. Some, like chickweed, can grow so quickly that they choke out your crops, so it’s best to address the problem early on. The best time to weed is right after a rain or after you’ve watered, when the ground is soft. All weeds should be pulled out by the roots and as early as possible to avoid them going to seed and overtaking the beds. This is important.
+
+
+        Some weeds such as brome grass can grow back from small sections of root left in the soil. It’s important to get the weeds before they go to seed otherwise you may end up with weeds not just in one bed but in all the beds. The weeds should not be put in the compost pile. 
+
+
+        Sometimes it can be hard to tell if a seedling is a weed or something you have planted. If you’re not sure if a plant is a weed, wait until you can see if it’s part of a line of plants. The plants in a line are probably vegetables since weeds seldom grow in a straight line. Removing tall grass and weeds from the inside and around the greenhouses and garden beds reduces the chance of weeds spreading and also reduces pests (like gophers) from coming into the greenhouse for a snack!
 ---
