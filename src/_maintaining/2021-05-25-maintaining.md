@@ -61,4 +61,14 @@ contentBlocks:
 
 
         Sometimes it can be hard to tell if a seedling is a weed or something you have planted. If you’re not sure if a plant is a weed, wait until you can see if it’s part of a line of plants. The plants in a line are probably vegetables since weeds seldom grow in a straight line. Removing tall grass and weeds from the inside and around the greenhouses and garden beds reduces the chance of weeds spreading and also reduces pests (like gophers) from coming into the greenhouse for a snack!
+      sideBySideBody:
+        mainBody: >-
+          #### **Pruning**
+
+
+          *Pruning* is simply cutting off parts of a plant to restrict its size, encourage it to grow in a certain shape or develop more fruit, flowers or stems, or to remove dead or diseased material. Simply removing dead, diseased, broken, crossing and crowded branches is often enough for many plants. Tomatoes need to be pruned regularly, to cut off the “**suckers”**growing in the middle of two branches. This will help the plant to focus on producing tomatoes, rather than more branches.
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-09-at-2.11.13-pm.png
+        belowMedia: "*A tomato sucker is a smallish shoot that grows out of the joint
+          where a branch on the tomato plant meets the stem.*"
 ---
