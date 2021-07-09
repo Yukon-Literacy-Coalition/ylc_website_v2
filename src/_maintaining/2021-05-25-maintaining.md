@@ -89,4 +89,13 @@ contentBlocks:
           Carrot seeds are very small and it’s easy to plant them too thickly when sowing the tiny seeds. If carrots are spaced too close together, there isn’t enough room to develop large healthy roots and they may become stunted or deformed. When the seedlings are about three to four inches tall, thin the plants to about an inch apart, which usually means removing every second seedling. When thinning carrots, carefully pull the tiny carrot from the soil. Gather up the discarded seedlings and bury them in the compost pile. After the initial thinning, follow up around a month later with a second thinning session. Every second carrot is removed, leaving the roots spaced about 1 ½ to 2 inches apart*. Remember to take the time to plant carrot seeds ¼ inch apart so the first thinning you get baby carrots. This will require less thinning and will minimize the disturbance of growing of the carrots.*
         imagesVideos:
           videoLink: "https://www.youtube.com/watch?v=deLfEpNEFNM "
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          #### Pollinating Squash
+
+
+          Zucchinis that are grown in a greenhouse need to be manually pollinated. The female flower will have a small zucchini growing on it, and the male will just have a straight stalk with a flower on the end. You can snap off the male flower and in the centre of the flower is the pollen. Gently dab the pollen onto the middle of the female flowers, just above the small zucchini (you can also use a paintbrush by dabbing the paintbrush into the middle of the male flower and then dab the female flower center with the pollen covered paintbrush). One male flower can usually pollinate several females. Zucchini’s will grow to be 6 – 24 inches long!
+        imagesVideos:
+          videoLink: "https://www.youtube.com/watch?v=wpGGAjKjvuk "
 ---
