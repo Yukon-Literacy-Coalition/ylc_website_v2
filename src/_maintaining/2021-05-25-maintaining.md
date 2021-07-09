@@ -51,7 +51,7 @@ contentBlocks:
   - contentBlock:
       subTitle: Caring
       body: >-
-        #### **Weeding**
+        ### **Weeding**
 
 
         Weeding is one of those jobs that just needs to be done. Weeds take up space, water and nutrients in the garden. Some, like chickweed, can grow so quickly that they choke out your crops, so it’s best to address the problem early on. The best time to weed is right after a rain or after you’ve watered, when the ground is soft. All weeds should be pulled out by the roots and as early as possible to avoid them going to seed and overtaking the beds. This is important.
