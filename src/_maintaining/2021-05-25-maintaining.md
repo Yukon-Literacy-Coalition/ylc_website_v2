@@ -92,7 +92,7 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: >-
-          #### Pollinating Squash
+          #### **Pollinating Squash**
 
 
           Zucchinis that are grown in a greenhouse need to be manually pollinated. The female flower will have a small zucchini growing on it, and the male will just have a straight stalk with a flower on the end. You can snap off the male flower and in the centre of the flower is the pollen. Gently dab the pollen onto the middle of the female flowers, just above the small zucchini (you can also use a paintbrush by dabbing the paintbrush into the middle of the male flower and then dab the female flower center with the pollen covered paintbrush). One male flower can usually pollinate several females. Zucchini’s will grow to be 6 – 24 inches long!
