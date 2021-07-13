@@ -48,4 +48,16 @@ contentBlocks:
           image: /uploads/troubleshooting-image.jpg
   - contentBlock:
       body: ""
+      subTitle: Rodents
+      sideBySideBody:
+        mainBody: >-
+          Gophers can be an ongoing challenge throughout the summer. They can be
+          trapped live and relocated to a different site away from your
+          greenhouse and/or garden. It is important that the live traps are
+          checked every few hours so that the animals are not harmed or unduly
+          stressed for longer periods. Remember to pick them up at the end of
+          the day.
+
+
+          There may be the odd mouse or vole around. Try to prohibit them with fine mesh chicken wire around the garden beds, and the bottom of the greenhouses.
 ---
