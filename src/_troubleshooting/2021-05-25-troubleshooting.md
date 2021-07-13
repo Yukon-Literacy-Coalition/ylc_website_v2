@@ -123,4 +123,6 @@ contentBlocks:
           act immediately. Remove diseased sections to minimize the spread. If
           it has affected a significant number of plants, replant in new soil
           and clean containers. Do not reuse the soil.*"
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-13-at-1.59.12-pm.png
 ---
