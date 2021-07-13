@@ -86,9 +86,12 @@ contentBlocks:
           #### **Thinning**
 
 
-          Carrot seeds are very small and it’s easy to plant them too thickly when sowing the tiny seeds. If carrots are spaced too close together, there isn’t enough room to develop large healthy roots and they may become stunted or deformed. When the seedlings are about three to four inches tall, thin the plants to about an inch apart, which usually means removing every second seedling. When thinning carrots, carefully pull the tiny carrot from the soil. Gather up the discarded seedlings and bury them in the compost pile. After the initial thinning, follow up around a month later with a second thinning session. Every second carrot is removed, leaving the roots spaced about 1 ½ to 2 inches apart*. Remember to take the time to plant carrot seeds ¼ inch apart so the first thinning you get baby carrots. This will require less thinning and will minimize the disturbance of growing of the carrots.*
+          Carrot seeds are very small and it’s easy to plant them too thickly when sowing the tiny seeds. If carrots are spaced too close together, there isn’t enough room to develop large healthy roots and they may become stunted or deformed. When the seedlings are about three to four inches tall, thin the plants to about an inch apart, which usually means removing every second seedling. When thinning carrots, carefully pull the tiny carrot from the soil. Gather up the discarded seedlings and bury them in the compost pile. After the initial thinning, follow up around a month later with a second thinning session. Every second carrot is removed, leaving the roots spaced about 1 ½ to 2 inches apart*.*
         imagesVideos:
           videoLink: "https://www.youtube.com/watch?v=deLfEpNEFNM "
+        belowMedia: "*Tip: Take the time to plant carrot seeds ¼ inch apart so the first
+          thinning you get baby carrots. This will require less thinning and
+          will minimize the disturbance of growing of the carrots.*"
   - contentBlock:
       sideBySideBody:
         mainBody: >-
