@@ -62,4 +62,17 @@ contentBlocks:
           There may be the odd mouse or vole around. Try to prohibit them with fine mesh chicken wire around the garden beds, and the bottom of the greenhouses.
         imagesVideos:
           image: /uploads/screen-shot-2021-07-13-at-11.02.32-am.png
+  - contentBlock:
+      subTitle: Frost
+      body: ""
+      sideBySideBody:
+        mainBody: The frost-free season is very short in the Yukon, usually from about
+          mid-May or early June until mid-August or early September. If the
+          morning air starts to feel cool and the forecast says it is going to
+          get below 0 degrees overnight, it’s a good time to cover the outdoor
+          garden beds. Start covering the outdoor garden beds in mid-August. Use
+          spare poly and cut it to size to cover the outdoor garden beds. Cover
+          them over at the end of the day and open them up mid-morning the next
+          day once it warmed up. This will protect the outdoor plants from frost
+          before harvesting.
 ---
