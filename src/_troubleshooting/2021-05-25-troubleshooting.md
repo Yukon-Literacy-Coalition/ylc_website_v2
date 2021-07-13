@@ -60,4 +60,6 @@ contentBlocks:
 
 
           There may be the odd mouse or vole around. Try to prohibit them with fine mesh chicken wire around the garden beds, and the bottom of the greenhouses.
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-13-at-11.02.32-am.png
 ---
