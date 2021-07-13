@@ -52,5 +52,5 @@ contentBlocks:
           important to check weekly for signs of aphids and remove infected
           plants from the greenhouse.*"
         imagesVideos:
-          image: ""
+          image: /uploads/troubleshooting-image.jpg
 ---
