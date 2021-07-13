@@ -23,13 +23,13 @@ contentBlocks:
           attack plants next year."
         imagesVideos:
           image: /uploads/screen-shot-2021-07-13-at-10.36.39-am.png
-        belowMedia: "*Onion Maggots*"
+        belowMedia: "*Tip: Plant onions the first week of June to avoid the 1st crop of
+          onion flies which is the most devastating. Do not plant onions in same
+          place for 2 years. Try using cayenne, dill on the ground and moth
+          balls in jars to fend of flies right from the start. Use a combination
+          of deterrents.*"
   - contentBlock:
-      body: "*Tip: Plant onions the first week of June to avoid the 1st crop of onion
-        flies which is the most devastating. Do not plant onions in same place
-        for 2 years. Try using cayenne, dill on the ground and moth balls in
-        jars to fend of flies right from the start. Use a combination of
-        deterrents.*"
+      body: ""
   - contentBlock:
       sideBySideBody:
         mainBody: >-
