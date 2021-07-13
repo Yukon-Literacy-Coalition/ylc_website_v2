@@ -88,4 +88,23 @@ contentBlocks:
           garden may need a second watering later in the day.
         imagesVideos:
           image: /uploads/watering-garden.jpg
+  - contentBlock:
+      subTitle: Fungus
+      sideBySideBody:
+        mainBody: >-
+          **Powdery mildew** is a fungal disease that shows up as white, powdery
+          spots on the leaves and stems of plants. It thrives in cool, humid
+          conditions and cloudy weather can help it increase. Cucumbers, melons,
+          strawberries and all types of squash are most affected by it. Powdery
+          mildew can be controlled by spacing plants to allow for better air
+          circulation, which will keep the humidity down. Aphids can carry
+          powdery mildew and transmit it to surrounding garden plots, so
+          monitoring and pest control are\
+
+          important.
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-13-at-1.45.04-pm.png
+        belowMedia: "*Tip: To control or eliminate the powdery mildew, spray prone
+          plants at the first sign of infection with milk diluted with water
+          (mix 1:10 ratio of milk to water). Repeat applications weekly.*"
 ---
