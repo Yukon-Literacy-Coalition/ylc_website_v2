@@ -77,4 +77,15 @@ contentBlocks:
           beds. Cover them over at the end of the day and open them up
           mid-morning the next day once it warmed up. This will protect the
           outdoor plants from frost before harvesting.*"
+  - contentBlock:
+      subTitle: Heat Waves
+      body: ""
+      sideBySideBody:
+        mainBody: Heat waves can dry surface soil quickly, which dehydrates shallow
+          roots and water is also lost through the leaves in hot weather. The
+          plants need thorough watering during a heatwave, which should be done
+          early in the morning. In extreme hot weather a greenhouse and/ or
+          garden may need a second watering later in the day.
+        imagesVideos:
+          image: /uploads/watering-garden.jpg
 ---
