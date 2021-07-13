@@ -70,11 +70,11 @@ contentBlocks:
           mid-May or early June until mid-August or early September. If the
           morning air starts to feel cool and the forecast says it is going to
           get below 0 degrees overnight, it’s a good time to cover the outdoor
-          garden beds. Start covering the outdoor garden beds in mid-August. Use
-          spare poly and cut it to size to cover the outdoor garden beds. Cover
-          them over at the end of the day and open them up mid-morning the next
-          day once it warmed up. This will protect the outdoor plants from frost
-          before harvesting.
+          garden beds. Start covering the outdoor garden beds in mid-August.
         imagesVideos:
           image: /uploads/screen-shot-2021-07-13-at-11.19.52-am.png
+        belowMedia: "*Tip: Use spare poly and cut it to size to cover the outdoor garden
+          beds. Cover them over at the end of the day and open them up
+          mid-morning the next day once it warmed up. This will protect the
+          outdoor plants from frost before harvesting.*"
 ---
