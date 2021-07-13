@@ -75,4 +75,6 @@ contentBlocks:
           them over at the end of the day and open them up mid-morning the next
           day once it warmed up. This will protect the outdoor plants from frost
           before harvesting.
+        imagesVideos:
+          image: /uploads/screen-shot-2021-07-13-at-11.19.52-am.png
 ---
