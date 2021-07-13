@@ -107,4 +107,20 @@ contentBlocks:
         belowMedia: "*Tip: To control or eliminate the powdery mildew, spray prone
           plants at the first sign of infection with milk diluted with water
           (mix 1:10 ratio of milk to water). Repeat applications weekly.*"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: "**Damping off disease** is a white mold that forms in the top of the
+          soil. When starting bedding plants, little seeds are prone to this
+          fungus. Damping off disease flourishes in cold, wet damp weather with
+          little sunshine. It quickly spreads across the soil and wilts the
+          seedling. Take its habitat away, and the disease cannot survive. The
+          more you make conditions ideal for your plants, the more likely you
+          will avoid damping off disease. Avoid starting the seeds in a basement
+          and leaving them there for a couple of days. While the trays are
+          conveniently out of the way, this is a perfect breeding ground for
+          damping off disease."
+        belowMedia: "*Tip:  If damping off disease does take hold in your seed trays,
+          act immediately. Remove diseased sections to minimize the spread. If
+          it has affected a significant number of plants, replant in new soil
+          and clean containers. Do not reuse the soil.*"
 ---
