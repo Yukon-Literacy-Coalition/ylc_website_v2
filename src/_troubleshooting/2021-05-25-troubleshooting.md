@@ -41,13 +41,9 @@ contentBlocks:
           the plants thoroughly with a strong water jet every few days is
           generally sufficient to control the problem. Heavily infested plants
           should be removed and placed in the garbage."
-        belowMedia: >-
-          *Tip: Plant Marigolds in a pot and place around your plants. The
+        belowMedia: "*Tip: Plant Marigolds in a pot and place around your plants. The
           aphids will be attracted to them and you can quickly and easily remove
-          the pot and put in the garbage to avoid mass infestation.*
-
-
-          *Tip: Aphids come into the greenhouse in a number of different ways: with the wind, on clothing, and by infected plants. It’s important to check weekly for signs of aphids and remove infected plants from the greenhouse.*
+          the pot and put in the garbage to avoid mass infestation.*"
         imagesVideos:
           image: /uploads/troubleshooting-image.jpg
   - contentBlock:
