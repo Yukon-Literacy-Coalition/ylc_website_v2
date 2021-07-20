@@ -1,6 +1,6 @@
 ---
 title: Online Auction Fundraiser!
-link: <https://www.32auctions.com/FamilyLiteracyOnWheels>
+link: https://www.32auctions.com/FamilyLiteracyOnWheels
 displayAnnouncement: true
 ---
 YLC is hosting an online auction on Monday, July 26th as part of the fundraising for our Family Literacy on Wheels! 
