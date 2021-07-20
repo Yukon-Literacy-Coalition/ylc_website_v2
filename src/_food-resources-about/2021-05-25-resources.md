@@ -8,5 +8,5 @@ contentBlocks:
         different, and what worked well one year, might not the next. Plants can
         be temperamental and finicky. Make sure you’re taking time to have fun
         and enjoy the delicious successes! Use the resources below to help you
-        get started!
+        get started.
 ---
