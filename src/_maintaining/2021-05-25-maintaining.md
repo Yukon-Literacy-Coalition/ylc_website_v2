@@ -22,7 +22,7 @@ contentBlocks:
           Hanging baskets may need 2-3 watering’s per day in hot windy weather.
         imagesVideos:
           image: ""
-          videoLink: https://www.youtube.com/watch?v=R8n4hG7NXbY
+          videoLink: "https://www.youtube.com/watch?v=f9QULNq_2_E "
   - contentBlock:
       subTitle: "Feeding "
       body: As well as water, plants absorb nutrients and minerals through their
