@@ -27,16 +27,24 @@ contentBlocks:
         Please follow the link below to donate, or give us a call for more information at 668-6535.
       links:
         - linkObject:
-            linkText: Donate
             linkLocation: https://www.canadahelps.org/en/dn/60323
-        - linkObject:
-            linkLocation: https://www.32auctions.com/FamilyLiteracyOnWheels
-            linkText: Visit the Auction
+            linkText: Donate
       images:
         - image: /uploads/bus-top2.jpg
       sideBySideBody:
-        mainBody: We're also hosting an online auction to raise money for our Family
-          Literacy Centre on Wheels! Check out the auction with the link below.
+        mainBody: ""
+  - contentBlock:
+      subTitle: Online Auction
+      body: >-
+        We are also hosting an online auction from Monday, July 26th until
+        Friday, July 30th! 
+
+
+        We've had many generous donations from local organizations, for which we are so thankful.
+      links:
+        - linkObject:
+            linkLocation: https://www.32auctions.com/FamilyLiteracyOnWheels
+            linkText: Visit the Auction
   - contentBlock:
       subTitle: Le Centre d’alphabétisation familiale sur roues
       body: >-
