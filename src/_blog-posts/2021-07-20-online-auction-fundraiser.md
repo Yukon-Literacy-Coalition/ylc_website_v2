@@ -16,4 +16,7 @@ contentBlocks:
         - linkObject:
             linkLocation: https://www.32auctions.com/FamilyLiteracyOnWheels
             linkText: Visit the Auction
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/bus-top2.jpg
 ---
