@@ -21,7 +21,8 @@ contentBlocks:
           encourages plant roots to stay on the surface where they may dry out.
           Hanging baskets may need 2-3 watering’s per day in hot windy weather.
         imagesVideos:
-          image: /uploads/watering-garden.jpg
+          image: ""
+          videoLink: https://www.youtube.com/watch?v=R8n4hG7NXbY
   - contentBlock:
       subTitle: "Feeding "
       body: As well as water, plants absorb nutrients and minerals through their
