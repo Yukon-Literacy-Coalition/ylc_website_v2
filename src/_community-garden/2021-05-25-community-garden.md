@@ -14,7 +14,7 @@ contentBlocks:
         healing plants.
 
 
-        The garden has an abundance of plants including flowers, vegetables, fruit trees, berries and a bed for traditional healing plants. Some of the plants were donated by local gardeners  Joan Orum, Diana Mulloy, Maryam Kazami and Shawn Verrier.
+        The garden has an abundance of plants including flowers, vegetables, fruit trees, berries and a bed for traditional healing plants. Some of the plants were donated by local gardeners  Joan Oram, Diana Mulloy, Miriam Kazami and Shawn Verrier.
 
 
         This summer the focus is on building the infrastructure of the garden with a plan to start delivering programming in the garden during the summer of 2022.
