@@ -31,7 +31,7 @@ contentBlocks:
           **Peas**
 
 
-          When harvesting for pea pods, you can harvest when the pods are flat but at the right length for your variety of peas. When to pick peas is determined by what you want from the pea. If you prefer edible pods with developed seeds, allow more time before picking peas. When you are picking peas for the pea seeds, pods should be plump and have a swollen appearance. Pick peas with two hands. Secure the vine with one hand then pinch the stem of each pod and pull with the other hand. Don’t tug or jerk pods away; pea plants hang on to their support with thin tendrils so a heavy hand can dislodge the plant from its support.
+          When harvesting for pea pods, you can harvest when the pods are flat but at the right length for your variety of peas. It is also determined by what you want from the pea. If you prefer edible pods with developed seeds, allow more time before harvesting peas. When you are harvesting for the pea seeds, pods should be plump and have a swollen appearance. When harvesting, pick peas with two hands. Secure the vine with one hand then pinch the stem of each pod and pull with the other hand. Don’t tug or jerk pods away; pea plants hang on to their support with thin tendrils so a heavy hand can dislodge the plant from its support.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=kX4sjDNXbHk
 ---
