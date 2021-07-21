@@ -12,7 +12,7 @@ contentBlocks:
           **Leafy Greens** **(lettuces, kale and spinach)**
 
 
-          Leafy greens are ready to be picked as soon as the leaves are large enough to be worth picking. Pick before any seed stalks appear. Some greens, like lettuce, will become bitter as the season progresses. Others, like kale, will get sweeter as the temperature cools.
+          Leafy greens are ready to be picked as soon as the leaves are large enough to be worth picking. Once leaves begin to appear and they are about 4 inches long, you can begin harvesting leaf lettuce. Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch (2.5 cm.) above the crown of the plant. If you cut into or below the crown, the plant will probably die, so be careful. Pick before any seed stalks appear. Some greens, like lettuce, will become bitter as the season progresses. Others, like kale, will get sweeter as the temperature cools.
         imagesVideos:
           videoLink: " <https://www.youtube.com/watch?v=s4hmPv4rkkw>"
 ---
