@@ -2,6 +2,6 @@
 title: Harvesting
 contentBlocks:
   - contentBlock:
-      subTitle: The Final Outcome
+      subTitle: ""
       body: More information coming soon!
 ---
