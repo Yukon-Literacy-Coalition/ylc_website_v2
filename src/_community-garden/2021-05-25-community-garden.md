@@ -7,10 +7,11 @@ contentBlocks:
         In the summer of 2021, the Yukon Literacy Coalition developed and built
         a Learning Garden adjacent to the Pioneer Hotel in Shipyards Park in
         Whitehorse. It was built with guidance from Master Gardeners Agnus
-        Seitz, Randy Lewis and Marc Boulerice. The garden will provide an
-        opportunity for people to learn about planting, maintaining and
-        harvesting a garden. The vision is to have family literacy programming,
-        workshops for adults, and teachings about traditional healing plants.
+        Seitz, Gertie Scharrer, Randy Lewis and Marc Boulerice. The garden will
+        provide an opportunity for people to learn about planting, maintaining
+        and harvesting a garden. The vision is to have family literacy
+        programming, workshops for adults, and teachings about traditional
+        healing plants.
 
 
         The garden has an abundance of plants including flowers, vegetables, fruit trees, berries and a bed for traditional healing plants. Some of the plants were donated by local gardeners  Joan Orum, Diana Mulloy, Maryam Kazami and Shawn Verrier.
