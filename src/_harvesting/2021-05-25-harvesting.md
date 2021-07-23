@@ -102,4 +102,15 @@ contentBlocks:
           Ready to harvest when the head is 6-12 inches in diameter, firm, compact and white. When you’re ready to harvest the cauliflower head, cut it from the main stem but leave a few of the outer leaves attached to help protect the head and prolong its overall quality until ready to eat. Be sure to handle the head carefully as it can bruise rather easily.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=jQRg2riBeGY
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Celery**
+
+
+          Ready to harvest when the stalks are 6 inches long from the ground to the first leaf.  Harvesting celery is done by cutting the stalks below where they are joined together.
+        belowMedia: "*Tip: Picking celery can include the harvest of the leaves for use
+          as a flavoring in soups and stews.*"
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=str1TdzEFOA
 ---
