@@ -34,4 +34,13 @@ contentBlocks:
           When harvesting for pea pods, you can harvest when the pods are flat but at the right length for your variety of peas. It is also determined by what you want from the pea. If you prefer edible pods with developed seeds, allow more time before harvesting peas. When you are harvesting for the pea seeds, pods should be plump and have a swollen appearance. When harvesting, pick peas with two hands. Secure the vine with one hand then pinch the stem of each pod and pull with the other hand. Don’t tug or jerk pods away; pea plants hang on to their support with thin tendrils so a heavy hand can dislodge the plant from its support.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=kX4sjDNXbHk
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Beans**
+
+
+          Beans are Rready to pick when the pods are still smooth, snap easily and the seeds haven’t formed bulges along the pod. Look for lean full beans that are firm to the touch. Avoid waiting too long to pick when the seeds inside are bulging and the bean has become stringy. To harvest the bean, grasp the top of the bean and notice the little stem that connects the bean to the main vine. Break off the bean at the stem. You don’t want to damage the vine or plant, so be careful you don’t pull too hard on the bean before it’s truly been broken off.
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=fEX3lJVd2A8
 ---
