@@ -172,4 +172,17 @@ contentBlocks:
           Once the tomato turns dark red, cut it off of the vine with scissors, leaving a short stem attached. This is to help the tomatoes stay fresh, and not mould.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=R2mB_14ohUY
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Turnips**
+
+
+          Ready to harvest when the shoulders of the bulb are protruding the soil. Ideally the root will be about 2-3 inches in diameter or the size of a baseball. Your turnip harvest should all be pulled before a frost or the root may crack and rot in the soil.
+        belowMedia: "*Tip: Turnip greens are nutritious, versatile vegetables. You can
+          harvest them from any variety of turnip but this will impede
+          production of the roots. Only cut the greens once if you want a turnip
+          harvest of roots.*"
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=3SspME9xvtA
 ---
