@@ -122,4 +122,15 @@ contentBlocks:
           Ready to pick when they’re about 7-9 inches long and medium to dark green and firm. Use garden shears or pruners when harvesting ripe cucumbers. This will prevent injury to the vine by twisting or pulling. Cut the stem ¼ inch above the fruit.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=cvfEwL0FK48
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Herbs**
+
+
+          Ready to be picked as soon as the leaves are large enough to be worth picking. To havest leafy annual herbs, such as basil, pinch at the tips of the stems, gathering several leaves at a time. Longer stemmed herbs, such as cilantro, parsley, lavender, and rosemary, should be cut near the base of the branch. Leafy perennial herbs, such oregano, thyme, sage, and tarragon, are to be harvested by the stem in sprigs.
+        belowMedia: "*Tip: Only harvest 1/3 of the plant at a time, otherwise the plan
+          will start to flower, and the herbs will turn bitter.*"
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=koRDoaSVfJM
 ---
