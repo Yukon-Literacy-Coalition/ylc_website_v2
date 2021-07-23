@@ -113,4 +113,13 @@ contentBlocks:
           as a flavoring in soups and stews.*"
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=str1TdzEFOA
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Cucumbers**
+
+
+          Ready to pick when they’re about 7-9 inches long and medium to dark green and firm. Use garden shears or pruners when harvesting ripe cucumbers. This will prevent injury to the vine by twisting or pulling. Cut the stem ¼ inch above the fruit.
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=cvfEwL0FK48
 ---
