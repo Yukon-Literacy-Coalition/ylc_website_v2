@@ -83,4 +83,14 @@ contentBlocks:
           Cabbage is ready to harvest when the heads are solid. Give it a squeeze. If you still feel some softness, you should wait a bit. Heads may be large or small when ready. When the cabbage is ready for harvesting, grab the base of a cabbage head and pull. In loose soil, you’ll bring up the entire plant, root and all.
         imagesVideos:
           videoLink: " https://www.youtube.com/watch?v=ZRw92CpmtZw"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Carrots**
+
+
+          The size at maturity depends on the variety but carrots should be firm and bright in colour. Most varieties are ready to harvest when the shoulders are 1/2 to 3/4 inch in diameter, but again, there is much variation depending on the variety. To harvest, loosen soil around the carrot with a spade or trowel before pulling up from the greens; this will help avoid breaking the greens off from the carrot roots. Carrots mature roughly around the same time, but you don't have to harvest them all at once.
+        belowMedia: "*Tip: Baby carrots can be harvested when thinning the beds.*"
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=L-vyhvtnA8E
 ---
