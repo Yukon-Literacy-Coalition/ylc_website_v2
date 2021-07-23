@@ -59,4 +59,19 @@ contentBlocks:
           videoLink: " https://www.youtube.com/watch?v=khbw12E-fng"
         belowMedia: "*Tip: Beet greens can be harvested to eat as a leafy green while
           the bulb is still growing by snipping 1-2 leaves off each beet.*"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Broccoli**
+
+
+          Broccoli is ready to be harvested when the head is 4-7 inches wide and it is deep green  in colour. When your broccoli head is ready to harvest, use a sharp knife and cut the head of the broccoli off the plant. Cut the broccoli head stem 5 inches or more below the head, then remove the head off with a swift cut. Try to avoid sawing at the stem as this may cause unnecessary damage to the plant and ruin your chances for side harvesting later.
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=jDoVpU-tlQ8
+        belowMedia: "*Tip: After you have harvested the main head, you can continue to
+          harvest the side shoots from the broccoli which will grow like tiny
+          heads to the side of where the main head was. By looking at the size
+          of the florets, you can tell when these side shoots are ready for
+          harvest. Simply cut them off as they become ready.
+          [](https://www.youtube.com/watch?v=jDoVpU-tlQ8)*"
 ---
