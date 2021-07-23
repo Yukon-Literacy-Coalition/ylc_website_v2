@@ -163,4 +163,13 @@ contentBlocks:
           Depending on the type of squash, expect 1-6 squashes per plant. Summer squash and zucchini are harvested the moment they reach a usable size. Just cut them free from the plant- don’t pull on them. A zucchini can be eaten at 6 inches or they can keep growing to upwards of 2 feet long.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=IvJWn15lehk
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Tomatoes**
+
+
+          Once the tomato turns dark red, cut it off of the vine with scissors, leaving a short stem attached. This is to help the tomatoes stay fresh, and not mould.
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=R2mB_14ohUY
 ---
