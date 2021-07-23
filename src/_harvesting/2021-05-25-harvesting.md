@@ -133,4 +133,15 @@ contentBlocks:
           will start to flower, and the herbs will turn bitter.*"
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=koRDoaSVfJM
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Potatoes**
+
+
+          Ready to harvest when the leaves start to wilt after the first frost. After deciding when to dig up potatoes, dig up a “test” hill for maturity. The skins of mature potatoes are thick and firmly attached to the flesh. If the skins are thin and rub off easily, your potatoes are still to new and should be left in the ground for a few more days. To harvest, pull up the plants and gently dig for the potatoes underneath.
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=6g0Cd8jH8t0
+        belowMedia: "*Tip: Stop watering the potatoes at least 2 weeks before harvest to
+          allow the potatoes to grow their skin for winter storage.*"
 ---
