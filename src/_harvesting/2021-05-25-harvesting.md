@@ -80,7 +80,7 @@ contentBlocks:
           **Cabbage**
 
 
-          Cabbage is ready to harvest when the heads are solid. Give it a squeeze. If you still feel some softness, you should wait a bit. Heads may be large or small when ready. When the cabbage is ready for harvesting, grab the base of a cabbage head and pull. In loose soil, you’ll bring up the entire plant, root and all.
+          Cabbage is ready to harvest when the heads are solid. Give it a squeeze. If you still feel some softness, you should wait a bit. Heads may be large or small when ready. When the cabbage is ready for harvesting, you have two options: 1. Grab the base of a cabbage head and pull. In loose soil, you’ll bring up the entire plant, root and all. 2. Using a very sharp knife, cut the cabbage head off, leaving a few inches of the stem and some of the large, floppy leaves intact and leaving the root in the ground.
         imagesVideos:
           videoLink: " https://www.youtube.com/watch?v=ZRw92CpmtZw"
   - contentBlock:
