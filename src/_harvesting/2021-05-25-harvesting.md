@@ -144,4 +144,14 @@ contentBlocks:
           videoLink: https://www.youtube.com/watch?v=6g0Cd8jH8t0
         belowMedia: "*Tip: Stop watering the potatoes at least 2 weeks before harvest to
           allow the potatoes to grow their skin for winter storage.*"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: "**Radishes:** A good way to tell if radishes are ready to be
+          harvested is to simply pull one from the soil. If the soil is
+          particularly crusted or hard, use a garden fork or trowel to gently
+          lift the root from the soil. If the roots are about 1 inch in
+          diameter, they are ready to be harvested. Cut the tops and tail root
+          from the radishes, wash them, and they are ready to eat!"
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=AVWBiQ5-37E
 ---
