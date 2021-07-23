@@ -74,4 +74,13 @@ contentBlocks:
           of the florets, you can tell when these side shoots are ready for
           harvest. Simply cut them off as they become ready.
           [](https://www.youtube.com/watch?v=jDoVpU-tlQ8)*"
+  - contentBlock:
+      sideBySideBody:
+        mainBody: >-
+          **Cabbage**
+
+
+          Cabbage is ready to harvest when the heads are solid. Give it a squeeze. If you still feel some softness, you should wait a bit. Heads may be large or small when ready. When the cabbage is ready for harvesting, grab the base of a cabbage head and pull. In loose soil, you’ll bring up the entire plant, root and all.
+        imagesVideos:
+          videoLink: " https://www.youtube.com/watch?v=ZRw92CpmtZw"
 ---
