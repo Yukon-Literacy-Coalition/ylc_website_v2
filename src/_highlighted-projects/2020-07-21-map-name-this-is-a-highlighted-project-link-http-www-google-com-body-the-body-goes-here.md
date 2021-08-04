@@ -1,8 +1,8 @@
 ---
 name: This is a highlighted Project
-title: Youth Financial Literacy
-link: http://yukonliteracy.com/community/initiative/youth-financial-literacy
+title: The Learning Garden
+link: http://yukonliteracy.com/food/garden
 linkText: Learn More
-image: /uploads/youth-poster.jpg
+image: /uploads/garden-7.jpg
 ---
-In the summer of 2020, the Yukon Literacy Coalition launched a youth entrepreneurship initiative that supports and offers opportunities and guidance to Yukon youth (12-18 years old) who want to work for themselves and with others. The Yukon Literacy Coalition assists with start-up costs, marketing, budgeting and anything else to help the youth succeed with their project.
+In the summer of 2021, the Yukon Literacy Coalition developed and built a Learning Garden adjacent to the Pioneer Hotel in Shipyards Park in Whitehorse. It was built with guidance from Master Gardeners Agnes Seitz, Gertie Scharrer, Randy Lewis and Marc Boulerice. The garden will provide an opportunity for people to learn about planting, maintaining and harvesting a garden. The vision is to have family literacy programming, workshops for adults, and teachings about traditional healing plants.
