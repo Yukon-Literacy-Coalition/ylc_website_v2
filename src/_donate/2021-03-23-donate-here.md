@@ -34,18 +34,6 @@ contentBlocks:
       sideBySideBody:
         mainBody: ""
   - contentBlock:
-      subTitle: Online Auction
-      body: >-
-        We are also hosting an online auction from Monday, July 26th until
-        Friday, July 30th! 
-
-
-        We've had many generous donations from local organizations, for which we are so thankful.
-      links:
-        - linkObject:
-            linkLocation: https://www.32auctions.com/FamilyLiteracyOnWheels
-            linkText: Visit the Auction
-  - contentBlock:
       subTitle: Le Centre d’alphabétisation familiale sur roues
       body: >-
         Nous opérons un Centre d’alphabétisation familiale très actif au Centre
