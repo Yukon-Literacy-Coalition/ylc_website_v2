@@ -24,7 +24,7 @@ contentBlocks:
         So how do we celebrate our pup? There are so many ways we can give back to our dogs in celebrating them. Take them for an extra-long walk, throw a few extra cookies their way, or buy them a new fun toy! If you want to take it the extra mile you could always make them a dog-friendly cake or donate to your local shelter.
 
 
-        Let’s not forget the origin of National dog month and start thinking about adopting your very own rescue pup today!
+        Let’s not forget the origin of National dog month and start thinking about adopting your very own rescue pup today.
       downloads:
         - downloadObject:
             downloadText: Read Yukon News Article
