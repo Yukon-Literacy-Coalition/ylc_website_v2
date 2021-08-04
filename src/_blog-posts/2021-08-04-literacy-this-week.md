@@ -28,4 +28,5 @@ contentBlocks:
       downloads:
         - downloadObject:
             downloadLink: /uploads/aug4.pdf
+            downloadText: Read Yukon News Article
 ---
