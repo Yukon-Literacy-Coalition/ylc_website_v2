@@ -48,7 +48,7 @@ const DDButtonStyles = styled.span`
   align-content: center;
   justify-content: center;
   font-family: Noto Sans;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   a,
   span {
@@ -170,6 +170,7 @@ export const BasicNav = (props) => {
       <DDButton to="/family" text="Family Literacy" />
       <DDButton to="/community" text="Community Initiatives" />
       <DDButton to="/food" text="Food Security" />
+      <DDButton to="/food" text="For Kids" />
       <DDButton to="/news" text="News" />
       <DDButton to="/events" text="Events" />
       <DDButton to="/donate" text="Donate" />
@@ -446,6 +447,7 @@ const Navigation = (props) => {
               <FoodLiteracyLinks />
             </DropDownContent>
           </DropDownContainer>
+          <DDButton to="/kids" text="For Kids" />
           <DDButton to="/news" text="News" />
           <DDButton to="/events" text="Events" />
           <DDButton to="/donate" text="Donate" />

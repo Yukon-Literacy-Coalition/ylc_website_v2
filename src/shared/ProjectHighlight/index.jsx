@@ -5,6 +5,7 @@ import { css } from "@emotion/core";
 import { lighten } from "polished";
 import { DarkAndLightText } from "../Type";
 import { mq } from "../../theme";
+import { Link } from "@reach/router";
 
 const SingleProject = css`
   grid-column-start: 4;
@@ -20,7 +21,28 @@ const SingleProject = css`
 
 const ProjectContainer = styled.div`
   transition: all 0.2s;
-  padding: 10px 0;
+  /* padding: 10px 0; */
+  grid-column: span 4;
+  background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
+  border-radius: 3px;
+  box-shadow: 1px 0px 4px 1px lightgray;
+  display: flex;
+  flex-direction: column;
+  /* &:hover {
+    ${(p) => p.theme.hover.box};
+  } */
+  ${mq[3]} {
+    grid-column: span 6;
+  }
+  ${mq[2]} {
+    grid-column: span 12;
+  }
+  ${(p) => p.projectsLength === 1 && SingleProject}
+`;
+
+const ProjectContainerLink = styled(Link)`
+  transition: all 0.2s;
+  /* padding: 10px 0; */
   grid-column: span 4;
   background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
   border-radius: 3px;
@@ -42,7 +64,7 @@ const ProjectContainer = styled.div`
 // IMAGE
 
 const ImgContainer = styled.div`
-  background-color: ${(p) => (p.isImage ? "transparent" : "grey")};
+  background-color: ${(p) => (p.isImage ? "white" : "grey")};
   height: 286px;
   border-radius: 3px 3px 0 0;
   display: flex;
@@ -50,7 +72,7 @@ const ImgContainer = styled.div`
   align-items: center;
   overflow: hidden;
   background-image: url(${(p) => p?.image});
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 `;
@@ -75,6 +97,10 @@ const BodyContainer = styled.div`
 const ProjTitle = styled.div`
   ${(p) => p.theme.fonts.extra_small_header};
   padding: 20px 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 `;
 
@@ -98,19 +124,20 @@ const ButtonsWrapper = styled.div`
 const ProjectHighlight = (props) => {
   const project = props?.project;
   const projectsLength = props?.projectsLength;
-  return (
-    <ProjectContainer projectsLength={projectsLength}>
-      <ImgContainer isImage={project?.image} image={project?.image} />
+
+  let image = project?.image || project?.thumbnail;
+  let body = project?.body || project?.description || "Body text needed";
+
+  const Content = () => (
+    <>
+      <ImgContainer isImage={image} image={image} />
       <BodyContainer>
         <div>
           <ProjTitle>
             <DarkAndLightText text={project?.title || "Project Title"} />
           </ProjTitle>
           <ProjBody>
-            <StyledMarkdown
-              source={project?.body || "Body text needed"}
-              escapeHtml={false}
-            />
+            <StyledMarkdown source={body} escapeHtml={false} />
           </ProjBody>
         </div>
         <>
@@ -141,9 +168,9 @@ const ProjectHighlight = (props) => {
               {project?.linkObject?.linkLocation && (
                 <ButtonContainer>
                   <a
-                    href={project?.linkObject?.linkLocation}
                     target="_blank"
                     rel="noreferrer"
+                    href={project?.linkObject?.linkLocation}
                   >
                     <LargeButton>
                       {project?.linkObject?.linkText || "Learn More"}
@@ -162,10 +189,32 @@ const ProjectHighlight = (props) => {
               )}
             </ButtonsWrapper>
           )}
+          {/* {!!project?.localLink && (
+            <ButtonsWrapper>
+              <Link to={project.localLink}>Let's go</Link>
+            </ButtonsWrapper>
+          )} */}
         </>
       </BodyContainer>
-    </ProjectContainer>
+    </>
   );
+
+  if (!!project.localLink) {
+    return (
+      <ProjectContainerLink
+        to={project.localLink}
+        projectsLength={projectsLength}
+      >
+        <Content />
+      </ProjectContainerLink>
+    );
+  } else {
+    return (
+      <ProjectContainer projectsLength={projectsLength}>
+        <Content />
+      </ProjectContainer>
+    );
+  }
 };
 
 export default ProjectHighlight;

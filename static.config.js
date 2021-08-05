@@ -169,6 +169,9 @@ export default {
     const _aboutFoodResourcesArray = await getPosts(
       "./src/_food-resources-about"
     );
+
+    // FOOD RESOURCES
+
     const aboutFoodResources = _aboutFoodResourcesArray?.[0];
 
     const _planting = await getPosts("./src/_planting");
@@ -183,7 +186,57 @@ export default {
     const _harvesting = await getPosts("./src/_harvesting");
     const harvesting = _harvesting?.[0];
 
-    // FOOD RESOURCES
+    // FOR KIDS
+
+    const addLocalLink = (x, prelude) => {
+      x.localLink = prelude + x?.slug;
+      return x;
+    };
+
+    const _aboutForKids = await getPosts("./src/_about-for-kids");
+    const aboutForKids = _aboutForKids?.[0];
+
+    const _aboutStorytime = await getPosts("./src/_about-storytime");
+    const aboutStorytime = _aboutStorytime?.[0];
+    const _storytime = await getPosts("./src/_storytime");
+    const storytime = _storytime
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/storytime/content/"));
+
+    const _aboutSongs = await getPosts("./src/_about-songs");
+    const aboutSongs = _aboutSongs?.[0];
+    const _songs = await getPosts("./src/_songs");
+    const songs = _songs
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/songs/content/"));
+
+    const _aboutScience = await getPosts("./src/_about-science");
+    const aboutScience = _aboutScience?.[0];
+    const _science = await getPosts("./src/_science");
+    const science = _science
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/science/content/"));
+
+    const _aboutKidsFood = await getPosts("./src/_about-kids-food");
+    const aboutKidsFood = _aboutKidsFood?.[0];
+    const _kidsFood = await getPosts("./src/_kids-food");
+    const kidsFood = _kidsFood
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/kids_food/content/"));
+
+    const _aboutCraft = await getPosts("./src/_about-craft");
+    const aboutCraft = _aboutCraft?.[0];
+    const _craft = await getPosts("./src/_craft");
+    const craft = _craft
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/craft/content/"));
+
+    const _aboutCaregiver = await getPosts("./src/_about-caregiver");
+    const aboutCaregiver = _aboutCaregiver?.[0];
+    const _caregiver = await getPosts("./src/_caregiver");
+    const caregiver = _caregiver
+      .map(addSlug)
+      .map((x) => addLocalLink(x, "/kids/caregiver/content/"));
 
     return [
       // HOME SECTION
@@ -337,7 +390,7 @@ export default {
           aboutFoodResources,
         }),
       },
-      // resources
+      // FOOD RESOURCES
       {
         path: "/food/resources/planting",
         template: "src/Food/Planting",
@@ -364,6 +417,105 @@ export default {
         template: "src/Food/Troubleshooting",
         getData: async () => ({
           troubleshooting,
+        }),
+      },
+      // FOR KIDS
+      {
+        path: "/kids",
+        template: "src/Kids",
+        getData: async () => ({
+          aboutForKids,
+        }),
+      },
+      {
+        path: "/kids/storytime",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutStorytime,
+          projects: storytime,
+        }),
+        children: storytime.map((element) => {
+          console.log({ element });
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
+        }),
+      },
+      {
+        path: "/kids/songs",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutSongs,
+          projects: songs,
+        }),
+        children: songs.map((element) => {
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
+        }),
+      },
+      {
+        path: "/kids/science",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutScience,
+          projects: science,
+        }),
+        children: science.map((element) => {
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
+        }),
+      },
+      {
+        path: "/kids/kids_food",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutKidsFood,
+          projects: kidsFood,
+        }),
+        children: kidsFood.map((element) => {
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
+        }),
+      },
+      {
+        path: "/kids/craft",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutCraft,
+          projects: craft,
+        }),
+        children: craft.map((element) => {
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
+        }),
+      },
+      {
+        path: "/kids/caregiver",
+        template: "src/Kids/KidsProjectList",
+        getData: async () => ({
+          about: aboutCaregiver,
+          projects: caregiver,
+        }),
+        children: caregiver.map((element) => {
+          return {
+            path: `/content/${element.slug}`,
+            template: `src/Kids/KidsProject`,
+            getData: async () => ({ data: element }),
+          };
         }),
       },
       // NEWS SECTIONS

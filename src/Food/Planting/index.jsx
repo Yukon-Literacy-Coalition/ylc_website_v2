@@ -4,6 +4,7 @@ import Project from "../../shared/Project";
 
 export const Planting = (props) => {
   const { planting } = props;
+  console.log({ planting });
   return <Project {...planting} {...props} />;
 };
 

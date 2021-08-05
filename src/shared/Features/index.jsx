@@ -5,6 +5,8 @@ import { MarginedContainer } from "../Layout";
 import { DarkAndLightText } from "../Type";
 import Markdown from "react-markdown";
 import ReactPlayer from "react-player";
+import { Link } from "@reach/router";
+import { mq } from "../../theme";
 
 import img1 from "../../assets/tombstones_banner.jpg";
 import img2 from "../../assets/yukon_river_banner.jpg";
@@ -208,5 +210,46 @@ export const VideoPlayer = ({ url, isCMS, ...rest }) => {
         />
       )}
     </VideoContainer>
+  );
+};
+
+export const CircleImgContainer = ({ img, text, link }) => {
+  const ImgWrapper = styled(Link)`
+    grid-column: span 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
+    ${mq[2]} {
+      grid-column: span 12;
+    }
+  `;
+
+  const Circle = styled.div`
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 5px ${(p) => p.theme.colors.medium_accent};
+    img {
+      width: 150%;
+    }
+  `;
+
+  const Text = styled.div`
+    ${(p) => p.theme.fonts.small_header};
+    color: ${(p) => p.theme.colors.ylc_blue};
+    padding: 25px 0;
+  `;
+
+  return (
+    <ImgWrapper to={link}>
+      <Circle>
+        <img src={img} alt="" />
+      </Circle>
+      <Text>{text}</Text>
+    </ImgWrapper>
   );
 };

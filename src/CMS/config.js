@@ -175,6 +175,28 @@ const sideBySideBody = {
   ],
 };
 
+const forKidsInformation = [
+  {
+    label: "Archived Status",
+    name: "isArchived",
+    widget: "boolean",
+    default: false,
+  },
+  {
+    label: "Description",
+    name: "description",
+    widget: "markdown",
+    pattern: ["^.{0,400}$", "400 maximum characters"],
+    hint: "This is a description for the listing of all projects of this type. I've limited it to 400 characters so the descriptions are all somewhat uniform.",
+  },
+  {
+    label: "Thumbnail Image",
+    name: "thumbnail",
+    widget: "image",
+    hint: "This is a thumbnail for when this project is listed with other projects of this type.",
+  },
+];
+
 // const singularContentBlock = {
 //   label: "Content Block",
 //   name: "contentBlock",
@@ -229,17 +251,17 @@ const currentURL = "http://yukonliteracy.com/";
 
 module.exports = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
+  // backend: {
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
+  // },
   // BACKEND for DEV
   // run "npx netlify-cms-proxy-server" in root dir
-  // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
-  // },
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
@@ -448,7 +470,14 @@ module.exports = {
         { label: "Title", name: "title", widget: "string" },
         linkUrlString,
         linkTextString,
-        { label: "Body", name: "body", widget: "markdown" },
+
+        {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          pattern: ["^.{0,400}$", "400 maximum characters"],
+          hint: "I've limited it to 400 characters so the descriptions are all somewhat uniform.",
+        },
         { label: "Image", name: "image", widget: "image" },
       ],
     },
@@ -632,6 +661,169 @@ module.exports = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    // KIDS SECTIONS
+    {
+      name: "aboutForKids",
+      label: "Kids - About For Kids",
+      folder: "src/_about-for-kids",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutStorytime",
+      label: "Kids - About Storytime",
+      folder: "src/_about-storytime",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "storytime",
+      label: "Kids - Storytime Content",
+      folder: "src/_storytime",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutSongs",
+      label: "Kids - About Songs",
+      folder: "src/_about-songs",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "songs",
+      label: "Kids - Songs Content",
+      folder: "src/_songs",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutScience",
+      label: "Kids - About Science",
+      folder: "src/_about-science",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "science",
+      label: "Kids - Science Content",
+      folder: "src/_science",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutKidsFood",
+      label: "Kids - About Kids Food",
+      folder: "src/_about-kids-food",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "kidsFood",
+      label: "Kids - Food Content",
+      folder: "src/_kids-food",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutCraft",
+      label: "Kids - About Craft",
+      folder: "src/_about-craft",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "craft",
+      label: "Kids - Craft Content",
+      folder: "src/_craft",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
+        contentsBlock,
+      ],
+    },
+    {
+      name: "aboutCaregiver",
+      label: "Kids - About Caregiver",
+      folder: "src/_about-caregiver",
+      create: false,
+      delete: false,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        contentsBlock,
+      ],
+    },
+    {
+      name: "caregiver",
+      label: "Kids - Caregiver Content",
+      folder: "src/_caregiver",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        ...forKidsInformation,
         contentsBlock,
       ],
     },

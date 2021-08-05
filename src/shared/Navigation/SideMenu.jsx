@@ -68,7 +68,7 @@ export const SideMenu = ({
   const communityLinksArray = getCommunityLinksArray({ communityLinks });
 
   // submenu keys of first level
-  const rootSubmenuKeys = ["about", "famlit", "community"];
+  const rootSubmenuKeys = ["about", "famlit", "community", "food"];
 
   const [openKeys, setOpenKeys] = useState(["about"]);
 
@@ -164,6 +164,11 @@ export const SideMenu = ({
           })}
         </SubMenu>
 
+        <Menu.Item>
+          <RRLink onClick={() => setSideMenuVisible(false)} to="/kids">
+            For Kids
+          </RRLink>
+        </Menu.Item>
         <Menu.Item>
           <RRLink onClick={() => setSideMenuVisible(false)} to="/news">
             News
