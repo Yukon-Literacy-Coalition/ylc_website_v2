@@ -15,7 +15,7 @@ contentBlocks:
         auction:
 
 
-        *Air North; Yukon News; G & P Distributing Food Service Wholesaler; Boston Pizza; Yukon Built; Atlin Mountain Coffee Roasters; Due North Maternity and Baby; Baked Café; Cultured Fine Cheese; Icycle Sports; Bullet Hole Bagels; Murdoch’s Gem Shop; Canada Games Centre; Coast Mountain Sports; Coles Bookstore; Paradise Alley Gifts; Lumel Studios ; KampYukon; Klondike Kettle Corn; Klondike Rib & Salmon; Itsy Bitsy Yarn Store; Mac’s Fireweed Books; Polarity Brewing; Pretty, Neat Yukon; Triple J’s Canna Space; UPS Store #302; Well Bread Culinary Centre Inc.; Winterlong Brewing; Yukon Brewing*
+        *Air North; Yukon News; G & P Distributing Food Service Wholesaler; Boston Pizza; Yukon Built; Atlin Mountain Coffee Roasters; Due North Maternity and Baby; Baked Café; Cultured Fine Cheese; Icycle Sports; Bullet Hole Bagels; Murdoch’s Gem Shop; Canada Games Centre; Coast Mountain Sports; Coles Bookstore; Paradise Alley Gifts; Lumel Studios ; KampYukon; Klondike Kettle Corn; Klondike Rib & Salmon; Itsy Bitsy Yarn Store; Mac’s Fireweed Books; Polarity Brewing; Pretty, Neat Yukon; Triple J’s Canna Space; UPS Store #302; Well Bread Culinary Centre Inc.; Winterlong Brewing; Yukon Brewing.*
       sideBySideBody:
         mainBody: ""
         belowMedia: ""
