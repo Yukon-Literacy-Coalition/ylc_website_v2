@@ -1,7 +1,7 @@
 ---
 layout: blog
 date: 2021-08-04T21:31:13.050Z
-articleTitle: Literacy This Week!
+articleTitle: Literacy This Week
 thumbnail: /uploads/screen-shot-2021-08-04-at-2.17.11-pm.png
 contentBlocks:
   - contentBlock:
