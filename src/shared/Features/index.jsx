@@ -233,9 +233,10 @@ export const CircleImgContainer = ({ img, text, link }) => {
     height: 300px;
     overflow: hidden;
     box-shadow: 5px 5px 10px 5px ${(p) => p.theme.colors.medium_accent};
-    img {
-      width: 150%;
-    }
+    text-align: center;
+    background-image: url(${(p) => p.img});
+    background-size: cover;
+    background-position: center;
   `;
 
   const Text = styled.div`
@@ -246,9 +247,7 @@ export const CircleImgContainer = ({ img, text, link }) => {
 
   return (
     <ImgWrapper to={link}>
-      <Circle>
-        <img src={img} alt="" />
-      </Circle>
+      <Circle img={img} />
       <Text>{text}</Text>
     </ImgWrapper>
   );

@@ -81,17 +81,21 @@ const MainBodyTextSideBySide = styled(BodyTextSideBySide)`
 
 const SideBySideHalf = styled.div`
   grid-column: span 6;
-  background: ${(p) => p.theme.colors.light_accent};
+  /* background: ${(p) => p.theme.colors.light_accent}; */
   padding-top: 10px;
   ${mq[2]} {
     grid-column: span 12;
     background-color: unset;
   }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
-const UncoloredSideBySideHalf = styled(SideBySideHalf)`
+const MediaSideBySideHalf = styled(SideBySideHalf)`
   background: unset;
   padding-top: 0;
+  flex-direction: column;
 `;
 
 const MediaContainer = styled.div`
@@ -122,6 +126,16 @@ const SideBySideSubtitle = styled(HeaderTitleImport)`
 const BodyMargined = styled(MarginedContainer)`
   padding: 25px 0 20px;
 `;
+
+const BackgroundBodyMargined = styled(BodyMargined)`
+  background: ${(p) => p.theme.colors.light_accent};
+`;
+
+// const InnerMarginedFlex = styled(InnerMarginedContainer)`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
 const ContentSection = ({
   subTitle,
@@ -161,7 +175,7 @@ const ContentSection = ({
           </BodyMargined>
         )}
         {sideBySideBody && (
-          <BodyMargined>
+          <BackgroundBodyMargined>
             {(!!sideBySideBody?.imagesVideos?.image ||
               sideBySideBody?.imagesVideos?.videoLink ||
               !!sideBySideBody?.aboveMedia ||
@@ -183,7 +197,7 @@ const ContentSection = ({
               !!sideBySideBody?.aboveMedia ||
               !!sideBySideBody?.belowMedia ||
               !!sideBySideBody?.mainBody) && (
-              <UncoloredSideBySideHalf>
+              <MediaSideBySideHalf>
                 {sideBySideBody?.aboveMedia && (
                   <InnerMarginedContainer>
                     <MediaTextContainer>
@@ -231,9 +245,9 @@ const ContentSection = ({
                     </BelowMediaContainer>
                   </InnerMarginedContainer>
                 )}
-              </UncoloredSideBySideHalf>
+              </MediaSideBySideHalf>
             )}
-          </BodyMargined>
+          </BackgroundBodyMargined>
         )}
         {(link || !!downloads?.length || !!links?.length) && (
           <MarginedContainer css={buttonMarginedStyles}>

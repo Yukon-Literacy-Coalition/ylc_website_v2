@@ -5,10 +5,12 @@ import { MarginedContainer, SectionContainer } from "../shared/Layout";
 import { CircleImgContainer } from "../shared/Features";
 
 // IMAGES
-import planting from "../assets/planting.jpg";
-import maintaining from "../assets/maintaining.jpg";
-import harvest from "../assets/harvest.jpg";
-import trouble from "../assets/trouble.jpg";
+import caregiver from "../assets/kids_caregiver.jpg";
+import craft from "../assets/kids_craft.jpg";
+import food from "../assets/kids_food.jpg";
+import science from "../assets/kids_science.jpg";
+import songs from "../assets/kids_songs.jpg";
+import storytime from "../assets/kids_storytime.jpg";
 
 export const AboutForKids = (props) => {
   const { aboutForKids } = props;
@@ -17,32 +19,32 @@ export const AboutForKids = (props) => {
       <Project {...aboutForKids} {...props} />
       <MarginedContainer>
         <CircleImgContainer
-          img={planting}
+          img={storytime}
           text={"Storytime"}
           link={"/kids/storytime"}
         />
         <CircleImgContainer
-          img={harvest}
+          img={food}
           text={"Fun with Food"}
           link={"/kids/kids_food"}
         />
         <CircleImgContainer
-          img={harvest}
+          img={craft}
           text={"1,2,3 Craft with Me"}
           link={"/kids/craft"}
         />
         <CircleImgContainer
-          img={maintaining}
+          img={songs}
           text={"Songs and Rhymes"}
           link={"/kids/songs"}
         />
         <CircleImgContainer
-          img={trouble}
+          img={science}
           text={"Science Magic"}
           link={"/kids/science"}
         />
         <CircleImgContainer
-          img={harvest}
+          img={caregiver}
           text={"Caregiver Resources"}
           link={"/kids/caregiver"}
         />

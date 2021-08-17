@@ -435,7 +435,6 @@ export default {
           projects: storytime,
         }),
         children: storytime.map((element) => {
-          console.log({ element });
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
