@@ -11,6 +11,7 @@ import { StyleSheetManager } from "styled-components";
 import { MarginedContainer } from "../shared/Layout";
 import styled from "@emotion/styled";
 
+// IMPORTANT NOTE
 // Be sure to NOT import componenent with ROUTE data (i.e. the HOC).
 import { Post } from "../Blog/Post";
 import { Event } from "../Events/Event";
@@ -26,6 +27,7 @@ import { AboutCommunity } from "../Community";
 import { Donate } from "../Donate";
 import { FinLit } from "../Community/FinLit";
 import { SupportersLogos } from "../About/Supporters";
+// Food
 import { AboutFoodSecurity } from "../Food";
 import { CommunityGarden } from "../Food/Garden";
 import { FoodSecurityPrograms } from "../Food/Programs";
@@ -34,6 +36,10 @@ import { Planting } from "../Food/Planting";
 import { Maintaining } from "../Food/Maintaining";
 import { Troubleshooting } from "../Food/Troubleshooting";
 import { Harvesting } from "../Food/Harvesting";
+// Kids
+import { AboutForKids } from "../Kids";
+import { KidsProjectList } from "../Kids/KidsProjectList";
+import { KidsProject } from "../Kids/KidsProject";
 
 const ComponentContainer = styled.div`
   padding-top: 20px;
@@ -154,7 +160,7 @@ const NetlifyCMS = (props) => {
       CMS.registerPreviewTemplate("familyResources", (previewProps) =>
         DataAndStyleInjection(previewProps, ProjectHighlight, "project", true)
       );
-      // NEW
+      // FOOD THINGS
       CMS.registerPreviewTemplate("aboutFoodSecurity", (previewProps) =>
         DataAndStyleInjection(
           previewProps,
@@ -193,6 +199,48 @@ const NetlifyCMS = (props) => {
       );
       CMS.registerPreviewTemplate("aboutFamily", (previewProps) =>
         DataAndStyleInjection(previewProps, AboutFamily, "aboutFamily")
+      );
+      // KIDS THINGS
+      CMS.registerPreviewTemplate("aboutForKids", (previewProps) =>
+        DataAndStyleInjection(previewProps, AboutForKids, "aboutForKids")
+      );
+      // ABOUT PROJECTS
+      CMS.registerPreviewTemplate("aboutStorytime", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      CMS.registerPreviewTemplate("aboutSongs", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      CMS.registerPreviewTemplate("aboutScience", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      CMS.registerPreviewTemplate("aboutKidsFood", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      CMS.registerPreviewTemplate("aboutCraft", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      CMS.registerPreviewTemplate("aboutCaregiver", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProjectList, "about")
+      );
+      // INDIVIDUAL KIDS PROJECT
+      CMS.registerPreviewTemplate("storytime", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
+      );
+      CMS.registerPreviewTemplate("songs", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
+      );
+      CMS.registerPreviewTemplate("science", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
+      );
+      CMS.registerPreviewTemplate("kidsFood", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
+      );
+      CMS.registerPreviewTemplate("craft", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
+      );
+      CMS.registerPreviewTemplate("caregiver", (previewProps) =>
+        DataAndStyleInjection(previewProps, KidsProject, "data")
       );
       CMS.init({ config });
     }

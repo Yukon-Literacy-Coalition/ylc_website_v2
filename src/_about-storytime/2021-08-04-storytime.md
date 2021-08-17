@@ -2,6 +2,6 @@
 title: Storytime
 contentBlocks:
   - contentBlock:
-      body: Body about storytime
-      subTitle: Subbin
+      body: ""
+      subTitle: More Information Coming Soon
 ---
