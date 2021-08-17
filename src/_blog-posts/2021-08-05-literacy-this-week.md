@@ -1,7 +1,7 @@
 ---
 layout: blog
 date: 2021-07-21T19:21:22.741Z
-articleTitle: Literacy This Week
+articleTitle: Literacy This Week - Berries!
 thumbnail: /uploads/screen-shot-2021-08-05-at-12.21.02-pm.png
 contentBlocks:
   - contentBlock:
