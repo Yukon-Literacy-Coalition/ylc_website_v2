@@ -153,6 +153,13 @@ const ContentSection = ({
   imagesVideosList,
   isCMS,
 }) => {
+  const isSideBodyContent =
+    !!sideBySideBody?.imagesVideos?.image ||
+    sideBySideBody?.imagesVideos?.videoLink ||
+    !!sideBySideBody?.aboveMedia ||
+    !!sideBySideBody?.belowMedia ||
+    !!sideBySideBody?.mainBody;
+
   return (
     <>
       {subTitle && (
@@ -174,79 +181,62 @@ const ContentSection = ({
             </BodyText>
           </BodyMargined>
         )}
-        {sideBySideBody && (
+        {isSideBodyContent && (
           <BackgroundBodyMargined>
-            {(!!sideBySideBody?.imagesVideos?.image ||
-              sideBySideBody?.imagesVideos?.videoLink ||
-              !!sideBySideBody?.aboveMedia ||
-              !!sideBySideBody?.belowMedia ||
-              !!sideBySideBody?.mainBody) && (
-              <SideBySideHalf>
+            <SideBySideHalf>
+              <InnerMarginedContainer>
+                <MainBodyTextSideBySide>
+                  <StyledMarkdown
+                    source={sideBySideBody?.mainBody || "Body text needed"}
+                    escapeHtml={false}
+                  />
+                </MainBodyTextSideBySide>
+              </InnerMarginedContainer>
+            </SideBySideHalf>
+
+            <MediaSideBySideHalf>
+              {sideBySideBody?.aboveMedia && (
                 <InnerMarginedContainer>
-                  <MainBodyTextSideBySide>
+                  <MediaTextContainer>
+                    <SideBySideSubtitle>
+                      <DarkAndLightText
+                        text={sideBySideBody?.aboveMedia || "Subtitle needed"}
+                      />
+                    </SideBySideSubtitle>
+                  </MediaTextContainer>
+                </InnerMarginedContainer>
+              )}
+              {sideBySideBody?.imagesVideos && (
+                <InnerMarginedContainer>
+                  <BodyTextSideBySide>
+                    {sideBySideBody?.imagesVideos?.image ? (
+                      <MediaContainer>
+                        <img src={sideBySideBody?.imagesVideos?.image} alt="" />
+                      </MediaContainer>
+                    ) : sideBySideBody?.imagesVideos?.videoLink ? (
+                      <MediaContainer>
+                        <VideoPlayer
+                          url={sideBySideBody?.imagesVideos?.videoLink}
+                          isCMS={isCMS}
+                        />
+                      </MediaContainer>
+                    ) : (
+                      <span />
+                    )}
+                  </BodyTextSideBySide>
+                </InnerMarginedContainer>
+              )}
+              {sideBySideBody?.belowMedia && (
+                <InnerMarginedContainer>
+                  <BelowMediaContainer>
                     <StyledMarkdown
-                      source={sideBySideBody?.mainBody || "Body text needed"}
+                      source={sideBySideBody?.belowMedia || "Body text needed"}
                       escapeHtml={false}
                     />
-                  </MainBodyTextSideBySide>
+                  </BelowMediaContainer>
                 </InnerMarginedContainer>
-              </SideBySideHalf>
-            )}
-            {(!!sideBySideBody?.imagesVideos?.image ||
-              sideBySideBody?.imagesVideos?.videoLink ||
-              !!sideBySideBody?.aboveMedia ||
-              !!sideBySideBody?.belowMedia ||
-              !!sideBySideBody?.mainBody) && (
-              <MediaSideBySideHalf>
-                {sideBySideBody?.aboveMedia && (
-                  <InnerMarginedContainer>
-                    <MediaTextContainer>
-                      <SideBySideSubtitle>
-                        <DarkAndLightText
-                          text={sideBySideBody?.aboveMedia || "Subtitle needed"}
-                        />
-                      </SideBySideSubtitle>
-                    </MediaTextContainer>
-                  </InnerMarginedContainer>
-                )}
-                {sideBySideBody?.imagesVideos && (
-                  <InnerMarginedContainer>
-                    <BodyTextSideBySide>
-                      {sideBySideBody?.imagesVideos?.image ? (
-                        <MediaContainer>
-                          <img
-                            src={sideBySideBody?.imagesVideos?.image}
-                            alt=""
-                          />
-                        </MediaContainer>
-                      ) : sideBySideBody?.imagesVideos?.videoLink ? (
-                        <MediaContainer>
-                          <VideoPlayer
-                            url={sideBySideBody?.imagesVideos?.videoLink}
-                            isCMS={isCMS}
-                          />
-                        </MediaContainer>
-                      ) : (
-                        <span />
-                      )}
-                    </BodyTextSideBySide>
-                  </InnerMarginedContainer>
-                )}
-
-                {sideBySideBody?.belowMedia && (
-                  <InnerMarginedContainer>
-                    <BelowMediaContainer>
-                      <StyledMarkdown
-                        source={
-                          sideBySideBody?.belowMedia || "Body text needed"
-                        }
-                        escapeHtml={false}
-                      />
-                    </BelowMediaContainer>
-                  </InnerMarginedContainer>
-                )}
-              </MediaSideBySideHalf>
-            )}
+              )}
+            </MediaSideBySideHalf>
           </BackgroundBodyMargined>
         )}
         {(link || !!downloads?.length || !!links?.length) && (
