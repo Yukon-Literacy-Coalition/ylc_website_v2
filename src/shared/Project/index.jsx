@@ -323,7 +323,6 @@ const ContentSection = ({
 };
 
 const Project = (props) => {
-  console.log({ props });
   return (
     <>
       <PageHeader {...props} text={props?.title || "Title Needed"} />

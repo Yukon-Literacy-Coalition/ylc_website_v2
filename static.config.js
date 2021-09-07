@@ -525,7 +525,6 @@ export default {
           posts,
         }),
         children: posts.map((post) => {
-          console.log(post);
           return {
             path: `/post/${post.slug}`,
             template: `src/Blog/Post`,
