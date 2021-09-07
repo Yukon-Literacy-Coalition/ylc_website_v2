@@ -524,11 +524,14 @@ export default {
         getData: async () => ({
           posts,
         }),
-        children: posts.map((post) => ({
-          path: `/post/${post.slug}`,
-          template: `src/Blog/Post`,
-          getData: async () => ({ post }),
-        })),
+        children: posts.map((post) => {
+          console.log(post);
+          return {
+            path: `/post/${post.slug}`,
+            template: `src/Blog/Post`,
+            getData: async () => ({ post }),
+          };
+        }),
       },
       // EVENT SECTIONS
       {

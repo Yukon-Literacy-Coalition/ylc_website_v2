@@ -82,8 +82,10 @@ const Link = styled(RRLink)`
 
 export const PostListing = ({ post, className }) => {
   const { date, slug, thumbnail, contentBlocks, articleTitle } = post;
-  const blockWithBody = contentBlocks.find((c) => c.contentBlock?.body?.length);
-  const blockWithSubTitle = contentBlocks.find(
+  const blockWithBody = contentBlocks?.find(
+    (c) => c.contentBlock?.body?.length
+  );
+  const blockWithSubTitle = contentBlocks?.find(
     (c) => c.contentBlock?.subTitle?.length
   );
   return (

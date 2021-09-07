@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import CMS from "netlify-cms-app";
 import config from "./config";
 
+import { Widget as IdWidget } from "@ncwidgets/id";
+
 import { withRouteData } from "react-static";
 import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/core";
@@ -242,6 +244,8 @@ const NetlifyCMS = (props) => {
       CMS.registerPreviewTemplate("caregiver", (previewProps) =>
         DataAndStyleInjection(previewProps, KidsProject, "data")
       );
+
+      CMS.registerWidget(IdWidget);
       CMS.init({ config });
     }
   }, []);
