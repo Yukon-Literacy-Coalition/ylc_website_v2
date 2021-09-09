@@ -11,5 +11,12 @@ contentBlocks:
         - imagesVideos:
             image: /uploads/jpeg-back-flc-fall-2021-final.jpg
       images: []
+      body: >-
+        Come join us Monday to Saturday for programming like: Books with Baby,
+        Groove & Move, Rock Paper Scissors and Story Time! 
+
+
+        See our schedule below for full details.
+      subTitle: FLC Fall 2021
 id: post-oCpawymAI
 ---
