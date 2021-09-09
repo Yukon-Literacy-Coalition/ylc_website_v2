@@ -34,7 +34,7 @@ contentBlocks:
         - image: /uploads/flc-space.jpg
       downloads:
         - downloadObject:
-            downloadLink: /uploads/jpeg-final-flc-fall-2021-.jpg
+            downloadLink: /uploads/jpeg-back-flc-fall-2021-final.jpg
             downloadText: Download Schedule
   - contentBlock:
       body: >-
