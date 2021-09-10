@@ -1,7 +1,7 @@
 ---
 title: Please donate!
 link: http://yukonliteracy.com/donate
-displayAnnouncement: true
+displayAnnouncement: false
 ---
 ![](/uploads/bus-top2.jpg)
 
