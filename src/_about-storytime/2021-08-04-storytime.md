@@ -12,4 +12,12 @@ contentBlocks:
           videoLink: ""
         belowMedia: ""
         mainBody: ""
+  - contentBlock:
+      sideBySideBody:
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=UEvRVPGL-Go
+        mainBody: |-
+          Have you ever seen ravens? Can you make any of their cool sounds?
+
+          Join Stephanie in this fun counting story all about ravens.
 ---
