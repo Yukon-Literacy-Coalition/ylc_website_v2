@@ -14,5 +14,5 @@ contentBlocks:
         mainBody: ""
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/screen-shot-2021-09-16-at-3.31.03-pm.png
+            image: ""
 ---
