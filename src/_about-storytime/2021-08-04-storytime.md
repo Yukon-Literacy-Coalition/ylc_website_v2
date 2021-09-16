@@ -9,5 +9,7 @@ contentBlocks:
       subTitle: ""
       sideBySideBody:
         imagesVideos:
-          videoLink: https://www.youtube.com/watch?v=UEvRVPGL-Go
+          videoLink: ""
+        belowMedia: ""
+        mainBody: ""
 ---
