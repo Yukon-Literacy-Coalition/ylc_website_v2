@@ -7,4 +7,7 @@ contentBlocks:
         be successful adults and sets them up for a lifelong love of learning.
         Join us as we bring a variety of your child’s favourite stories to life!
       subTitle: ""
+      sideBySideBody:
+        imagesVideos:
+          videoLink: https://www.youtube.com/watch?v=UEvRVPGL-Go
 ---
