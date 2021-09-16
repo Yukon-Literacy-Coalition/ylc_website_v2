@@ -52,7 +52,7 @@ const Statements = (props) => {
 
   return (
     <>
-      <PageHeader {...props} text={"Annual Statements"} />
+      <PageHeader {...props} text={"Annual Reports"} />
       <SectionContainer>
         <MarginedContainer>
           {!!sortedArray.length ? (
