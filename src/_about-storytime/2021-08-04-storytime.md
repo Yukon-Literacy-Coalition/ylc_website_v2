@@ -15,17 +15,8 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         imagesVideos:
-          videoLink: https://www.youtube.com/watch?v=UEvRVPGL-Go
-        mainBody: >-
-          ## **10 Rowdy Ravens** 
-
-
-          *written by Susan Ewing*
-
-
-
-
-          Join Stephanie in this fun counting story as 10 rowdy ravens play tricks, get into mischief, find themselves in sticky situations, and make general mayhem.
+          videoLink: ""
+        mainBody: ""
         aboveMedia: ""
       subTitle: ""
 ---
