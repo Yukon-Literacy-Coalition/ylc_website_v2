@@ -9,7 +9,15 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: >-
-          *written by Susan Ewing*
+          ### 10 Rowdy Ravens
+
+
+          ##### *Written by Susan Ewing*
+
+
+          ##### *Illustrations by Evon Zerbetz*
+
+
 
 
           Join Stephanie in this fun counting story as 10 rowdy ravens play tricks, get into mischief, find themselves in sticky situations, and make general mayhem.
