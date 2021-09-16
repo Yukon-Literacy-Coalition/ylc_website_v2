@@ -16,16 +16,16 @@ contentBlocks:
       sideBySideBody:
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=UEvRVPGL-Go
-        mainBody: |-
+        mainBody: >-
           ## **10 Rowdy Ravens** 
+
 
           *written by Susan Ewing*
 
 
 
-          Have you ever seen ravens? Can you make any of their cool sounds?
 
-          Join Stephanie in this fun counting story all about ravens.
+          Join Stephanie in this fun counting story as 10 rowdy ravens play tricks, get into mischief, find themselves in sticky situations, and make general mayhem.
         aboveMedia: ""
       subTitle: ""
 ---
