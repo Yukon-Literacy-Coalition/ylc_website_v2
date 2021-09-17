@@ -11,7 +11,7 @@ contentBlocks:
           ### **Llama, Llama, Red Pyjama**
 
 
-          ##### *Written and illustrated by Anne Dewdney*
+          ##### *Written by Anne Dewdney*
 
 
           Llama Llama's tale of nighttime drama has charmed readers for over a decade and makes an ideal story for bedtime reading. Children will relate to Baby Llama's need for comfort, as much as parents will appreciate Mama Llama's reassuring message.
