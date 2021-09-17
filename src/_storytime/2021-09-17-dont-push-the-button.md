@@ -21,15 +21,6 @@ contentBlocks:
 
 
           (Seriously, don't even think about it!)
-
-
-          Even if it does look kind of nice, you must never push the button. Who knows what would happen?
-
-
-          Okay, quick. No one is looking... push the button.
-
-
-          Uh, oh.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=F3aCxsB4Mas
       body: ""
