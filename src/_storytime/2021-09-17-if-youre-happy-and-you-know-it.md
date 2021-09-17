@@ -15,7 +15,7 @@ contentBlocks:
           ### **If You're Happy and You Know It**
 
 
-          ##### *Written and illustrated by Jane Cabrera*
+          ##### *Written by Jane Cabrera*
 
 
           Get young readers moving, clapping, and flapping with this brightly colored sing along picture book full of joyful jungle animals. Nod along with groovy giraffe, flap with baby bird, and ROAR out loud with lion. Jane Cabrera's fresh spin on the familiar song is an energetic choice for story hours, and a family favorite for todder dance parties.
