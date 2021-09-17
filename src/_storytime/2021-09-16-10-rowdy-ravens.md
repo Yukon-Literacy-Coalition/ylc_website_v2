@@ -9,7 +9,7 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: >-
-          ### 10 Rowdy Ravens
+          ### **10 Rowdy Ravens**
 
 
           ##### *Written by Susan Ewing*
