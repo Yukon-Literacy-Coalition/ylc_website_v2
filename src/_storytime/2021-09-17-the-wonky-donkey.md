@@ -9,13 +9,13 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: >-
-          #### The Wonky Donkey
+          ### **The Wonky Donkey**
 
 
-          *Written by Craig Smith*
+          ##### *Written by Craig Smith*
 
 
-          *Illustrated by Katz Cowley*
+          ##### *Illustrated by Katz Cowley*
 
 
           In this very funny, cumulative song, each page tells us something new about the donkey until we end up with a spunky, hanky-panky cranky stinky dinky lanky honky-tonky winky wonky donkey, which will have children in fits of laughter!
