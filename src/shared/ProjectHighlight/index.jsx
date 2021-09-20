@@ -37,7 +37,7 @@ const ProjectContainer = styled.div`
   ${mq[2]} {
     grid-column: span 12;
   }
-  ${(p) => p.projectsLength === 1 && SingleProject}
+  ${(p) => p.projectslength === 1 && SingleProject}
 `;
 
 const ProjectContainerLink = styled(Link)`
@@ -58,7 +58,7 @@ const ProjectContainerLink = styled(Link)`
   ${mq[2]} {
     grid-column: span 12;
   }
-  ${(p) => p.projectsLength === 1 && SingleProject}
+  ${(p) => p.projectslength === 1 && SingleProject}
 `;
 
 // IMAGE
@@ -123,7 +123,7 @@ const ButtonsWrapper = styled.div`
 
 const ProjectHighlight = (props) => {
   const project = props?.project;
-  const projectsLength = props?.projectsLength;
+  const projectslength = props?.projectslength;
 
   let image = project?.image || project?.thumbnail;
   let body = project?.body || project?.description || "Body text needed";
@@ -203,14 +203,14 @@ const ProjectHighlight = (props) => {
     return (
       <ProjectContainerLink
         to={project.localLink}
-        projectsLength={projectsLength}
+        projectslength={projectslength}
       >
         <Content />
       </ProjectContainerLink>
     );
   } else {
     return (
-      <ProjectContainer projectsLength={projectsLength}>
+      <ProjectContainer projectslength={projectslength}>
         <Content />
       </ProjectContainer>
     );

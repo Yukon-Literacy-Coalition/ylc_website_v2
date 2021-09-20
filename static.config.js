@@ -438,7 +438,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "Story Time" },
+            }),
           };
         }),
       },
@@ -453,7 +455,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "Songs and Rhymes" },
+            }),
           };
         }),
       },
@@ -468,7 +472,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "Science Magic" },
+            }),
           };
         }),
       },
@@ -483,7 +489,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "Fun With Food" },
+            }),
           };
         }),
       },
@@ -498,7 +506,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "1,2,3 Craft with Me" },
+            }),
           };
         }),
       },

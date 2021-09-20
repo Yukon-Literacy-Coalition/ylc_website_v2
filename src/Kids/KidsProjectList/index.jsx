@@ -27,7 +27,7 @@ export const KidsProjectList = (props) => {
             currentProjects.map((resource, i) => (
               <ProjectHighlight
                 project={{ ...resource }}
-                projectsLength={currentProjects.length}
+                projectslength={currentProjects.length}
                 key={resource.title + i}
               />
             ))}

@@ -300,7 +300,7 @@ const ContentSection = ({
               return (
                 <ProjectHighlight
                   project={project?.resourceObject}
-                  projectsLength={resources.length}
+                  projectslength={resources.length}
                   key={"proj" + i}
                 />
               );

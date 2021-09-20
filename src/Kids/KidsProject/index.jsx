@@ -4,7 +4,13 @@ import Project from "../../shared/Project";
 
 export const KidsProject = (props) => {
   const { data } = props;
-  return <Project {...data} {...props} />;
+  console.log({ data });
+  return (
+    <Project
+      {...{ ...data, title: data?.localTitle || data?.title }}
+      {...props}
+    />
+  );
 };
 
 export default withRouteData(KidsProject);
