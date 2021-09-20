@@ -439,7 +439,7 @@ export default {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
             getData: async () => ({
-              data: { ...element, localTitle: "Story Time" },
+              data: { ...element, localTitle: "Storytime" },
             }),
           };
         }),
