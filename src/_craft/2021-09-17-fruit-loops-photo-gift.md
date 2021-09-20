@@ -7,9 +7,9 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: |-
-          ### Fruit Loops Photo Gift
+          ### **Fruit Loops Photo Gift**
 
-          ##### *You will need:* 
+          ##### *You will need:*
 
           * Pipe cleaner 
           * Playdoh
