@@ -10,7 +10,7 @@ contentBlocks:
           ### **Build a House**
 
 
-          ##### *What you need:*
+          ##### *You will need:*
 
 
           * Wood, plastic or sturdy cardboard for the felt board
