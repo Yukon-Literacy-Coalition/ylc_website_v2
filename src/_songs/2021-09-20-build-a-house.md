@@ -7,8 +7,6 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: >-
-          
-
           ### **Build a House**
 
 
@@ -24,7 +22,7 @@ contentBlocks:
           * Variety of felt colours
 
 
-          ##### **Instructions:**
+          ##### *Instructions:*
 
 
           1. Lay the board on top of the large piece of felt
