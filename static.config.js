@@ -523,7 +523,9 @@ export default {
           return {
             path: `/content/${element.slug}`,
             template: `src/Kids/KidsProject`,
-            getData: async () => ({ data: element }),
+            getData: async () => ({
+              data: { ...element, localTitle: "Caregiver Resources" },
+            }),
           };
         }),
       },

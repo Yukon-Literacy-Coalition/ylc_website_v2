@@ -1,3 +1,3 @@
 ---
-title: Caregiver
+title: Caregiver Resources
 ---
