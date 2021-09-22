@@ -13,13 +13,14 @@ contentBlocks:
         mainBody: |-
           ### **Animal Cracker Snack**
 
-          ##### *You will need:* 
+          ##### *You will need:*
 
           * Cracker of your choice or toast
           * A spread such as a nut butter, jam, cream cheese, etc
           * Mixed nuts (*optional*)
           * Dried fruit and seeds 
           * Coconut
-          * Sliced fruit such as bananas or strawberries
+          * Sliced fruit such as bananas or strawberries 
+          * Chocolate chips
 id: kidsfood-mSAgZzvWe
 ---
