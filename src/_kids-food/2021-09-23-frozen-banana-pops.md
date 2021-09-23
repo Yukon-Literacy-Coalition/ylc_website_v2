@@ -1,10 +1,8 @@
 ---
 title: Frozen Banana Pops
 isArchived: false
-description: " Follow-along with Carrie-Anne as she makes this simple treat that
-  is healthy, delicious, and perfect for preparing with your little ones.as she
-  slices a banana, skewers it, dips it in yogurt and sprinkles, and freezes the
-  results!"
+description: Follow-along with Carrie-Anne as she makes this simple treat that
+  is healthy, delicious, and perfect for preparing with your little ones.
 thumbnail: /uploads/screen-shot-2021-09-23-at-3.29.41-pm.png
 contentBlocks:
   - contentBlock:
