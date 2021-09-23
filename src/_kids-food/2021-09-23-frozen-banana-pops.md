@@ -10,9 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Frozen Banana Pops**
 
-          ##### *You will need:* 
+          ##### *You will need:*
 
-          * A banana sliced
+          * A sliced banana
           * Skewers 
           * Favourite flavour of yogurt
           * Sprinkles
