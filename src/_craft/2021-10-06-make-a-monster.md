@@ -22,6 +22,12 @@ contentBlocks:
 
           * Scissors
 
-          * Various arts and crafts bits (beads, gems, popsicle sticks, googly eyes, pipe cleaners, etc.)
+          * Various arts and crafts bits (paper clips, toothpicks, marbles, etc.)
+
+          * Popsicle sticks
+
+          * Googly eyes
+
+          * Pipe cleaners
 id: craft-xnEXxd65W
 ---
