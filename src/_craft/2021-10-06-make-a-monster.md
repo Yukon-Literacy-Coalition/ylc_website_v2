@@ -12,7 +12,7 @@ contentBlocks:
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=4c2RL9yijmM
         mainBody: >-
-          ### Make a Monster
+          ### **Make a Monster**
 
 
           ##### *You will need:*
