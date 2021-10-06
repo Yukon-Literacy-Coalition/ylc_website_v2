@@ -22,6 +22,6 @@ contentBlocks:
 
           * Scissors
 
-          * Various arts and crafts bits (beads, gems, popsicle sticks, googly eyes, etc.)
+          * Various arts and crafts bits (beads, gems, popsicle sticks, googly eyes, pipe cleaners, etc.)
 id: craft-xnEXxd65W
 ---
