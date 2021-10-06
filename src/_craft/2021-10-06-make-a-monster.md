@@ -11,9 +11,17 @@ contentBlocks:
       sideBySideBody:
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=4c2RL9yijmM
-        mainBody: |-
+        mainBody: >-
           ### Make a Monster
 
-          You will need:
+
+          ##### *You will need:*
+
+
+          * Playdough
+
+          * Scissors
+
+          * Various arts and crafts bits (beads, gems, popsicle sticks, googly eyes, etc.)
 id: craft-xnEXxd65W
 ---
