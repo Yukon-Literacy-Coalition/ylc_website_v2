@@ -21,10 +21,10 @@ contentBlocks:
         So, take a moment this Thanksgiving to reflect and be thankful. Enjoy your family gathering, pumpkin pieand a whole lot of turkey!
 
 
-        Happy Thanksgiving!
-
-
         *Check out the Yukon News article below for a little something to go with your turkey.*
+
+
+        Happy Thanksgiving!
       subTitle: Thanksgiving
       downloads:
         - downloadObject:
