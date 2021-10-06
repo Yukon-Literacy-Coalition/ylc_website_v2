@@ -22,7 +22,7 @@ contentBlocks:
 
           * Scissors
 
-          * Various arts and crafts bits (paper clips, toothpicks, marbles, etc.)
+          * Various bits and pieces from around the house (paper clips, toothpicks, marbles, etc.)
 
           * Popsicle sticks
 
