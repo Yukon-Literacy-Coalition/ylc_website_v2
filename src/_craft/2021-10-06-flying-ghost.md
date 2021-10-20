@@ -1,8 +1,8 @@
 ---
 title: "Flying Ghost "
 isArchived: false
-description: "Do you love Halloween? Carrie-Anne sure does! Join her while she
-  makes a flying ghost toy out of common household materials. *Time: 10:18*"
+description: Do you love Halloween? Carrie-Anne sure does! Join her while she
+  makes a flying ghost toy out of common household materials.
 thumbnail: /uploads/screen-shot-2021-10-06-at-10.31.01-am.png
 contentBlocks:
   - contentBlock:
@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Flying Ghost**
 
-          ##### *You will need:* 
+          *Time: 10:18*
+
+          ##### *You will need:*
 
           * White paper
           * Paper towel
