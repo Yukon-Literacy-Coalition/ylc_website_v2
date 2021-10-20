@@ -1,8 +1,8 @@
 ---
 title: Building Ramps and Exploring Motion
 isArchived: false
-description: "Explore engineering, motion, gravity and more with Carrie-Anne as
-  she builds ramps and plays with cars at the kitchen table. *Time: 17:05*"
+description: Explore engineering, motion, gravity and more with Carrie-Anne as
+  she builds ramps and plays with cars at the kitchen table.
 thumbnail: /uploads/screen-shot-2021-10-20-at-10.58.53-am.png
 contentBlocks:
   - contentBlock:
@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Building Ramps and Exploring Motion**
 
-          ##### *You will need:* 
+          *Time: 17:05*
+
+          ##### *You will need:*
 
           * A cereal box
           * Scissors
