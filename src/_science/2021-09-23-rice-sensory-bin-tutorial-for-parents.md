@@ -1,8 +1,9 @@
 ---
 title: Rice Sensory Bin Tutorial for Parents
 isArchived: false
-description: In this tutorial, Carrie- Anne will show you how to use common
-  household items to make a rice-based sensory bin for your child.
+description: "In this tutorial, Carrie- Anne will show you how to use common
+  household items to make a rice-based sensory bin for your child. *Time:
+  16:12*"
 thumbnail: /uploads/screen-shot-2021-09-23-at-3.42.12-pm.png
 contentBlocks:
   - contentBlock:
