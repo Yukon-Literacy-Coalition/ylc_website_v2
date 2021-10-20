@@ -1,9 +1,9 @@
 ---
 title: Animal Cracker Snack
 isArchived: false
-description: If you like crackers (or toast), and you love animals, this snack
+description: "If you like crackers (or toast), and you love animals, this snack
   is for you! Join Carrie-Anne as she uses common pantry items and spreads to
-  make animal faces on crackers.
+  make animal faces on crackers. *Time: 21:22*"
 thumbnail: /uploads/screen-shot-2021-09-22-at-8.49.53-am.png
 contentBlocks:
   - contentBlock:
