@@ -1,8 +1,8 @@
 ---
 title: "Sing a Song of Mother Goose "
 isArchived: false
-description: Enjoy classic nursery rhymes and songs with Carrie-Anne. Sing
-  along, do your own actions, or simply listen; it's up to you!
+description: "Enjoy classic nursery rhymes and songs with Carrie-Anne. Sing
+  along, do your own actions, or simply listen; it's up to you! *Time: 16:26*"
 thumbnail: /uploads/screen-shot-2021-10-20-at-10.43.22-am.png
 contentBlocks:
   - contentBlock:
