@@ -1,7 +1,7 @@
 ---
 title: Build a House
 isArchived: false
-description: Join Carrie- Anne for this fun, engaging felt board activity.
+description: "Join Carrie- Anne for this fun, engaging felt board activity. *Time: 10:24*"
 thumbnail: /uploads/screen-shot-2021-09-20-at-10.05.05-am.png
 contentBlocks:
   - contentBlock:
