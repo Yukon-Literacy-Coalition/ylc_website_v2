@@ -1,7 +1,7 @@
 ---
 title: Harrowing Halloween Tortilla Chips
 isArchived: false
-description: Make your own terrifying, tasty tortilla chips with Carrie-Anne!
+description: "Make your own terrifying, tasty tortilla chips with Carrie-Anne! *Time: 8:15*"
 thumbnail: /uploads/screen-shot-2021-10-06-at-11.31.09-am.png
 contentBlocks:
   - contentBlock:
