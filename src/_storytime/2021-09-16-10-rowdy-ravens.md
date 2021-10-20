@@ -1,9 +1,9 @@
 ---
 title: 10 Rowdy Ravens
 isArchived: false
-description: Join Stephanie in this fun counting story as 10 rowdy ravens play
+description: "Join Stephanie in this fun counting story as 10 rowdy ravens play
   tricks, get into mischief, find themselves in sticky situations, and make
-  general mayhem.
+  general mayhem. *Time: 6:52*"
 thumbnail: /uploads/screen-shot-2021-09-16-at-2.44.10-pm.png
 contentBlocks:
   - contentBlock:
