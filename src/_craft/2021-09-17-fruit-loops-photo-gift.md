@@ -1,13 +1,15 @@
 ---
 title: Fruit Loops Photo Gift
 isArchived: false
-description: "Join Stephanie for a craft session suitable for toddlers. *Time: 10:39*"
+description: Join Stephanie for a craft session suitable for toddlers.
 thumbnail: /uploads/screen-shot-2021-09-17-at-12.26.53-pm.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: |-
           ### **Fruit Loops Photo Gift**
+
+          *Time: 10:39*
 
           ##### *You will need:*
 
