@@ -1,7 +1,7 @@
 ---
 title: Handprint Bunny
 isArchived: false
-description: Join Stephanie to make this simple, fun craft.
+description: "Join Stephanie to make this simple, fun craft. *Time: 12:09*"
 thumbnail: /uploads/screen-shot-2021-09-17-at-12.13.52-pm.png
 contentBlocks:
   - contentBlock:
