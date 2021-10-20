@@ -8,9 +8,9 @@ contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: |-
-          ### Simple Garden Sensory Bin
+          ### **Simple Garden Sensory Bin**
 
-          ##### *You will need:* 
+          ##### *You will need:*
 
           * Dirt of any kind
           * A large tub
