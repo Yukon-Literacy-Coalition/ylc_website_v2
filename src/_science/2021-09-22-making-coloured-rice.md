@@ -1,8 +1,8 @@
 ---
 title: " Making Coloured Rice"
 isArchived: false
-description: "Follow Carrie-Anne through a step-by-step tutorial on how to make
-  your own coloured rice for sensory play. *Time: 11:23*"
+description: Follow Carrie-Anne through a step-by-step tutorial on how to make
+  your own coloured rice for sensory play.
 thumbnail: /uploads/screen-shot-2021-09-22-at-9.15.17-am.png
 contentBlocks:
   - contentBlock:
@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Making Coloured Rice**
 
-          ##### *You will need:* 
+          *Time: 11:23*
+
+          ##### *You will need:*
 
           * Rubbing alcohol
           * Food colouring
