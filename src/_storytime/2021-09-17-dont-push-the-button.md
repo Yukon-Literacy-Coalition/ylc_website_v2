@@ -11,7 +11,7 @@ contentBlocks:
           ### **Don't Push The Button**
 
 
-          ##### *written and illustrated by Bill Cotter*
+          ##### *Written and illustrated by Bill Cotter*
 
 
           *Time: 5:37*
