@@ -1,7 +1,8 @@
 ---
 title: Making Magic Mud
 isArchived: false
-description: Follow along with Carrie-Anne to make a gooey mess in the name of science!
+description: "Follow along with Carrie-Anne to make a gooey mess in the name of
+  science! *Time: 16:27*"
 thumbnail: /uploads/screen-shot-2021-09-20-at-11.06.24-am.png
 contentBlocks:
   - contentBlock:
