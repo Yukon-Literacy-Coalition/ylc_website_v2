@@ -1,9 +1,9 @@
 ---
 title: The Wonky Donkey
 isArchived: false
-description: Join Stephanie for this hilarious, catchy story about a 'wonky
+description: "Join Stephanie for this hilarious, catchy story about a 'wonky
   donkey'. It's a wonky, winky, honky-tonky, lanky, stinky-dinky, cranky,
-  hanky-panky, spunky donkey good time!
+  hanky-panky, spunky donkey good time! *Time: 6:41*"
 thumbnail: /uploads/screen-shot-2021-09-17-at-10.01.04-am.png
 contentBlocks:
   - contentBlock:
