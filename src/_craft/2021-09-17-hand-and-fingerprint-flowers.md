@@ -1,14 +1,16 @@
 ---
 title: Hand and Fingerprint Flowers
 isArchived: false
-description: "Follow along with Carrie-Anne as she paints a pretty pot of spring
-  flowers using hand and fingerprints! *Time: 17:10*"
+description: Follow along with Carrie-Anne as she paints a pretty pot of spring
+  flowers using hand and fingerprints!
 thumbnail: /uploads/screen-shot-2021-09-17-at-11.39.16-am.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:
         mainBody: |-
           ### **Hand and Fingerprint Flowers**
+
+          *Time: 17:10*
 
           ##### *You will need:*
 
