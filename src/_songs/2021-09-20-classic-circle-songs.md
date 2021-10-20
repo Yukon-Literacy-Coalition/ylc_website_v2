@@ -1,7 +1,8 @@
 ---
 title: Classic Circle Songs
 isArchived: false
-description: Join Carrie-Anne as she sings a variety of classic circle songs.
+description: "Join Carrie-Anne as she sings a variety of classic circle songs.
+  *Time: 20:10*"
 thumbnail: /uploads/screen-shot-2021-09-20-at-9.53.49-am.png
 contentBlocks:
   - contentBlock:
