@@ -1,10 +1,10 @@
 ---
 title: Make a Monster
 isArchived: false
-description: "Practice fine motor skills while exploring play dough and early
+description: Practice fine motor skills while exploring play dough and early
   engineering. Build-along with Carrie-Anne while she makes monsters out of
   dough and various craft materials. Pick-up your own Make a Monster Kit at the
-  Family Literacy Centre while supplies last! *Time: 16:57*"
+  Family Literacy Centre while supplies last!
 thumbnail: /uploads/screen-shot-2021-10-06-at-10.38.08-am.png
 contentBlocks:
   - contentBlock:
@@ -13,6 +13,9 @@ contentBlocks:
           videoLink: https://www.youtube.com/watch?v=4c2RL9yijmM
         mainBody: >-
           ### **Make a Monster**
+
+
+          *Time: 16:57*
 
 
           ##### *You will need:*
