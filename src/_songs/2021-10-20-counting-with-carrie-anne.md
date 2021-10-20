@@ -1,9 +1,9 @@
 ---
 title: Counting with Carrie Anne
 isArchived: false
-description: Join Carrie-Anne for a counting songs sing-along. This video
+description: "Join Carrie-Anne for a counting songs sing-along. This video
   includes the classic jams 5 Green and Speckled Frogs, 10 Little Monkeys, 1, 2,
-  Buckle My Shoe, and more!
+  Buckle My Shoe, and more! *Time: 23:28*"
 thumbnail: /uploads/screen-shot-2021-10-20-at-11.03.44-am.png
 contentBlocks:
   - contentBlock:
