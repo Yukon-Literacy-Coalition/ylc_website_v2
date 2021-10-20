@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Savoury Snack Wands**
 
-          ##### *You will need:* 
+          *Time: 12:02*
+
+          ##### *You will need:*
 
           * Bamboo skewers
           * Various chunks of savoury snack items like cheese
