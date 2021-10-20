@@ -1,8 +1,8 @@
 ---
 title: Pipe Cleaner Bouquet
 isArchived: false
-description: "Join Stephanie in making a bouquet of flowers with pipe cleaners.
-  It's the perfect gift for that special someone! *Time: 6:37*"
+description: Join Stephanie in making a bouquet of flowers with pipe cleaners.
+  It's the perfect gift for that special someone!
 thumbnail: /uploads/screen-shot-2021-09-17-at-12.19.18-pm.png
 contentBlocks:
   - contentBlock:
@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Pipe Cleaner Bouquet**
 
-          ##### *You will need:* 
+          *Time: 6:37*
+
+          ##### *You will need:*
 
           * Pipe cleaners
           * Small container
