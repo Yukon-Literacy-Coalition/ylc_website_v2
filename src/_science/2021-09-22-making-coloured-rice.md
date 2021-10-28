@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Making Coloured Rice**
 
-          ##### *You will need:* 
+          *Time: 11:23*
+
+          ##### *You will need:*
 
           * Rubbing alcohol
           * Food colouring

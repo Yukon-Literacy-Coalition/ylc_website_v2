@@ -10,6 +10,8 @@ contentBlocks:
         mainBody: |-
           ### **Hand and Fingerprint Flowers**
 
+          *Time: 17:10*
+
           ##### *You will need:*
 
           * Paper

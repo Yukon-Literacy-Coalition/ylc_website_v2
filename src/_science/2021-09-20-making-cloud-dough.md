@@ -12,7 +12,9 @@ contentBlocks:
         mainBody: |-
           ### **Making Cloud Dough**
 
-          ##### *You will need:* 
+          *Time: 14:07*
+
+          ##### *You will need:*
 
           * Cornstarch
           * Hair conditioner OR hand lotion

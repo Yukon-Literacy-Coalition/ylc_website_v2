@@ -10,6 +10,9 @@ contentBlocks:
           ### **Build a House**
 
 
+          *Time: 10:24*
+
+
           ##### *You will need:*
 
 

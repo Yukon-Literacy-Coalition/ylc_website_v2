@@ -11,7 +11,10 @@ contentBlocks:
           ### **Don't Push The Button**
 
 
-          ##### *written and illustrated by Bill Cotter*
+          ##### *Written and illustrated by Bill Cotter*
+
+
+          *Time: 5:37*
 
 
           Larry the monster is up to his usual shenanigans in this bestseller by Bill Cotter. A great read-aloud, interactive picture book that kids will go back to time and again.

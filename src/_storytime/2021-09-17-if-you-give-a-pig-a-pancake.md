@@ -17,6 +17,9 @@ contentBlocks:
           ##### *Illustrated by Felicia Bond*
 
 
+          *Time: 6:25*
+
+
           This popular book takes readers on a spiraling journey starting off with a simple pancake. As the little girl in the story gives in to the requests of the little pig, their antics increase in hilarity until they circle back around to a simple pancake.
         imagesVideos:
           videoLink: https://www.youtube.com/watch?v=rmme7PjEJ_g

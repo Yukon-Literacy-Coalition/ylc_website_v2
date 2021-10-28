@@ -11,7 +11,9 @@ contentBlocks:
         mainBody: |-
           ### **Edible Peanut Butter Play Dough**
 
-          ##### *You will need:* 
+          *Time: 21:52*
+
+          ##### *You will need:*
 
           * Peanut (or other nut) butter
           * Honey

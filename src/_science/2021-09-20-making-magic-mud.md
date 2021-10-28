@@ -11,7 +11,9 @@ contentBlocks:
         mainBody: |-
           ### **Making Magic Mud**
 
-          ##### *You will need:* 
+          *Time: 16:27*
+
+          ##### *You will need:*
 
           * A bowl or container with a lid 
           * Cornstarch

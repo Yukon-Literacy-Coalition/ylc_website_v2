@@ -13,6 +13,9 @@ contentBlocks:
           ### **Classic Circle Songs**
 
 
+          *Time: 20:10*
+
+
           Singing encourages a child to express their emotions and sharpens their ability to communicate. One of the biggest benefits of singing is the repeated use of the 'memory muscle'.
       body: ""
 id: song-qeNexdoj6

@@ -10,7 +10,9 @@ contentBlocks:
         mainBody: |-
           ### **Pipe Cleaner Bouquet**
 
-          ##### *You will need:* 
+          *Time: 6:37*
+
+          ##### *You will need:*
 
           * Pipe cleaners
           * Small container

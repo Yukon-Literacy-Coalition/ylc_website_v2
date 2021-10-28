@@ -9,6 +9,8 @@ contentBlocks:
         mainBody: |-
           ### **Fruit Loops Photo Gift**
 
+          *Time: 10:39*
+
           ##### *You will need:*
 
           * Pipe cleaner 

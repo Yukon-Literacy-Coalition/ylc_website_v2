@@ -13,6 +13,8 @@ contentBlocks:
         mainBody: |-
           ### **Animal Cracker Snack**
 
+          *Time: 21:22*
+
           ##### *You will need:*
 
           * Cracker of your choice or toast

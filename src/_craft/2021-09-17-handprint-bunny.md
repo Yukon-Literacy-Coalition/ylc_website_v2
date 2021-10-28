@@ -9,7 +9,9 @@ contentBlocks:
         mainBody: |-
           ### **Handprint Bunny**
 
-          ##### *You will need:*  
+           *Time: 12:09*
+
+          ##### *You will need:*
 
           * Scissors
           * Markers or crayons

@@ -18,6 +18,9 @@ contentBlocks:
           ##### *Written by Jane Cabrera*
 
 
+          *Time: 6:22*
+
+
           Get young readers moving, clapping, and flapping with this brightly colored sing along picture book full of joyful jungle animals. Nod along with groovy giraffe, flap with baby bird, and ROAR out loud with lion. Jane Cabrera's fresh spin on the familiar song is an energetic choice for story hours, and a family favorite for todder dance parties.
 id: story-Euv0CWNpW
 ---
