@@ -92,10 +92,6 @@ const Contact = (props) => {
               <InfoText>(867) 668-6535</InfoText>
             </InfoLine>
             <InfoLine>
-              <InfoHeader>Fax:</InfoHeader>
-              <InfoText>(867) 668-6518</InfoText>
-            </InfoLine>
-            <InfoLine>
               <InfoHeader>Hours:</InfoHeader>{" "}
               <InfoText>8-4, Monday to Friday</InfoText>
             </InfoLine>
