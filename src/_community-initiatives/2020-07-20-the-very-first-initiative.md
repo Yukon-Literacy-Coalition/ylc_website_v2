@@ -81,6 +81,19 @@ contentBlocks:
         imagesVideos:
           image: /uploads/hj-cells.jpeg
   - contentBlock:
+      sideBySideBody:
+        mainBody: Darcy, the community facilitator in Dawson has started a sewing
+          program this winter. The hope of being able to sew baby bonnets,
+          children’s mitts and toques and traditional anoraks. She is working to
+          be able to pivot the program due to the current covid-19 restrictions
+          and has offered some train the trainer sessions with Tr'ondëk Hwëch'in
+          staff. We look forward to hopefully being able to offer the sewing
+          program to members of the public in Dawson as soon as it is safe to do
+          so.
+        imagesVideos:
+          image: /uploads/20211125_152605.jpg
+      subTitle: "Sewing "
+  - contentBlock:
       subTitle: Benches
       body: Residents of Teslin built benches with the school kids (ages 5-13) to put
         around the community.  They built 4 benches in total and they had
@@ -95,17 +108,5 @@ contentBlocks:
       body: "#### **If you are interested in delivering a Community Literacy program
         in your community or for more information about the program contact
         Darby at *darby.macwilliam@yukonliteracy.com.***"
-  - contentBlock:
-      sideBySideBody:
-        mainBody: Darcy, the community facilitator in Dawson has started a sewing
-          program this winter. The hope of being able to sew baby bonnets,
-          children’s mitts and toques and traditional anoraks. She is working to
-          be able to pivot the program due to the current covid-19 restrictions
-          and has offered some train the trainer sessions with Tr'ondëk Hwëch'in
-          staff. We look forward to hopefully being able to offer the sewing
-          program to members of the public in Dawson as soon as it is safe to do
-          so.
-        imagesVideos:
-          image: /uploads/20211125_152605.jpg
 id: init-0LYclE1Uh
 ---
