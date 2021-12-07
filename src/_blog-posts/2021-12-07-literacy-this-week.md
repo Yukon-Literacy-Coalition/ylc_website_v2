@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-12-07T19:02:27.806Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-12-07-at-12.14.34-pm.png
+thumbnail: /uploads/screen-shot-2021-12-07-at-12.14.42-pm.png
 contentBlocks:
   - contentBlock:
       subTitle: Children’s Book Drive
