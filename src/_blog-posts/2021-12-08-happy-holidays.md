@@ -17,5 +17,8 @@ contentBlocks:
         - downloadObject:
             downloadLink: /uploads/xmas-greeting-2021.pdf
             downloadText: Yukon News Holiday Greeting
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/screen-shot-2021-12-08-at-10.27.54-am.png
 id: post-h6M_Nx8f5
 ---
