@@ -24,6 +24,6 @@ contentBlocks:
             image: /uploads/sewing-hats-2.jpeg
         - imagesVideos:
             image: /uploads/hat-5.jpeg
-      subTitle: Sew a Hat Workshop
+      subTitle: Sew - A - Hat Workshop
 id: post-hxiym0Vjg
 ---
