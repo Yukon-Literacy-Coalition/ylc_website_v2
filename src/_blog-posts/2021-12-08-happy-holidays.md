@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: 2021-12-08T17:32:26.000Z
+date: 2021-12-17T17:32:26.000Z
 articleTitle: "Happy Holidays! "
 thumbnail: /uploads/screen-shot-2021-12-08-at-10.27.54-am.png
 contentBlocks:
