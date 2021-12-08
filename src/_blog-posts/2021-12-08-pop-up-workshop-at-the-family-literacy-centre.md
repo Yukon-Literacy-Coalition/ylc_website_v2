@@ -6,8 +6,8 @@ thumbnail: /uploads/sewing-hat.jpeg
 contentBlocks:
   - contentBlock:
       body: >-
-        Check out the cute, cozy toques made at the Family Literacy Centre on
-        December 7th during a 'Pop-Up' workshop for parents/caregiver. 
+        Check out the cute, cozy hats made at the Family Literacy Centre on
+        December 7th during a 'Pop-Up' workshop for parents/caregivers. 
 
 
         We would like to send a big thank you to Jackie Taylor for delivering such a great workshop!
@@ -22,5 +22,6 @@ contentBlocks:
             image: /uploads/sewing-hat-5.jpeg
         - imagesVideos:
             image: /uploads/sewing-hats-2.jpeg
+      subTitle: Sew a Hat Workshop
 id: post-hxiym0Vjg
 ---
