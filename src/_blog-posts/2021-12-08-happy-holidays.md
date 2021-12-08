@@ -13,10 +13,7 @@ contentBlocks:
 
         May your holidays be filled with magical moments from beginning to end!
       subTitle: A Word of Thanks
-      downloads:
-        - downloadObject:
-            downloadLink: /uploads/xmas-greeting-2021.pdf
-            downloadText: Yukon News Holiday Greeting
+      downloads: []
       imagesVideosList:
         - imagesVideos:
             image: /uploads/screen-shot-2021-12-08-at-10.27.54-am.png
