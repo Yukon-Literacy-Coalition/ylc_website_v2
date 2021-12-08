@@ -9,5 +9,12 @@ contentBlocks:
         wrapping and gifting to your loved ones. There's something for everyone!
         Come on up to the Family Literacy Centre and see for yourself!
       subTitle: "Visit the Family Literacy Centre! "
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/screen-shot-2021-12-08-at-10.39.27-am.png
+        - imagesVideos:
+            image: /uploads/gift-wrapping-2.jpeg
+        - imagesVideos:
+            image: /uploads/gift-wrap-3.jpeg
 id: post-8l9UpoxBf
 ---
