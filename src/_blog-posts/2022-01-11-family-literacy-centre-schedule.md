@@ -6,7 +6,7 @@ thumbnail: /uploads/screen-shot-2022-01-11-at-10.13.03-am.png
 contentBlocks:
   - contentBlock:
       subTitle: "Winter hours: January 4th - March 19th 2022"
-      body: Come and join us for Drop in Play at the Family Literacy Centre!
+      body: Come and join us for Drop-In Play at the Family Literacy Centre!
       imagesVideosList:
         - imagesVideos:
             image: /uploads/jpeg-winter-2022-front.jpg
