@@ -1,5 +1,5 @@
 ---
-title: "Get Caught Reading Photo Contest! "
+title: "Get Caught Reading! "
 link: https://yukonliteracy.com/events
 linkText: Learn More
 image: /uploads/thumbnail-for-highlight-.jpg
