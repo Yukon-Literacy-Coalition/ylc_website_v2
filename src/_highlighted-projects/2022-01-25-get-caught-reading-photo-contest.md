@@ -1,6 +1,6 @@
 ---
 title: "Get Caught Reading Photo Contest! "
-link: https://yukonliteracy.com/events/event/event-guwih3aex
+link: https://yukonliteracy.com/events
 linkText: Learn More
 image: /uploads/thumbnail-for-highlight-.jpg
 ---
