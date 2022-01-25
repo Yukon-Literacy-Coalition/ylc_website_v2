@@ -5,7 +5,7 @@ articleTitle: "Get Caught Reading Photo Contest! "
 thumbnail: /uploads/gcr-facebook-ad-photo-jpeg.jpg
 contentBlocks:
   - contentBlock:
-      subTitle: Get Caught Reading!
+      subTitle: Get Caught Reading Photo Contest!
       body: >-
         Hey Yukoners!
 
