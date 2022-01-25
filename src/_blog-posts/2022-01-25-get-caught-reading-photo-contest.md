@@ -13,35 +13,34 @@ contentBlocks:
         Are you ready to Get Caught Reading and win?
 
 
-        **To Enter:** 
 
 
-        From January 26th - March 16th, take photos of yourself and your loved ones "getting caught" reading in fun and creative ways! Send us your photos via facebook, instagram, email, or in-person. Include your name, contact information, and category. 
+        **To Enter:** From January 26th - March 16th, take photos of yourself and your loved ones "getting caught" reading in fun and creative ways! Send us your photos via facebook, instagram, email, or in-person. Include your name, contact information, and category. 
 
 
-        [https://www.facebook.com/yukonfamilyliteracycentre/](https://www.facebook.com/yukonfamilyliteracycentre/?__cft__[0]=AZVQK9lOE-X3aezZCt8zkFNet5AYJM1Cij5ojfoAD2GefGQd3xardImik4BtHHH_aso-ZnVLoDqqMgx2mBsnRbSY78sJ6HxxKPafhowQM4A6AU0AOZFg_diQlKAmGmmcIXIIksjzEbV-J_2pvJ58MH-S&__tn__=q)
+        * **Most Entries from a Family or Individual** wins a $500 Air North gift certificate!
+
+        * **Silliest photo** wins a Kicksled from Kicksled Revolution!
+
+        * **Most Adventurous photo** wins a Husky Rush package at Sky High Wilderness Ranch!
+
+        * **Most Creative Family photo** wins a $500 Air North gift certificate!
+
+        * **All Other Photos** will be entered into a draw for a variety of exciting prizes: Superstore gift cards; a play kitchen; an Instant Pot + accessories; Yukon Chocolate; a 2022 Yukon Parks Camping Pass; Family Passes to the Canada Games Centre; and more! 
 
 
-        getcaughtreading@yukonliteracy.com
 
 
-        100 Main Street, Suite#207
+        **Send Photos to:**
 
 
+        Facebook: [https://www.facebook.com/yukonfamilyliteracycentre/](https://www.facebook.com/yukonfamilyliteracycentre/?__cft__[0]=AZVQK9lOE-X3aezZCt8zkFNet5AYJM1Cij5ojfoAD2GefGQd3xardImik4BtHHH_aso-ZnVLoDqqMgx2mBsnRbSY78sJ6HxxKPafhowQM4A6AU0AOZFg_diQlKAmGmmcIXIIksjzEbV-J_2pvJ58MH-S&__tn__=q)
 
 
-        **Most Entries from a Family or Individual** wins a $500 Air North gift certificate!
+        Email: getcaughtreading@yukonliteracy.com
 
 
-        **Silliest photo** wins a Kicksled from Kicksled Revolution!
-
-
-        **Most Adventurous photo** wins a Husky Rush package at Sky High Wilderness Ranch!
-
-
-        **Most Creative Family photo** wins a $500 Air North gift certificate!
-
-
+        In Person: Yukon Literacy Coalition. 100 Main Street, Suite#207
 
 
         *Must be a Yukon resident to enter*
