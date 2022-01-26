@@ -79,6 +79,8 @@ contentBlocks:
             image: /uploads/ca-reading-outside-with-name-tag.jpeg
         - imagesVideos:
             image: /uploads/darby-steph-vic.jpg
+        - imagesVideos:
+            image: /uploads/img_0004.jpg
       sideBySideBody:
         mainBody: >-
           <!--\[if gte mso 9]><xml>
