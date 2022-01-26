@@ -1,7 +1,7 @@
 ---
 layout: event
 date: 2022-01-26T07:00:00.000Z
-eventTitle: Get Caught Reading Photo Contest
+eventTitle: Get Caught Reading Photo Contest / Concours photo Fais-toi prendre à lire!
 contentBlocks:
   - contentBlock:
       body: >-
