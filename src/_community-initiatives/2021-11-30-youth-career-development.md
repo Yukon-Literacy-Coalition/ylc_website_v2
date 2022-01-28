@@ -16,14 +16,15 @@ contentBlocks:
 
 
         The Empowering Northern Youth through Career Development (ENYCD) program is a tri-territorial effort between the Yukon Literacy Coalition, the NWT Literacy Council, and Ilitaqsiniq Nunavut Literacy Council. This project is funded by the Government of Canada’s Youth Employment and Skills Strategy. The ENYCD program will have 4 cohorts, each having a 6-week session. These sessions will contain 4 weeks of formal and non-formal classroom learning where students will earn credentials such as first aid, food safe, or WHMIS, as well as workplace skills and ‘soft skills’ such as communication, teamwork, and leadership. Additionally, each session will contain 2 weeks of work placement with local partner employers where they will be able to put these new practices to use.
-      imagesVideosList:
-        - {}
+      imagesVideosList: []
       links:
         - null
       downloads:
         - downloadObject:
             downloadLink: /uploads/youth-one-pager-final.pdf
+            downloadText: For Youth
         - downloadObject:
             downloadLink: /uploads/employer-one-pager.pdf
+            downloadText: For Employers
 id: init-zp0cj7GR2
 ---
