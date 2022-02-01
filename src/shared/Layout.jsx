@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import styled from "@emotion/styled";
 import { mq } from "../theme";
 
@@ -36,3 +36,19 @@ export const BodyTextSideBySide = styled.div`
     grid-column-end: 12;
   }
 `;
+
+const CharCountBody = styled.div`
+  position: absolute;
+  bottom: -10px;
+  padding: 0 3px;
+  border: red 4px solid;
+  color: red;
+  font-weight: bold;
+  border-radius: 2px;
+`;
+
+export const CharCount = ({ markdownBody }) => {
+  let count = markdownBody.length;
+  console.log({ count });
+  return <CharCountBody>Character Count: {count}</CharCountBody>;
+};

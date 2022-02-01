@@ -173,7 +173,6 @@ export const BasicNav = (props) => {
       <DDButton to="/food" text="For Kids" />
       <DDButton to="/news" text="News" />
       <DDButton to="/events" text="Events" />
-      <DDButton to="/donate" text="Donate" />
       <DDButton to="/contact" text="Contact" />
     </BasicNavContainer>
   );
@@ -208,6 +207,7 @@ const aboutLinksArray = [
   <RRLink to="/about/team">Our Team</RRLink>,
   <RRLink to="/about/supporters">Supporters</RRLink>,
   <RRLink to="/about/opportunities">Job Opportunities</RRLink>,
+  <RRLink to="/donate">Donate</RRLink>,
 ];
 
 const AboutLinks = () => (
@@ -266,7 +266,7 @@ const getCommunityLinksArray = ({ communityLinks }) => {
   const linksArray = generatedLinks || [];
   return [
     <RRLink to="/community">About Community Initiatives</RRLink>,
-    <RRLink to="/community/financial_literacy">Financial literacy</RRLink>,
+    <RRLink to="/community/financial_literacy">Financial Literacy</RRLink>,
     ...linksArray,
   ];
 };
@@ -450,7 +450,6 @@ const Navigation = (props) => {
           <DDButton to="/kids" text="For Kids" />
           <DDButton to="/news" text="News" />
           <DDButton to="/events" text="Events" />
-          <DDButton to="/donate" text="Donate" />
           <DDButton to="/contact" text="Contact" />
         </TopNavLinks>
         <SocialsMainNav>

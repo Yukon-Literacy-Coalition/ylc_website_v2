@@ -30,7 +30,7 @@ const EventItem = styled(Link)`
 `;
 
 const DateText = styled.div`
-  ${(p) => p.theme.fonts.extra_small_header};
+  ${(p) => p.theme.fonts.body_text_bold};
   color: ${(p) => p.theme.colors.ylc_blue};
   padding: 10px 0;
 `;
@@ -40,7 +40,7 @@ const EventText = styled(DateText)`
 `;
 
 export const EventListing = ({ event, className, border }) => {
-  const { date, eventTitle, slug } = event;
+  const { startDate, endDate, eventTitle, slug, showEventTime } = event;
   return (
     <EventItem
       to={`/events/event/${slug}`}
@@ -49,9 +49,18 @@ export const EventListing = ({ event, className, border }) => {
     >
       <div>
         <DateText>
-          <div>{moment(date).format("DD MMMM YYYY")}</div>
-          <div>{moment(date).format("h:MM a")}</div>
+          {moment(startDate).format("DD MMMM YYYY")}
+          {showEventTime && moment(startDate).format("h:MM a")}
+
+          {endDate && (
+            <div>
+              {" "}
+              - {moment(endDate).format("DD MMMM YYYY")}
+              {showEventTime && moment(endDate).format("h:MM a")}
+            </div>
+          )}
         </DateText>
+
         <EventText>{eventTitle}</EventText>
       </div>
     </EventItem>

@@ -10,7 +10,9 @@ const currentURL = "https://yukonliteracy.com/";
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
-    return moment(event.date).isAfter(moment().subtract(24, "hours"));
+    // check for endDate, but take startDate otherwise
+    let relevantDate = event.endDate || event.startDate;
+    return moment(relevantDate).isAfter(moment().subtract(24, "hours"));
   });
 
 const getCommunityLinks = async () => {
@@ -74,7 +76,9 @@ export default {
     //events
     const _events = await getPosts("./src/_events");
     const filteredEvents = filterUpcoming({ events: _events });
-    const sortedEvents = filteredEvents.sort((a, b) => a.date - b.date);
+    const sortedEvents = filteredEvents.sort(
+      (a, b) => a.startDate - b.startDate
+    );
     const events = sortedEvents.map(addSlug);
 
     // HOMEPAGE
@@ -556,6 +560,11 @@ export default {
           template: `src/Events/Event`,
           getData: async () => ({ event }),
         })),
+      },
+      // BOOK MAP SECTION
+      {
+        path: "/book-map",
+        template: "src/BookMap",
       },
       // STATEMENTS
       {

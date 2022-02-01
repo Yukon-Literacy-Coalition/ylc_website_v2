@@ -6,6 +6,7 @@ import { lighten } from "polished";
 import { DarkAndLightText } from "../Type";
 import { mq } from "../../theme";
 import { Link } from "@reach/router";
+import { CharCount } from "../Layout";
 
 const SingleProject = css`
   grid-column-start: 4;
@@ -108,6 +109,7 @@ const ProjBody = styled.div`
   padding: 0 10px 10px;
   ${(p) => p.theme.fonts.body_text}
   font-size: 14px;
+  position: relative;
 `;
 
 const ButtonContainer = styled.div`
@@ -122,6 +124,7 @@ const ButtonsWrapper = styled.div`
 `;
 
 const ProjectHighlight = (props) => {
+  const isCMS = props?.isCMS;
   const project = props?.project;
   const projectslength = props?.projectslength;
 
@@ -138,6 +141,7 @@ const ProjectHighlight = (props) => {
           </ProjTitle>
           <ProjBody>
             <StyledMarkdown source={body} escapeHtml={false} />
+            {isCMS && <CharCount markdownBody={body} />}
           </ProjBody>
         </div>
         <>

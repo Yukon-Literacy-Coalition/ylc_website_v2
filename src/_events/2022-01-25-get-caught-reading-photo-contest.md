@@ -1,6 +1,8 @@
 ---
 layout: event
-date: 2022-03-16T07:00:00.000Z
+startDate: 2022-01-26T07:00:00.000Z
+endDate: 2022-03-16T07:00:00.000Z
+showEventTime: false
 eventTitle: Get Caught Reading Photo Contest / Concours photo Fais-toi prendre à lire!
 contentBlocks:
   - contentBlock:

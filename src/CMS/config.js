@@ -44,7 +44,6 @@ const config = {
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "blog" },
-
         {
           label: "Publish Date And Title",
           name: "date",
@@ -78,13 +77,32 @@ const config = {
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "event" },
         {
-          label: "Event Date and Title",
-          name: "date",
+          label: "Event Start Date",
+          name: "startDate",
           widget: "datetime",
           dateFormat: "DD MMMM YYYY",
+          default: "",
           timeFormat: "h:mm a",
-          hint: "NOTE: Events will disappear from the website once 24 hours have passed from their start date/time. They will still exist here in the backend and can be made visible again by making their start date/time somewhere in the future.",
+          hint: "NOTE: Events will disappear from the website once 24 hours have passed from their start (or end) date. They will still exist here in the backend and can be made visible again by making their start (or end) date somewhere in the future.",
         },
+        {
+          label: "Event End Date",
+          name: "endDate",
+          widget: "datetime",
+          dateFormat: "DD MMMM YYYY",
+          default: "",
+          timeFormat: "h:mm a",
+          required: false,
+          hint: "NOTE: An end date is not required if it is a very short event.",
+        },
+        {
+          label: "Show Event Times",
+          name: "showEventTime",
+          widget: "boolean",
+          default: true,
+          hint: "NOTE: This will default to true, but showing the start/end time of a long term event might not be relevant",
+        },
+
         {
           label: "Event Name",
           name: "eventTitle",
@@ -204,7 +222,6 @@ const config = {
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
-        idGenerator("init"),
       ],
     },
     {
@@ -247,7 +264,7 @@ const config = {
           label: "Body",
           name: "body",
           widget: "markdown",
-          pattern: ["^.{0,400}$", "400 maximum characters"],
+          pattern: ["^.{0,400}$", "400 maximum characters. You are "],
           hint: "I've limited it to 400 characters so the descriptions are all somewhat uniform.",
         },
         { label: "Image", name: "image", widget: "image" },

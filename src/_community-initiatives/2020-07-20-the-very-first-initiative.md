@@ -108,5 +108,4 @@ contentBlocks:
       body: "#### **If you are interested in delivering a Community Literacy program
         in your community or for more information about the program contact
         Darby at *darby.macwilliam@yukonliteracy.com.***"
-id: init-0LYclE1Uh
 ---

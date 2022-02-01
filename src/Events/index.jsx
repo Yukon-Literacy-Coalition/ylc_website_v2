@@ -32,7 +32,7 @@ const EventsOverview = (props) => {
               return (
                 <EventListing
                   event={event}
-                  key={event.date + event.title}
+                  key={event.startDate + event.title}
                   border={eventNumber % 4 === 0}
                 />
               );
