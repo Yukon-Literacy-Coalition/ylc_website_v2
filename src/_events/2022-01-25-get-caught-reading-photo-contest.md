@@ -83,6 +83,12 @@ contentBlocks:
             image: /uploads/darby-steph-vic.jpg
         - imagesVideos:
             image: /uploads/img_0004.jpg
+        - imagesVideos:
+            image: /uploads/ypl-staff-getting-caught-reading-1.jpeg
+        - imagesVideos:
+            image: /uploads/raven-recycling-gets-caught-reading1.jpg
+        - imagesVideos:
+            image: /uploads/stephanie-wood.jpg
       sideBySideBody:
         mainBody: >-
           <!--\[if gte mso 9]><xml>
