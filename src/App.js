@@ -56,6 +56,22 @@ const ScrollToTop = ({ children, location }) => {
   return children;
 };
 
+const NormalComponent = ({ routePath, el }) => {
+  return (
+    <FullPage routePath={routePath}>
+      <div css={appBodyStyles}>
+        <Navigation isHome={routePath === "/"} />
+        <ComponentContent routePath={routePath}>{el}</ComponentContent>
+        <Footer />
+      </div>
+    </FullPage>
+  );
+};
+
+const NakedComponent = ({ routePath, el }) => {
+  return <ComponentContent routePath={routePath}>{el}</ComponentContent>;
+};
+
 function App() {
   return (
     <Root>
@@ -70,17 +86,15 @@ function App() {
                   path="*"
                   render={({ routePath, getComponentForPath }) => {
                     const el = getComponentForPath(routePath);
-                    return (
-                      <FullPage routePath={routePath}>
-                        <div css={appBodyStyles}>
-                          <Navigation isHome={routePath === "/"} />
-                          <ComponentContent routePath={routePath}>
-                            {el}
-                          </ComponentContent>
-                          <Footer />
-                        </div>
-                      </FullPage>
-                    );
+                    switch (routePath) {
+                      case "book-map":
+                        return <NakedComponent routePath={routePath} el={el} />;
+
+                      default:
+                        return (
+                          <NormalComponent routePath={routePath} el={el} />
+                        );
+                    }
                   }}
                 />
               </ScrollToTop>

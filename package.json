@@ -24,6 +24,7 @@
     "emotion": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "facepaint": "^1.2.1",
+    "google-map-react": "^2.1.10",
     "gray-matter": "^4.0.2",
     "klaw": "^3.0.0",
     "moment": "^2.27.0",
