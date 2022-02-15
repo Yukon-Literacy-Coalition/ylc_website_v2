@@ -31,5 +31,9 @@ contentBlocks:
         - image: /uploads/image0-1-.jpeg
         - image: /uploads/get-caught-reading-photo.jpeg
         - image: /uploads/katie-scorgie-ajax-reading-tummy-time-sent-through-facebook.jpeg
+        - image: /uploads/spencer-montgomery-paul-reading-tiny-robert-munsch.jpeg
+        - image: /uploads/mikayla-duncan-silliest-photo-from-facebook-334-0966.jpeg
+        - image: /uploads/treeya-reading-infront-of-mural.jpeg
+        - image: /uploads/carrie-burgess-from-facebook.jpeg
 id: post-5C3tsmjNe
 ---
