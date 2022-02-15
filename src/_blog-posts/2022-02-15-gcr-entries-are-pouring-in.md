@@ -5,10 +5,31 @@ articleTitle: "GCR Entries are Pouring In!  "
 thumbnail: /uploads/image1.jpeg
 contentBlocks:
   - contentBlock:
-      body: Our community is so creative! Click to see a slideshow of some amazing Get
+      body: Our community is so creative! Check out this slideshow of some amazing Get
         Caught Reading Photo Contest entries.
       links:
         - linkObject:
             linkText: Read
+      images:
+        - image: /uploads/cc4aa743-6763-44f5-b8d1-164cdc0b63c7.jpeg
+        - image: /uploads/image0.jpeg
+        - image: /uploads/image1-1-.jpeg
+        - image: /uploads/image1.jpeg
+        - image: /uploads/odin_getcaughtreading-1-.jpg
+        - image: /uploads/20220209_201955.jpg
+        - image: /uploads/image_6483441.jpg
+        - image: /uploads/img_2653.jpg
+        - image: /uploads/img-20220205-wa0044.jpg
+        - image: /uploads/img_7342.jpg
+        - image: /uploads/img_20220209_175639.jpg
+        - image: /uploads/img_7333.jpg
+        - image: /uploads/img_9347.jpg
+        - image: /uploads/img_2090.jpeg
+        - image: /uploads/20220208_204246.jpg
+        - image: /uploads/image_50423809.jpg
+        - image: /uploads/image2.jpeg
+        - image: /uploads/image0-1-.jpeg
+        - image: /uploads/get-caught-reading-photo.jpeg
+        - image: /uploads/katie-scorgie-ajax-reading-tummy-time-sent-through-facebook.jpeg
 id: post-5C3tsmjNe
 ---
