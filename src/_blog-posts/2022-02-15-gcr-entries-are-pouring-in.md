@@ -35,5 +35,12 @@ contentBlocks:
         - image: /uploads/mikayla-duncan-silliest-photo-from-facebook-334-0966.jpeg
         - image: /uploads/treeya-reading-infront-of-mural.jpeg
         - image: /uploads/carrie-burgess-from-facebook.jpeg
+        - image: /uploads/cheryl-kawaja-867-668-4059-1.jpg
+        - image: /uploads/daniel-sharpe-709-770-0721-34.jpg
+        - image: /uploads/rosalie-gattensby-sweeet_30-hotmail.com-1.jpg
+        - image: /uploads/tara-grandy-867-334-3901-1.jpg
+        - image: /uploads/tara-grandy-867-334-3901-4.jpg
+        - image: /uploads/sandra-st-laurent-867-332-7618-10.jpg
+        - image: /uploads/sandra-st-laurent-867-332-7618-34.png
 id: post-5C3tsmjNe
 ---
