@@ -26,6 +26,23 @@ const config = {
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   media_folder: "public/uploads",
+  // FOR CLOUDINARY
+  // media_library: {
+  //   name: "cloudinary",
+  //   config: {
+  //     cloud_name: "https-yukonliteracy-com",
+  //     api_key: "593886844655525",
+  //     default_transformations: [
+  //       [
+  //         {
+  //           // fetch_format: "auto",
+  //           quality: 25,
+  //           crop: "limit",
+  //         },
+  //       ],
+  //     ],
+  //   },
+  // },
   public_folder: "/uploads",
   collections: [
     // fields:
@@ -41,7 +58,7 @@ const config = {
       label: "Blog Post",
       folder: "src/_blog-posts",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "blog" },
         {
@@ -73,7 +90,7 @@ const config = {
       label: "Events",
       folder: "src/_events",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "event" },
         {
@@ -118,11 +135,12 @@ const config = {
       label: "Outreach Projects",
       folder: "src/_outreach-projects",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Body", name: "body", widget: "markdown" },
         imagesList,
+        idGenerator("outreach"),
       ],
     },
     {
@@ -213,6 +231,7 @@ const config = {
         },
       ],
     },
+    // COMMUNITY INITIATIVES
     {
       name: "communityInitiatives",
       label: "Community Initiatives",
@@ -224,6 +243,30 @@ const config = {
         contentsBlock,
       ],
     },
+    // {
+    //   name: "communityInitiativesOrder",
+    //   label: "Community Initiatives ORDER",
+    //   folder: "src/_community-initiatives-order",
+    //   create: true,
+    //   slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+    //   fields: [
+    //     {
+    //       name: "Collection",
+    //       label: "collection",
+    //       widget: "list",
+    //       fields: [
+    //         {
+    //           label: "initiative name",
+    //           name: "initiativeName",
+    //           widget: "relation",
+    //           collection: "communityInitiatives",
+    //           searchFields: ["title"],
+    //           valueField: "title",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       name: "staff",
       label: "Staff",
@@ -254,7 +297,7 @@ const config = {
       label: "Highlighted Projects",
       folder: "src/_highlighted-projects",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         linkUrlString,
@@ -268,6 +311,7 @@ const config = {
           hint: "I've limited it to 400 characters so the descriptions are all somewhat uniform.",
         },
         { label: "Image", name: "image", widget: "image" },
+        idGenerator("highlight"),
       ],
     },
     {
@@ -620,6 +664,52 @@ const config = {
         ...forKidsInformation,
         contentsBlock,
         idGenerator("care"),
+      ],
+    },
+    // LITTLE LIBRARIES
+    {
+      name: "littleLibraries",
+      label: "Little Libraries",
+      folder: "src/_little-libraries",
+      create: true,
+      delete: true,
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        {
+          label: "Steward",
+          name: "steward",
+          widget: "string",
+          required: false,
+        },
+        {
+          label: "Steward's Contact",
+          name: "stewardContact",
+          widget: "string",
+          required: false,
+        },
+        {
+          label: "GPS x-coordinates",
+          name: "xCoordinates",
+          widget: "string",
+          // widget: "number",
+          // value_type: "float",
+        },
+        {
+          label: "GPS y-coordinates",
+          name: "yCoordinates",
+          widget: "string",
+          // widget: "number",
+          // value_type: "float",
+        },
+        {
+          label: "Description",
+          name: "description",
+          widget: "markdown",
+          required: false,
+        },
+        { label: "Image", name: "image", widget: "image", required: false },
+        idGenerator("lib"),
       ],
     },
   ],

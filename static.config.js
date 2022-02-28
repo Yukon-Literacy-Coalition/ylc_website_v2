@@ -242,6 +242,9 @@ export default {
       .map(addSlug)
       .map((x) => addLocalLink(x, "/kids/caregiver/content/"));
 
+    // LITTLE LIBRARIES
+    const libraries = await getPosts("./src/_little-libraries");
+
     return [
       // HOME SECTION
       {
@@ -561,10 +564,11 @@ export default {
           getData: async () => ({ event }),
         })),
       },
-      // BOOK MAP SECTION
+      // LITTLE LIBRARIES
       {
-        path: "/book-map",
-        template: "src/BookMap",
+        path: "/little-libraries",
+        template: "src/LittleLibraries",
+        getData: async () => ({ libraries }),
       },
       // STATEMENTS
       {

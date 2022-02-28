@@ -87,7 +87,7 @@ function App() {
                   render={({ routePath, getComponentForPath }) => {
                     const el = getComponentForPath(routePath);
                     switch (routePath) {
-                      case "book-map":
+                      case "little-libraries":
                         return <NakedComponent routePath={routePath} el={el} />;
 
                       default:

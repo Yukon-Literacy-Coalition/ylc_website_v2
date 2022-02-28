@@ -48,6 +48,7 @@ export const mqNew = (bp) => `@media (max-width: ${bp}px)`;
 export const theme = {
   colors: {
     ylc_blue: "#2F3575",
+    // rgb version of ylc_blue rgb(47, 53, 117)
     text: "#02111B",
     light_accent: "#EBF2FA",
     medium_accent: "#B4CDED",

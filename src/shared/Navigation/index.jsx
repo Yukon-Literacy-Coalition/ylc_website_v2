@@ -253,14 +253,16 @@ const getCommunityLinksArray = ({ communityLinks }) => {
   const generatedLinks =
     !!communityLinks?.length &&
     communityLinks.map((init, i) => {
-      return (
-        <RRLink
-          key={init.slug + i}
-          to={`/community/initiative/${init.slug || "NAME/LINK_NEEDED"}`}
-        >
-          {init?.title || "Title Needed"}
-        </RRLink>
-      );
+      if (init.slug !== "past-projects") {
+        return (
+          <RRLink
+            key={init.slug + i}
+            to={`/community/initiative/${init.slug || "NAME/LINK_NEEDED"}`}
+          >
+            {init?.title || "Title Needed"}
+          </RRLink>
+        );
+      }
     });
 
   const linksArray = generatedLinks || [];
@@ -268,6 +270,9 @@ const getCommunityLinksArray = ({ communityLinks }) => {
     <RRLink to="/community">About Community Initiatives</RRLink>,
     <RRLink to="/community/financial_literacy">Financial Literacy</RRLink>,
     ...linksArray,
+    <RRLink key={"past"} to={`/community/initiative/past-projects`}>
+      {"Past Projects"}
+    </RRLink>,
   ];
 };
 
@@ -357,6 +362,16 @@ const HamburgerContainer = styled.div`
   }
 `;
 
+const LogoSectionComponent = ({ logo }) => {
+  return (
+    <LogoSection>
+      <RRLink to="/">
+        <Logo src={logo} alt="" />
+      </RRLink>
+    </LogoSection>
+  );
+};
+
 //
 // MAIN COMPONENT
 //
@@ -405,11 +420,7 @@ const Navigation = (props) => {
             onClick={() => setSideMenuVisible(true)}
           />
         </HamburgerContainer>
-        <LogoSection>
-          <RRLink to="/">
-            <Logo src={logo} alt="" />
-          </RRLink>
-        </LogoSection>
+        <LogoSectionComponent logo={logo} />
         <TopNavLinks>
           <DropDownContainer>
             <DDButton text="About" />

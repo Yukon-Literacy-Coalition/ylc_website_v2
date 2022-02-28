@@ -33,10 +33,21 @@ const DateText = styled.div`
   ${(p) => p.theme.fonts.body_text_bold};
   color: ${(p) => p.theme.colors.ylc_blue};
   padding: 10px 0;
+  span {
+    display: inline-block;
+    width: 100%;
+  }
+  ${mq[3]} {
+    span {
+      display: inline;
+    }
+  }
 `;
 
 const EventText = styled(DateText)`
   color: ${(p) => p.theme.colors.text};
+  ${(p) => p.theme.fonts.extra_small_header};
+  display: flex;
 `;
 
 export const EventListing = ({ event, className, border }) => {
@@ -48,20 +59,20 @@ export const EventListing = ({ event, className, border }) => {
       border={border ? "true" : undefined}
     >
       <div>
+        <EventText>{eventTitle}</EventText>
         <DateText>
-          {moment(startDate).format("DD MMMM YYYY")}
-          {showEventTime && moment(startDate).format("h:MM a")}
-
+          <span>
+            {moment(startDate).format("DD MMMM YYYY")}
+            {showEventTime && moment(startDate).format("h:MM a")}
+          </span>
           {endDate && (
-            <div>
+            <span>
               {" "}
               - {moment(endDate).format("DD MMMM YYYY")}
               {showEventTime && moment(endDate).format("h:MM a")}
-            </div>
+            </span>
           )}
         </DateText>
-
-        <EventText>{eventTitle}</EventText>
       </div>
     </EventItem>
   );

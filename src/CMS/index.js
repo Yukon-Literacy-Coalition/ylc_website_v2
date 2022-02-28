@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import CMS from "netlify-cms-app";
 import config from "./config";
+import cloudinary from "netlify-cms-media-library-cloudinary";
 
 import { Widget as IdWidget } from "@ncwidgets/id";
 
@@ -117,6 +118,7 @@ const DataAndStyleInjection = (
 const NetlifyCMS = (props) => {
   useEffect(() => {
     if (typeof document !== "undefined" && typeof window !== "undefined") {
+      CMS.registerMediaLibrary(cloudinary);
       CMS.registerPreviewTemplate("events", (previewProps) =>
         DataAndStyleInjection(previewProps, Event, "event")
       );
