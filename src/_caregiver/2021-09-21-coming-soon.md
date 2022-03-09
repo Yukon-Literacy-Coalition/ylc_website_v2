@@ -1,7 +1,23 @@
 ---
-title: Coming soon!
+title: The Child Development Centre
 isArchived: false
-description: Local and national resources to support caregivers.
-thumbnail: /uploads/screen-shot-2021-09-21-at-2.23.55-pm.png
+description: The Child Development Centre a not-for-profit organization that has
+  been providing therapeutic services and supporting the developmental needs of
+  all Yukon children from birth to kindergarten since 1979.
+thumbnail: /uploads/10250061_623520601064772_835134780729413933_n.jpg
+contentBlocks:
+  - contentBlock:
+      links:
+        - linkObject:
+            linkLocation: https://cdcyukon.ca
+            linkText: Child Development Centre
+      body: >-
+        The Child Development Centre offers a variety of programs and provide a
+        wide range of services; from answering questions about behaviour, sleep
+        and feeding, to providing physiotherapy or speech language therapy, to
+        working with families whose child has just recieved a diagnosis. 
+
+
+        Your child does not need to have a diagnosis. If you have questions about your child's development, they are a great resource to access. For more information about the Child Development Centre, check out their website below.
 id: care-86WCJd3Zt
 ---
