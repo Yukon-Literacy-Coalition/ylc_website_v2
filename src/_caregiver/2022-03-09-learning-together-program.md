@@ -20,5 +20,6 @@ contentBlocks:
         skills, and foster healthy relationships. Parent-participation is
         expected for the entire duration of the program. For more information
         about this program, check out their website below.
+      subTitle: Learning Together Program
 id: care-wneO6eTcG
 ---
