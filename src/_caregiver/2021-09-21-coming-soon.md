@@ -1,5 +1,5 @@
 ---
-title: The Child Development Centre
+title: Child Development Centre
 isArchived: false
 description: The Child Development Centre a not-for-profit organization that has
   been providing therapeutic services and supporting the developmental needs of
@@ -19,5 +19,6 @@ contentBlocks:
 
 
         Your child does not need to have a diagnosis. If you have questions about your child's development, they are a great resource to access. For more information about the Child Development Centre, check out their website below.
+      subTitle: Child Development Centre
 id: care-86WCJd3Zt
 ---
