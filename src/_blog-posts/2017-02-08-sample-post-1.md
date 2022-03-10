@@ -17,5 +17,8 @@ contentBlocks:
 
         We will be providing program updates on this site and on our Facebook page at Yukon Family Literacy Centre, or for more information call us at 668-6535.
       links: []
+      imagesVideosList:
+        - imagesVideos:
+            image: /uploads/cold.jpeg
 id: post-67WNkvr4H
 ---
