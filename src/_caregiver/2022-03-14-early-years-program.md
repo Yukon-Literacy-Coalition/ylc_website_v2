@@ -27,6 +27,9 @@ contentBlocks:
 
         * Early Years Family Centre for sharing, reading, playing, beading                       
 
-        * Elder- guided sharing circles Fun and practical workshops
+        * Elder- guided sharing circles Fun and practical workshops                                                   
+
+
+        For more information on this program, check out the website below.
 id: care-t8FO7QIST
 ---
