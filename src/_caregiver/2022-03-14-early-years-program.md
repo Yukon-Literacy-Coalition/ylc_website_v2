@@ -14,7 +14,7 @@ contentBlocks:
             linkText: Early Years Program
       body: >-
         The Early Years program supports young Indigenous parents and caregivers
-        to ensure they have teh tools they need to be their children's best and
+        to ensure they have the tools they need to be their children's best and
         first teachers. 
 
 
@@ -27,9 +27,10 @@ contentBlocks:
 
         * Early Years Family Centre for sharing, reading, playing, beading                       
 
-        * Elder- guided sharing circles Fun and practical workshops                                                   
+        * Elder- guided sharing circles fun and practical workshops                                                   
 
 
         For more information on this program, check out the website below.
+      subTitle: Early Years Program
 id: care-t8FO7QIST
 ---
