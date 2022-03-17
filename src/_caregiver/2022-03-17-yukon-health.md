@@ -19,6 +19,9 @@ contentBlocks:
 
 
         You can attend free baby talk sessions that provide an opportunity to chat with a nurse regarding any current concerns or questions and meet other parents with new babies. Baby talk is a weekly group meeting for new parents. There's a different topic each week. Some of the topics include immunizations, growth and development, introducing solid foods, breastfeeding, safety, and key health issues.
+
+
+        For more information on Yukon Health Resources, check out the website below.
       subTitle: Yukon Health
 id: care-0LKhPb4Ve
 ---
