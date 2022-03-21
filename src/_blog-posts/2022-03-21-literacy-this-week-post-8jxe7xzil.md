@@ -28,5 +28,6 @@ contentBlocks:
       downloads:
         - downloadObject:
             downloadLink: /uploads/march-16.pdf
+            downloadText: Yukon News Article
 id: post-8jXE7XzIL
 ---
