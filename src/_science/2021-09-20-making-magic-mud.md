@@ -2,7 +2,7 @@
 title: Making Magic Mud
 isArchived: false
 description: Follow along with Carrie-Anne to make a gooey mess in the name of science!
-thumbnail: /uploads/screen-shot-2021-09-20-at-11.06.24-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535150/screen-shot-2021-09-20-at-11.06.24-am_jy643x.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

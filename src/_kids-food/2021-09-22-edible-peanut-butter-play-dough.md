@@ -4,7 +4,7 @@ isArchived: false
 description: Join Carrie-Anne as she makes a Peanut Butter Play Dough you can
   eat! Use it as play dough, then bake your creations in the oven for a healthy
   treat!
-thumbnail: /uploads/screen-shot-2021-09-22-at-9.09.03-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534877/screen-shot-2021-09-22-at-9.09.03-am_qg2gof.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

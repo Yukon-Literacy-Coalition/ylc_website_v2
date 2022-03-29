@@ -2,7 +2,7 @@
 layout: blog
 date: 2020-10-22T03:55:26.254Z
 articleTitle: Website Launch
-thumbnail: /uploads/dark_flake.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648541870/dark_flake_kghcz2.png
 contentBlocks:
   - contentBlock:
       subTitle: Website Launch
@@ -19,6 +19,6 @@ contentBlocks:
       links: []
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/cold.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1647233542/1_f0entb.jpg
 id: post-67WNkvr4H
 ---

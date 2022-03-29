@@ -3,7 +3,7 @@ title: If You Give a Pig a Pancake
 isArchived: false
 description: Join Carrie- Anne for this creative and captivating story about a
   little girl, her pig and one delicious pancake!
-thumbnail: /uploads/screen-shot-2021-09-17-at-10.43.33-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535356/screen-shot-2021-09-17-at-10.43.33-am_jsklio.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

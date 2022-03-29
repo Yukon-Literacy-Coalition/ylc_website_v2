@@ -5,7 +5,7 @@ description: Partners for Children is for all Yukon children under the age of
   six, and their adults. They offer workshops, information for parents and
   practitioners, work with licensed childcare and fill gaps and connect
   programs.
-thumbnail: /uploads/screen-shot-2022-03-14-at-11.09.38-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648530058/screen-shot-2022-03-14-at-11.09.38-am_dv80uj.png
 contentBlocks:
   - contentBlock:
       downloads: []

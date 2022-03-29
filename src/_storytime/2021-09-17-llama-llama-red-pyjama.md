@@ -3,7 +3,7 @@ title: Llama, Llama, Red Pyjama
 isArchived: false
 description: Join Stephanie for this popular bedtime story. Baby Llama turns
   bedtime into an all- out llama drama in this rhyming read- aloud favorite!
-thumbnail: /uploads/screen-shot-2021-09-17-at-10.20.00-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535396/screen-shot-2021-09-17-at-10.20.00-am_wioi8r.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-12-07T19:02:27.806Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-12-07-at-12.14.42-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533913/screen-shot-2021-12-07-at-12.14.42-pm_ifcvak.png
 contentBlocks:
   - contentBlock:
       subTitle: Children’s Book Drive
@@ -22,7 +22,7 @@ contentBlocks:
         Thank you in advance for your generosity!
       downloads:
         - downloadObject:
-            downloadLink: /uploads/dec-8.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534232/dec-8_xznths.pdf
             downloadText: Yukon News Article
 id: post-9-v5xmwp3
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Carrie-Anne McPhee "
-image: /uploads/screen-shot-2021-07-12-at-9.27.31-am.png
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536535/screen-shot-2021-07-12-at-9.27.31-am_miqw9o.png
 role: Program & Community Outreach Coordinator
 bio: Carrie-Anne holds a Bachelor of Education and an Associate of Arts Degree
   in General Arts. Her work with children and families spans the continent and

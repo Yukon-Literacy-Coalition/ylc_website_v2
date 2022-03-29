@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-12-17T17:32:26.000Z
 articleTitle: "Happy Holidays! "
-thumbnail: /uploads/screen-shot-2021-12-08-at-10.27.54-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533882/screen-shot-2021-12-08-at-10.27.54-am_juzzka.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -16,6 +16,6 @@ contentBlocks:
       downloads: []
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/screen-shot-2021-12-08-at-10.27.54-am.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533882/screen-shot-2021-12-08-at-10.27.54-am_juzzka.png
 id: post-h6M_Nx8f5
 ---

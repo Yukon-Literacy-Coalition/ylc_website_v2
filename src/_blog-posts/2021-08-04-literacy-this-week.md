@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-08-04T21:31:13.050Z
 articleTitle: "Literacy This Week- National Dog Month! "
-thumbnail: /uploads/screen-shot-2021-08-04-at-2.17.11-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536097/screen-shot-2021-08-04-at-2.17.11-pm_dwigqj.png
 contentBlocks:
   - contentBlock:
       subTitle: August is National Dog Month!
@@ -27,6 +27,6 @@ contentBlocks:
         Let’s not forget the origin of National dog month and start thinking about adopting your very own rescue pup today!
       downloads:
         - downloadObject:
-            downloadLink: /uploads/aug4.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648536121/aug4_mgz8gb.pdf
             downloadText: Read Yukon News Article
 ---

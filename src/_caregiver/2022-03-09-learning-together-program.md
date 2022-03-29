@@ -4,7 +4,7 @@ isArchived: false
 description: The Learning Together program is a free, early years education
   program at Elijah Smith Elementary School. The program is intended for
   children aged 3-5, but all children aged 0-5 may join.
-thumbnail: /uploads/screen-shot-2022-03-09-at-10.37.17-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648531076/screen-shot-2022-03-09-at-10.37.17-am_ciskzf.png
 contentBlocks:
   - contentBlock:
       links:

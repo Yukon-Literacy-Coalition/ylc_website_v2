@@ -21,10 +21,10 @@ contentBlocks:
         - null
       downloads:
         - downloadObject:
-            downloadLink: /uploads/youth-one-pager-final.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648532921/youth-one-pager-final_ewosli.pdf
             downloadText: For Youth
         - downloadObject:
-            downloadLink: /uploads/employer-one-pager.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648533355/employer-one-pager_l589ib.pdf
             downloadText: For Employers
 id: init-zp0cj7GR2
 ---

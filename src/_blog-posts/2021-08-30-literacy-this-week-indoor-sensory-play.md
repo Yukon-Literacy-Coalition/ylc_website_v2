@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-08-25T19:48:11.985Z
 articleTitle: Literacy this Week- Indoor Sensory Play!
-thumbnail: /uploads/screen-shot-2021-08-25-at-3.08.49-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535795/screen-shot-2021-08-25-at-3.08.49-pm_h57ni0.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -25,6 +25,6 @@ contentBlocks:
       subTitle: Indoor Sensory Play
       downloads:
         - downloadObject:
-            downloadLink: /uploads/aug25.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648535857/aug25_ildwyn.pdf
             downloadText: Yukon News Article
 ---

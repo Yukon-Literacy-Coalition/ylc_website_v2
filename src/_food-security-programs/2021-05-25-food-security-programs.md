@@ -15,19 +15,19 @@ contentBlocks:
         labelling, effective communication, cooperation, and more!
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/10256287_679972228730272_1786525694698897050_o.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537122/10256287_679972228730272_1786525694698897050_o_koeuuy.jpg
         - imagesVideos:
-            image: /uploads/little-chef-.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536880/little-chef-_xvn62u.jpg
         - imagesVideos:
-            image: /uploads/little-chef-3.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536840/little-chef-3_ixas7g.jpg
         - imagesVideos:
-            image: /uploads/little-chef-7.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536808/little-chef-7_hntvei.jpg
         - imagesVideos:
-            image: /uploads/little-chef-9.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536785/little-chef-9_sneyok.jpg
         - imagesVideos:
-            image: /uploads/little-chef-10.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536859/little-chef-10_dzjbak.jpg
         - imagesVideos:
-            image: /uploads/little-chef-6.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536823/little-chef-6_c3ksvz.jpg
   - contentBlock:
       subTitle: Kids in the Kitchen
       body: >-

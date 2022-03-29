@@ -46,49 +46,49 @@ contentBlocks:
       subTitle: "Let's Get Caught Reading! "
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/cdc_caught-reading.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533454/cdc_caught-reading_vcy2z9.png
         - imagesVideos:
-            image: /uploads/sleeping-child-with-book.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648532959/sleeping-child-with-book_orx9zl.jpg
         - imagesVideos:
-            image: /uploads/reading-in-a-bin-by-the-xmas-tree.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533006/reading-in-a-bin-by-the-xmas-tree_rytfrc.jpg
         - imagesVideos:
-            image: /uploads/postie-reading.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533027/postie-reading_ufsm3c.png
         - imagesVideos:
-            image: /uploads/patricia-reading-with-grandkids.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533044/patricia-reading-with-grandkids_nbv14w.jpg
         - imagesVideos:
-            image: /uploads/mayor-cabot-getting-caught-reading.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533067/mayor-cabot-getting-caught-reading_p1yee2.jpg
         - imagesVideos:
-            image: /uploads/mayor-cabot-for-gcr-slideshow.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533088/mayor-cabot-for-gcr-slideshow_wovcrh.jpg
         - imagesVideos:
-            image: /uploads/mark-reading-on-the-ice.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533106/mark-reading-on-the-ice_bzepho.jpg
         - imagesVideos:
-            image: /uploads/mark-reading-by-the-little-library2.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533141/mark-reading-by-the-little-library2_rpwewq.jpg
         - imagesVideos:
-            image: /uploads/margot-reading-with-grandchild.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533158/margot-reading-with-grandchild_ofizry.jpg
         - imagesVideos:
-            image: /uploads/kelly-at-yq.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533173/kelly-at-yq_wxdeeg.jpg
         - imagesVideos:
-            image: /uploads/fuel-yukon.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533276/fuel-yukon_dvxnso.png
         - imagesVideos:
-            image: /uploads/dave-reading-on-the-ski-hill2.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533377/dave-reading-on-the-ski-hill2_qnf13v.jpg
         - imagesVideos:
-            image: /uploads/darby-and-dave-reading-on-skates.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533414/darby-and-dave-reading-on-skates_sjiw2l.jpg
         - imagesVideos:
-            image: /uploads/ca-reading-on-ph-porch.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533493/ca-reading-on-ph-porch_v8bdmf.jpg
         - imagesVideos:
-            image: /uploads/commissioner-and-buster.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533436/commissioner-and-buster_osycum.jpg
         - imagesVideos:
-            image: /uploads/ca-reading-outside-with-name-tag.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533474/ca-reading-outside-with-name-tag_jh5xzj.jpg
         - imagesVideos:
-            image: /uploads/darby-steph-vic.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533397/darby-steph-vic_vo7oz2.jpg
         - imagesVideos:
-            image: /uploads/img_0004.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533198/img_0004_qg5uj7.jpg
         - imagesVideos:
-            image: /uploads/ypl-staff-getting-caught-reading-1.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648532791/ypl-staff-getting-caught-reading-1_bdyqio.jpg
         - imagesVideos:
-            image: /uploads/raven-recycling-gets-caught-reading1.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648532860/raven-recycling-gets-caught-reading1_grgpmw.jpg
         - imagesVideos:
-            image: /uploads/stephanie-wood.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648532817/stephanie-wood_rlxsia.jpg
       sideBySideBody:
         mainBody: >-
           <!--\[if gte mso 9]><xml>

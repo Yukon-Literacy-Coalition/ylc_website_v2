@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-01-19T16:54:15.092Z
 articleTitle: Literacy this week
-thumbnail: /uploads/screen-shot-2022-01-19-at-9.54.57-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533687/screen-shot-2022-01-19-at-9.54.57-am_hot8zw.png
 contentBlocks:
   - contentBlock:
       subTitle: Literacy this week!
@@ -15,6 +15,6 @@ contentBlocks:
       downloads:
         - downloadObject:
             downloadText: Literacy this week
-            downloadLink: /uploads/jan19.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534134/jan19_a7ha5y.pdf
 id: post-OGHnGeJzk
 ---

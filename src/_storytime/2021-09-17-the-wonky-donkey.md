@@ -4,7 +4,7 @@ isArchived: false
 description: Join Stephanie for this hilarious, catchy story about a 'wonky
   donkey'. It's a wonky, winky, honky-tonky, lanky, stinky-dinky, cranky,
   hanky-panky, spunky donkey good time!
-thumbnail: /uploads/screen-shot-2021-09-17-at-10.01.04-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535415/screen-shot-2021-09-17-at-10.01.04-am_rzhoit.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

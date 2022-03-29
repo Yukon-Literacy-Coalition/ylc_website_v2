@@ -1,6 +1,6 @@
 ---
 name: David Martin
-image: /uploads/dave.jpg
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534262/dave_ovrycc.jpg
 role: Program Coordinator
 bio: David was born and raised in Calgary, Alberta and received a Bachelor of
   Fine Arts from the Alberta College of Art and Design in 2014. He loves biking,

@@ -164,6 +164,15 @@ const ProjectHighlight = (props) => {
               </ButtonContainer>
             )
           )}
+          {project?.externalResource && (
+            <ButtonContainer>
+              <a href={project.externalResource} download>
+                <LargeButton>
+                  {project?.btnText || project?.linkText || "Download Here"}
+                </LargeButton>
+              </a>
+            </ButtonContainer>
+          )}
         </>
         <>
           {(!!project?.linkObject?.linkLocation?.length ||

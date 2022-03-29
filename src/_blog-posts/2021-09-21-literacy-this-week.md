@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-09-21T21:00:12.913Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-09-21-at-2.00.55-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534961/screen-shot-2021-09-21-at-2.00.55-pm_rbigng.png
 contentBlocks:
   - contentBlock:
       subTitle: Word Search Puzzles
@@ -21,7 +21,7 @@ contentBlocks:
         Check out the Yukon News article below for 9 reasons why word search puzzles benefit children.
       downloads:
         - downloadObject:
-            downloadLink: /uploads/sept-20.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534918/sept-20_i7ypzp.pdf
             downloadText: Yukon News Article
 id: post-DlZEWT9i0
 ---

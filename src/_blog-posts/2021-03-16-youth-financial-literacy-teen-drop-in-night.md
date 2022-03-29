@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-03-16T21:56:03.534Z
 articleTitle: Youth Financial Literacy Teen Drop-In Night
-thumbnail: /uploads/unknown.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537551/unknown_toby1x.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -14,6 +14,6 @@ contentBlocks:
 
         All activities will be free, fun, and COVID safe!
       images:
-        - image: /uploads/unknown.png
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537551/unknown_toby1x.png
       subTitle: Youth Financial Literacy Teen Drop-In Night
 ---

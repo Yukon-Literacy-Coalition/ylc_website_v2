@@ -21,7 +21,7 @@ contentBlocks:
           garbage, not in the compost where the larvae can live through the
           winter and return to attack plants next year."
         imagesVideos:
-          image: /uploads/screen-shot-2021-07-13-at-10.36.39-am.png
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536252/screen-shot-2021-07-13-at-10.36.39-am_nl5bnc.png
         belowMedia: "*Tip: Plant onions the first week of June to avoid the 1st crop of
           onion flies which is the most devastating. Do not plant onions in same
           place for 2 years. Try using cayenne, dill on the ground and moth
@@ -44,7 +44,7 @@ contentBlocks:
           aphids will be attracted to them and you can quickly and easily remove
           the pot and put in the garbage to avoid mass infestation.*"
         imagesVideos:
-          image: /uploads/troubleshooting-image.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536157/troubleshooting-image_eirbca.jpg
   - contentBlock:
       body: ""
       subTitle: Rodents
@@ -60,7 +60,7 @@ contentBlocks:
 
           There may be the odd mouse or vole around. Try to prohibit them with fine mesh chicken wire around the garden beds, and the bottom of the greenhouses.
         imagesVideos:
-          image: /uploads/screen-shot-2021-07-13-at-11.02.32-am.png
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536227/screen-shot-2021-07-13-at-11.02.32-am_mlljsf.png
   - contentBlock:
       subTitle: Frost
       body: ""
@@ -71,7 +71,7 @@ contentBlocks:
           get below 0 degrees overnight, it’s a good time to cover the outdoor
           garden beds. Start covering the outdoor garden beds in mid-August.
         imagesVideos:
-          image: /uploads/screen-shot-2021-07-13-at-11.19.52-am.png
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536207/screen-shot-2021-07-13-at-11.19.52-am_aeajpr.png
         belowMedia: "*Tip: Use spare poly and cut it to size to cover the outdoor garden
           beds. Cover them over at the end of the day and open them up
           mid-morning the next day once it warmed up. This will protect the
@@ -86,7 +86,7 @@ contentBlocks:
           early in the morning. In extreme hot weather a greenhouse and/ or
           garden may need a second watering later in the day."
         imagesVideos:
-          image: /uploads/watering-garden.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536141/watering-garden_rq8cxr.jpg
   - contentBlock:
       subTitle: Fungus
       sideBySideBody:
@@ -99,7 +99,7 @@ contentBlocks:
           powdery mildew and transmit it to surrounding garden plots, so
           monitoring and pest control are important."
         imagesVideos:
-          image: /uploads/screen-shot-2021-07-13-at-1.45.04-pm.png
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536514/screen-shot-2021-07-13-at-1.45.04-pm_mjijia.png
         belowMedia: "*Tip: To control or eliminate the powdery mildew, spray prone
           plants at the first sign of infection with milk diluted with water
           (mix 1:10 ratio of milk to water). Repeat applications weekly.*"
@@ -120,5 +120,5 @@ contentBlocks:
           it has affected a significant number of plants, replant in new soil
           and clean containers. Do not reuse the soil.*"
         imagesVideos:
-          image: /uploads/screen-shot-2021-07-13-at-1.59.12-pm.png
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536486/screen-shot-2021-07-13-at-1.59.12-pm_iw54aa.png
 ---

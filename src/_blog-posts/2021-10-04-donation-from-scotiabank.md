@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-09-28T18:57:54.623Z
 articleTitle: Donation from Scotiabank
-thumbnail: /uploads/scotiabank-cheque-presentation.jpg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534731/scotiabank-cheque-presentation_qgyag5.jpg
 contentBlocks:
   - contentBlock:
       body: On Tuesday, September 28th we were visited by Scotiabank Branch Manager
@@ -14,6 +14,6 @@ contentBlocks:
       subTitle: What an exciting day at the Family Literacy Centre!
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/scotiabank-cheque-presentation.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534731/scotiabank-cheque-presentation_qgyag5.jpg
 id: post-h-Y7iOAop
 ---

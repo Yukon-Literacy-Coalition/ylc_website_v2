@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-10-27T18:53:04.695Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-10-27-at-11.50.59-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534378/screen-shot-2021-10-27-at-11.50.59-am_gdfdfe.png
 contentBlocks:
   - contentBlock:
       subTitle: Halloween
@@ -23,7 +23,7 @@ contentBlocks:
         *Fun Fact: Did you know that 11.3 percent fewer babies are born on Halloween than any other day of the year?*
       downloads:
         - downloadObject:
-            downloadLink: /uploads/oct.-27-2021.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534778/oct.-27-2021_o0kcvm.pdf
             downloadText: Yukon News Article
 id: post-Y5ntLCQAc
 ---

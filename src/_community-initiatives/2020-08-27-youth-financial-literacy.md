@@ -22,9 +22,9 @@ contentBlocks:
       links: []
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/unnamed-4.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536754/unnamed-4_tfxluk.png
         - imagesVideos:
-            image: /uploads/unnamed.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536722/unnamed_yiqm4c.png
         - imagesVideos:
-            image: /uploads/unnamed-5.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536743/unnamed-5_rnx5kt.png
 ---

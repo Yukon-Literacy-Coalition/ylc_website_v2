@@ -5,7 +5,7 @@ description: Practice fine motor skills while exploring play dough and early
   engineering. Build-along with Carrie-Anne while she makes monsters out of
   dough and various craft materials. Pick-up your own Make a Monster Kit at the
   Family Literacy Centre while supplies last!
-thumbnail: /uploads/screen-shot-2021-10-06-at-10.38.08-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534606/screen-shot-2021-10-06-at-10.38.08-am_iznn4j.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

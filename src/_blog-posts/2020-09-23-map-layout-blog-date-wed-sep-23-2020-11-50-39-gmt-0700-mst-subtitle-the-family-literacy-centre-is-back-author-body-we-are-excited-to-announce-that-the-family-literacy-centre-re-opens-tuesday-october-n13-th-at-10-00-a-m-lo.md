@@ -2,7 +2,7 @@
 articleTitle: The Family Literacy Centre is back!
 layout: blog
 date: 2020-10-22T21:56:15.816Z
-thumbnail: /uploads/mask.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541351/mask_x2cuxw.png
 contentBlocks:
   - contentBlock:
       subTitle: The Family Literacy Centre is back!

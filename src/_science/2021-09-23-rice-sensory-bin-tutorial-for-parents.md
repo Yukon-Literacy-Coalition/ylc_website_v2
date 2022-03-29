@@ -3,7 +3,7 @@ title: Rice Sensory Bin Tutorial for Parents
 isArchived: false
 description: Watch as Carrie-Anne turn a roasting pan into a rich activity that
   promotes development in all areas, and leads to hours of focussed fun.
-thumbnail: /uploads/screen-shot-2021-09-23-at-3.42.12-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534695/screen-shot-2021-09-23-at-3.42.12-pm_xfnher.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

@@ -1,42 +1,40 @@
-import React, { useState, useRef } from "react";
-import { withRouteData } from "react-static";
-import GoogleMapReact from "google-map-react";
+// Excellent example https://codesandbox.io/s/react-google-maps-api-ir5ks?file=/src/index.js:3110-3128
+// docs https://react-google-maps-api-docs.netlify.app/#infowindow
+
+// "@google/maps": "^1.1.3",
+//     "@googlemaps/react-wrapper": "^1.1.27",
+//     "@googlemaps/typescript-guards": "^1.0.10",
+
+import React, { useState } from "react";
 import styled from "@emotion/styled";
+// import { css } from "@emotion/react/macro";
+import {
+  GoogleMap,
+  LoadScript,
+  MarkerClusterer,
+  Marker,
+  InfoWindow,
+} from "@react-google-maps/api";
+import { withRouteData } from "react-static";
+import logo from "../assets/dark_flake.png";
 import { Link as RRLink } from "@reach/router";
-import useSupercluster from "use-supercluster";
-import { StyledMarkdown } from "../shared/Features";
+import openBook from "../assets/ylc_open_book.png";
+import "./mapStyles.css";
 import Carousel from "../shared/Carousel";
 
-import logo from "../assets/dark_flake.png";
-import bookLogo from "../assets/ylc_books.png";
-import openBook from "../assets/ylc_open_book.png";
+const containerStyle = {
+  width: "100%",
+  height: "100vh",
+};
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const clustererOptions = {};
+
+// const clusterClass = css`
+//   background: red;
+// `;
 
 const MapPage = styled.div`
   position: relative;
-`;
-
-const BookIconWrapper = styled.div`
-  height: 40px;
-  width: 40px;
-  background: white;
-  padding: 10px;
-  border: 40px 1px solid;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    height: 30px;
-    width: 30px;
-  }
-  transition: all 0.2s;
-  &:hover {
-    transform: scale(1.2);
-    transform-origin: center;
-  }
-  ${(p) => p.isSelected && "transform: scale(1.2); transform-origin: center;"}
 `;
 
 const LogoWrapper = styled.div`
@@ -54,11 +52,6 @@ const Logo = styled.img`
   width: 50px;
 `;
 
-const PointCount = styled.span`
-  font-size: 12px;
-  font-weight: bold;
-`;
-
 const LogoSection = ({ logo }) => {
   return (
     <LogoWrapper>
@@ -69,236 +62,201 @@ const LogoSection = ({ logo }) => {
   );
 };
 
-const IconInfoWrapper = styled.div`
-  cursor: pointer;
-`;
-
-const ClusterMarker = styled(IconInfoWrapper)``;
-
-// MARKER THINGS
-
-const Marker = ({ children }) => children;
-
-const MarkerImage = styled.div`
-  height: 100%;
-  background-image: url(${(p) => p?.image});
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-`;
-
-const MarkerImageContainer = styled.div`
-  width: 100%;
-  height: 150px;
-  padding: 2px;
-`;
-
-const LibraryTitle = styled.div`
-  ${(p) => p.theme.fonts.extra_small_header}
-  text-align: center;
-  padding-bottom: 5px;
-`;
-
-const StewardContact = styled.div`
-  padding: 3px 0;
-`;
-
-const DescriptionContainer = styled.div`
-  padding-top: 3px;
-  font-weight: bold;
-`;
-
-const InfoWindowContainer = styled.div`
-  position: relative;
-  bottom: 50;
-  left: 50;
-  min-width: 260px;
-  background: white;
-  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  z-index: 100;
-  ${(p) => p.theme.fonts.body_text}
-  font-size: 14px;
-`;
-
-const InfoWindow = ({ cluster }) => {
-  console.log({ cluster });
-
-  return (
-    <InfoWindowContainer>
-      <LibraryTitle>
-        {cluster?.properties?.title || "No Library Title"}
-      </LibraryTitle>
-
-      {cluster?.properties?.steward && (
-        <StewardContact>
-          Library Steward: {cluster.properties.steward}
-        </StewardContact>
-      )}
-      {cluster?.properties?.stewardContact && (
-        <StewardContact>
-          Steward Contact: {cluster.properties.stewardContact}
-        </StewardContact>
-      )}
-      {cluster?.properties?.description && (
-        <DescriptionContainer>
-          {
-            <StyledMarkdown
-              source={cluster?.properties?.description}
-              escapeHtml={false}
-            />
-          }
-        </DescriptionContainer>
-      )}
-
-      {cluster?.properties?.image && (
-        <MarkerImageContainer>
-          <MarkerImage image={cluster.properties.image} alt="" />
-        </MarkerImageContainer>
-      )}
-    </InfoWindowContainer>
-  );
-};
-
-const LibrariesMap = ({ libraries }) => {
-  const mapRef = useRef();
-  const [bounds, setBounds] = useState(null);
-  const [zoom, setZoom] = useState(10);
-  const [infoVisible, setInfoVisible] = useState(null);
-  console.log({ infoVisible });
-
-  const handleMarkerClick = (id) => {
-    if (infoVisible === id) {
-      setInfoVisible(null);
-    } else {
-      setInfoVisible(id);
-    }
-  };
-
+const LittleLibraries = ({ libraries, isCMS }) => {
+  const [infoOpen, setInfoOpen] = useState(false);
+  const [markerMap, setMarkerMap] = useState({});
+  const [selectedPlace, setSelectedPlace] = useState(null);
+  const [zoom, setZoom] = useState(5);
+  const [center, setCenter] = useState({ lat: 64.646399, lng: -133.913028 });
+  console.log({ libraries });
   const points = libraries.map((lib) => ({
     type: "Feature",
     properties: {
-      cluster: false,
-      title: lib.title,
+      address: lib.address,
+      description: lib.description,
+      id: lib.id + lib.xCoordinates,
       steward: lib.steward,
       stewardContact: lib.stewardContact,
+      title: lib.title,
       image: lib.image,
-      id: lib.id + lib.xCoordinates,
-      category: "book",
-      description: lib.description,
+      imagesVideosList: lib.imagesVideosList,
     },
     geometry: {
-      type: "Point",
-      coordinates: [parseFloat(lib.yCoordinates), parseFloat(lib.xCoordinates)],
+      lat: parseFloat(lib.xCoordinates),
+      lng: parseFloat(lib.yCoordinates),
     },
   }));
 
-  const { clusters, supercluster } = useSupercluster({
-    points,
-    bounds,
-    zoom,
-    options: { radius: 20, maxZoom: 20 },
-  });
+  function createKey(location) {
+    console.log({ lat: location.geometry.lat });
+    return location.geometry.lat + location.geometry.lng;
+  }
 
-  const defaultProps = {
-    center: {
-      lat: 64.646399,
-      lng: -133.913028,
-    },
-    zoom: 6,
+  const markerLoadHandler = (marker, place) => {
+    return setMarkerMap((prevState) => {
+      return { ...prevState, [place.properties.id]: marker };
+    });
+  };
+
+  const markerClickHandler = (event, place) => {
+    setSelectedPlace(place);
+
+    if (infoOpen) {
+      setInfoOpen(false);
+    }
+
+    setInfoOpen(true);
+
+    // if (zoom < 13) {
+    //   setZoom(13);
+    // }
+
+    // setCenter(place.geometry);
   };
 
   return (
-    // Important! Always set the container height explicitly
     <MapPage style={{ height: "100vh", width: "100%" }}>
       <LogoSection logo={logo} />
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-        yesIWantToUseGoogleMapApiInternals
-        onGoogleApiLoaded={({ map }) => {
-          mapRef.current = map;
-        }}
-        onChange={({ zoom, bounds }) => {
-          setZoom(zoom);
-          setBounds([
-            bounds.nw.lng,
-            bounds.se.lat,
-            bounds.se.lng,
-            bounds.nw.lat,
-          ]);
-        }}
-      >
-        {clusters.map((cluster) => {
-          const [longitude, latitude] = cluster.geometry.coordinates;
-          const { cluster: isCluster, point_count: pointCount } =
-            cluster.properties;
-
-          if (isCluster) {
-            return (
-              <Marker
-                key={`cluster-${cluster.id}`}
-                lat={latitude}
-                lng={longitude}
-              >
-                <ClusterMarker
-                  style={{
-                    width: `${10 + (pointCount / points.length) * 20}px`,
-                    height: `${10 + (pointCount / points.length) * 20}px`,
-                  }}
-                  onClick={() => {
-                    const expansionZoom = Math.min(
-                      supercluster.getClusterExpansionZoom(cluster.id),
-                      20
-                    );
-                    mapRef.current.setZoom(expansionZoom);
-                    mapRef.current.panTo({ lat: latitude, lng: longitude });
-                  }}
-                >
-                  <BookIconWrapper>
-                    {<PointCount>{pointCount}</PointCount>}
-                  </BookIconWrapper>
-                </ClusterMarker>
-              </Marker>
-            );
-          }
-          return (
-            <Marker
-              key={`book-${cluster.properties.title}`}
-              lat={latitude}
-              lng={longitude}
+      <LoadScript googleMapsApiKey="">
+        <GoogleMap
+          mapContainerStyle={containerStyle}
+          center={center}
+          zoom={zoom}
+        >
+          <MarkerClusterer
+            options={clustererOptions}
+            averageCenter={true}
+            // clusterClass={"map-styles"}
+            // styles={[]}
+          >
+            {(clusterer) =>
+              points.map((point) => {
+                return (
+                  <Marker
+                    key={createKey(point)}
+                    position={point.geometry}
+                    clusterer={clusterer}
+                    onClick={(event) => markerClickHandler(event, point)}
+                    onLoad={(marker) => markerLoadHandler(marker, point)}
+                    // icon={{
+                    //   path: "M-0 225.78l174.74 0 0 1920.1c370.04,2.04 1037.6,-113.48 1272.73,229.68l-1447.47 0 0 -2149.78zm2823.06 -211.38c-472.06,-10.56 -972.1,-80.73 -1195.67,223.44l0 1994.28c155.89,-227.53 737.02,-183.19 1195.67,-185.69l0 -2032.04zm-2548.34 0c472.06,-10.56 972.1,-80.73 1195.67,223.44l0 1994.28c-155.88,-227.53 -737.01,-183.19 -1195.67,-185.69l0 -2032.04zm2648.33 211.38l156.69 0 0 2149.78 -1429.43 0c227.07,-331.41 908.65,-227.67 1272.73,-229.68l0 -1920.1z",
+                    // }}
+                    // icon={<img src={openBook} alt="" />}
+                  />
+                );
+              })
+            }
+          </MarkerClusterer>
+          {infoOpen && selectedPlace && (
+            <InfoWindow
+              anchor={markerMap[selectedPlace?.properties?.id]}
+              onCloseClick={() => setInfoOpen(false)}
             >
-              <IconInfoWrapper
-                onClick={() => handleMarkerClick(cluster.properties.id)}
-              >
-                <BookIconWrapper
-                  isSelected={infoVisible === cluster.properties.id}
-                >
-                  <img src={openBook} alt="" />
-                </BookIconWrapper>
-                {infoVisible === cluster.properties.id && (
-                  <InfoWindow cluster={cluster} />
+              <div>
+                {selectedPlace?.properties?.title && (
+                  <h3>{selectedPlace?.properties?.title}</h3>
                 )}
-              </IconInfoWrapper>
-            </Marker>
-          );
-        })}
-      </GoogleMapReact>
+                {selectedPlace?.properties?.description && (
+                  <h4>{selectedPlace?.properties?.description}</h4>
+                )}
+                {selectedPlace?.properties?.address && (
+                  <div>{selectedPlace?.properties?.address}</div>
+                )}
+                {selectedPlace?.properties?.steward && (
+                  <div>
+                    <strong>
+                      Steward: {selectedPlace?.properties?.steward}
+                    </strong>
+                  </div>
+                )}
+                {selectedPlace?.properties?.stewardContact && (
+                  <div>
+                    <strong>
+                      Steward Contact:{" "}
+                      {selectedPlace?.properties?.stewardContact}
+                    </strong>
+                  </div>
+                )}
+                {selectedPlace?.properties?.imagesVideosList && (
+                  // <Carousel
+                  //   media={selectedPlace?.properties?.imagesVideosList}
+                  //   isCMS={isCMS}
+                  // />
+                  <div>
+                    {/* {selectedPlace?.properties?.imagesVideosList.map(
+                      (media) => {
+                        console.log(media);
+                        return <img src={media} alt="" />;
+                      }
+                    )} */}
+                  </div>
+                )}
+              </div>
+            </InfoWindow>
+          )}
+        </GoogleMap>
+      </LoadScript>
     </MapPage>
   );
 };
 
-export default withRouteData(LibrariesMap);
+export default withRouteData(LittleLibraries);
 
-{
-  /* <AnyReactComponent
-lat={64.646399}
-lng={-133.913028}
-text={
-  <BookIconWrapper>
-    <img src={openBook} alt="" />
-  </BookIconWrapper>
-}
-/> */
-}
+// function createKey(location) {
+//   return location.lat + location.lng;
+// }
+
+// const fakePoints = [
+//   { lat: -31.56391, lng: 147.154312 },
+//   { lat: -33.718234, lng: 150.363181 },
+//   { lat: -33.727111, lng: 150.371124 },
+//   { lat: -33.848588, lng: 151.209834 },
+//   { lat: -33.851702, lng: 151.216968 },
+//   { lat: -34.671264, lng: 150.863657 },
+//   { lat: -35.304724, lng: 148.662905 },
+//   { lat: -36.817685, lng: 175.699196 },
+//   { lat: -36.828611, lng: 175.790222 },
+//   { lat: -37.75, lng: 145.116667 },
+//   { lat: -37.759859, lng: 145.128708 },
+//   { lat: -37.765015, lng: 145.133858 },
+//   { lat: -37.770104, lng: 145.143299 },
+//   { lat: -37.7737, lng: 145.145187 },
+//   { lat: -37.774785, lng: 145.137978 },
+//   { lat: -37.819616, lng: 144.968119 },
+//   { lat: -38.330766, lng: 144.695692 },
+//   { lat: -39.927193, lng: 175.053218 },
+//   { lat: -41.330162, lng: 174.865694 },
+//   { lat: -42.734358, lng: 147.439506 },
+//   { lat: -42.734358, lng: 147.501315 },
+//   { lat: -42.735258, lng: 147.438 },
+//   { lat: -43.999792, lng: 170.463352 },
+// ];
+
+// const onLoad = (infoWindow) => {
+//   console.log("infoWindow: ", infoWindow);
+// };
+// const divStyle = {
+//   background: `white`,
+//   border: `1px solid #ccc`,
+//   padding: 15,
+// };
+
+// const markerClickHandler = (event, place) => {
+//   // Remember which place was clicked
+//   setSelectedPlace(place);
+
+//   // Required so clicking a 2nd marker works as expected
+//   if (infoOpen) {
+//     setInfoOpen(false);
+//   }
+
+//   setInfoOpen(true);
+
+//   // If you want to zoom in a little on marker click
+//   // if (zoom < 13) {
+//   //   setZoom(13);
+//   // }
+
+//   // if you want to center the selected Marker
+//   //setCenter(place.pos)
+// };

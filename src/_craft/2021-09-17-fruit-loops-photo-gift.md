@@ -2,7 +2,7 @@
 title: Fruit Loops Photo Gift
 isArchived: false
 description: Join Stephanie for a craft session suitable for toddlers.
-thumbnail: /uploads/screen-shot-2021-09-17-at-12.26.53-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535209/screen-shot-2021-09-17-at-12.26.53-pm_jfue8c.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

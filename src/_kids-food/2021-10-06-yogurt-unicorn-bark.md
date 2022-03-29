@@ -3,7 +3,7 @@ title: Yogurt Unicorn Bark
 isArchived: false
 description: Follow along with Carrie-Anne as she makes a delicious frozen
   treat! Unicorn bark is a versatile, healthy snack for kids of all ages.
-thumbnail: /uploads/screen-shot-2021-10-06-at-10.44.16-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534590/screen-shot-2021-10-06-at-10.44.16-am_q5roit.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

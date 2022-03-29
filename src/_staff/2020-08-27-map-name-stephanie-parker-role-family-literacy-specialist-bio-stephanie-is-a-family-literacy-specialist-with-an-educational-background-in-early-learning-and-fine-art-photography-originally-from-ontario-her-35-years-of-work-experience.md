@@ -1,6 +1,6 @@
 ---
 name: Stephanie Parker
-image: /uploads/steph_square.jpg
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540721/steph_square_d3lwr3.jpg
 role: Family Literacy Manager
 bio: Stephanie is a Family Literacy Specialist with an educational background in
   Early Learning, and Fine Art/Photography. Originally from Ontario, her 35

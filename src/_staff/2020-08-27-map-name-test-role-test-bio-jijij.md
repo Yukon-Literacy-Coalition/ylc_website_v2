@@ -1,6 +1,6 @@
 ---
 name: Lisa Young
-image: /uploads/1.jpg
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648528521/1_njvyqj.jpg
 role: Director of Operations
 bio: Our Director of Operations Lisa Young has worked in education for 14 years.
   She holds an education degree from Memorial University and was raised in
@@ -9,4 +9,5 @@ bio: Our Director of Operations Lisa Young has worked in education for 14 years.
   2012 and we hope she continues as a valued member for many more years. Lisa
   keeps the society in good standing in so many ways.  Lisa also has a daughter
   who although only 9 is also a valued member of our YLC community.
+id: staff-mNllEMN-q
 ---

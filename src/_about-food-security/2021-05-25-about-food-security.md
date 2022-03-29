@@ -31,7 +31,7 @@ contentBlocks:
           active and healthy life."- Food and Agriculture Organization, United
           Nations (2003)*'
         imagesVideos:
-          image: /uploads/img_4749.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541472/img_4749_gype27.jpg
   - contentBlock:
       body: The main causes of food insecurity are unemployment, low income, and high
         food costs. Food available in rural and remote grocery stores is

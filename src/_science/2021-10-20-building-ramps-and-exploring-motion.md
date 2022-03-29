@@ -3,7 +3,7 @@ title: Building Ramps and Exploring Motion
 isArchived: false
 description: Explore engineering, motion, gravity and more with Carrie-Anne as
   she builds ramps and plays with cars at the kitchen table.
-thumbnail: /uploads/screen-shot-2021-10-20-at-10.58.53-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534443/screen-shot-2021-10-20-at-10.58.53-am_arxxvc.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

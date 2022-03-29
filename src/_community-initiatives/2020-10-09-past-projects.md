@@ -11,13 +11,13 @@ contentBlocks:
         kanasxát "
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/poster2.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536768/poster2_fddses.jpg
         - imagesVideos:
-            image: /uploads/nhs.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536659/nhs_qgkyz6.jpg
         - imagesVideos:
-            image: /uploads/nhs3.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536622/nhs3_rwvfsj.jpg
         - imagesVideos:
-            image: /uploads/nhs2.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536644/nhs2_rilnb7.jpg
       images: []
   - contentBlock:
       body: In the summer of 2020, the Yukon Literacy Coalition launched a youth
@@ -28,12 +28,12 @@ contentBlocks:
         guidance.
       subTitle: Youth Entrepreneur Program
       images:
-        - image: /uploads/grande-naturals.png
-        - image: /uploads/mini-pet-store-logo.jpg
-        - image: /uploads/mini-pets.jpg
-        - image: /uploads/bird-houses.jpg
-        - image: /uploads/whomping-willow-wands.jpg
-        - image: /uploads/youth-poster.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541654/grande-naturals_ftvakd.png
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541330/mini-pet-store-logo_ddkgrg.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541313/mini-pets_xfkpgp.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648542209/bird-houses_nhrwd0.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540461/whomping-willow-wands_tgy7yg.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540363/youth-poster_dxld1i.jpg
   - contentBlock:
       subTitle: I yéi jinéiyi, i jeyées yéi jinganéi
       body: >-
@@ -45,12 +45,12 @@ contentBlocks:
 
         With a high concentration on hands-on learning, the participants of the program had experienced running multiple pop-up businesses at the Whitehorse Outdoor Fireweed Community Market in Shipyards Park. This was a great opportunity to practice the skills needed to run a small business from start to finish. The participants experimented with a traditional bannock recipe and created new flavours weekly to sell at the market. They sold the fresh bannock with hand-pickedfireweed flower jelly, and sweetened earl grey tea with fireweed simple syrup.
       images:
-        - image: /uploads/bannock.jpg
-        - image: /uploads/fireweed-market-copy.jpg
-        - image: /uploads/labelling.jpg
-        - image: /uploads/picking-fireweed.jpg
-        - image: /uploads/sign.jpg
-        - image: /uploads/ylc_carcrossposter3.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648542250/bannock_mkgsqh.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541737/fireweed-market-copy_kzzazl.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541440/labelling_cwi82g.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541039/picking-fireweed_tdwfcb.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540779/sign_fdm6dj.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537193/ylc_carcrossposter3_td0qzx.jpg
   - contentBlock:
       subTitle: Dän Tsʼänānän
       body: >-
@@ -67,12 +67,12 @@ contentBlocks:
 
         One of our program initiatives was a Greenhouse Workplace Training program. The 21-week program started in April of 2019 in the Village of Haines Junction, Yukon. It was designed to combine wellness, non-formal learning (soft skills) and formal learning (hard skills), with the operation of two commercial greenhouses.
       images:
-        - image: /uploads/dsc06297.jpg
-        - image: /uploads/dsc06515.jpg
-        - image: /uploads/greenhouse_square.jpg
-        - image: /uploads/img_4749.jpg
-        - image: /uploads/img_4742.jpg
-        - image: /uploads/img_0971.jpeg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541853/dsc06297_rn5ufn.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541832/dsc06515_py0ccf.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541631/greenhouse_square_yuwoyx.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541472/img_4749_gype27.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541509/img_4742_msmjyf.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541535/img_0971_hc8d0y.jpg
   - contentBlock:
       subTitle: NALES - Northern Alliance for Literacy and Essential Skills
       body: >-
@@ -90,7 +90,7 @@ contentBlocks:
             title: A Northern Approach
             body: This resource guide to embedded literacy and essential skills was
               developed as part of the NALES project.
-            image: /uploads/northern-approach-image.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537957/northern-approach-image_anvkfi.jpg
             linkObject:
               linkLocation: "https://www.dropbox.com/s/0ad66nv2o97jvi9/A%20Northern%20Approac\
                 h%20Guide%20%20copy.pdf?dl=0  "
@@ -113,10 +113,10 @@ contentBlocks:
               round out a North of 60 workplace and workforce LES discussion,
               following similar reports from Northwest Territories and Nunavut
               Literacy Councils.
-            image: /uploads/screen-shot-2020-10-09-at-3.57.27-pm.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537908/screen-shot-2020-10-09-at-3.57.27-pm_ranqyi.png
             title: Interests and Prospects in Yukon
             downloadObject:
-              downloadLink: /uploads/wwlesreport2013.pdf
+              downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537852/wwlesreport2013_zoyuxd.pdf
   - contentBlock:
       subTitle: Pan Northern Gathering
       body: >-
@@ -135,8 +135,8 @@ contentBlocks:
         - resourceObject:
             title: "Made in the North "
             downloadObject:
-              downloadLink: /uploads/mitn-finalreport.pdf
-            image: /uploads/screen-shot-2020-10-23-at-10.04.11-am.png
+              downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648537934/mitn-finalreport_letm2i.pdf
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537883/screen-shot-2020-10-23-at-10.04.11-am_dxb60o.png
             body: The forum offered keynote presentations by leading thinkers and dynamic
               workshops on current policies, practices, and innovations in
               literacy, adult learning, and essential skills development in
@@ -155,10 +155,10 @@ contentBlocks:
       resources:
         - resourceObject:
             downloadObject:
-              downloadLink: /uploads/men-s-northern-research-project.pdf
+              downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648538136/men-s-northern-research-project_lw81sj.pdf
             title: What About the Men?
             body: This document summarizes the research process and results, and makes
               recommendations for more effective support of Northern Indigenous
               men in work and school.
-            image: /uploads/screen-shot-2020-10-09-at-2.12.03-pm.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648538100/screen-shot-2020-10-09-at-2.12.03-pm_htvbqd.png
 ---

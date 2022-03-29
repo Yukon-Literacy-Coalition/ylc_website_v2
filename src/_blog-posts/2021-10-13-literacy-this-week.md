@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-10-13T19:52:27.710Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-10-13-at-12.53.56-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534538/screen-shot-2021-10-13-at-12.53.56-pm_qcl11q.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -19,7 +19,7 @@ contentBlocks:
       subTitle: Moose Calls
       downloads:
         - downloadObject:
-            downloadLink: /uploads/10080263_2021-10-12_11_15_12_proof1.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1647232274/10080263_2021-10-12_11_15_12_proof1_q30dbc.pdf
             downloadText: Yukon News Article
 id: post-WWWVerepX
 ---

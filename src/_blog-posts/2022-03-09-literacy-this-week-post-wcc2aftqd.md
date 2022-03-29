@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-03-02T16:53:03.339Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2022-03-08-at-9.35.22-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648531099/screen-shot-2022-03-08-at-9.35.22-am_ukoz5p.png
 contentBlocks:
   - contentBlock:
       subTitle: Ice Fishing
@@ -21,7 +21,7 @@ contentBlocks:
         Anything is possible if you are willing to trek and trudge your way around the lake. Or if you are lucky enough to own a snowmobile or fat bike, you will find the urge to go further and explore longer. If you’re looking for a relaxing day on the lake check out the Yukon News article below for a few suggestions of gear that may be helpful on the lake for a day of fishing.
       downloads:
         - downloadObject:
-            downloadLink: /uploads/march-2.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648531195/march-2_vgoyqy.pdf
             downloadText: Yukon News Article
 id: post-wCc2AFtQd
 ---

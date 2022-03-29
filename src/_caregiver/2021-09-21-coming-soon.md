@@ -4,7 +4,7 @@ isArchived: false
 description: The Child Development Centre a not-for-profit organization that has
   been providing therapeutic services and supporting the developmental needs of
   all Yukon children from birth to kindergarten since 1979.
-thumbnail: /uploads/screen-shot-2022-03-09-at-10.44.43-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648530919/screen-shot-2022-03-09-at-10.44.43-am_sfp9ra.png
 contentBlocks:
   - contentBlock:
       links:

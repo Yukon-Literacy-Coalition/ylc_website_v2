@@ -25,7 +25,7 @@ contentBlocks:
           teachers and elders were involved in the program through a train- the-
           trainer approach.
         imagesVideos:
-          image: /uploads/photostudio_1581981687569.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541078/photostudio_1581981687569_aj465l.jpg
       subTitle: Rooted in Medicine
   - contentBlock:
       subTitle: Quilting
@@ -38,7 +38,7 @@ contentBlocks:
           There is interest to continue with the sewing program, with skilled
           sewers supporting novice sewers in gaining skills.
         imagesVideos:
-          image: /uploads/resized_20210325_155225.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537459/resized_20210325_155225_vgcpuf.jpg
   - contentBlock:
       sideBySideBody:
         mainBody: As part of the Food Security program with Yukon College in Mayo,
@@ -51,7 +51,7 @@ contentBlocks:
           planted with daycare children. During the summer, a daycare instructor
           continued to teach the children about gardening.
         imagesVideos:
-          image: /uploads/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf.jpeg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648542428/aa43f37b-0d76-4e9c-9c36-62ed5a4c92bf_uq08j3.jpg
       subTitle: Food Security
   - contentBlock:
       sideBySideBody:
@@ -62,7 +62,7 @@ contentBlocks:
           two-hour workshops, one in the morning for adults, one in the
           afternoon for youth.
         imagesVideos:
-          image: /uploads/carmacks-painting.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537164/carmacks-painting_ut2no0.jpg
       subTitle: Painting
   - contentBlock:
       subTitle: "Workshop Series: Seed Starting, Building Cold Frames and Small Engine
@@ -79,7 +79,7 @@ contentBlocks:
           two-part workshop focused on maintenance of machines, diagnosis of
           problems and repairing small engines.
         imagesVideos:
-          image: /uploads/hj-cells.jpeg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536903/hj-cells_tepxby.jpg
   - contentBlock:
       sideBySideBody:
         mainBody: Darcy, the community facilitator in Dawson has started a sewing
@@ -91,7 +91,7 @@ contentBlocks:
           program to members of the public in Dawson as soon as it is safe to do
           so.
         imagesVideos:
-          image: /uploads/20211125_152605.jpg
+          image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534303/20211125_152605_rpiip6.jpg
       subTitle: "Sewing "
   - contentBlock:
       subTitle: Benches

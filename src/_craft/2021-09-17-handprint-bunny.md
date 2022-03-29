@@ -2,7 +2,7 @@
 title: Handprint Bunny
 isArchived: false
 description: Join Stephanie to make this simple, fun craft.
-thumbnail: /uploads/screen-shot-2021-09-17-at-12.13.52-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535274/screen-shot-2021-09-17-at-12.13.52-pm_yq2ipb.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

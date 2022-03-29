@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-02-18T18:37:39.656Z
 articleTitle: YLC Online Banking Simulator
-thumbnail: /uploads/screen-shot-2021-02-18-at-11.36.33-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537591/screen-shot-2021-02-18-at-11.36.33-am_mc3okq.png
 contentBlocks:
   - contentBlock:
       body: We just launched our new online banking simulator! It gives people
@@ -16,6 +16,6 @@ contentBlocks:
             linkText: "Try it here! "
             linkLocation: https://ajtj.github.io/bank_project/
       images:
-        - image: /uploads/screen-shot-2021-02-18-at-11.36.33-am.png
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537591/screen-shot-2021-02-18-at-11.36.33-am_mc3okq.png
       subTitle: YLC Online Banking Simulator
 ---

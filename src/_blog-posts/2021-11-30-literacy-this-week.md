@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-11-30T20:38:05.655Z
 articleTitle: "Literacy this Week! "
-thumbnail: /uploads/screen-shot-2021-11-30-at-1.38.57-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533947/screen-shot-2021-11-30-at-1.38.57-pm_pxgjkj.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -18,7 +18,7 @@ contentBlocks:
         Check out a varity of tracks in the Yukon News article below.
       downloads:
         - downloadObject:
-            downloadLink: /uploads/dec-1.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534246/dec-1_zojjor.pdf
             downloadText: Yukon News Article
 id: post-DanE4SR-Z
 ---

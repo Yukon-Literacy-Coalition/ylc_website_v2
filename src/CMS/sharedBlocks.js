@@ -74,7 +74,6 @@ const linkObject = {
     },
   ],
 };
-
 const linksList = {
   label: "Link Buttons",
   name: "links",
@@ -162,7 +161,7 @@ const imagesVideosObject = {
   ],
 };
 
-const imagesVideos = {
+export const imagesVideos = {
   label: "Images and Videos",
   name: "imagesVideosList",
   widget: "list",

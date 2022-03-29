@@ -2,13 +2,13 @@
 layout: blog
 date: 2022-03-23T21:30:06.080Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2022-03-25-at-2.28.11-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648528829/screen-shot-2022-03-25-at-2.28.11-pm_nqshu5.png
 contentBlocks:
   - contentBlock:
       subTitle: Swan Call
       downloads:
         - downloadObject:
-            downloadLink: /uploads/march-23.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648528930/march-23_k3xhqh.pdf
             downloadText: Yukon News Article
       body: >-
         In the early days of April, you will notice many things. First the snow

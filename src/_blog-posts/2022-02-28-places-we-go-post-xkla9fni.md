@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-02-28T17:49:23.999Z
 articleTitle: Places We Go
-thumbnail: /uploads/screen-shot-2022-02-28-at-10.49.41-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648531130/screen-shot-2022-02-28-at-10.49.41-am_w1afol.png
 contentBlocks:
   - contentBlock:
       links:

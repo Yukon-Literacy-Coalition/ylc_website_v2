@@ -5,7 +5,7 @@ description: Yukon First Nation Education Directorate delivers a Early Years
   program to support parents/caregivers as they welcome a new baby and honours
   them as their children’s first teachers to promote early language skills,
   bonding, learning and playing together.
-thumbnail: /uploads/screen-shot-2022-03-11-at-11.39.18-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648530141/screen-shot-2022-03-11-at-11.39.18-am_zo1ahk.png
 contentBlocks:
   - contentBlock:
       links:

@@ -4,7 +4,7 @@ isArchived: false
 description: The Canada Prenatal Nutrition Program (CPNP) is a community-based
   program that provides support to improve the health and well-being of pregnant
   women, new mothers and babies facing challenging life circumstances.
-thumbnail: /uploads/screen-shot-2022-03-09-at-3.05.45-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648530828/screen-shot-2022-03-09-at-3.05.45-pm_yd5px1.png
 contentBlocks:
   - contentBlock:
       body: >-

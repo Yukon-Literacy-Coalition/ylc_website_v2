@@ -4,7 +4,7 @@ isArchived: false
 description: Join Carrie-Anne for a counting songs sing-along. This video
   includes the classic jams 5 Green and Speckled Frogs, 10 Little Monkeys, 1, 2,
   Buckle My Shoe, and more!
-thumbnail: /uploads/screen-shot-2021-10-20-at-11.03.44-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534425/screen-shot-2021-10-20-at-11.03.44-am_s7wiiy.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

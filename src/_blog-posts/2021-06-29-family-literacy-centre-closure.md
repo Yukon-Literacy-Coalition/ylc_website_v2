@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-06-29T17:59:23.915Z
 articleTitle: Family Literacy Centre Closure
-thumbnail: /uploads/screen-shot-2021-06-29-at-11.27.20-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537237/screen-shot-2021-06-29-at-11.27.20-am_fneblw.png
 contentBlocks:
   - contentBlock:
       body: >-

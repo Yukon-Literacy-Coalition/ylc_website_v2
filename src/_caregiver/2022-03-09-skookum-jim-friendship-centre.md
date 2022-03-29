@@ -3,7 +3,7 @@ title: Skookum Jim Friendship Centre
 isArchived: false
 description: The Skookum Jim Friendship Centre focuses on supporting parents to
   make healthy choices in order to give their babies the best possible start.
-thumbnail: /uploads/screen-shot-2022-03-09-at-11.19.43-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648530862/screen-shot-2022-03-09-at-11.19.43-am_w8symx.png
 contentBlocks:
   - contentBlock:
       subTitle: Skookum Jim Friendship Centre

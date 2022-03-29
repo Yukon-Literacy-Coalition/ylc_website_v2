@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-07-09T20:27:31.010Z
 articleTitle: "Heritage Garden Project "
-thumbnail: /uploads/archives-photo.jpeg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536678/archives-photo_sgqnsn.jpg
 contentBlocks:
   - contentBlock:
       body: >-

@@ -2,7 +2,7 @@
 title: Build a House
 isArchived: false
 description: Join Carrie- Anne for this fun, engaging felt board activity.
-thumbnail: /uploads/screen-shot-2021-09-20-at-10.05.05-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535190/screen-shot-2021-09-20-at-10.05.05-am_fjo258.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

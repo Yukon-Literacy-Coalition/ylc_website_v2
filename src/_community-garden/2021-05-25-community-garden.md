@@ -20,21 +20,21 @@ contentBlocks:
         This summer the focus is on building the infrastructure of the garden with a plan to start delivering programming in the garden during the summer of 2022.
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/garden-1-copy-2.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537105/garden-1-copy-2_m1c1lx.png
         - imagesVideos:
-            image: /uploads/garden-3-copy.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537066/garden-3-copy_p65ihw.png
         - imagesVideos:
-            image: /uploads/garden-4.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537048/garden-4_be7ynp.jpg
         - imagesVideos:
-            image: /uploads/garden-5.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537023/garden-5_cjgo6u.jpg
         - imagesVideos:
-            image: /uploads/garden-6.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537001/garden-6_tcxone.jpg
         - imagesVideos:
-            image: /uploads/garden-7.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536968/garden-7_ymmniz.jpg
         - imagesVideos:
-            image: /uploads/garden-8.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536950/garden-8_abut80.jpg
         - imagesVideos:
-            image: /uploads/garden-9.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536920/garden-9_aoymd4.jpg
         - imagesVideos:
-            image: /uploads/garden-10.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537086/garden-10_d4oeqz.jpg
 ---

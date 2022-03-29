@@ -3,7 +3,7 @@ title: Simple Garden Sensory Bin
 isArchived: false
 description: Do you love to play in the dirt? Follow Carrie-Anne as she uses
   potting soil and toys to make an indoor garden sensory bin!
-thumbnail: /uploads/screen-shot-2021-10-20-at-10.31.36-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534505/screen-shot-2021-10-20-at-10.31.36-am_lluzvb.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-07-21T19:21:22.741Z
 articleTitle: Literacy This Week - Berries!
-thumbnail: /uploads/screen-shot-2021-08-05-at-12.21.02-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535900/screen-shot-2021-08-05-at-12.21.02-pm_zejewg.png
 contentBlocks:
   - contentBlock:
       subTitle: It's Berry Picking Season!
@@ -22,6 +22,6 @@ contentBlocks:
         If you are new to Yukon berry picking, the best thing you can do is to make friends with an experienced (and generous) berry picker!
       downloads:
         - downloadObject:
-            downloadLink: /uploads/berries.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648536076/berries_lqqyft.pdf
             downloadText: Read Yukon News Article
 ---

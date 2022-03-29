@@ -2,7 +2,7 @@
 layout: blog
 date: 2020-12-21T17:29:26.251Z
 articleTitle: Winter Break BINGO!
-thumbnail: /uploads/screen-shot-2020-12-17-at-10.32.11-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537819/screen-shot-2020-12-17-at-10.32.11-am_wgzvaq.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -25,5 +25,5 @@ contentBlocks:
         Participants who complete all of the activities on the Winter Break Bingo card will be entered into a holiday draw! We will be picking two lucky winners on **January 8th, 2021**. Have fun!
       subTitle: Winter Break Bingo - get the whole family involved!
       images:
-        - image: /uploads/xmasbingo.png
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537802/xmasbingo_r8tlxr.png
 ---

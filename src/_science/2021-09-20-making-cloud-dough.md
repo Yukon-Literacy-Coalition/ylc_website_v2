@@ -3,7 +3,7 @@ title: Making Cloud Dough
 isArchived: false
 description: "Join Carrie-Anne in making Cloud Dough: a soft and fluffy play
   dough that smells great, and feels even better!"
-thumbnail: /uploads/screen-shot-2021-09-20-at-10.48.51-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535175/screen-shot-2021-09-20-at-10.48.51-am_bhnvh3.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

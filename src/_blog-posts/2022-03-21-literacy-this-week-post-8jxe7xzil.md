@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-03-16T18:50:17.070Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2022-03-21-at-11.59.28-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648529890/screen-shot-2022-03-21-at-11.59.28-am_kk6wuu.png
 contentBlocks:
   - contentBlock:
       subTitle: Make your own Snow Cone
@@ -27,7 +27,7 @@ contentBlocks:
         You can serve it in a bowl or in a cone if you feel so inclined.
       downloads:
         - downloadObject:
-            downloadLink: /uploads/march-16.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648530490/march-16_cbmofd.pdf
             downloadText: Yukon News Article
 id: post-8jXE7XzIL
 ---

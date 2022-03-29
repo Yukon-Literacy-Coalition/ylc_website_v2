@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-07-14T20:14:25.813Z
 articleTitle: The Heritage Learning Garden
-thumbnail: /uploads/screen-shot-2021-08-05-at-1.18.26-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535922/screen-shot-2021-08-05-at-1.18.26-pm_q60iw1.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -25,6 +25,6 @@ contentBlocks:
         We look forward to sharing the garden with you soon and if you have extra perennials, we will be happy to plant them in our garden!
       downloads:
         - downloadObject:
-            downloadLink: /uploads/july-14.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648536045/july-14_yze7ij.pdf
             downloadText: Read Yukon News Article
 ---

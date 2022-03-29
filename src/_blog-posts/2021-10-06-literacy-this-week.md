@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-10-06T16:19:56.651Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-10-06-at-9.19.10-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1647231426/8aec62eb-29a3-4c11-b264-a2695cf4c080_1_105_c_zp7t7o.jpg
 contentBlocks:
   - contentBlock:
       body: >-
@@ -28,7 +28,7 @@ contentBlocks:
       subTitle: Thanksgiving
       downloads:
         - downloadObject:
-            downloadLink: /uploads/10069364_2021-10-05_15_23_06_proof1.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1647231481/10069364_2021-10-05_15_23_06_proof1_wee6ml.pdf
             downloadText: Yukon News Article
 id: post-jKpz1IMYT
 ---

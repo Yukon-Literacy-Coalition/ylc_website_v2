@@ -2,12 +2,12 @@
 layout: blog
 date: 2021-08-11T17:01:47.700Z
 articleTitle: "Literacy This Week- All About Salads! "
-thumbnail: /uploads/screen-shot-2021-08-18-at-10.02.20-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535839/screen-shot-2021-08-18-at-10.02.20-am_in6eb2.png
 contentBlocks:
   - contentBlock:
       downloads:
         - downloadObject:
-            downloadLink: /uploads/aug11.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648535889/aug11_usfko7.pdf
             downloadText: Read Yukon News Article
       body: >-
         Are you tired of the same old salad this summer? Try some of these tips

@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-07-20T21:16:39.236Z
 articleTitle: Online Auction Fundraiser
-thumbnail: /uploads/bus-top2.jpg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537326/bus-top2_ggcfav.jpg
 contentBlocks:
   - contentBlock:
       subTitle: Online Auction Fundraiser
@@ -18,5 +18,5 @@ contentBlocks:
             linkText: Visit the Auction
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/bus-top2.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537326/bus-top2_ggcfav.jpg
 ---

@@ -23,18 +23,18 @@ contentBlocks:
 
          For regular updates on our free programming, please check out our Facebook page.
       images:
-        - image: /uploads/reading-at-ph.jpg
-        - image: /uploads/crafts-2.jpg
-        - image: /uploads/crafts.jpg
-        - image: /uploads/slime.jpg
-        - image: /uploads/pizza.jpg
-        - image: /uploads/quiet-reading.jpg
-        - image: /uploads/painting-2.jpg
-        - image: /uploads/painting-with-feet.jpg
-        - image: /uploads/flc-space.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540905/reading-at-ph_yqkpja.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541996/crafts-2_o4b0d1.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541973/crafts_pedsu9.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540759/slime_ea3ypr.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541013/pizza_tgr03i.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540942/quiet-reading_ek1chn.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541156/painting-2_nsthwl.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541135/painting-with-feet_o18nos.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541700/flc-space_iphibf.jpg
       downloads:
         - downloadObject:
-            downloadLink: /uploads/jpeg-back-flc-fall-2021-final.jpg
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535726/jpeg-back-flc-fall-2021-final_scknhh.jpg
             downloadText: Download Schedule
   - contentBlock:
       body: >-
@@ -58,8 +58,8 @@ contentBlocks:
             downloadLink: ""
             downloadText: Download Schedule
       images:
-        - image: /uploads/reading-at-ph.jpg
-        - image: /uploads/screen-shot-2021-06-29-at-12.12.12-pm.png
-        - image: /uploads/193901349_4195777563816370_4768995207328862308_n.jpg
-        - image: /uploads/67432485_2446695462057931_7092829247403720704_n.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540905/reading-at-ph_yqkpja.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537220/screen-shot-2021-06-29-at-12.12.12-pm_aqgzwo.png
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537307/193901349_4195777563816370_4768995207328862308_n_avwflp.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537280/67432485_2446695462057931_7092829247403720704_n_qjlvdc.jpg
 ---

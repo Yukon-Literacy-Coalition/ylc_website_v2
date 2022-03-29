@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-08-18T22:20:34.572Z
 articleTitle: Literacy This Week- Newfoundland Sayings!
-thumbnail: /uploads/screen-shot-2021-08-18-at-3.21.00-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535819/screen-shot-2021-08-18-at-3.21.00-pm_m2fxw7.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -17,6 +17,6 @@ contentBlocks:
       subTitle: Newfoundland Sayings
       downloads:
         - downloadObject:
-            downloadLink: /uploads/aug18.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648535872/aug18_pqevnh.pdf
             downloadText: Read Yukon News Article
 ---

@@ -4,7 +4,7 @@ isArchived: false
 description: If you like crackers (or toast), and you love animals, this snack
   is for you! Join Carrie-Anne as she uses common pantry items and spreads to
   make animal faces on crackers.
-thumbnail: /uploads/screen-shot-2021-09-22-at-8.49.53-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534899/screen-shot-2021-09-22-at-8.49.53-am_gd02y8.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

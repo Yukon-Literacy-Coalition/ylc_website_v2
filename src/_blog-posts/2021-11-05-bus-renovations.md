@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-11-05T22:57:32.927Z
 articleTitle: "Bus Renovations "
-thumbnail: /uploads/bus-reno.jpeg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534282/bus-reno_og7lpm.jpg
 contentBlocks:
   - contentBlock:
       body: >-

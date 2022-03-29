@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-10-19T16:58:29.748Z
 articleTitle: "Literacy this Week! "
-thumbnail: /uploads/screen-shot-2021-10-19-at-9.57.57-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534521/screen-shot-2021-10-19-at-9.57.57-am_bfd5gf.png
 contentBlocks:
   - contentBlock:
       body: >-
@@ -16,7 +16,7 @@ contentBlocks:
       subTitle: Spooky Snacks
       downloads:
         - downloadObject:
-            downloadLink: /uploads/oct-20-2021.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534794/oct-20-2021_d2tnjy.pdf
             downloadText: Yukon News Article
 id: post-7igq21qzk
 ---

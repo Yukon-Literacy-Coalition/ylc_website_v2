@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-03-09T18:40:18.457Z
 articleTitle: "Literacy this Week! "
-thumbnail: /uploads/screen-shot-2022-03-21-at-11.24.13-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648529943/screen-shot-2022-03-21-at-11.24.13-am_pem4j5.png
 contentBlocks:
   - contentBlock:
       subTitle: Snow Forts
@@ -16,7 +16,7 @@ contentBlocks:
       links: []
       downloads:
         - downloadObject:
-            downloadLink: /uploads/march-9.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648530461/march-9_wmcvlk.pdf
             downloadText: Yukon News Article
 id: post-iS8BnnLc9
 ---

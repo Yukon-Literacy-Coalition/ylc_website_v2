@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-08-04T18:38:01.852Z
 articleTitle: "Online Auction Success! "
-thumbnail: /uploads/bus-top2.jpg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537326/bus-top2_ggcfav.jpg
 contentBlocks:
   - contentBlock:
       body: >-

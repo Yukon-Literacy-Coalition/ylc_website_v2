@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-09-28T19:23:23.741Z
 articleTitle: Literacy this Week!
-thumbnail: /uploads/screen-shot-2021-09-28-at-12.22.38-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534674/screen-shot-2021-09-28-at-12.22.38-pm_nepwo0.png
 contentBlocks:
   - contentBlock:
       body: Do you love picking cranberries each fall? Packing a picnic lunch, bear
@@ -13,7 +13,7 @@ contentBlocks:
       subTitle: It is cranberry season in the Yukon!
       downloads:
         - downloadObject:
-            downloadLink: /uploads/sept-29.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648534363/sept-29_t3yduj.pdf
             downloadText: Yukon News Article
 id: post-KeW2cLs8Y
 ---

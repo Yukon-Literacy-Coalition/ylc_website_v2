@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-12-08T18:11:23.867Z
 articleTitle: Pop- Up Workshop at the Family Literacy Centre
-thumbnail: /uploads/sewing-hat.jpeg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533618/sewing-hat_s99pwn.jpg
 contentBlocks:
   - contentBlock:
       body: >-
@@ -13,17 +13,17 @@ contentBlocks:
         We would like to send a big thank you to Jackie Taylor for delivering such a great workshop!
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/screen-shot-2021-12-08-at-10.45.01-am.png
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533829/screen-shot-2021-12-08-at-10.45.01-am_bghwz4.png
         - imagesVideos:
-            image: /uploads/sewing-hat-4.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533655/sewing-hat-4_jkfujx.jpg
         - imagesVideos:
-            image: /uploads/sewing-hat-3.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533672/sewing-hat-3_mdgseo.jpg
         - imagesVideos:
-            image: /uploads/sewing-hat-5.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533642/sewing-hat-5_t5ddql.jpg
         - imagesVideos:
-            image: /uploads/sewing-hats-2.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533601/sewing-hats-2_hu9oat.jpg
         - imagesVideos:
-            image: /uploads/hat-5.jpeg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534168/hat-5_pigfsm.jpg
       subTitle: Sew - A - Hat Workshop
 id: post-hxiym0Vjg
 ---

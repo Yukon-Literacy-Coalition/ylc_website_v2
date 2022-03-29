@@ -3,7 +3,7 @@ title: Don't Push The Button
 isArchived: false
 description: There's monstrous fun to be had in this interactive, silly, fun
   story with Carrie- Anne.
-thumbnail: /uploads/screen-shot-2021-09-17-at-10.58.29-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535329/screen-shot-2021-09-17-at-10.58.29-am_cy9krm.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

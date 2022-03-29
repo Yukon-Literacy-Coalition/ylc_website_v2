@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-01-25T18:50:25.651Z
 articleTitle: "Get Caught Reading Photo Contest! "
-thumbnail: /uploads/gcr-facebook-ad-photo-jpeg.jpg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533258/gcr-facebook-ad-photo-jpeg_zzgidn.jpg
 contentBlocks:
   - contentBlock:
       subTitle: Get Caught Reading Photo Contest!
@@ -49,6 +49,6 @@ contentBlocks:
         *Enter as many photos as you like!*
       imagesVideosList:
         - imagesVideos:
-            image: /uploads/gcr-interior-bus-card-jpeg.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648533234/gcr-interior-bus-card-jpeg_hx4xw2.jpg
 id: post-cqdi96lau
 ---

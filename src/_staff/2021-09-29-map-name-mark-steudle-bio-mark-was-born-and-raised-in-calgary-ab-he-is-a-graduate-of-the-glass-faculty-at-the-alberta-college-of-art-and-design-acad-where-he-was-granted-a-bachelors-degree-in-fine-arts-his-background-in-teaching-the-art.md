@@ -1,6 +1,6 @@
 ---
 name: Mark Steudle
-image: /uploads/screen-shot-2021-09-29-at-11.45.49-am.png
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648534655/screen-shot-2021-09-29-at-11.45.49-am_rk9bqr.png
 role: Program Coordinator
 bio: Mark was born and raised in Calgary, AB. He is a Graduate of the Glass
   Faculty at the Alberta College of Art and Design (ACAD), where he was granted

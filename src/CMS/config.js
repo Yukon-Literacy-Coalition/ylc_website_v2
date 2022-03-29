@@ -5,6 +5,7 @@ import {
   forKidsInformation,
   contentsBlock,
   idGenerator,
+  imagesVideos,
 } from "./sharedBlocks";
 
 // const currentURL = "https://amazing-almeida-cc9291.netlify.app/";
@@ -27,22 +28,20 @@ const config = {
   site_url: currentURL,
   media_folder: "public/uploads",
   // FOR CLOUDINARY
-  // media_library: {
-  //   name: "cloudinary",
-  //   config: {
-  //     cloud_name: "https-yukonliteracy-com",
-  //     api_key: "593886844655525",
-  //     default_transformations: [
-  //       [
-  //         {
-  //           // fetch_format: "auto",
-  //           quality: 25,
-  //           crop: "limit",
-  //         },
-  //       ],
-  //     ],
-  //   },
-  // },
+  media_library: {
+    name: "cloudinary",
+    config: {
+      cloud_name: "https-yukonliteracy-com",
+      api_key: "593886844655525",
+      default_transformations: [
+        [
+          {
+            quality: 35,
+          },
+        ],
+      ],
+    },
+  },
   public_folder: "/uploads",
   collections: [
     // fields:
@@ -58,7 +57,7 @@ const config = {
       label: "Blog Post",
       folder: "src/_blog-posts",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.articleTitle}}-{{fields.id}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "blog" },
         {
@@ -90,7 +89,7 @@ const config = {
       label: "Events",
       folder: "src/_events",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.eventTitle}}-{{fields.id}}",
       fields: [
         { label: "Layout", name: "layout", widget: "hidden", default: "event" },
         {
@@ -135,7 +134,7 @@ const config = {
       label: "Outreach Projects",
       folder: "src/_outreach-projects",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         { label: "Body", name: "body", widget: "markdown" },
@@ -149,10 +148,11 @@ const config = {
       folder: "src/_donate",
       create: false,
       delete: false,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("donate"),
       ],
     },
     {
@@ -175,7 +175,7 @@ const config = {
       label: "Job Opportunities",
       folder: "src/_job-opportunities",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         {
@@ -183,6 +183,7 @@ const config = {
           name: "pdf",
           widget: "file",
         },
+        idGenerator("opportunity"),
       ],
     },
     {
@@ -190,7 +191,7 @@ const config = {
       label: "Statements",
       folder: "src/_statements",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         {
           label: "Title",
@@ -209,6 +210,7 @@ const config = {
           widget: "datetime",
           dateFormat: "YYYY",
         },
+        idGenerator("statement"),
       ],
     },
     {
@@ -217,7 +219,7 @@ const config = {
       folder: "src/_announcements",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         linkUrlString,
@@ -229,6 +231,7 @@ const config = {
           default: false,
           hint: "The homepage will only show the most recently created announcement that has this toggled 'on'. If many announcements have this toggled 'on', then it will only show the announcement that is most recently created (NOT the announcement that was most recently edited).",
         },
+        idGenerator("announcement"),
       ],
     },
     // COMMUNITY INITIATIVES
@@ -237,10 +240,11 @@ const config = {
       label: "Community Initiatives",
       folder: "src/_community-initiatives",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("initiative"),
       ],
     },
     // {
@@ -272,12 +276,13 @@ const config = {
       label: "Staff",
       folder: "src/_staff",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.name}}-{{fields.id}}",
       fields: [
         { label: "Name", name: "name", widget: "string" },
         { label: "Image", name: "image", widget: "image", required: false },
         { label: "Role", name: "role", widget: "string" },
         { label: "Bio", name: "bio", widget: "markdown" },
+        idGenerator("staff"),
       ],
     },
     {
@@ -285,11 +290,12 @@ const config = {
       label: "Board",
       folder: "src/_board",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.name}}-{{fields.id}}",
       fields: [
         { label: "Name", name: "name", widget: "string" },
         { label: "Location", name: "location", widget: "string" },
         { label: "Role", name: "role", widget: "string" },
+        idGenerator("board"),
       ],
     },
     {
@@ -297,7 +303,7 @@ const config = {
       label: "Highlighted Projects",
       folder: "src/_highlighted-projects",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         linkUrlString,
@@ -377,16 +383,26 @@ const config = {
       label: "Family Literacy Resources",
       folder: "src/_family-resources",
       create: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         {
           label: "File",
           name: "file",
           widget: "file",
+          required: false,
+          hint: "limit to 10MB in size on our (free) Cloudinary account.",
+        },
+        {
+          label: "External Resource",
+          name: "externalResource",
+          widget: "string",
+          required: false,
+          hint: "If we are offering a file/PDF larger than 10MB, I recommend hosting it in google drive. Simply upload it there and then make sure that it is accessible to anyone with the link, and then paste that link here.",
         },
         { label: "Body", name: "body", widget: "markdown" },
         { label: "Image", name: "image", widget: "image" },
+        idGenerator("familyResource"),
       ],
     },
     {
@@ -395,10 +411,11 @@ const config = {
       folder: "src/_about-food-security",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("foodAbout"),
       ],
     },
     {
@@ -419,10 +436,11 @@ const config = {
       folder: "src/_food-security-programs",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("foodSecurityProgram"),
       ],
     },
     {
@@ -431,10 +449,11 @@ const config = {
       folder: "src/_community-garden",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("communityGarden"),
       ],
     },
     {
@@ -443,10 +462,11 @@ const config = {
       folder: "src/_food-resources-about",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("aboutFoodResources"),
       ],
     },
     {
@@ -455,10 +475,11 @@ const config = {
       folder: "src/_planting",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("planting"),
       ],
     },
     {
@@ -467,10 +488,11 @@ const config = {
       folder: "src/_maintaining",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("maintaining"),
       ],
     },
     {
@@ -479,10 +501,11 @@ const config = {
       folder: "src/_troubleshooting",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("troubleshooting"),
       ],
     },
     {
@@ -491,10 +514,11 @@ const config = {
       folder: "src/_harvesting",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         contentsBlock,
+        idGenerator("harvesting"),
       ],
     },
     // KIDS SECTIONS
@@ -528,7 +552,7 @@ const config = {
       folder: "src/_storytime",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -554,7 +578,7 @@ const config = {
       folder: "src/_songs",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -580,7 +604,7 @@ const config = {
       folder: "src/_science",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -606,7 +630,7 @@ const config = {
       folder: "src/_kids-food",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -632,7 +656,7 @@ const config = {
       folder: "src/_craft",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -658,7 +682,7 @@ const config = {
       folder: "src/_caregiver",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
         ...forKidsInformation,
@@ -673,9 +697,36 @@ const config = {
       folder: "src/_little-libraries",
       create: true,
       delete: true,
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{fields.id}}",
+      slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
+        // REQUIRED FIELDS
         { label: "Title", name: "title", widget: "string" },
+        { label: "Address", name: "address", widget: "string" },
+        {
+          label: "GPS x-coordinates",
+          name: "xCoordinates",
+          widget: "string",
+          required: true,
+          // widget: "number",
+          // value_type: "float",
+        },
+        {
+          label: "GPS y-coordinates",
+          name: "yCoordinates",
+          widget: "string",
+          required: true,
+          // widget: "number",
+          // value_type: "float",
+        },
+        // OPTIONAL FIELDS
+        imagesVideos,
+        { label: "Image", name: "image", widget: "image", required: false },
+        {
+          label: "Description",
+          name: "description",
+          widget: "markdown",
+          required: false,
+        },
         {
           label: "Steward",
           name: "steward",
@@ -688,27 +739,6 @@ const config = {
           widget: "string",
           required: false,
         },
-        {
-          label: "GPS x-coordinates",
-          name: "xCoordinates",
-          widget: "string",
-          // widget: "number",
-          // value_type: "float",
-        },
-        {
-          label: "GPS y-coordinates",
-          name: "yCoordinates",
-          widget: "string",
-          // widget: "number",
-          // value_type: "float",
-        },
-        {
-          label: "Description",
-          name: "description",
-          widget: "markdown",
-          required: false,
-        },
-        { label: "Image", name: "image", widget: "image", required: false },
         idGenerator("lib"),
       ],
     },

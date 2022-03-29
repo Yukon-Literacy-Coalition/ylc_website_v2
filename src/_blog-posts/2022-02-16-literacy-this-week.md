@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-02-16T16:45:44.909Z
 articleTitle: Literacy this week
-thumbnail: /uploads/screen-shot-2022-02-16-at-9.45.13-am.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648531949/screen-shot-2022-02-16-at-9.45.13-am_rj07lo.png
 contentBlocks:
   - contentBlock:
       subTitle: Wordle
@@ -12,7 +12,7 @@ contentBlocks:
         about this word game, check out the Yukon News article below.
       downloads:
         - downloadObject:
-            downloadLink: /uploads/feb-16.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/v1648532640/feb-16_bcd5ew.pdf
             downloadText: Yukon News Article
 id: post-NWtpjDp1D
 ---

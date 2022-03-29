@@ -1,6 +1,6 @@
 ---
 name: Beth Mulloy
-image: /uploads/beth_square.jpg
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648542226/beth_square_xqj4fm.jpg
 role: Executive Director
 bio: Beth is the longest serving member of the YLC staff, in fact she is one of
   the founders of the Yukon Literacy Coalition. She studied theatre and

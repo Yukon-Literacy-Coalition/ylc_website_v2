@@ -4,7 +4,7 @@ isArchived: false
 description: Join Stephanie in this fun counting story as 10 rowdy ravens play
   tricks, get into mischief, find themselves in sticky situations, and make
   general mayhem.
-thumbnail: /uploads/screen-shot-2021-09-16-at-2.44.10-pm.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535454/screen-shot-2021-09-16-at-2.44.10-pm_uoajg6.png
 contentBlocks:
   - contentBlock:
       sideBySideBody:

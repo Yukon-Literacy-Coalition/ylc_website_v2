@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-03-16T15:26:09.867Z
 articleTitle: Please Donate to the Family Literacy Centre on Wheels
-thumbnail: /uploads/bus-top2.jpg
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537326/bus-top2_ggcfav.jpg
 contentBlocks:
   - contentBlock:
       body: >-
