@@ -1,5 +1,6 @@
 // Excellent example https://codesandbox.io/s/react-google-maps-api-ir5ks?file=/src/index.js:3110-3128
 // docs https://react-google-maps-api-docs.netlify.app/#infowindow
+// https://www.youtube.com/watch?v=2po9_CIRW7I&amp;ab_channel=LeighHalliday
 
 // "@google/maps": "^1.1.3",
 //     "@googlemaps/react-wrapper": "^1.1.27",
