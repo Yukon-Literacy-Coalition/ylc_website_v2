@@ -1,6 +1,5 @@
 How to run local server for CMS backend
-NEW COMMAND: `yarn proxy`
-run `npx netlify-cms-proxy-server` in root dir
+NEW COMMAND: `yarn proxy` at project root
 and switch `backend` in `CMS/config.js`
 
 Google maps

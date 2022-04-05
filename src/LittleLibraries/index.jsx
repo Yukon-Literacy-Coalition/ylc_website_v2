@@ -19,6 +19,7 @@ import { withRouteData } from "react-static";
 import logo from "../assets/dark_flake.png";
 import { Link as RRLink } from "@reach/router";
 import openBook from "../assets/ylc_open_book.png";
+import book from "../assets/book.svg";
 import "./mapStyles.css";
 import Carousel from "../shared/Carousel";
 
@@ -38,14 +39,34 @@ const MapPage = styled.div`
 `;
 
 const LogoWrapper = styled.div`
-  position: absolute;
+  /* position: absolute;
   top: 10px;
-  left: 10px;
-  z-index: 10;
+  left: 50%;
+  z-index: 10; */
   background: white;
   border-radius: 50px;
   border: ${(p) => p.theme.colors.ylc_blue} 5px solid;
 `;
+
+const LogoTitleWrapper = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 50%;
+  z-index: 10;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.2);
+  }
+`;
+
+// const TitleWords = styled.span`
+//   font-weight: bold;
+//   padding: 0 10px;
+//   font-size: 30px;
+// `;
 
 const Logo = styled.img`
   height: 50px;
@@ -54,13 +75,21 @@ const Logo = styled.img`
 
 const LogoSection = ({ logo }) => {
   return (
-    <LogoWrapper>
-      <RRLink to="/">
-        <Logo src={logo} alt="" />
-      </RRLink>
-    </LogoWrapper>
+    <LogoTitleWrapper>
+      {/* <TitleWords>Little</TitleWords> */}
+      <LogoWrapper>
+        <RRLink to="/">
+          <Logo src={logo} alt="" />
+        </RRLink>
+      </LogoWrapper>
+      {/* <TitleWords>Libraries</TitleWords> */}
+    </LogoTitleWrapper>
   );
 };
+
+const CarouselContainer = styled.div`
+  height: 100px;
+`;
 
 const LittleLibraries = ({ libraries, isCMS }) => {
   const [infoOpen, setInfoOpen] = useState(false);
@@ -114,10 +143,12 @@ const LittleLibraries = ({ libraries, isCMS }) => {
     // setCenter(place.geometry);
   };
 
+  console.log("images", selectedPlace?.properties?.imagesVideosList);
+
   return (
     <MapPage style={{ height: "100vh", width: "100%" }}>
       <LogoSection logo={logo} />
-      <LoadScript googleMapsApiKey="">
+      <LoadScript googleMapsApiKey="AIzaSyDl53gARUuHmvatd1nfRN_0Zeje58Rv-jg">
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
@@ -138,10 +169,8 @@ const LittleLibraries = ({ libraries, isCMS }) => {
                     clusterer={clusterer}
                     onClick={(event) => markerClickHandler(event, point)}
                     onLoad={(marker) => markerLoadHandler(marker, point)}
-                    // icon={{
-                    //   path: "M-0 225.78l174.74 0 0 1920.1c370.04,2.04 1037.6,-113.48 1272.73,229.68l-1447.47 0 0 -2149.78zm2823.06 -211.38c-472.06,-10.56 -972.1,-80.73 -1195.67,223.44l0 1994.28c155.89,-227.53 737.02,-183.19 1195.67,-185.69l0 -2032.04zm-2548.34 0c472.06,-10.56 972.1,-80.73 1195.67,223.44l0 1994.28c-155.88,-227.53 -737.01,-183.19 -1195.67,-185.69l0 -2032.04zm2648.33 211.38l156.69 0 0 2149.78 -1429.43 0c227.07,-331.41 908.65,-227.67 1272.73,-229.68l0 -1920.1z",
-                    // }}
-                    // icon={<img src={openBook} alt="" />}
+                    // icon={book}
+                    icon={<div>hello</div>}
                   />
                 );
               })
@@ -178,18 +207,20 @@ const LittleLibraries = ({ libraries, isCMS }) => {
                   </div>
                 )}
                 {selectedPlace?.properties?.imagesVideosList && (
-                  // <Carousel
-                  //   media={selectedPlace?.properties?.imagesVideosList}
-                  //   isCMS={isCMS}
-                  // />
-                  <div>
-                    {/* {selectedPlace?.properties?.imagesVideosList.map(
-                      (media) => {
-                        console.log(media);
-                        return <img src={media} alt="" />;
-                      }
-                    )} */}
-                  </div>
+                  <CarouselContainer>
+                    <Carousel
+                      media={selectedPlace?.properties?.imagesVideosList}
+                      isCMS={isCMS}
+                    />
+                  </CarouselContainer>
+                  // <div>
+                  //   {/* {selectedPlace?.properties?.imagesVideosList.map(
+                  //     (media) => {
+                  //       console.log(media);
+                  //       return <img src={media} alt="" />;
+                  //     }
+                  //   )} */}
+                  // </div>
                 )}
               </div>
             </InfoWindow>

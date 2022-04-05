@@ -26,7 +26,7 @@ const config = {
   // },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
-  media_folder: "public/uploads",
+  // media_folder: "public/uploads",
   // FOR CLOUDINARY
   media_library: {
     name: "cloudinary",
@@ -702,6 +702,8 @@ const config = {
         // REQUIRED FIELDS
         { label: "Title", name: "title", widget: "string" },
         { label: "Address", name: "address", widget: "string" },
+        { label: "City/Town", name: "city", widget: "string" },
+        { label: "Postal Code", name: "postalCode", widget: "string" },
         {
           label: "GPS x-coordinates",
           name: "xCoordinates",
@@ -720,7 +722,7 @@ const config = {
         },
         // OPTIONAL FIELDS
         imagesVideos,
-        { label: "Image", name: "image", widget: "image", required: false },
+        // { label: "Image", name: "image", widget: "image", required: false },
         {
           label: "Description",
           name: "description",
