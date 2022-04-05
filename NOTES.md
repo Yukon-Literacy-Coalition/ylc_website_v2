@@ -5,3 +5,4 @@ and switch `backend` in `CMS/config.js`
 Google maps
 - payment
   - https://mapsplatform.google.com/pricing/
+

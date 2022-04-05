@@ -6,6 +6,16 @@
 //     "@googlemaps/react-wrapper": "^1.1.27",
 //     "@googlemaps/typescript-guards": "^1.0.10",
 
+// Yukon Literacy Little Library    60.720089, -135.049545
+// 710 Alexander St, Whitehorse, YT Y1A 2M5 60.721407, -135.066873
+// 611 Black St, Whitehorse, YT Y1A 2N5 60.722409, -135.065339
+// 12 Hayes Pl, Whitehorse, YT Y1A 0E1 60.699222, -135.096222
+// 5 Carnelian Ct Whitehorse, YT Y1A 6A3 60.702356, -135.110703
+// 73 Kluane Crescent, Whitehorse, YT Y1A 3G9 60.711323, -135.092169
+// 18 Alsek Rd, Whitehorse, YT Y1A 3J8 60.709587, -135.033231
+// 504 Range Rd, Whitehorse, YT Y1A 3A2 60.740022, -135.090860
+// 601 Main St, Whitehorse, YT Y1A 1M6 60.718060, -135.060393
+
 import React, { useState } from "react";
 import styled from "@emotion/styled";
 // import { css } from "@emotion/react/macro";
