@@ -29,10 +29,10 @@ import {
 import { withRouteData } from "react-static";
 import logo from "../assets/dark_flake.png";
 import { Link as RRLink } from "@reach/router";
-import openBook from "../assets/ylc_open_book.png";
-import book from "../assets/book.svg";
+import book from "../assets/book_white_border.png";
+// import book from "../assets/book.svg";
 import "./mapStyles.css";
-import Carousel from "../shared/Carousel";
+import Carousel, { ModalLayerComponent } from "../shared/Carousel";
 
 const containerStyle = {
   width: "100%",
@@ -84,6 +84,14 @@ const Logo = styled.img`
   width: 50px;
 `;
 
+const AddressSection = styled.div`
+  padding: 4px 0;
+`;
+
+const InfoPanelContainer = styled.div`
+  max-width: 230px;
+`;
+
 const LogoSection = ({ logo }) => {
   return (
     <LogoTitleWrapper>
@@ -100,7 +108,10 @@ const LogoSection = ({ logo }) => {
 
 const CarouselContainer = styled.div`
   height: 100px;
+  max-width: 230px;
 `;
+
+const Description = styled.h4``;
 
 const LittleLibraries = ({ libraries, isCMS }) => {
   const [infoOpen, setInfoOpen] = useState(false);
@@ -108,11 +119,16 @@ const LittleLibraries = ({ libraries, isCMS }) => {
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [zoom, setZoom] = useState(5);
   const [center, setCenter] = useState({ lat: 64.646399, lng: -133.913028 });
-  console.log({ libraries });
+  const [modalVisible, setModalVisible] = useState(false);
+  const [currentImage, setCurrentImage] = useState(false);
   const points = libraries.map((lib) => ({
     type: "Feature",
     properties: {
       address: lib.address,
+      city: lib.city,
+      territoryProvince: lib.territoryProvince,
+      postalCode: lib.postalCode,
+      country: lib.country,
       description: lib.description,
       id: lib.id + lib.xCoordinates,
       steward: lib.steward,
@@ -128,7 +144,6 @@ const LittleLibraries = ({ libraries, isCMS }) => {
   }));
 
   function createKey(location) {
-    console.log({ lat: location.geometry.lat });
     return location.geometry.lat + location.geometry.lng;
   }
 
@@ -154,8 +169,6 @@ const LittleLibraries = ({ libraries, isCMS }) => {
     // setCenter(place.geometry);
   };
 
-  console.log("images", selectedPlace?.properties?.imagesVideosList);
-
   return (
     <MapPage style={{ height: "100vh", width: "100%" }}>
       <LogoSection logo={logo} />
@@ -180,8 +193,8 @@ const LittleLibraries = ({ libraries, isCMS }) => {
                     clusterer={clusterer}
                     onClick={(event) => markerClickHandler(event, point)}
                     onLoad={(marker) => markerLoadHandler(marker, point)}
-                    // icon={book}
-                    icon={<div>hello</div>}
+                    icon={book}
+                    // icon={<div>hello</div>}
                   />
                 );
               })
@@ -192,15 +205,32 @@ const LittleLibraries = ({ libraries, isCMS }) => {
               anchor={markerMap[selectedPlace?.properties?.id]}
               onCloseClick={() => setInfoOpen(false)}
             >
-              <div>
+              <InfoPanelContainer>
                 {selectedPlace?.properties?.title && (
                   <h3>{selectedPlace?.properties?.title}</h3>
                 )}
                 {selectedPlace?.properties?.description && (
-                  <h4>{selectedPlace?.properties?.description}</h4>
+                  <Description>
+                    {selectedPlace?.properties?.description}
+                  </Description>
                 )}
                 {selectedPlace?.properties?.address && (
-                  <div>{selectedPlace?.properties?.address}</div>
+                  <AddressSection>
+                    <div>{selectedPlace?.properties?.address}</div>
+                    <div>
+                      {selectedPlace?.properties?.city}
+                      {selectedPlace?.properties?.territoryProvince && (
+                        <span>
+                          {", "}
+                          {selectedPlace?.properties?.territoryProvince}
+                        </span>
+                      )}{" "}
+                      {selectedPlace?.properties?.postalCode}
+                    </div>
+                    {selectedPlace?.properties?.country && (
+                      <div>{selectedPlace?.properties?.country}</div>
+                    )}
+                  </AddressSection>
                 )}
                 {selectedPlace?.properties?.steward && (
                   <div>
@@ -217,11 +247,20 @@ const LittleLibraries = ({ libraries, isCMS }) => {
                     </strong>
                   </div>
                 )}
-                {selectedPlace?.properties?.imagesVideosList && (
+                {!!selectedPlace?.properties?.imagesVideosList?.length && (
                   <CarouselContainer>
                     <Carousel
                       media={selectedPlace?.properties?.imagesVideosList}
                       isCMS={isCMS}
+                      isLibrary={true}
+                      {...{
+                        modalVisibleProp: modalVisible,
+                        setModalVisibleProp: setModalVisible,
+                        currentImageProp: currentImage,
+                        setCurrentImageProp: setCurrentImage,
+                        width: 150,
+                      }}
+                      ModalLayerExterior={true}
                     />
                   </CarouselContainer>
                   // <div>
@@ -233,11 +272,15 @@ const LittleLibraries = ({ libraries, isCMS }) => {
                   //   )} */}
                   // </div>
                 )}
-              </div>
+              </InfoPanelContainer>
             </InfoWindow>
           )}
         </GoogleMap>
       </LoadScript>
+      <ModalLayerComponent
+        {...{ modalVisible, setModalVisible, currentImage }}
+        onOverlayClick={() => setCurrentImage(false)}
+      />
     </MapPage>
   );
 };

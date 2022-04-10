@@ -45,6 +45,8 @@ export const mqO = facepaint([
 
 export const mqNew = (bp) => `@media (max-width: ${bp}px)`;
 
+// ylc_blue in rgb = 47, 53, 117
+
 export const theme = {
   colors: {
     ylc_blue: "#2F3575",

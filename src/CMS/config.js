@@ -14,16 +14,16 @@ const currentURL = "http://yukonliteracy.com/";
 
 const config = {
   // BACKEND for PROD
-  backend: {
-    name: "git-gateway",
-    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  },
-  // BACKEND for DEV
   // backend: {
-  //   name: "proxy",
-  //   proxy_url: "http://localhost:8081/api/v1",
-  //   branch: "master" /* optional, defaults to master */,
+  //   name: "git-gateway",
+  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   // },
+  // BACKEND for DEV
+  backend: {
+    name: "proxy",
+    proxy_url: "http://localhost:8081/api/v1",
+    branch: "master" /* optional, defaults to master */,
+  },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   // media_folder: "public/uploads",
@@ -699,11 +699,28 @@ const config = {
       delete: true,
       slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}-{{fields.id}}",
       fields: [
-        // REQUIRED FIELDS
         { label: "Title", name: "title", widget: "string" },
-        { label: "Address", name: "address", widget: "string" },
+        {
+          label: "Address",
+          name: "address",
+          widget: "string",
+          required: false,
+          hint: "Use 'Description' if there's no specific address available",
+        },
         { label: "City/Town", name: "city", widget: "string" },
-        { label: "Postal Code", name: "postalCode", widget: "string" },
+        {
+          label: "Territory/Provice",
+          name: "territoryProvince",
+          widget: "string",
+          hint: "use acronym, like 'YT'",
+        },
+        {
+          label: "Postal Code",
+          name: "postalCode",
+          widget: "string",
+          required: false,
+        },
+        { label: "Country", name: "country", widget: "string" },
         {
           label: "GPS x-coordinates",
           name: "xCoordinates",
@@ -720,7 +737,6 @@ const config = {
           // widget: "number",
           // value_type: "float",
         },
-        // OPTIONAL FIELDS
         imagesVideos,
         // { label: "Image", name: "image", widget: "image", required: false },
         {
