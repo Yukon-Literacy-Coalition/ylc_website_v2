@@ -34,7 +34,7 @@ contentBlocks:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541700/flc-space_iphibf.jpg
       downloads:
         - downloadObject:
-            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648535726/jpeg-back-flc-fall-2021-final_scknhh.jpg
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1649976100/back-SPRING_22_bb3kgl.pdf
             downloadText: Download Schedule
   - contentBlock:
       body: >-
