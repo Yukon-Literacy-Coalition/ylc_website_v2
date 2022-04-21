@@ -1,5 +1,6 @@
 ---
 name: Shelaine Charland
-location: Ross River/ Faro
+location: Whitehorse
 role: Director
+id: board-uZG4RVKcU
 ---
