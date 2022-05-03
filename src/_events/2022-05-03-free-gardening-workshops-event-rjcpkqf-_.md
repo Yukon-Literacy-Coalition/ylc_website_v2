@@ -18,6 +18,6 @@ contentBlocks:
         preparation. Come learn with us in Shipyards Park! 
 
 
-        *For more information, see workshop schedule below.*
+        *For more information, see May 2022 workshop schedule below.*
 id: event-RJcpkQF-_
 ---
