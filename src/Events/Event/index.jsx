@@ -5,8 +5,6 @@ import Project from "../../shared/Project";
 
 export const Event = (props) => {
   const event = props?.event;
-  console.log({ event });
-  console.log(event?.startDate);
   let startDate = event?.startDate
     ? moment(event?.startDate).format("MMMM Do, YYYY")
     : "";

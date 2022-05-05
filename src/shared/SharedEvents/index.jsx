@@ -63,13 +63,13 @@ export const EventListing = ({ event, className, border }) => {
         <DateText>
           <span>
             {moment(startDate).format("DD MMMM YYYY")}
-            {showEventTime && moment(startDate).format("h:MM a")}
+            {showEventTime && <> {moment(startDate).format("LT")}</>}
           </span>
           {endDate && (
             <span>
               {" "}
               - {moment(endDate).format("DD MMMM YYYY")}
-              {showEventTime && moment(endDate).format("h:MM a")}
+              {showEventTime && <> {moment(endDate).format("LT")}</>}
             </span>
           )}
         </DateText>

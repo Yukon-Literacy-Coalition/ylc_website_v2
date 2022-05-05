@@ -49,6 +49,5 @@ const CharCountBody = styled.div`
 
 export const CharCount = ({ markdownBody }) => {
   let count = markdownBody.length;
-  console.log({ count });
   return <CharCountBody>Character Count: {count}</CharCountBody>;
 };
