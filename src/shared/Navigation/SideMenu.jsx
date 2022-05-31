@@ -185,6 +185,14 @@ export const SideMenu = ({
           </RRLink>
         </Menu.Item>
         <Menu.Item>
+          <RRLink
+            onClick={() => setSideMenuVisible(false)}
+            to="/little-libraries"
+          >
+            Little Libraries
+          </RRLink>
+        </Menu.Item>
+        <Menu.Item>
           <RRLink onClick={() => setSideMenuVisible(false)} to="/contact">
             Contact
           </RRLink>

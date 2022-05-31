@@ -157,7 +157,7 @@ const TopNavLinks = styled.div`
   align-items: center;
   height: 100%;
   grid-column-start: 2;
-  grid-column-end: 11;
+  grid-column-end: 12;
   ${menuSwitch} {
     display: none;
   }
@@ -173,6 +173,7 @@ export const BasicNav = (props) => {
       <DDButton to="/food" text="For Kids" />
       <DDButton to="/news" text="News" />
       <DDButton to="/events" text="Events" />
+      <DDButton to="/contact" text="Little Libraries" />
       <DDButton to="/contact" text="Contact" />
     </BasicNavContainer>
   );
@@ -297,13 +298,13 @@ const Logo = styled.img`
 `;
 
 const SocialsMainNav = styled.span`
-  grid-column-start: 11;
-  grid-column-end: 13;
+  grid-column-start: 12;
+  grid-column-end: 14;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 2px;
-  padding-left: 20px;
+  padding-left: 5px;
   ${menuSwitch} {
     display: none;
   }
@@ -461,6 +462,7 @@ const Navigation = (props) => {
           <DDButton to="/kids" text="For Kids" />
           <DDButton to="/news" text="News" />
           <DDButton to="/events" text="Events" />
+          <DDButton to="/little-libraries" text="Little Libraries" />
           <DDButton to="/contact" text="Contact" />
         </TopNavLinks>
         <SocialsMainNav>
