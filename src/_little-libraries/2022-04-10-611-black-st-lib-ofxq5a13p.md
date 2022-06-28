@@ -1,5 +1,5 @@
 ---
-title: 611 Black St Library
+title: Black Street Playground Library
 address: " 611 Black St"
 city: Whitehorse
 territoryProvince: YT
