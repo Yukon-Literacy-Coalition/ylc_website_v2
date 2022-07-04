@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: 2022-06-28T21:31:24.013Z
+date: 2022-06-01T21:31:24.013Z
 articleTitle: "Literacy This Week "
 thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1656452155/Screen_Shot_2022-06-28_at_2.34.20_PM_k3ljv8.png
 contentBlocks:
