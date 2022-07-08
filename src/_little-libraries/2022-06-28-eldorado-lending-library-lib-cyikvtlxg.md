@@ -1,6 +1,6 @@
 ---
 title: Eldorado Lending Library
-address: "33 Eldorado Drive "
+address: "3 Eldorado Drive "
 city: Whitehorse
 territoryProvince: YT
 postalCode: Y1A 0N7
