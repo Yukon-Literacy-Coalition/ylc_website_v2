@@ -15,6 +15,6 @@ contentBlocks:
       downloads:
         - downloadObject:
             downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657645366/10319118_2022-07-05_15_21_52_proof1_cfj3hi.pdf
-            downloadText: Yukon News
+            downloadText: Yukon News Article
 id: post-Q9i85ykOB
 ---
