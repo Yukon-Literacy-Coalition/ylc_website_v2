@@ -7,7 +7,7 @@ contentBlocks:
   - contentBlock:
       body: >-
         Spruce Tip Tea and Cake! Spruce tips have been traditionally used for
-        many medicines or remedies, but we have  tasty tea and cake recipe for
+        many medicines or remedies, but we have tasty tea and cake recipe for
         you.
 
 
