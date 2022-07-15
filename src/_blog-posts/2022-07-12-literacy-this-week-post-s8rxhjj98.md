@@ -6,8 +6,8 @@ thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/
 contentBlocks:
   - contentBlock:
       body: >-
-        Yukon Summer Scavenger Hunt Challenge: A Fun Outdoor Activity for the
-        Whole Family
+        Yukon Summer Scavenger Hunt Challenge: A Fun Outdoor Activity the Whole
+        Family can enjoy!
 
 
         Read more about this fun activity in the Yukon News article below.
