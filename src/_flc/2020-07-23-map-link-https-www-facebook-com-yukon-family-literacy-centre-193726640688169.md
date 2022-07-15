@@ -55,8 +55,9 @@ contentBlocks:
       subTitle: Summertime at the Pioneer Hotel
       downloads:
         - downloadObject:
-            downloadLink: ""
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657916954/back_htz6vp.pdf
             downloadText: ""
+        - null
       images:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540905/reading-at-ph_yqkpja.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537220/screen-shot-2021-06-29-at-12.12.12-pm_aqgzwo.png
