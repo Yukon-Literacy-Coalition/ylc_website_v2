@@ -1,6 +1,6 @@
 ---
-title: Grey Mountain Primary Book Box
-address: 186 Alsek Road, Whitehorse YT, Y1A 4N9
+title: Grey Mountain Primary School Book Box
+address: 186 Alsek Road
 city: Whitehorse
 territoryProvince: YT
 postalCode: Y1A 4N9
