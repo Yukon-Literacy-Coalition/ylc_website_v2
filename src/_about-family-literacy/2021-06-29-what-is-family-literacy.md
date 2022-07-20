@@ -12,9 +12,9 @@ contentBlocks:
         children mostly learn through the power of play, which helps to nurture
         the imagination and to give a child a sense of adventure. Through play,
         they can learn essential skills such as problem solving, sharing,
-        emotional development, gross and fine motor skills, language and so much
-        more. It has been proven that when parents/caregivers learn together
-        with the child, through a wide variety of daily activities, they assist
-        their children and themselves in becoming lifelong learners.
+        emotional development, gross, and fine motor skills, language and so
+        much more. It has been proven that when parents/caregivers learn
+        together with the child, through a wide variety of daily activities,
+        they assist their children and themselves in becoming lifelong learners.
       subTitle: Family Literacy
 ---
