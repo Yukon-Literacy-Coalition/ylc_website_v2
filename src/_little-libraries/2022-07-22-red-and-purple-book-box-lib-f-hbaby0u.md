@@ -1,5 +1,6 @@
 ---
 title: Red and Purple Book Box
+address: Alaska Highway
 city: Haines Junction
 territoryProvince: YT
 country: Canada
