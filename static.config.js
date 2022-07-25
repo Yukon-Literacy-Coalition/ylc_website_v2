@@ -2,7 +2,7 @@ import React from "react";
 import path from "path";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
-
+require("dotenv").config();
 // const githubBasePath = "ylc_website_v2";
 const currentURL = "https://yukonliteracy.com/";
 // const currentURL = "https://amazing-almeida-cc9291.netlify.app/"
@@ -568,7 +568,10 @@ export default {
       {
         path: "/little-libraries",
         template: "src/LittleLibraries",
-        getData: async () => ({ libraries }),
+        getData: async () => ({
+          libraries,
+          apiKey: process.env.REACT_APP_GMAPS_KEY,
+        }),
       },
       // STATEMENTS
       {

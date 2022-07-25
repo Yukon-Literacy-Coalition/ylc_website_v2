@@ -81,13 +81,16 @@ const Link = styled(RRLink)`
 `;
 
 export const PostListing = ({ post, className }) => {
+  console.log({ post });
   const { date, slug, thumbnail, contentBlocks, articleTitle } = post;
-  const blockWithBody = contentBlocks?.find(
-    (c) => c.contentBlock?.body?.length
-  );
-  const blockWithSubTitle = contentBlocks?.find(
-    (c) => c.contentBlock?.subTitle?.length
-  );
+  const blockWithBody = contentBlocks?.find((c) => {
+    console.log({ c });
+    return c?.contentBlock?.body?.length;
+  });
+  const blockWithSubTitle = contentBlocks?.find((c) => {
+    console.log("2", { c });
+    return c?.contentBlock?.subTitle?.length;
+  });
   return (
     <Link className={className} to={`/news/post/${slug}`}>
       <Post>

@@ -6,3 +6,4 @@ Google maps
 - payment
   - https://mapsplatform.google.com/pricing/
 
+`nvm use 14`

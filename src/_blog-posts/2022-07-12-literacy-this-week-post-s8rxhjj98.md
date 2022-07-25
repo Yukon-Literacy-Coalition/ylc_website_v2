@@ -15,6 +15,5 @@ contentBlocks:
         - downloadObject:
             downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657645014/10321936_2022-07-12_09_39_01_proof1_pennpe.pdf
             downloadText: Yukon News Article
-  - null
 id: post-S8rxHJj98
 ---
