@@ -13,5 +13,6 @@ contentBlocks:
       downloads:
         - downloadObject:
             downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1658764283/Philippines_ydj2rk.pdf
+            downloadText: Yukon News Article
 id: post-jq9mLrbUE
 ---
