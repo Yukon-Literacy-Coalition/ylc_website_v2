@@ -2,7 +2,7 @@
 layout: blog
 date: 2022-07-06T17:00:33.015Z
 articleTitle: Literacy This Week!
-thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657645306/Untitled_fibjoj.png
+thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1658939158/Untitled_auzzfd.jpg
 contentBlocks:
   - contentBlock:
       body: >-
