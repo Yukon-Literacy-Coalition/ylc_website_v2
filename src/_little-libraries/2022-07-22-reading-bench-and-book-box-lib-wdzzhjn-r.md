@@ -10,5 +10,6 @@ yCoordinates: "-135.028730"
 imagesVideosList:
   - imagesVideos:
       image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1658508605/IMG_3768_2_dvvawm.jpg
+description: Seek out colourful multi-story book box and bench on Takhini Ave.
 id: lib-WdzzhJn-r
 ---
