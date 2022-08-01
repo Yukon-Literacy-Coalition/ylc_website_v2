@@ -97,8 +97,8 @@ const LittleLibraries = (props) => {
   const [infoOpen, setInfoOpen] = useState(false);
   const [markerMap, setMarkerMap] = useState({});
   const [selectedPlace, setSelectedPlace] = useState(null);
-  const [zoom, setZoom] = useState(6);
-  const [center, setCenter] = useState({ lat: 64.646399, lng: -133.913028 });
+  const [zoom, setZoom] = useState(7);
+  const [center, setCenter] = useState({ lat: 60.709162, lng: -135.035826 });
   const [modalVisible, setModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState(false);
   const points = libraries.map((lib) => ({
