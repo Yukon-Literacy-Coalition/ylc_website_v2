@@ -271,7 +271,7 @@ const LittleLibraries = (props) => {
       />
     </MapPage>
   ) : (
-    <div>NOT LOADED</div>
+    <div></div>
   );
 
   // CURRENTLY UNUSED (TRYING THE useLoadScript HOOK)
