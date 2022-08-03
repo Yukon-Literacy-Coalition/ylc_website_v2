@@ -19,13 +19,9 @@ contentBlocks:
         Come by and say hello!
       imagesVideosList:
         - imagesVideos:
-            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536950/garden-8_abut80.jpg
-        - imagesVideos:
-            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648536920/garden-9_aoymd4.jpg
-        - imagesVideos:
-            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537086/garden-10_d4oeqz.jpg
-        - imagesVideos:
             image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1659478141/IMG_8483_pm5ge3.heic
+        - imagesVideos:
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1659478142/IMG_8482_hrxwzb.heic
       images: []
 id: communityGarden-2KWXj9WoR
 ---
