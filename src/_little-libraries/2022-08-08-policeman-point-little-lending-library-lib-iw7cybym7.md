@@ -5,8 +5,8 @@ city: Upper Labarge
 territoryProvince: YT
 postalCode: Y0B 1Y0
 country: Canada
-xCoordinates: "60.945860"
-yCoordinates: "-135.118854"
+xCoordinates: "60.943741"
+yCoordinates: "-135.136825"
 imagesVideosList:
   - imagesVideos:
       image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1659997371/IMG_7961_nkw90x.jpg
