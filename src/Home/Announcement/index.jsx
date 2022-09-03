@@ -12,6 +12,7 @@ const Title = styled.div`
 
 const Body = styled.div`
   grid-column: span 13;
+  text-align: center;
   ${(p) => p.theme.fonts.body_text}
 `;
 

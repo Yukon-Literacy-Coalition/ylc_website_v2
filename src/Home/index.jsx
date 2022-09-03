@@ -12,6 +12,7 @@ const Home = ({ words, events, posts, announcements, highlightedProjects }) => {
   const wordsString = words?.[0]?.words;
   const wordsArr = wordsString.split(",").map((i) => i.trim());
   const displayAnnc = announcements.some((annc) => annc?.displayAnnouncement);
+  console.log({ displayAnnc, announcements });
   const currentAnnc = reversedArray.find((annc) => annc?.displayAnnouncement);
   return (
     <div>
