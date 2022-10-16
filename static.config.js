@@ -1,7 +1,7 @@
 import React from "react";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
-// require("dotenv").config();
+require("dotenv").config();
 const currentURL = "https://yukonliteracy.com/";
 
 const filterUpcoming = ({ events }) =>

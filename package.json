@@ -56,6 +56,7 @@
     "react-static-plugin-styled-components": "^7.3.0",
     "react-text-loop": "^2.3.0",
     "remove-markdown": "^0.3.0",
+    "resolve": "^1.22.1",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
