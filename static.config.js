@@ -1,12 +1,8 @@
 import React from "react";
-import path from "path";
 import { getPosts, addSlug } from "./utils";
 import moment from "moment";
-require("dotenv").config();
-// const githubBasePath = "ylc_website_v2";
+// require("dotenv").config();
 const currentURL = "https://yukonliteracy.com/";
-// const currentURL = "https://amazing-almeida-cc9291.netlify.app/"
-// currentURL: "http://thelonious.life/",
 
 const filterUpcoming = ({ events }) =>
   events.filter((event) => {
@@ -26,11 +22,7 @@ const getCommunityLinks = async () => {
 
 export default {
   siteRoot: currentURL,
-  // basePath: githubBasePath,
-  // devBasePath: githubBasePath,
-  paths: {
-    // dist: "dist/" + githubBasePath,
-  },
+  paths: {},
   getSiteData: async () => ({
     communityLinks: await getCommunityLinks(),
   }),
