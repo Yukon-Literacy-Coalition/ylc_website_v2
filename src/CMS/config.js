@@ -14,16 +14,16 @@ const currentURL = "http://yukonliteracy.com/";
 
 const config = {
   // BACKEND for PROD
-  // backend: {
-  //   name: "git-gateway",
-  //   repo: "Yukon-Literacy-Coalition/ylc_website_v2",
-  // },
-  // BACKEND for DEV
   backend: {
-    name: "proxy",
-    proxy_url: "http://localhost:8081/api/v1",
-    branch: "master" /* optional, defaults to master */,
+    name: "git-gateway",
+    repo: "Yukon-Literacy-Coalition/ylc_website_v2",
   },
+  // BACKEND for DEV
+  // backend: {
+  //   name: "proxy",
+  //   proxy_url: "http://localhost:8081/api/v1",
+  //   branch: "master" /* optional, defaults to master */,
+  // },
   logo_url: `${currentURL}static/dark_flake.5fd7ece1.png`,
   site_url: currentURL,
   // media_folder: "public/uploads",
