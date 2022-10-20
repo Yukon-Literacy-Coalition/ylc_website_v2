@@ -21,6 +21,8 @@ const getCommunityLinks = async () => {
 };
 
 export default {
+  outputFileRate: 20,
+  maxThreads: 1,
   siteRoot: currentURL,
   paths: {},
   getSiteData: async () => ({
