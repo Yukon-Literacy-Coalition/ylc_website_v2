@@ -1,7 +1,7 @@
 ---
 name: Sarah Leslie
-image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1656955353/677052D4-DD5A-4BA2-9B4A-CDDB497AA0CE_63_so0ggy.png
-role: "Program Coordinator "
+image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/c_scale,h_1481/q_35/v1656955353/677052D4-DD5A-4BA2-9B4A-CDDB497AA0CE_63_so0ggy.png
+role: "Youth Program Coordinator "
 bio: Sarah was born and raised in Whitehorse, Yukon and has spent the past four
   years enjoying the East Coast, in Halifax Nova Scotia. Sarah is a recent
   graduate from Dalhousie University with a degree in Sociology and Social
