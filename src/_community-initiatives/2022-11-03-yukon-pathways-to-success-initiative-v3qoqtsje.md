@@ -26,6 +26,7 @@ contentBlocks:
         *This project is funded in part by the Government of Canada Sectorial Initiatives Program.*
       imagesVideosList:
         - imagesVideos:
-            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1667506153/WordMark_Bl_Rd_CMYK_ge8rfu.jpg
+            image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1667508189/Wordmark_Bl_Rd_RGB_copy_eqzfnq.jpg
+      images: []
 id: initiative-v3QoqtSJe
 ---
