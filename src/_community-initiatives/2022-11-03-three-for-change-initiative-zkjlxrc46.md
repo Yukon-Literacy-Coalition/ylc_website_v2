@@ -27,5 +27,7 @@ contentBlocks:
         - linkObject:
             linkText: NWT Literacy Council
             linkLocation: www.nwtliteracy.ca
+      images:
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1667505913/Picture1_htassi.png
 id: initiative-ZkJLXRC46
 ---
