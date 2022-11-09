@@ -34,7 +34,7 @@ contentBlocks:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541700/flc-space_iphibf.jpg
       downloads:
         - downloadObject:
-            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1668016794/FLC_Fall_Postcard_BACK_2022_tsnjwz.jpg
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1668018865/fall_postcard-2_pqsac1.pdf
             downloadText: Download Schedule
   - contentBlock:
       body: >-
