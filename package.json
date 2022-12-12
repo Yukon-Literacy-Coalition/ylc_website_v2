@@ -19,6 +19,7 @@
     "@emotion/cache": "^10.0.29",
     "@emotion/core": "^10.0.28",
     "@emotion/react": "^11.8.2",
+    "@googlemaps/js-api-loader": "^1.14.3",
     "@kennethormandy/react-fittext": "^0.6.0",
     "@ncwidgets/id": "^0.9.0",
     "@reach/router": "^1.3.4",

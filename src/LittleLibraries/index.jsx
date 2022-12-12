@@ -20,6 +20,7 @@ import book from "../assets/book_white_border.png";
 // import book from "../assets/book.svg";
 import "./mapStyles.css";
 import Carousel, { ModalLayerComponent } from "../shared/Carousel";
+import { Loader } from "@googlemaps/js-api-loader";
 
 const containerStyle = {
   width: "100%",
@@ -165,6 +166,13 @@ const LittleLibraries = (props) => {
     loadingElement: { Loading },
   });
 
+  const loader = new Loader({
+    apiKey,
+    version: "weekly",
+  });
+
+  loader.load();
+
   const renderMap = () => {
     return (
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={zoom}>
@@ -275,123 +283,123 @@ const LittleLibraries = (props) => {
   );
 
   // CURRENTLY UNUSED (TRYING THE useLoadScript HOOK)
-  return (
-    <MapPage style={{ height: "100vh", width: "100%" }}>
-      <LogoSection logo={logo} />
-      <LoadScript
-        id={"uniqueid_123"}
-        // googleMapsApiKey="AIzaSyDl53gARUuHmvatd1nfRN_0Zeje58Rv-jg"
-        googleMapsApiKey={apiKey}
-        region="EN"
-        version="weekly"
-        onLoad={onLoad}
-        onError={onError}
-        libraries={googleMapsLibraries}
-        preventGoogleFontsLoading={false}
-        loadingElement={Loading}
-      >
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={zoom}
-        >
-          <MarkerClusterer
-            options={clustererOptions}
-            averageCenter={true}
-            // clusterClass={"map-styles"}
-            // styles={[]}
-          >
-            {(clusterer) =>
-              points.map((point) => {
-                return (
-                  <Marker
-                    key={createKey(point)}
-                    position={point.geometry}
-                    clusterer={clusterer}
-                    onClick={(event) => markerClickHandler(event, point)}
-                    onLoad={(marker) => markerLoadHandler(marker, point)}
-                    icon={book}
-                    // icon={<div>hello</div>}
-                  />
-                );
-              })
-            }
-          </MarkerClusterer>
-          {infoOpen && selectedPlace && (
-            <InfoWindow
-              anchor={markerMap[selectedPlace?.properties?.id]}
-              onCloseClick={() => setInfoOpen(false)}
-            >
-              <InfoPanelContainer>
-                {selectedPlace?.properties?.title && (
-                  <h3>{selectedPlace?.properties?.title}</h3>
-                )}
-                {selectedPlace?.properties?.description && (
-                  <Description>
-                    {selectedPlace?.properties?.description}
-                  </Description>
-                )}
-                {selectedPlace?.properties?.address && (
-                  <AddressSection>
-                    <div>{selectedPlace?.properties?.address}</div>
-                    <div>
-                      {selectedPlace?.properties?.city}
-                      {selectedPlace?.properties?.territoryProvince && (
-                        <span>
-                          {", "}
-                          {selectedPlace?.properties?.territoryProvince}
-                        </span>
-                      )}{" "}
-                      {selectedPlace?.properties?.postalCode}
-                    </div>
-                    {selectedPlace?.properties?.country && (
-                      <div>{selectedPlace?.properties?.country}</div>
-                    )}
-                  </AddressSection>
-                )}
-                {selectedPlace?.properties?.steward && (
-                  <div>
-                    <strong>
-                      Steward: {selectedPlace?.properties?.steward}
-                    </strong>
-                  </div>
-                )}
-                {selectedPlace?.properties?.stewardContact && (
-                  <div>
-                    <strong>
-                      Steward Contact:{" "}
-                      {selectedPlace?.properties?.stewardContact}
-                    </strong>
-                  </div>
-                )}
-                {!!selectedPlace?.properties?.imagesVideosList?.length && (
-                  <CarouselContainer>
-                    <Carousel
-                      media={selectedPlace?.properties?.imagesVideosList}
-                      isCMS={isCMS}
-                      isLibrary={true}
-                      {...{
-                        modalVisibleProp: modalVisible,
-                        setModalVisibleProp: setModalVisible,
-                        currentImageProp: currentImage,
-                        setCurrentImageProp: setCurrentImage,
-                        width: 150,
-                      }}
-                      ModalLayerExterior={true}
-                    />
-                  </CarouselContainer>
-                )}
-              </InfoPanelContainer>
-            </InfoWindow>
-          )}
-        </GoogleMap>
-      </LoadScript>
-      <ModalLayerComponent
-        {...{ modalVisible, setModalVisible, currentImage }}
-        onOverlayClick={() => setCurrentImage(false)}
-      />
-    </MapPage>
-  );
+  // return (
+  //   <MapPage style={{ height: "100vh", width: "100%" }}>
+  //     <LogoSection logo={logo} />
+  //     <LoadScript
+  //       id={"uniqueid_123"}
+  //       // googleMapsApiKey="AIzaSyDl53gARUuHmvatd1nfRN_0Zeje58Rv-jg"
+  //       googleMapsApiKey={apiKey}
+  //       region="EN"
+  //       version="weekly"
+  //       onLoad={onLoad}
+  //       onError={onError}
+  //       libraries={googleMapsLibraries}
+  //       preventGoogleFontsLoading={false}
+  //       loadingElement={Loading}
+  //     >
+  //       <GoogleMap
+  //         mapContainerStyle={containerStyle}
+  //         center={center}
+  //         zoom={zoom}
+  //       >
+  //         <MarkerClusterer
+  //           options={clustererOptions}
+  //           averageCenter={true}
+  //           // clusterClass={"map-styles"}
+  //           // styles={[]}
+  //         >
+  //           {(clusterer) =>
+  //             points.map((point) => {
+  //               return (
+  //                 <Marker
+  //                   key={createKey(point)}
+  //                   position={point.geometry}
+  //                   clusterer={clusterer}
+  //                   onClick={(event) => markerClickHandler(event, point)}
+  //                   onLoad={(marker) => markerLoadHandler(marker, point)}
+  //                   icon={book}
+  //                   // icon={<div>hello</div>}
+  //                 />
+  //               );
+  //             })
+  //           }
+  //         </MarkerClusterer>
+  //         {infoOpen && selectedPlace && (
+  //           <InfoWindow
+  //             anchor={markerMap[selectedPlace?.properties?.id]}
+  //             onCloseClick={() => setInfoOpen(false)}
+  //           >
+  //             <InfoPanelContainer>
+  //               {selectedPlace?.properties?.title && (
+  //                 <h3>{selectedPlace?.properties?.title}</h3>
+  //               )}
+  //               {selectedPlace?.properties?.description && (
+  //                 <Description>
+  //                   {selectedPlace?.properties?.description}
+  //                 </Description>
+  //               )}
+  //               {selectedPlace?.properties?.address && (
+  //                 <AddressSection>
+  //                   <div>{selectedPlace?.properties?.address}</div>
+  //                   <div>
+  //                     {selectedPlace?.properties?.city}
+  //                     {selectedPlace?.properties?.territoryProvince && (
+  //                       <span>
+  //                         {", "}
+  //                         {selectedPlace?.properties?.territoryProvince}
+  //                       </span>
+  //                     )}{" "}
+  //                     {selectedPlace?.properties?.postalCode}
+  //                   </div>
+  //                   {selectedPlace?.properties?.country && (
+  //                     <div>{selectedPlace?.properties?.country}</div>
+  //                   )}
+  //                 </AddressSection>
+  //               )}
+  //               {selectedPlace?.properties?.steward && (
+  //                 <div>
+  //                   <strong>
+  //                     Steward: {selectedPlace?.properties?.steward}
+  //                   </strong>
+  //                 </div>
+  //               )}
+  //               {selectedPlace?.properties?.stewardContact && (
+  //                 <div>
+  //                   <strong>
+  //                     Steward Contact:{" "}
+  //                     {selectedPlace?.properties?.stewardContact}
+  //                   </strong>
+  //                 </div>
+  //               )}
+  //               {!!selectedPlace?.properties?.imagesVideosList?.length && (
+  //                 <CarouselContainer>
+  //                   <Carousel
+  //                     media={selectedPlace?.properties?.imagesVideosList}
+  //                     isCMS={isCMS}
+  //                     isLibrary={true}
+  //                     {...{
+  //                       modalVisibleProp: modalVisible,
+  //                       setModalVisibleProp: setModalVisible,
+  //                       currentImageProp: currentImage,
+  //                       setCurrentImageProp: setCurrentImage,
+  //                       width: 150,
+  //                     }}
+  //                     ModalLayerExterior={true}
+  //                   />
+  //                 </CarouselContainer>
+  //               )}
+  //             </InfoPanelContainer>
+  //           </InfoWindow>
+  //         )}
+  //       </GoogleMap>
+  //     </LoadScript>
+  //     <ModalLayerComponent
+  //       {...{ modalVisible, setModalVisible, currentImage }}
+  //       onOverlayClick={() => setCurrentImage(false)}
+  //     />
+  //   </MapPage>
+  // );
 };
 
 export default withRouteData(LittleLibraries);
