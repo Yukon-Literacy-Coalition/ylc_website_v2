@@ -3,18 +3,18 @@ layout: event
 startDate: 2023-01-27T07:00:00.000Z
 endDate: 2023-02-24T07:00:00.000Z
 showEventTime: true
-eventTitle: "Get Caught Reading "
+eventTitle: "Get Caught Reading! "
 contentBlocks:
   - contentBlock:
       body: >-
-        <!--\\[if gte mso 9]><xml>
+        <!--\\\[if gte mso 9]><xml>
          <o:OfficeDocumentSettings>
           <o:AllowPNG/>
          </o:OfficeDocumentSettings>
-        </xml><!\\[endif]-->
+        </xml><!\\\[endif]-->
 
 
-        <!--\\[if gte mso 9]><xml>
+        <!--\\\[if gte mso 9]><xml>
          <w:WordDocument>
           <w:View>Normal</w:View>
           <w:Zoom>0</w:Zoom>
@@ -53,10 +53,10 @@ contentBlocks:
            <m:intLim m:val="subSup"/>
            <m:naryLim m:val="undOvr"/>
           </m:mathPr></w:WordDocument>
-        </xml><!\\[endif]-->
+        </xml><!\\\[endif]-->
 
 
-        <!--\\[if gte mso 9]><xml>
+        <!--\\\[if gte mso 9]><xml>
          <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
           DefSemiHidden="false" DefQFormat="false" DefPriority="99"
           LatentStyleCount="376">
@@ -635,10 +635,10 @@ contentBlocks:
           <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
            Name="Smart Link"/>
          </w:LatentStyles>
-        </xml><!\\[endif]-->
+        </xml><!\\\[endif]-->
 
 
-        <!--\\[if gte mso 10]>
+        <!--\\\[if gte mso 10]>
 
         <style>
          /* Style Definitions */
@@ -662,16 +662,16 @@ contentBlocks:
         	mso-bidi-theme-font:minor-bidi;}
         </style>
 
-        <!\\[endif]-->
+        <!\\\[endif]-->
 
 
         <!--StartFragment-->
 
 
-        In celebration of National Family Literacy Day, The Yukon 
+        In celebration of National Family Literacy Day, The Yukon Literacy Coalition invites all 
 
 
-        Literacy Coalition invites all Yukoners to Get Caught Reading and enter to win! 
+        Yukoners to Get Caught Reading and enter to win! 
 
 
         The instructions are simple; take a photo of yourself and/or your loved ones 
@@ -709,12 +709,15 @@ contentBlocks:
         **General Informations:**
 
 
-        T﻿he contest runs Friday January 27th 2023 to Friday, February 24th, 2023. Prize
+        T﻿he contest runs Friday January 27th 2023 to Friday, February 24th, 2023. 
 
 
-        winners will be announced the following week. If you have questions, call 867 668 
+        Prize winners will be announced the following week. 
 
 
-        6535 and ask for Carrie-Anne, or email [carrieannemcphee@yukonliteracy.com](mailto:carrieannemcphee@yukonliteracy.com).
+        If you have questions, call 867 668 6535 and ask for Carrie-Anne, or email [](mailto:carrieannemcphee@yukonliteracy.com)
+
+
+        [carrieannemcphee@yukonliteracy.com](mailto:carrieannemcphee@yukonliteracy.com)
 id: event-VnUdB3WW0
 ---
