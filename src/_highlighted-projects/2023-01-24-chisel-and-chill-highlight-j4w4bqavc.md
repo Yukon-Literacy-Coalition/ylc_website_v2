@@ -1,5 +1,6 @@
 ---
 title: Chisel and Chill
+linkText: Learn More
 image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1674588181/Get%20Caught%20Reading%202023/Screen_Shot_2023-01-24_at_12.22.03_PM_bjlkju.png
 id: highlight-J4w4BQAvc
 ---
