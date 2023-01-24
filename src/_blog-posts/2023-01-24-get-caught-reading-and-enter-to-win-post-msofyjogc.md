@@ -43,7 +43,7 @@ contentBlocks:
         * Best Photo Overall wins a $500 Air North voucher! 
 
 
-        **General Informations:**
+        **General Information:**
 
 
         The contest runs Friday January 27th 2023 to Friday, February 24th, 2023.
