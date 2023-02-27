@@ -27,6 +27,7 @@ contentBlocks:
       imagesVideosList:
         - imagesVideos:
             image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1667508189/Wordmark_Bl_Rd_RGB_copy_eqzfnq.jpg
-      images: []
+      images:
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1677517985/YLC_Camp_Poster_z42fpl.pdf
 id: initiative-v3QoqtSJe
 ---
