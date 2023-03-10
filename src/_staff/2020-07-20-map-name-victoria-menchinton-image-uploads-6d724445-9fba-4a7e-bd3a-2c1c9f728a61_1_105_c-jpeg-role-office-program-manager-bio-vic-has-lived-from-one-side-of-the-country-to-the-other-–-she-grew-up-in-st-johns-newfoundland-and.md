@@ -1,5 +1,5 @@
 ---
-name: Victoria Menchinton
+name: Victoria Blackwood
 image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540589/vic_square_uwirn1.jpg
 role: Program Manager
 bio: Victoria grew up in St. John's, Newfoundland and has been in the Yukon
