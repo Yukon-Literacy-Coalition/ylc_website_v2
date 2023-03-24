@@ -1,8 +1,7 @@
 ---
 layout: blog
 date: 2023-03-10T21:59:13.889Z
-articleTitle: "Congratulations to the winners of this year's Get Caught Reading
-  Photo Contest! "
+articleTitle: "Congratulations Get Caught Reading Winners! "
 thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1678485975/sIqh8Gq8_q724h7.jpg
 contentBlocks:
   - contentBlock:
