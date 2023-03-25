@@ -40,5 +40,6 @@ contentBlocks:
             image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1679696341/Emily_MacKew_867_687_4806_1_ccble2.jpg
         - imagesVideos:
             image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1679696340/Eloise_Leblanc_eloiseleblanc92_gmail.com_10_cbizqi.jpg
+      body: E﻿njoy a selection of photo entries from the Get Caught Reading Contest!
 id: post-e84pSZeNJ
 ---
