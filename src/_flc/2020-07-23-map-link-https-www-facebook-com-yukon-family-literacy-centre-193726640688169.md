@@ -34,7 +34,7 @@ contentBlocks:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541700/flc-space_iphibf.jpg
       downloads:
         - downloadObject:
-            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1674581512/Untitled_design_gc6pbt.png
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681231734/Untitled_design_asopf0.png
             downloadText: Download Schedule
   - contentBlock:
       body: >-
