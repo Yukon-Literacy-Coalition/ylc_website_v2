@@ -6,22 +6,18 @@ contentBlocks:
       link: https://www.facebook.com/Yukon-Family-Literacy-Centre-193726640688169/
       linkText: Facebook Page
       body: >-
-        The Family Literacy Centre (FLC) is a large family-friendly room filled
-        with books, crafts, puppets, toys, puzzles, chalkboard, music, dress-up
-        and more. We offer mini programs most mornings and drop-in play time
-        during the afternoon. The FLC offers free, daily, drop-in programs that
-        help parents build both their parenting and life skills, while providing
-        young children with early childhood education opportunities. Our
-        qualified staff specialize in early childhood education and promote
-        early learning and literacy skills. We help connect families to the
-        community resources they need and support families to become lifelong
-        learners. 
+        When we play together, we learn together! 
 
 
-         The FLC is located on the second floor of the Canada Games Centre and is open from September through May. Come visit us to sing, play, do crafts, enjoy both structured and unstructured programs and have fun! All programs are free, drop-in and everyone is welcome. To participate in our programs, you do not have to pay the Canada Games Centre fee. Just walk up the stairs to the FLC and join us! 
+        The Family Literacy Centre (FLC) is a large family-friendly space filled with books, crafts, toys, puzzles, music, and more. Open six days per week, the FLC offers free, everyone-welcome, daily drop-in programs for families to learn together through play. With structured activities most mornings, and unstructured drop-in play time every afternoon, our programs help families build essential life skills while providing early learning opportunities for their children. Our qualified staff specialize in early childhood education and family literacy. We connect families to the community resources they need, and help them become lifelong learners.  
 
 
-         For regular updates on our free programming, please check out our Facebook page.
+
+
+        The FLC is located on the second floor of the Canada Games Centre and is open from September through May. Come visit us and have fun! All programs are free, drop-in and everyone welcome. No registration or wristband required. 
+
+
+        For regular updates on our free programming, please check out our Facebook page.
       images:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540905/reading-at-ph_yqkpja.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541996/crafts-2_o4b0d1.jpg
@@ -52,7 +48,7 @@ contentBlocks:
 
 
         Check out this video about the Pioneer Hotel by MCY youth [here](https://www.youtube.com/watch?v=8qg68c5roKQ&fbclid=IwAR0-41J98G_dxB-L0YUQngbri69NvXIUfy1FSmXlzvfOD6-fwmk9Q_24QgQ).
-      subTitle: Summertime at the Pioneer Hotel
+      subTitle: Summertime at the Pioneer Hotel and Learning Garden
       downloads:
         - downloadObject:
             downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657916954/back_htz6vp.pdf
