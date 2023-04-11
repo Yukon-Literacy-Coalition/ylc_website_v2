@@ -19,7 +19,6 @@ contentBlocks:
 
         For regular updates on our free programming, please check out our Facebook page.
       images:
-        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540905/reading-at-ph_yqkpja.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541996/crafts-2_o4b0d1.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541973/crafts_pedsu9.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648540759/slime_ea3ypr.jpg
