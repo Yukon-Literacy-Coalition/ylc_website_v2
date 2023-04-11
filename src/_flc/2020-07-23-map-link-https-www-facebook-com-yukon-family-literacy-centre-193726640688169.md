@@ -63,4 +63,9 @@ contentBlocks:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537220/screen-shot-2021-06-29-at-12.12.12-pm_aqgzwo.png
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537307/193901349_4195777563816370_4768995207328862308_n_avwflp.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648537280/67432485_2446695462057931_7092829247403720704_n_qjlvdc.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681232633/Pioneer_Hotel_2_nbapod.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681232868/IMG_20220624_121706_h7gago.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681232883/IMG_20220707_143859_w1nnav.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681232905/IMG_20220812_094442_lgjnlf.jpg
+        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1681232933/IMG_20220814_201504_688_fmd4js.webp
 ---
