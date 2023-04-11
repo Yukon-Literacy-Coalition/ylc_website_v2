@@ -40,12 +40,12 @@ contentBlocks:
       body: >-
         Every year as the spring season comes to an end, we close the Family
         Literacy Centre in the Canada Games Centre and open our summer location
-        The Pioneer Hotel in Shipyards Park. Come visit from June to August and
-        enjoy your favourite free, drop-in programs and activities; no
-        registration required. Sing and dance by the Yukon River; explore the
-        park with binoculars and magnifying glasses; jump on the trampoline,
-        grab a snack, or have a hot drink; browse our large selection of free
-        books; and blow some bubbles with your friends. 
+        The Pioneer Hotel in Shipyards Park. Come visit this summer from late
+        May - mid September (dates pending) and enjoy your favourite free,
+        drop-in programs and activities in the Learning Garden! Sing and dance
+        by the Yukon River; pick a fresh strawberry; learn about growing; play
+        in the mud kitchen; explore with magnifying glasses; browse our large
+        selection of free books; and much more!
 
 
         All programs are covid-safe and in accordance with territorial guidelines.
