@@ -10,10 +10,10 @@ contentBlocks:
         Scharrer, Randy Lewis and Marc Boulerice. 
 
 
-        The garden has an abundance of plants including flowers, vegetables, fruit trees, berries and a bed for traditional healing plants. Some of the plants were donated by local gardeners  Joan Oram, Diana Mulloy, Miriam Kazami and Shawn Verrier.
+        The garden has an abundance of plants including flowers, vegetables, fruit trees, berries and heritage plants grown in the north. Some of the plants were donated by local gardeners Joan Oram, Diana Mulloy, Miriam Kazami and Shawn Verrier.
 
 
-        Throughout the 2022 summer Bart Bounds will be offering various gardening workshops on Thursday evenings in the garden. Topics such as seed starting, watering and fertilizing, harvesting and composting. 
+        Throughout the 2023 summer family literacy staff will be offering a variety of play-based, exploratory opportunities to learn and grow in the garden. Explore the mud kitchen and water table, paint with dirt on the outdoor easels, pick strawberries, and watch for events. 
 
 
         Come by and say hello!
