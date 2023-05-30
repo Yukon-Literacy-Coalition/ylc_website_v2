@@ -50,7 +50,7 @@ contentBlocks:
       subTitle: Summertime at the Pioneer Hotel and Learning Garden
       downloads:
         - downloadObject:
-            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1657916954/back_htz6vp.pdf
+            downloadLink: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1685461528/Untitled_design_1_rs0iqw.png
             downloadText: ""
         - null
       images:
