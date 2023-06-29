@@ -38,6 +38,7 @@ const Title = styled.div`
 `;
 
 const PostBodyContainer = styled.div`
+  /* background-color: white; */
   text-align: center;
   padding: 0 5px;
 `;
@@ -48,17 +49,28 @@ const PostBody = styled.div`
 `;
 
 const Post = styled.div`
+  background-image: linear-gradient(
+      transparent,
+      transparent 48%,
+      transparent 50%,
+      lightgrey 51%,
+      white 53%,
+      white
+    ),
+    url(${(p) => p.thumbnail});
+  /* background-position: top; */
+  background-size: cover;
   transition: all 0.4s;
   height: 350px;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white;
+  /* background: white; */
   border-radius: 2px;
   &:hover {
-    ${(p) => p.theme.hover.box}
-    background: ${(p) => lighten("0.17", p.theme.colors.medium_accent)};
+    ${(p) => p.theme.hover.box}/* background: ${(p) =>
+      lighten("0.17", p.theme.colors.medium_accent)}; */
   }
 `;
 
@@ -93,14 +105,14 @@ export const PostListing = ({ post, className }) => {
   });
   return (
     <Link className={className} to={`/news/post/${slug}`}>
-      <Post>
+      <Post thumbnail={thumbnail}>
         <div
           css={css`
             position: relative;
           `}
         >
           <PostText>{moment(date).format("DD MMMM YYYY")}</PostText>
-          <ImgContainer thumbnail={thumbnail} />
+          <ImgContainer />
           <PostBodyContainer>
             <Title>
               {articleTitle || blockWithSubTitle?.contentBlock?.subTitle}
