@@ -69,7 +69,6 @@ contentBlocks:
       images:
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541853/dsc06297_rn5ufn.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541832/dsc06515_py0ccf.jpg
-        - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541631/greenhouse_square_yuwoyx.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541472/img_4749_gype27.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541509/img_4742_msmjyf.jpg
         - image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648541535/img_0971_hc8d0y.jpg
@@ -161,4 +160,5 @@ contentBlocks:
               recommendations for more effective support of Northern Indigenous
               men in work and school.
             image: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1648538100/screen-shot-2020-10-09-at-2.12.03-pm_htvbqd.png
+id: initiative-MzdlYYHXc
 ---
