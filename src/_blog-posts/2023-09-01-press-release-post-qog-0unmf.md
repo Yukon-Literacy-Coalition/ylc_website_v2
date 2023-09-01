@@ -1,7 +1,7 @@
 ---
 layout: blog
 date: 2023-09-01T22:08:59.772Z
-articleTitle: Press Release
+articleTitle: New Home Needed
 thumbnail: https://res.cloudinary.com/https-yukonliteracy-com/image/upload/q_35/v1693607060/FLC_vgo1wn.jpg
 contentBlocks:
   - contentBlock:
@@ -21,6 +21,6 @@ contentBlocks:
 
 
         We are unable to offer our regular fall programming at the CGC but will continue offering our programs at the Pioneer Hotel in Shipyards Park and throughout the Yukon. We are confident that our community will assist us in finding an alternate location, and we are eager to resume these essential services from a new space as soon as possible.
-      subTitle: "Family Literacy Centre to Change Location "
+      subTitle: New Home Needed
 id: post-QoG-0UNMf
 ---
