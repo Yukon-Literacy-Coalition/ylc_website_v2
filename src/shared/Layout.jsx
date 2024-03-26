@@ -51,3 +51,5 @@ export const CharCount = ({ markdownBody }) => {
   let count = markdownBody.length;
   return <CharCountBody>Character Count: {count}</CharCountBody>;
 };
+
+// tiny change
