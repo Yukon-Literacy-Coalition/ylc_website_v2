@@ -40,7 +40,7 @@ const Statement = (props) => {
     <SectionContainer css={sectionStyles}>
       <MarginedContainer>
         <CatchyStatement>
-          We are a society of people dedicated to improving the quality of life
+          We are a society of peoples dedicated to improving the quality of life
           of all Yukoners.
         </CatchyStatement>
         <StatementButton>
